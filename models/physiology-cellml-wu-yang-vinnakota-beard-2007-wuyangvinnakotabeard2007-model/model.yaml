@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wu_yang_vinnakota_beard_2007
   download_url: https://models.physiomeproject.org/workspace/wu_yang_vinnakota_beard_2007/@@download/2c59abde505fb98db7fb7c8f4f6d53937abc7a7c/wu_yang_vinnakota_beard_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wu_yang_vinnakota_beard_2007_wuyangvinnakotabeard2007_model:WuYangVinnakotaBeard2007Wuyangvinnakotabeard2007Model
   init_kwargs:
     model_path: data/wu_yang_vinnakota_beard_2007.cellml

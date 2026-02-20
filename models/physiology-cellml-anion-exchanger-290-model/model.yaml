@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/290
   download_url: https://models.physiomeproject.org/workspace/290/@@download/987c1b7db8a1cf6739cf5f15935abb373993b6e3/Weinstein_2000_AE1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.anion_exchanger_290_model:AnionExchanger290Model
   init_kwargs:
     model_path: data/Weinstein_2000_AE1.cellml

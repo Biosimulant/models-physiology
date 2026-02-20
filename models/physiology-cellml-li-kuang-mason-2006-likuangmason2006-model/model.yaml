@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/li_kuang_mason_2006
   download_url: https://models.physiomeproject.org/workspace/li_kuang_mason_2006/@@download/7ed85b69dfcd9aa15a660ad92a4d1a206c321de0/li_kuang_mason_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.li_kuang_mason_2006_likuangmason2006_model:LiKuangMason2006Likuangmason2006Model
   init_kwargs:
     model_path: data/li_kuang_mason_2006.cellml

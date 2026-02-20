@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/korzeniewski_zoladz_2001
   download_url: https://models.physiomeproject.org/workspace/korzeniewski_zoladz_2001/@@download/7372ab6c29010aa5c4419d5afd8ec223988bc7a4/korzeniewski_zoladz_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.korzeniewski_zoladz_2001_korzeniewskizoladz2001_model:KorzeniewskiZoladz2001Korzeniewskizoladz2001Model
   init_kwargs:
     model_path: data/korzeniewski_zoladz_2001.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c65
   download_url: https://models.physiomeproject.org/workspace/c65/@@download/c858eebb4bdbe4ba7b52c73fcf924ad4c720376a/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.extended_severi_and_fabbri_model_c65_model:ExtendedSeveriAndFabbriModelC65Model
   init_kwargs:
     model_path: data/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml

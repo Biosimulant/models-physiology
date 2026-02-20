@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/goldbeter_pourquie_2008
   download_url: https://models.physiomeproject.org/workspace/goldbeter_pourquie_2008/@@download/05713268e4b6191042ed46b82bc735ee4778e312/goldbeter_pourquie_2008_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.goldbeter_pourquie_2008_goldbeterpourquie2008_model:GoldbeterPourquie2008Goldbeterpourquie2008Model
   init_kwargs:
     model_path: data/goldbeter_pourquie_2008_a.cellml

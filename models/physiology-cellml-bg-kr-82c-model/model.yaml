@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/82c
   download_url: https://models.physiomeproject.org/workspace/82c/@@download/39d63a7bbd611123d2e3c960f684d4796b63d4ae/BG_Kr.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_kr_82c_model:BgKr82cModel
   init_kwargs:
     model_path: data/BG_Kr.cellml

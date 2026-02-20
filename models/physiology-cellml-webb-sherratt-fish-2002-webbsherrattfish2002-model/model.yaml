@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/webb_sherratt_fish_2002
   download_url: https://models.physiomeproject.org/workspace/webb_sherratt_fish_2002/@@download/7f70b2023b8480b09d39edf1469414f4a386938d/webb_sherratt_fish_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.webb_sherratt_fish_2002_webbsherrattfish2002_model:WebbSherrattFish2002Webbsherrattfish2002Model
   init_kwargs:
     model_path: data/webb_sherratt_fish_2002.cellml

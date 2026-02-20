@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/27a
   download_url: https://models.physiomeproject.org/workspace/27a/@@download/575189dca056d01f63fe2bddd9d66eb0f775138d/mooneyrivlin.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.simple_growth_model_27a_model:SimpleGrowthModel27aModel
   init_kwargs:
     model_path: data/mooneyrivlin.cellml

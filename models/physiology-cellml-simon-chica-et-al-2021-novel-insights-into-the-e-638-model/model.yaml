@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/638
   download_url: https://models.physiomeproject.org/workspace/638/@@download/720af1d0b33241ab2d3f7395b6588746e794218e/type0.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.simon_chica_et_al_2021_novel_insights_into_the_e_638_model:SimonChicaEtAl2021NovelInsightsIntoTheE638Model
   init_kwargs:
     model_path: data/type0.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/ca5
   download_url: https://models.physiomeproject.org/workspace/ca5/@@download/3f7111fec2c03cdf160291973b2c01fe78f9d260/BG_H_pump.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.proton_pump_the_physics_of_physiology_ca5_model:ProtonPumpThePhysicsOfPhysiologyCa5Model
   init_kwargs:
     model_path: data/BG_H_pump.cellml

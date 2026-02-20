@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2c5
   download_url: https://models.physiomeproject.org/workspace/2c5/@@download/cce6374c21a60771321701b2f88857175ca5c31e/ACoreDomainsExample.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.core_domains_principled_model_example_2c5_model:CoreDomainsPrincipledModelExample2c5Model
   init_kwargs:
     model_path: data/ACoreDomainsExample.cellml

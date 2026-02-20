@@ -22,7 +22,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1812040002
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1812040002?filename=Model.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.nampala2013_liver_enzyme_elevation_in_hiv_mono_i_model1812040002_model:Nampala2013LiverEnzymeElevationInHivMonoIModel1812040002Model
   init_kwargs:
     model_path: data/MODEL1812040002.xml

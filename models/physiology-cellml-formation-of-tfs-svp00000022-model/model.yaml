@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000022
   download_url: https://models.physiomeproject.org/workspace/SVP_00000022/@@download/5d3cbdf17a35b549ff3d47708238f52fda2aace7/Bioenvironment_RxR2P1Rev_TFSFormation.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.formation_of_tfs_svp00000022_model:FormationOfTfsSvp00000022Model
   init_kwargs:
     model_path: data/Bioenvironment_RxR2P1Rev_TFSFormation.cellml

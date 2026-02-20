@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/adrian_chandler_hodgkin_1970
   download_url: https://models.physiomeproject.org/workspace/adrian_chandler_hodgkin_1970/@@download/cdf8973b740d11fc7a82763bde1675ff34f10666/adrian_chandler_hodgkin_1970.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.adrian_chandler_hodgkin_1970_adrianchandlerhodgkin1970_model:AdrianChandlerHodgkin1970Adrianchandlerhodgkin1970Model
   init_kwargs:
     model_path: data/adrian_chandler_hodgkin_1970.cellml

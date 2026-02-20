@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/nelson_perelson_1995
   download_url: https://models.physiomeproject.org/workspace/nelson_perelson_1995/@@download/837457a7e189f570fbebc6663100d72a12d8fd12/nelson_1995a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nelson_perelson_1995_nelsonperelson1995_model:NelsonPerelson1995Nelsonperelson1995Model
   init_kwargs:
     model_path: data/nelson_1995a.cellml

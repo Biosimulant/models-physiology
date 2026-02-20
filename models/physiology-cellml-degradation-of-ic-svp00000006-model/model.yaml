@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000006
   download_url: https://models.physiomeproject.org/workspace/SVP_00000006/@@download/f50d127d862f80aa04e34572397ec2cfed85a0a7/Bioenvironment_Degradation_IC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_ic_svp00000006_model:DegradationOfIcSvp00000006Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_IC.cellml

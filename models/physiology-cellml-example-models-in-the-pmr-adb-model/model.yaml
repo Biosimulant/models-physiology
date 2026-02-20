@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/adb
   download_url: https://models.physiomeproject.org/workspace/adb/@@download/91938f26d19438b1e90c19810bda6c4d81b54f9c/exampleModelPMR_1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.example_models_in_the_pmr_adb_model:ExampleModelsInThePmrAdbModel
   init_kwargs:
     model_path: data/exampleModelPMR_1.cellml

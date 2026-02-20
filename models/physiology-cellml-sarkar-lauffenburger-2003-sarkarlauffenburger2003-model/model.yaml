@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sarkar_lauffenburger_2003
   download_url: https://models.physiomeproject.org/workspace/sarkar_lauffenburger_2003/@@download/2e95c34fcc6fea8aed084b6334c0048772ee1e42/sarkar_lauffenburger_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sarkar_lauffenburger_2003_sarkarlauffenburger2003_model:SarkarLauffenburger2003Sarkarlauffenburger2003Model
   init_kwargs:
     model_path: data/sarkar_lauffenburger_2003.cellml

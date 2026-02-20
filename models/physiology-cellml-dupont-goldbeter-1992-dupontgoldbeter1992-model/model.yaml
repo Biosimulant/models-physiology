@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dupont_goldbeter_1992
   download_url: https://models.physiomeproject.org/workspace/dupont_goldbeter_1992/@@download/334070f282db73bbab7c5dc4f82171a26be5820f/dupont_1992_1.1model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dupont_goldbeter_1992_dupontgoldbeter1992_model:DupontGoldbeter1992Dupontgoldbeter1992Model
   init_kwargs:
     model_path: data/dupont_1992_1.1model.cellml

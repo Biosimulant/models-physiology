@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hunter_mcnaughton_noble_1975
   download_url: https://models.physiomeproject.org/workspace/hunter_mcnaughton_noble_1975/@@download/7a5738b7cad2b13b0dee7ea5f60ba6645ee14478/hunter_mcnaughton_noble_1975.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hunter_mcnaughton_noble_1975_huntermcnaughtonnoble1975_model:HunterMcnaughtonNoble1975Huntermcnaughtonnoble1975Model
   init_kwargs:
     model_path: data/hunter_mcnaughton_noble_1975.cellml

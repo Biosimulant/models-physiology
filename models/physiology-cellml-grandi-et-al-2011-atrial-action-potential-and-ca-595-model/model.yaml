@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/595
   download_url: https://models.physiomeproject.org/workspace/595/@@download/24b4356a8f71e8ea27e68fad14c89c2ba803a296/grandi_2011_atrial_with_meta.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.grandi_et_al_2011_atrial_action_potential_and_ca_595_model:GrandiEtAl2011AtrialActionPotentialAndCa595Model
   init_kwargs:
     model_path: data/grandi_2011_atrial_with_meta.cellml

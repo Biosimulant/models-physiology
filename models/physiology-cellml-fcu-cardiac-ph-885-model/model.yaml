@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/885
   download_url: https://models.physiomeproject.org/workspace/885/@@download/cc50e57955e59c98e8a98a55eb222cdef43c75ff/FCU_cardiac_pH.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fcu_cardiac_ph_885_model:FcuCardiacPh885Model
   init_kwargs:
     model_path: data/FCU_cardiac_pH.cellml

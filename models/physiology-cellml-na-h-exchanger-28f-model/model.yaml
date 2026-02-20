@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/28f
   download_url: https://models.physiomeproject.org/workspace/28f/@@download/1c123cd4c24adf1ed6dc2a771586e0afdf9e6974/Weinstein_1995_NHE3.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.na_h_exchanger_28f_model:NaHExchanger28fModel
   init_kwargs:
     model_path: data/Weinstein_1995_NHE3.cellml

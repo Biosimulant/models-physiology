@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/riccobene_omann_linderman_1999
   download_url: https://models.physiomeproject.org/workspace/riccobene_omann_linderman_1999/@@download/ade691720cc08b4709dac598db6649fe3e1785d3/riccobene_omann_linderman_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.riccobene_omann_linderman_1999_riccobeneomannlinderman1999_model:RiccobeneOmannLinderman1999Riccobeneomannlinderman1999Model
   init_kwargs:
     model_path: data/riccobene_omann_linderman_1999.cellml

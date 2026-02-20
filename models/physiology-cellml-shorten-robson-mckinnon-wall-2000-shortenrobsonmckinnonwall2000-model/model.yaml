@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/shorten_robson_mckinnon_wall_2000
   download_url: https://models.physiomeproject.org/workspace/shorten_robson_mckinnon_wall_2000/@@download/87a50105e84a5aff9e91d0ada8d1447f348c6378/shorten_robson_mckinnon_wall_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shorten_robson_mckinnon_wall_2000_shortenrobsonmckinnonwall2000_model:ShortenRobsonMckinnonWall2000Shortenrobsonmckinnonwall2000Model
   init_kwargs:
     model_path: data/shorten_robson_mckinnon_wall_2000.cellml

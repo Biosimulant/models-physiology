@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6d7
   download_url: https://models.physiomeproject.org/workspace/6d7/@@download/fba3104851dca35e628bdd705a25f5869d404cdb/BG_LCC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_cal_6d7_model:BgCal6d7Model
   init_kwargs:
     model_path: data/BG_LCC.cellml

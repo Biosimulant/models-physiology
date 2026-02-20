@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/58f
   download_url: https://models.physiomeproject.org/workspace/58f/@@download/e9e032fae07bd09cdc50323406342a3657c1dc98/LoeweLutzFabbriSeveri.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.loewe_lutz_fabbri_severi_human_sinus_node_cellul_58f_model:LoeweLutzFabbriSeveriHumanSinusNodeCellul58fModel
   init_kwargs:
     model_path: data/LoeweLutzFabbriSeveri.cellml

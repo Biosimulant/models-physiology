@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tran_smith_loiselle_crampin_2009
   download_url: https://models.physiomeproject.org/workspace/tran_smith_loiselle_crampin_2009/@@download/e570fe5529a76a0da876bb008ac74c1a29a39fdd/tran_smith_loiselle_crampin_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tran_smith_loiselle_crampin_2009_transmithloisellecrampin2009_model:TranSmithLoiselleCrampin2009Transmithloisellecrampin2009Model
   init_kwargs:
     model_path: data/tran_smith_loiselle_crampin_2009.cellml

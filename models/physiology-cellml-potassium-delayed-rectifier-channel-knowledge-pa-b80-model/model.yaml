@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b80
   download_url: https://models.physiomeproject.org/workspace/b80/@@download/ba27086cf91a3ea68d0ef9af4e1cb22b0a2ecf8e/BG_Kr.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.potassium_delayed_rectifier_channel_knowledge_pa_b80_model:PotassiumDelayedRectifierChannelKnowledgePaB80Model
   init_kwargs:
     model_path: data/BG_Kr.cellml

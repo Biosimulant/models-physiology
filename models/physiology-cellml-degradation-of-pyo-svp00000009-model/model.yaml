@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000009
   download_url: https://models.physiomeproject.org/workspace/SVP_00000009/@@download/09471278c50817b720559b71b727d345b60e8313/Bioenvironment_Degradation_PYO.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_pyo_svp00000009_model:DegradationOfPyoSvp00000009Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_PYO.cellml

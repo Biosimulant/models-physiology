@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/espinosa_1998
   download_url: https://models.physiomeproject.org/workspace/espinosa_1998/@@download/46bb541ea6976d3e775ca74a9fedc2beb276f537/espinosa_1998_hypertrophic.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.espinosa_1998_espinosa1998_model:Espinosa1998Espinosa1998Model
   init_kwargs:
     model_path: data/espinosa_1998_hypertrophic.cellml

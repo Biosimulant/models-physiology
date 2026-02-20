@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000015
   download_url: https://models.physiomeproject.org/workspace/SVP_00000015/@@download/32f767d05398c28ce1e0c02e8162e6940cf0ee1e/Bioenvironment_Degradation_TFS.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_tfs_svp00000015_model:DegradationOfTfsSvp00000015Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_TFS.cellml

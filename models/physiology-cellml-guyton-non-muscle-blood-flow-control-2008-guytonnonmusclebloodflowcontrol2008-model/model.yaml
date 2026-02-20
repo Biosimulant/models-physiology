@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_non_muscle_blood_flow_control_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_non_muscle_blood_flow_control_2008/@@download/4f21269fb5b8c77be785697481784b1fbdddf654/NM_blood_flow.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_non_muscle_blood_flow_control_2008_guytonnonmusclebloodflowcontrol2008_model:GuytonNonMuscleBloodFlowControl2008Guytonnonmusclebloodflowcontrol2008Model
   init_kwargs:
     model_path: data/NM_blood_flow.cellml

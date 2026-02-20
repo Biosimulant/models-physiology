@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7f0
   download_url: https://models.physiomeproject.org/workspace/7f0/@@download/c7c17e0cbab7556675503b71bdc4f8475ef137e9/stewart_aslanidi_noble_noble_boyett_zhang_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.stewart_aslanidi_noble_noble_boyett_zhang_2009_7f0_model:StewartAslanidiNobleNobleBoyettZhang20097f0Model
   init_kwargs:
     model_path: data/stewart_aslanidi_noble_noble_boyett_zhang_2009.cellml

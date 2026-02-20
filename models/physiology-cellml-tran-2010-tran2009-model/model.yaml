@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tran_2009
   download_url: https://models.physiomeproject.org/workspace/tran_2009/@@download/d13a29d07a2cc3c4dd176961b67ebdd6f67cc3a5/tran_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tran_2010_tran2009_model:Tran2010Tran2009Model
   init_kwargs:
     model_path: data/tran_2009.cellml

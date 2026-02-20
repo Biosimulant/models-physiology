@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/32f
   download_url: https://models.physiomeproject.org/workspace/32f/@@download/a23f4b6c5b8a6813af1b37028322f1454f6c8aa6/ralser_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ralser_at_el_2007_32f_model:RalserAtEl200732fModel
   init_kwargs:
     model_path: data/ralser_2007.cellml

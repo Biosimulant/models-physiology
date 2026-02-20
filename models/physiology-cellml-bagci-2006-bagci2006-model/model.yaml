@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bagci_2006
   download_url: https://models.physiomeproject.org/workspace/bagci_2006/@@download/7e5b3970979e8b6d9d2c65a02c31c9bb469cb4df/bagci_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bagci_2006_bagci2006_model:Bagci2006Bagci2006Model
   init_kwargs:
     model_path: data/bagci_2006.cellml

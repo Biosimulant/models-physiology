@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7dd
   download_url: https://models.physiomeproject.org/workspace/7dd/@@download/ce79506f46c945a15dc7e43cc64372eedfb25622/BG_GPCR_M2_reduced.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_gpcr_m2_reduced_7dd_model:BgGpcrM2Reduced7ddModel
   init_kwargs:
     model_path: data/BG_GPCR_M2_reduced.cellml

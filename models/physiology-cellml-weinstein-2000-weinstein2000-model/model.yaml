@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/weinstein_2000
   download_url: https://models.physiomeproject.org/workspace/weinstein_2000/@@download/c38ebc4bb33b15f16d72f6d29f9a9f51276ac250/Weinstein_2000_AE1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.weinstein_2000_weinstein2000_model:Weinstein2000Weinstein2000Model
   init_kwargs:
     model_path: data/Weinstein_2000_AE1.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b13
   download_url: https://models.physiomeproject.org/workspace/b13/@@download/077458727c35644c994839e26102b527444555c2/AndyBGCaSubsystem.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.andycalciumsubsystem_b13_model:AndycalciumsubsystemB13Model
   init_kwargs:
     model_path: data/AndyBGCaSubsystem.cellml

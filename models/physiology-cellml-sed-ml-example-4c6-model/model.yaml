@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4c6
   download_url: https://models.physiomeproject.org/workspace/4c6/@@download/5257320c5ba49114bf89a9d8453db39de85088a1/vanderpol.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sed_ml_example_4c6_model:SedMlExample4c6Model
   init_kwargs:
     model_path: data/vanderpol.cellml

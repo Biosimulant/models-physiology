@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d59
   download_url: https://models.physiomeproject.org/workspace/d59/@@download/c44d712701866e6c4500696867baa97381fbf454/noble_2000_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.toward_a_comprehensive_cardiomyocyte_model_d59_model:TowardAComprehensiveCardiomyocyteModelD59Model
   init_kwargs:
     model_path: data/noble_2000_a.cellml

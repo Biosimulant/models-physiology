@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b0f
   download_url: https://models.physiomeproject.org/workspace/b0f/@@download/c55b0aebc4242f10f45addcbece2498870cfb5bf/BG_RyR_chemostat.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ryr_chemostat_b0f_model:BgRyrChemostatB0fModel
   init_kwargs:
     model_path: data/BG_RyR_chemostat.cellml

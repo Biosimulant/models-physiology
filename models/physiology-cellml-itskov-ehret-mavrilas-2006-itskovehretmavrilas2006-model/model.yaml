@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/itskov_ehret_mavrilas_2006
   download_url: https://models.physiomeproject.org/workspace/itskov_ehret_mavrilas_2006/@@download/aeb291bf73114171cbfee24b0958c36fb896dbb2/itskov_ehret_mavrilas_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.itskov_ehret_mavrilas_2006_itskovehretmavrilas2006_model:ItskovEhretMavrilas2006Itskovehretmavrilas2006Model
   init_kwargs:
     model_path: data/itskov_ehret_mavrilas_2006.cellml

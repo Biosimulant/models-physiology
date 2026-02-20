@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/peterson_riggs_2010
   download_url: https://models.physiomeproject.org/workspace/peterson_riggs_2010/@@download/03c6ae526fecf4749ef36f4df9b1c25acbd0d9f3/peterson_2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.peterson_and_riggs_2010_petersonriggs2010_model:PetersonAndRiggs2010Petersonriggs2010Model
   init_kwargs:
     model_path: data/peterson_2010.cellml

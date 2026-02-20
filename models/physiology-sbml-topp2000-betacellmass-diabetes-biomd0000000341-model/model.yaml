@@ -24,7 +24,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/BIOMD0000000341
   download_url: https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000341?filename=BIOMD0000000341_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.topp2000_betacellmass_diabetes_biomd0000000341_model:Topp2000BetacellmassDiabetesBiomd0000000341Model
   init_kwargs:
     model_path: data/BIOMD0000000341.xml

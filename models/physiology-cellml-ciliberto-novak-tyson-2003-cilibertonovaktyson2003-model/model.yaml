@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/ciliberto_novak_tyson_2003
   download_url: https://models.physiomeproject.org/workspace/ciliberto_novak_tyson_2003/@@download/58d58f539f22be6ae2d9357c388c6fd84db6b796/ciliberto_novak_tyson_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ciliberto_novak_tyson_2003_cilibertonovaktyson2003_model:CilibertoNovakTyson2003Cilibertonovaktyson2003Model
   init_kwargs:
     model_path: data/ciliberto_novak_tyson_2003.cellml

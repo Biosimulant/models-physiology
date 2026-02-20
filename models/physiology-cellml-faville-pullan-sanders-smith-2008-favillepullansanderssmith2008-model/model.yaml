@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/faville_pullan_sanders_smith_2008
   download_url: https://models.physiomeproject.org/workspace/faville_pullan_sanders_smith_2008/@@download/6abe898e3f90c36a1e0dfb36709de6d391c971bd/faville_pullan_sanders_smith_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.faville_pullan_sanders_smith_2008_favillepullansanderssmith2008_model:FavillePullanSandersSmith2008Favillepullansanderssmith2008Model
   init_kwargs:
     model_path: data/faville_pullan_sanders_smith_2008.cellml

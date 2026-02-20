@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/shrestha_hollot_chipkin_schmitt_chait_2010
   download_url: https://models.physiomeproject.org/workspace/shrestha_hollot_chipkin_schmitt_chait_2010/@@download/da21662a6c5203153f620ce9e86cca212ca8ff09/shrestha_2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shrestha_hollot_chipkin_schmitt_and_chait_2010_shresthahollotchipkinschmittchait2010_model:ShresthaHollotChipkinSchmittAndChait2010Shresthahollotchipkinschmittchait2010Model
   init_kwargs:
     model_path: data/shrestha_2010.cellml

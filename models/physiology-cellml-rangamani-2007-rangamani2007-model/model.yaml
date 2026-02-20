@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/rangamani_2007
   download_url: https://models.physiomeproject.org/workspace/rangamani_2007/@@download/9789f3e6f2bc3d339de29246bc34a3f8691ab43e/rangamani_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rangamani_2007_rangamani2007_model:Rangamani2007Rangamani2007Model
   init_kwargs:
     model_path: data/rangamani_2007.cellml

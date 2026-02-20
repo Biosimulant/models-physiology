@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cdc
   download_url: https://models.physiomeproject.org/workspace/cdc/@@download/6912218ddc1df744177bd8aaeeba8ecaee892d73/Coupled_Main_EC_Model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.exp_5_agonist_effect_coupled_model_cdc_model:Exp5AgonistEffectCoupledModelCdcModel
   init_kwargs:
     model_path: data/Coupled_Main_EC_Model.cellml

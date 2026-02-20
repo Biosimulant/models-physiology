@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/david_cumin_phd_model
   download_url: https://models.physiomeproject.org/workspace/david_cumin_phd_model/@@download/9b8d603ff704b814df65fdaf6549597766ea9cf5/FINAL.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.david_cumin_phd_model_davidcuminphdmodel_model:DavidCuminPhdModelDavidcuminphdmodelModel
   init_kwargs:
     model_path: data/FINAL.cellml

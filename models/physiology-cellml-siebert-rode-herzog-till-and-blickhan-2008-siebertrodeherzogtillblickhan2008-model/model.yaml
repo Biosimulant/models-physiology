@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/siebert_rode_herzog_till_blickhan_2008
   download_url: https://models.physiomeproject.org/workspace/siebert_rode_herzog_till_blickhan_2008/@@download/13565c3c3dd99e76996c59f7358aaf6b1f5d57a4/siebert_CC_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.siebert_rode_herzog_till_and_blickhan_2008_siebertrodeherzogtillblickhan2008_model:SiebertRodeHerzogTillAndBlickhan2008Siebertrodeherzogtillblickhan2008Model
   init_kwargs:
     model_path: data/siebert_CC_2008.cellml

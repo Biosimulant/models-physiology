@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/starbuck_wiley_lauffenburger_1990
   download_url: https://models.physiomeproject.org/workspace/starbuck_wiley_lauffenburger_1990/@@download/ca6874b72e100d7479c90d3bb81eeeb5d072df35/starbuck_wiley_lauffenburger_1990.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.starbuck_wiley_lauffenburger_1990_starbuckwileylauffenburger1990_model:StarbuckWileyLauffenburger1990Starbuckwileylauffenburger1990Model
   init_kwargs:
     model_path: data/starbuck_wiley_lauffenburger_1990.cellml

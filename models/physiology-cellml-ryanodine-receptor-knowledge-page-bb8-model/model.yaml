@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bb8
   download_url: https://models.physiomeproject.org/workspace/bb8/@@download/6fb27d23e26a8ab006c8fbddfb5383a4ce77cc06/BG_RyR.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ryanodine_receptor_knowledge_page_bb8_model:RyanodineReceptorKnowledgePageBb8Model
   init_kwargs:
     model_path: data/BG_RyR.cellml

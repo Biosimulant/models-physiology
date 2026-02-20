@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sneyd_dufour_2002
   download_url: https://models.physiomeproject.org/workspace/sneyd_dufour_2002/@@download/4421c1fe1e0e6253462abbfb356e5c0816499ada/sneyd_dufour_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sneyd_dufour_2002_sneyddufour2002_model:SneydDufour2002Sneyddufour2002Model
   init_kwargs:
     model_path: data/sneyd_dufour_2002.cellml

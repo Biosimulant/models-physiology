@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d54
   download_url: https://models.physiomeproject.org/workspace/d54/@@download/c99c48f7ce65ae1b862a6662092ef9daac971a2a/BG_NSCC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_nscc_d54_model:BgNsccD54Model
   init_kwargs:
     model_path: data/BG_NSCC.cellml

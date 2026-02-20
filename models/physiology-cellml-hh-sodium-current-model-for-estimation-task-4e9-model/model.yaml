@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4e9
   download_url: https://models.physiomeproject.org/workspace/4e9/@@download/0ad8f43a185151f43f5cbe97a584a57c9eb0ed8f/sodium_ion_channel.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hh_sodium_current_model_for_estimation_task_4e9_model:HhSodiumCurrentModelForEstimationTask4e9Model
   init_kwargs:
     model_path: data/sodium_ion_channel.cellml

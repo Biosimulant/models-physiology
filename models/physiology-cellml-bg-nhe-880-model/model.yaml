@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/880
   download_url: https://models.physiomeproject.org/workspace/880/@@download/0da16207fa7d5d11e7940e4625a1f6ac30c58671/BG_NHE.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_nhe_880_model:BgNhe880Model
   init_kwargs:
     model_path: data/BG_NHE.cellml

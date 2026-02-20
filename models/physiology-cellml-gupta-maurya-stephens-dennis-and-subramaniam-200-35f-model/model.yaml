@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/35f
   download_url: https://models.physiomeproject.org/workspace/35f/@@download/81ef7ed4cf06f0cd4b87da239d282fc559738796/gupta_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gupta_maurya_stephens_dennis_and_subramaniam_200_35f_model:GuptaMauryaStephensDennisAndSubramaniam20035fModel
   init_kwargs:
     model_path: data/gupta_2009.cellml

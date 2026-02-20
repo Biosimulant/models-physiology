@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5f5
   download_url: https://models.physiomeproject.org/workspace/5f5/@@download/125f548ce204c1d815298d2c8c1d9b774d89e3a7/mcintyre_richardson_grill_model_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mcintyre_richardson_grill_2001_5f5_model:McintyreRichardsonGrill20015f5Model
   init_kwargs:
     model_path: data/mcintyre_richardson_grill_model_2001.cellml

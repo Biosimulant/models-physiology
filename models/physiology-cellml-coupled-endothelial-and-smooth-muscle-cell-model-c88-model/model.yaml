@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c88
   download_url: https://models.physiomeproject.org/workspace/c88/@@download/0e9abe34c1487830b3780c724a1d8f9a5c4d78da/Coupled_Main_EC_Model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.coupled_endothelial_and_smooth_muscle_cell_model_c88_model:CoupledEndothelialAndSmoothMuscleCellModelC88Model
   init_kwargs:
     model_path: data/Coupled_Main_EC_Model.cellml

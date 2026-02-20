@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bhalla_iyengar_1999
   download_url: https://models.physiomeproject.org/workspace/bhalla_iyengar_1999/@@download/24447fa0021fdc920983c4f6a7514fdd690c0a8a/bhalla_iyengar_1999_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bhalla_iyengar_1999_bhallaiyengar1999_model:BhallaIyengar1999Bhallaiyengar1999Model
   init_kwargs:
     model_path: data/bhalla_iyengar_1999_a.cellml

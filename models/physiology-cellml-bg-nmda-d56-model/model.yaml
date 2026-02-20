@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d56
   download_url: https://models.physiomeproject.org/workspace/d56/@@download/66831a9bf87075d68490402a9515dd346389a3f5/BG_NMDA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_nmda_d56_model:BgNmdaD56Model
   init_kwargs:
     model_path: data/BG_NMDA.cellml

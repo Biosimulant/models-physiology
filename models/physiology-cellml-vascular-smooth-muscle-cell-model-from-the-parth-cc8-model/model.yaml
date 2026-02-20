@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cc8
   download_url: https://models.physiomeproject.org/workspace/cc8/@@download/9827d3425e96c18746ff0ef29a66ea32376b0afd/Modele_KAPELA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vascular_smooth_muscle_cell_model_from_the_parth_cc8_model:VascularSmoothMuscleCellModelFromTheParthCc8Model
   init_kwargs:
     model_path: data/Modele_KAPELA.cellml

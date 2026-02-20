@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lokta_volterra
   download_url: https://models.physiomeproject.org/workspace/lokta_volterra/@@download/0fb9b0eb1a2753927f057e78e0244695ab86b9a6/lokta_volterra_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lokta_volterra_loktavolterra_model:LoktaVolterraLoktavolterraModel
   init_kwargs:
     model_path: data/lokta_volterra_a.cellml

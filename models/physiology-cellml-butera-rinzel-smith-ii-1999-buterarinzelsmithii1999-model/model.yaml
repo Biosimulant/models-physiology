@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/butera_rinzel_smith_II_1999
   download_url: https://models.physiomeproject.org/workspace/butera_rinzel_smith_II_1999/@@download/04cd7956502c8e28a39aa308c4a42063db9b7f04/butera_single_cell_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.butera_rinzel_smith_ii_1999_buterarinzelsmithii1999_model:ButeraRinzelSmithIi1999Buterarinzelsmithii1999Model
   init_kwargs:
     model_path: data/butera_single_cell_1999.cellml

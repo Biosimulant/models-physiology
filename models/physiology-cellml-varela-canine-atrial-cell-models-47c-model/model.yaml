@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/47c
   download_url: https://models.physiomeproject.org/workspace/47c/@@download/a9ee067108b4abfd444c8fa58b80ec2305367c1b/Varela_LA_2016.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.varela_canine_atrial_cell_models_47c_model:VarelaCanineAtrialCellModels47cModel
   init_kwargs:
     model_path: data/Varela_LA_2016.cellml

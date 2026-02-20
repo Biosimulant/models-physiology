@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vancapelle_durrer_1980
   download_url: https://models.physiomeproject.org/workspace/vancapelle_durrer_1980/@@download/bca066da46fbd7287e74503a5bd6bf42f60ba757/vancapelle_durrer_1980.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vancapelle_durrer_1980_vancapelledurrer1980_model:VancapelleDurrer1980Vancapelledurrer1980Model
   init_kwargs:
     model_path: data/vancapelle_durrer_1980.cellml

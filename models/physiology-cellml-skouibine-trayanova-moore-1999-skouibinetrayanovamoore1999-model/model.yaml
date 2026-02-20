@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/skouibine_trayanova_moore_1999
   download_url: https://models.physiomeproject.org/workspace/skouibine_trayanova_moore_1999/@@download/cd47d4e07a6c5b1a9c4943b9ad6db3a2f6f31f96/skouibine_trayanova_moore_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.skouibine_trayanova_moore_1999_skouibinetrayanovamoore1999_model:SkouibineTrayanovaMoore1999Skouibinetrayanovamoore1999Model
   init_kwargs:
     model_path: data/skouibine_trayanova_moore_1999.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cdb
   download_url: https://models.physiomeproject.org/workspace/cdb/@@download/128e453faa9822e2c0ee280e4d5f0c7a8b2ce748/Coupled_Main_EC_Model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.exp_5_kcl_effect_coupled_model_cdb_model:Exp5KclEffectCoupledModelCdbModel
   init_kwargs:
     model_path: data/Coupled_Main_EC_Model.cellml

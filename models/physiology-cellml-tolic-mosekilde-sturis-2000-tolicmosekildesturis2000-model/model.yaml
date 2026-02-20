@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tolic_mosekilde_sturis_2000
   download_url: https://models.physiomeproject.org/workspace/tolic_mosekilde_sturis_2000/@@download/e3fea860d1d39726b9a239357a5ccbdaee4b3910/tolic_mosekilde_sturis_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tolic_mosekilde_sturis_2000_tolicmosekildesturis2000_model:TolicMosekildeSturis2000Tolicmosekildesturis2000Model
   init_kwargs:
     model_path: data/tolic_mosekilde_sturis_2000.cellml

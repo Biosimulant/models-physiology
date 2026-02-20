@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c17
   download_url: https://models.physiomeproject.org/workspace/c17/@@download/d44e06713a1dab8aa3c903ad6a6582e69adab1e1/Channels.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kernik_physiome_c17_model:KernikPhysiomeC17Model
   init_kwargs:
     model_path: data/Channels.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/macgregor_leng_2005
   download_url: https://models.physiomeproject.org/workspace/macgregor_leng_2005/@@download/6c915634a4f2876337a07cac0c278c83e1357189/macgregor_leng_2005_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.macgregor_leng_2005_macgregorleng2005_model:MacgregorLeng2005Macgregorleng2005Model
   init_kwargs:
     model_path: data/macgregor_leng_2005_a.cellml

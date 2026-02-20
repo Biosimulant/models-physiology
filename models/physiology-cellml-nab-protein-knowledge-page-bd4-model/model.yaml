@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bd4
   download_url: https://models.physiomeproject.org/workspace/bd4/@@download/d51d1321f7135412ff7a010d1d7d7eb9537d5fd8/BG_NaB.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nab_protein_knowledge_page_bd4_model:NabProteinKnowledgePageBd4Model
   init_kwargs:
     model_path: data/BG_NaB.cellml

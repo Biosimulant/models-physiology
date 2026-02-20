@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/youm_kim_han_kim_joo_leem_goto_noma_earm_2006
   download_url: https://models.physiomeproject.org/workspace/youm_kim_han_kim_joo_leem_goto_noma_earm_2006/@@download/61f8f8e9688b68db17c9ffa1d9643b404aa6845a/youm_kim_han_kim_joo_leem_goto_noma_earm_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.youm_kim_han_kim_joo_leem_goto_noma_earm_2006_youmkimhankimjooleemgotonomaearm2006_model:YoumKimHanKimJooLeemGotoNomaEarm2006Youmkimhankimjooleemgotonomaearm2006Model
   init_kwargs:
     model_path: data/youm_kim_han_kim_joo_leem_goto_noma_earm_2006.cellml

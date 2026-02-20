@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/rattananakul_lenbury_krishnamara_wollkind_2003
   download_url: https://models.physiomeproject.org/workspace/rattananakul_lenbury_krishnamara_wollkind_2003/@@download/10d6fc2db862523509ff92f976122cca14ef942a/rattananakul_lenbury_krishnamara_wollkind_2003_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rattananakul_lenbury_krishnamara_wollkind_2003_rattananakullenburykrishnamarawollkind2003_model:RattananakulLenburyKrishnamaraWollkind2003Rattananakullenburykrishnamarawollkind2003Model
   init_kwargs:
     model_path: data/rattananakul_lenbury_krishnamara_wollkind_2003_a.cellml

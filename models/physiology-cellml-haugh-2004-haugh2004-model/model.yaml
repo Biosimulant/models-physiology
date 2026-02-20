@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/haugh_2004
   download_url: https://models.physiomeproject.org/workspace/haugh_2004/@@download/6348326c2c7e8e7c6ca827da91efe0d715d1c071/haugh_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.haugh_2004_haugh2004_model:Haugh2004Haugh2004Model
   init_kwargs:
     model_path: data/haugh_2004.cellml

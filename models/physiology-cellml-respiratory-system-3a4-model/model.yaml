@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/3a4
   download_url: https://models.physiomeproject.org/workspace/3a4/@@download/d2572ee15ff273d02c4e07ad95a7234afe2b9ba5/BG_Modules.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.respiratory_system_3a4_model:RespiratorySystem3a4Model
   init_kwargs:
     model_path: data/BG_Modules.cellml

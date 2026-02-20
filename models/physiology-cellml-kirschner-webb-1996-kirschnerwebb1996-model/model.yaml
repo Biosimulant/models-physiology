@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/kirschner_webb_1996
   download_url: https://models.physiomeproject.org/workspace/kirschner_webb_1996/@@download/53d610f3e60fe0f58a0cbe9ba9d1a5fe35cfa3f3/kirschner_webb_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kirschner_webb_1996_kirschnerwebb1996_model:KirschnerWebb1996Kirschnerwebb1996Model
   init_kwargs:
     model_path: data/kirschner_webb_1996.cellml

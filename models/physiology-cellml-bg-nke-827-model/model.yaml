@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/827
   download_url: https://models.physiomeproject.org/workspace/827/@@download/9d2b43525cbcce7efb8e5753c84b213017aa635b/BG_NaK.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_nke_827_model:BgNke827Model
   init_kwargs:
     model_path: data/BG_NaK.cellml

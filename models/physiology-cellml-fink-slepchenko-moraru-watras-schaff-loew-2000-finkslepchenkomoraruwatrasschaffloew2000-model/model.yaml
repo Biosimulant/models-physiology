@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fink_slepchenko_moraru_watras_schaff_loew_2000
   download_url: https://models.physiomeproject.org/workspace/fink_slepchenko_moraru_watras_schaff_loew_2000/@@download/772bfdf8e8ffd28ebe965a98e69f4b8143d1f04b/fink_slepchenko_moraru_watras_schaff_loew_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fink_slepchenko_moraru_watras_schaff_loew_2000_finkslepchenkomoraruwatrasschaffloew2000_model:FinkSlepchenkoMoraruWatrasSchaffLoew2000Finkslepchenkomoraruwatrasschaffloew2000Model
   init_kwargs:
     model_path: data/fink_slepchenko_moraru_watras_schaff_loew_2000.cellml

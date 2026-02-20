@@ -23,7 +23,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/BIOMD0000000382
   download_url: https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000382?filename=BIOMD0000000382_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.sturis1991_insulinglucosemodel_ultradianoscillat_biomd0000000382_model:Sturis1991InsulinglucosemodelUltradianoscillatBiomd0000000382Model
   init_kwargs:
     model_path: data/BIOMD0000000382.xml

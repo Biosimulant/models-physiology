@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/aguda_b_1999
   download_url: https://models.physiomeproject.org/workspace/aguda_b_1999/@@download/93ebfa21917022cd22381326f813107bbe212217/aguda_b_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.aguda_b_1999_agudab1999_model:AgudaB1999Agudab1999Model
   init_kwargs:
     model_path: data/aguda_b_1999.cellml

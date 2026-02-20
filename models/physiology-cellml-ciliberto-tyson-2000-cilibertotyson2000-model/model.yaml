@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/ciliberto_tyson_2000
   download_url: https://models.physiomeproject.org/workspace/ciliberto_tyson_2000/@@download/471624315b181325da1769f7644389a4d956247c/ciliberto_tyson_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ciliberto_tyson_2000_cilibertotyson2000_model:CilibertoTyson2000Cilibertotyson2000Model
   init_kwargs:
     model_path: data/ciliberto_tyson_2000.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d28
   download_url: https://models.physiomeproject.org/workspace/d28/@@download/ee7c1be211c09cb9b1639edfc10505b89eae3510/Higgins_SERCA_to_PMCA_wVm_v1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_pmca_usmc_d28_model:BgPmcaUsmcD28Model
   init_kwargs:
     model_path: data/Higgins_SERCA_to_PMCA_wVm_v1.cellml

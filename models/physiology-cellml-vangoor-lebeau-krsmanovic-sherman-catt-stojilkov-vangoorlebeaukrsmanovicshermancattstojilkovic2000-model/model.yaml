@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vangoor_lebeau_krsmanovic_sherman_catt_stojilkovic_2000
   download_url: https://models.physiomeproject.org/workspace/vangoor_lebeau_krsmanovic_sherman_catt_stojilkovic_2000/@@download/925241d09cbf021bfcfe20e5e880e47f695fbb77/vangoor_lebeau_krsmanovic_sherman_catt_stojilkovic_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vangoor_lebeau_krsmanovic_sherman_catt_stojilkov_vangoorlebeaukrsmanovicshermancattstojilkovic2000_model:VangoorLebeauKrsmanovicShermanCattStojilkovVangoorlebeaukrsmanovicshermancattstojilkovic2000Model
   init_kwargs:
     model_path: data/vangoor_lebeau_krsmanovic_sherman_catt_stojilkovic_2000.cellml

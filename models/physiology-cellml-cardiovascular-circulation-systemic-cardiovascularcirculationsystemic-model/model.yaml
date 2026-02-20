@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cardiovascular_circulation_systemic
   download_url: https://models.physiomeproject.org/workspace/cardiovascular_circulation_systemic/@@download/1f1189e668a0126d105a20ef5db0ab506c9fa8fb/EAtrium.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cardiovascular_circulation_systemic_cardiovascularcirculationsystemic_model:CardiovascularCirculationSystemicCardiovascularcirculationsystemicModel
   init_kwargs:
     model_path: data/EAtrium.cellml

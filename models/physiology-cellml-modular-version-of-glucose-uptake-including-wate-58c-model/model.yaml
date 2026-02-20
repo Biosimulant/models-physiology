@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/58c
   download_url: https://models.physiomeproject.org/workspace/58c/@@download/e82595139c2e39aec218cbbf56fc10782a4ced52/AE1_flux.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.modular_version_of_glucose_uptake_including_wate_58c_model:ModularVersionOfGlucoseUptakeIncludingWate58cModel
   init_kwargs:
     model_path: data/AE1_flux.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_volume_receptors_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_volume_receptors_2008/@@download/5a3365827fa6034c635acc3bdf9de155b7a2efeb/environment.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_volume_receptors_2008_guytonvolumereceptors2008_model:GuytonVolumeReceptors2008Guytonvolumereceptors2008Model
   init_kwargs:
     model_path: data/environment.cellml

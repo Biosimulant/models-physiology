@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/soboleva_vetharaniam_nixon_montenegro_pearson_sneyd_2005
   download_url: https://models.physiomeproject.org/workspace/soboleva_vetharaniam_nixon_montenegro_pearson_sneyd_2005/@@download/ad243cf5639f2f787b2f86b01d7fb4d51b96177e/soboleva_vetharaniam_nixon_montenegro_pearson_sneyd_2005_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.soboleva_vetharaniam_nixon_montenegro_pearson_sn_sobolevavetharaniamnixonmontenegropearsonsneyd2005_model:SobolevaVetharaniamNixonMontenegroPearsonSnSobolevavetharaniamnixonmontenegropearsonsneyd2005Model
   init_kwargs:
     model_path: data/soboleva_vetharaniam_nixon_montenegro_pearson_sneyd_2005_a.cellml

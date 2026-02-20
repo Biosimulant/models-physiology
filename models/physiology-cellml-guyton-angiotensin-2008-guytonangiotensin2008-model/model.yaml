@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_angiotensin_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_angiotensin_2008/@@download/970b439f4e52894d8257e0a46d41a7b1b873c5a1/angiotensin.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_angiotensin_2008_guytonangiotensin2008_model:GuytonAngiotensin2008Guytonangiotensin2008Model
   init_kwargs:
     model_path: data/angiotensin.cellml

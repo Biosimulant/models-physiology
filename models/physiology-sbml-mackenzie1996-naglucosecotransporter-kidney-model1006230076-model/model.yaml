@@ -23,7 +23,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1006230076
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1006230076?filename=MODEL1006230076_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.mackenzie1996_naglucosecotransporter_kidney_model1006230076_model:Mackenzie1996NaglucosecotransporterKidneyModel1006230076Model
   init_kwargs:
     model_path: data/MODEL1006230076.xml

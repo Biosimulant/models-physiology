@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/8a2
   download_url: https://models.physiomeproject.org/workspace/8a2/@@download/6c4ba7884bad10ef792565cfc3d30eb9fec6748c/sten2020_NVC_main.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sten2020_neurovascular_coupling_model_8a2_model:Sten2020NeurovascularCouplingModel8a2Model
   init_kwargs:
     model_path: data/sten2020_NVC_main.cellml

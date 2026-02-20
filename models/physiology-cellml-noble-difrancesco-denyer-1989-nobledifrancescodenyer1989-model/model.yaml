@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/noble_difrancesco_denyer_1989
   download_url: https://models.physiomeproject.org/workspace/noble_difrancesco_denyer_1989/@@download/c24b2642058298a0386a2a8a0f1268411704b044/noble_difrancesco_denyer_1989.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.noble_difrancesco_denyer_1989_nobledifrancescodenyer1989_model:NobleDifrancescoDenyer1989Nobledifrancescodenyer1989Model
   init_kwargs:
     model_path: data/noble_difrancesco_denyer_1989.cellml

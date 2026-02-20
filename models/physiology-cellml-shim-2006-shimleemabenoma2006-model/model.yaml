@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/shim_leem_abe_noma_2006
   download_url: https://models.physiomeproject.org/workspace/shim_leem_abe_noma_2006/@@download/a3421a758163bc7c64013c6b2d526fdbaadcf8a6/shim_leem_abe_noma_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shim_2006_shimleemabenoma2006_model:Shim2006Shimleemabenoma2006Model
   init_kwargs:
     model_path: data/shim_leem_abe_noma_2006.cellml

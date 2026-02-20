@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/294
   download_url: https://models.physiomeproject.org/workspace/294/@@download/e3002995c54f9399b800e7b7d7b8011fd817f499/NaK_test.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.na_k_atpase_sodium_potassium_pump_294_model:NaKAtpaseSodiumPotassiumPump294Model
   init_kwargs:
     model_path: data/NaK_test.cellml

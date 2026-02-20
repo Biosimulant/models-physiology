@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/848
   download_url: https://models.physiomeproject.org/workspace/848/@@download/98c2d94ee9d4dbdfcd74f4bc2dde0c8eeb9e61a5/BG_PLC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_plc_848_model:BgPlc848Model
   init_kwargs:
     model_path: data/BG_PLC.cellml

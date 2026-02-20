@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/holmes_2006
   download_url: https://models.physiomeproject.org/workspace/holmes_2006/@@download/43e456c10f5e1b6fb40323f4c4a90e2d7dfbc2d1/holmes_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.holmes_2006_holmes2006_model:Holmes2006Holmes2006Model
   init_kwargs:
     model_path: data/holmes_2006.cellml

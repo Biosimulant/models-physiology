@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/karagiannis_popel_2006
   download_url: https://models.physiomeproject.org/workspace/karagiannis_popel_2006/@@download/523e285aaffb10785700f40009832a0c787ccc6d/karagiannis_popel_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.karagiannis_popel_2006_karagiannispopel2006_model:KaragiannisPopel2006Karagiannispopel2006Model
   init_kwargs:
     model_path: data/karagiannis_popel_2006.cellml

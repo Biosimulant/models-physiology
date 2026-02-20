@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_autonomics_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_autonomics_2008/@@download/50ce90269e36dbc4ef48734f78b672330f5d19aa/autonomics.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_autonomics_2008_guytonautonomics2008_model:GuytonAutonomics2008Guytonautonomics2008Model
   init_kwargs:
     model_path: data/autonomics.cellml

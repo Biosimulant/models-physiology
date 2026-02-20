@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/perelson_neumann_markowitz_leonard_ho_1996
   download_url: https://models.physiomeproject.org/workspace/perelson_neumann_markowitz_leonard_ho_1996/@@download/969e0fd78645025a63ad666ffe792084f3cf632a/perelson_neumann_markowitz_leonard_ho_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.perelson_neumann_markowitz_leonard_ho_1996_perelsonneumannmarkowitzleonardho1996_model:PerelsonNeumannMarkowitzLeonardHo1996Perelsonneumannmarkowitzleonardho1996Model
   init_kwargs:
     model_path: data/perelson_neumann_markowitz_leonard_ho_1996.cellml

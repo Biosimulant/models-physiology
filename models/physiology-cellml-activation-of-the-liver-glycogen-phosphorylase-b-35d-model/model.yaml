@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/35d
   download_url: https://models.physiomeproject.org/workspace/35d/@@download/04b1009c811755afbe54d403c23c1de090b29a98/gall_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.activation_of_the_liver_glycogen_phosphorylase_b_35d_model:ActivationOfTheLiverGlycogenPhosphorylaseB35dModel
   init_kwargs:
     model_path: data/gall_2000.cellml

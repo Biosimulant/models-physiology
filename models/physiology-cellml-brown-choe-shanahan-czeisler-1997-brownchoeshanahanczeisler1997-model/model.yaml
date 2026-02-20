@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/brown_choe_shanahan_czeisler_1997
   download_url: https://models.physiomeproject.org/workspace/brown_choe_shanahan_czeisler_1997/@@download/0a3138798f533ab5002cfa58fe734620029c089c/brown_choe_shanahan_czeisler_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.brown_choe_shanahan_czeisler_1997_brownchoeshanahanczeisler1997_model:BrownChoeShanahanCzeisler1997Brownchoeshanahanczeisler1997Model
   init_kwargs:
     model_path: data/brown_choe_shanahan_czeisler_1997.cellml

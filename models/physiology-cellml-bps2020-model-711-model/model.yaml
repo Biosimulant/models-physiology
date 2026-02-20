@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/711
   download_url: https://models.physiomeproject.org/workspace/711/@@download/9f92367b829fa2f8cb440d7c5cee4279aa07097a/BPS2020.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bps2020_model_711_model:Bps2020Model711Model
   init_kwargs:
     model_path: data/BPS2020.cellml

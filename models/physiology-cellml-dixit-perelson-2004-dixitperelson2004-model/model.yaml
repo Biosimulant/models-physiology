@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dixit_perelson_2004
   download_url: https://models.physiomeproject.org/workspace/dixit_perelson_2004/@@download/ca90068e1ced53520ae00df07ef837155412803c/dixit_perelson_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dixit_perelson_2004_dixitperelson2004_model:DixitPerelson2004Dixitperelson2004Model
   init_kwargs:
     model_path: data/dixit_perelson_2004.cellml

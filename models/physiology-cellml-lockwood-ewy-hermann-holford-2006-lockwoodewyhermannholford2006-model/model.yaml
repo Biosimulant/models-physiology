@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lockwood_ewy_hermann_holford_2006
   download_url: https://models.physiomeproject.org/workspace/lockwood_ewy_hermann_holford_2006/@@download/5781efa9e2ddf73c30b2e63e549a1c0aed43def5/lockwood_ewy_hermann_holford_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lockwood_ewy_hermann_holford_2006_lockwoodewyhermannholford2006_model:LockwoodEwyHermannHolford2006Lockwoodewyhermannholford2006Model
   init_kwargs:
     model_path: data/lockwood_ewy_hermann_holford_2006.cellml

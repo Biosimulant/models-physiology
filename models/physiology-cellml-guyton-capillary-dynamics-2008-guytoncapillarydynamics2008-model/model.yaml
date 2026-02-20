@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_capillary_dynamics_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_capillary_dynamics_2008/@@download/18a2d9f035fb3950ccdae97b7fb21f1bb93d6a67/cap_dynamics.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_capillary_dynamics_2008_guytoncapillarydynamics2008_model:GuytonCapillaryDynamics2008Guytoncapillarydynamics2008Model
   init_kwargs:
     model_path: data/cap_dynamics.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/575
   download_url: https://models.physiomeproject.org/workspace/575/@@download/f5998a030e248beedb66c0438fe0248bef427d8c/fink_slepchenko_loew_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fink_slepchenko_loew_1999_575_model:FinkSlepchenkoLoew1999575Model
   init_kwargs:
     model_path: data/fink_slepchenko_loew_1999.cellml

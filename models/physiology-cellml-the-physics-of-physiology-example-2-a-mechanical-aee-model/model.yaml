@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/aee/@@download/7576ca2867d354f3b7dc246d31152e31a898bcc5/FAIRDO
     BG example 3.2.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.the_physics_of_physiology_example_2_a_mechanical_aee_model:ThePhysicsOfPhysiologyExample2AMechanicalAeeModel
   init_kwargs:
     model_path: data/FAIRDO_BG_example_3.2.cellml

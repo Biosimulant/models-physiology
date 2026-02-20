@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/seemann_sachse_weib_dossel_2003
   download_url: https://models.physiomeproject.org/workspace/seemann_sachse_weib_dossel_2003/@@download/66af9d1869deeded4b29cdcdc483ddedd116e596/seemann_sachse_weib_dossel_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.seemann_sachse_weib_dossel_2003_seemannsachseweibdossel2003_model:SeemannSachseWeibDossel2003Seemannsachseweibdossel2003Model
   init_kwargs:
     model_path: data/seemann_sachse_weib_dossel_2003.cellml

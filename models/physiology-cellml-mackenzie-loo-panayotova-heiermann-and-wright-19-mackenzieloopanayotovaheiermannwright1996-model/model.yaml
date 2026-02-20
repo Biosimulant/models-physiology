@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mackenzie_loo_panayotova-heiermann_wright_1996
   download_url: https://models.physiomeproject.org/workspace/mackenzie_loo_panayotova-heiermann_wright_1996/@@download/9e1413fd915169aa9390c97e20c5e3884a020916/mackenzie_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mackenzie_loo_panayotova_heiermann_and_wright_19_mackenzieloopanayotovaheiermannwright1996_model:MackenzieLooPanayotovaHeiermannAndWright19Mackenzieloopanayotovaheiermannwright1996Model
   init_kwargs:
     model_path: data/mackenzie_1996.cellml

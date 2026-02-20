@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6b9
   download_url: https://models.physiomeproject.org/workspace/6b9/@@download/326c38ed37572dad9be4b340da5f849cafa1437b/AE1-BG.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ae1_bg_6b9_model:Ae1Bg6b9Model
   init_kwargs:
     model_path: data/AE1-BG.cellml

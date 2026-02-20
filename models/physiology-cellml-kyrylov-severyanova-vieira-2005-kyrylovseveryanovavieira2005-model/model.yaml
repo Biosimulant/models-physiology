@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/kyrylov_severyanova_vieira_2005
   download_url: https://models.physiomeproject.org/workspace/kyrylov_severyanova_vieira_2005/@@download/4d1519939d2a45dc863ab8b8c968b663ec7eac04/kyrylov_severyanova_vieira_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kyrylov_severyanova_vieira_2005_kyrylovseveryanovavieira2005_model:KyrylovSeveryanovaVieira2005Kyrylovseveryanovavieira2005Model
   init_kwargs:
     model_path: data/kyrylov_severyanova_vieira_2005.cellml

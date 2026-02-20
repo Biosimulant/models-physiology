@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000025
   download_url: https://models.physiomeproject.org/workspace/SVP_00000025/@@download/c9887d7cf4d8a90155e2c6921b3ac12e7cbc5717/Bugbuster_ProteinCDS_GFP.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.protein_cds_for_gfp_svp00000025_model:ProteinCdsForGfpSvp00000025Model
   init_kwargs:
     model_path: data/Bugbuster_ProteinCDS_GFP.cellml

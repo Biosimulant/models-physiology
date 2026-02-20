@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wodarz_sierro_klenerman_2007
   download_url: https://models.physiomeproject.org/workspace/wodarz_sierro_klenerman_2007/@@download/91cf00619cbc2d3d0c654ba06e8c3226985e786e/wodarz_sierro_klenerman_2007_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wodarz_sierro_klenerman_2007_wodarzsierroklenerman2007_model:WodarzSierroKlenerman2007Wodarzsierroklenerman2007Model
   init_kwargs:
     model_path: data/wodarz_sierro_klenerman_2007_a.cellml

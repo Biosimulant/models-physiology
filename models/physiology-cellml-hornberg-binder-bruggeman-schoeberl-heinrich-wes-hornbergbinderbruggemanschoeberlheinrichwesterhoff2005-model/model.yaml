@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hornberg_binder_bruggeman_schoeberl_heinrich_westerhoff_2005
   download_url: https://models.physiomeproject.org/workspace/hornberg_binder_bruggeman_schoeberl_heinrich_westerhoff_2005/@@download/63a4a832826e68f3ea3fe8f8b4568452be51b4ea/hornberg_binder_bruggeman_schoeberl_heinrich_westerhoff_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hornberg_binder_bruggeman_schoeberl_heinrich_wes_hornbergbinderbruggemanschoeberlheinrichwesterhoff2005_model:HornbergBinderBruggemanSchoeberlHeinrichWesHornbergbinderbruggemanschoeberlheinrichwesterhoff2005Model
   init_kwargs:
     model_path: data/hornberg_binder_bruggeman_schoeberl_heinrich_westerhoff_2005.cellml

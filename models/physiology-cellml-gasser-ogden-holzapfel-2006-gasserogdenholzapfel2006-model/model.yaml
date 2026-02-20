@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gasser_ogden_holzapfel_2006
   download_url: https://models.physiomeproject.org/workspace/gasser_ogden_holzapfel_2006/@@download/0caf9f3b2221fcae1bcc94efb76e7fbece3369f5/gasser_ogden_holzapfel_2006_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gasser_ogden_holzapfel_2006_gasserogdenholzapfel2006_model:GasserOgdenHolzapfel2006Gasserogdenholzapfel2006Model
   init_kwargs:
     model_path: data/gasser_ogden_holzapfel_2006_a.cellml

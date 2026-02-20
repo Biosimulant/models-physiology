@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/leloup_goldbeter_2003
   download_url: https://models.physiomeproject.org/workspace/leloup_goldbeter_2003/@@download/3f64359c54c20162714e02f2361f792c1cf005dd/law1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.leloup_goldbeter_2003_leloupgoldbeter2003_model:LeloupGoldbeter2003Leloupgoldbeter2003Model
   init_kwargs:
     model_path: data/law1.cellml

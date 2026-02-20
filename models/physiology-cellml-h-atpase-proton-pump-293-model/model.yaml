@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/293
   download_url: https://models.physiomeproject.org/workspace/293/@@download/7b86a24bb68a728fc430de1f9219e79d9d8590a5/HATPase_test.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.h_atpase_proton_pump_293_model:HAtpaseProtonPump293Model
   init_kwargs:
     model_path: data/HATPase_test.cellml

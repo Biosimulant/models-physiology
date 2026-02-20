@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/terkildsen_niederer_crampin_hunter_smith_2008
   download_url: https://models.physiomeproject.org/workspace/terkildsen_niederer_crampin_hunter_smith_2008/@@download/72851b03840f335109e882a1b42f2cd9dfed55f0/Hinch_et_al_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.terkildsen_niederer_crampin_hunter_smith_2008_terkildsenniederercrampinhuntersmith2008_model:TerkildsenNiedererCrampinHunterSmith2008Terkildsenniederercrampinhuntersmith2008Model
   init_kwargs:
     model_path: data/Hinch_et_al_2004.cellml

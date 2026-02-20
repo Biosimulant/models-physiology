@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d47
   download_url: https://models.physiomeproject.org/workspace/d47/@@download/785c518eab0acffb451281f10e6d00fe82d22b6f/BG_BK.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_bk_d47_model:BgBkD47Model
   init_kwargs:
     model_path: data/BG_BK.cellml

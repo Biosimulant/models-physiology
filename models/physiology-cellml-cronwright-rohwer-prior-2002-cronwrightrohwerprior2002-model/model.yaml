@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cronwright_rohwer_prior_2002
   download_url: https://models.physiomeproject.org/workspace/cronwright_rohwer_prior_2002/@@download/77f16fab0f6e52290ac5a31d080a5568e5177430/cronwright_rohwer_prior_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cronwright_rohwer_prior_2002_cronwrightrohwerprior2002_model:CronwrightRohwerPrior2002Cronwrightrohwerprior2002Model
   init_kwargs:
     model_path: data/cronwright_rohwer_prior_2002.cellml

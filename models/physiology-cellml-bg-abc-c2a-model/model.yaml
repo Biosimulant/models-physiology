@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c2a
   download_url: https://models.physiomeproject.org/workspace/c2a/@@download/48649265a58bd9aa3a27fbf577aba12084e1cbb3/BG_ABC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_abc_c2a_model:BgAbcC2aModel
   init_kwargs:
     model_path: data/BG_ABC.cellml

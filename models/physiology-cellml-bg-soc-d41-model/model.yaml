@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d41
   download_url: https://models.physiomeproject.org/workspace/d41/@@download/38820a34c0a013adb80420c96ba30c837b9e123b/BG_SOC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_soc_d41_model:BgSocD41Model
   init_kwargs:
     model_path: data/BG_SOC.cellml

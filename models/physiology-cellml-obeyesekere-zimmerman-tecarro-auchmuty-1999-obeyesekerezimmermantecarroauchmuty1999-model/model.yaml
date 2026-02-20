@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/obeyesekere_zimmerman_tecarro_auchmuty_1999
   download_url: https://models.physiomeproject.org/workspace/obeyesekere_zimmerman_tecarro_auchmuty_1999/@@download/c1d21d0ec76a6c857167bd193598c67e545e54e2/obeyesekere_zimmerman_tecarro_auchmuty_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.obeyesekere_zimmerman_tecarro_auchmuty_1999_obeyesekerezimmermantecarroauchmuty1999_model:ObeyesekereZimmermanTecarroAuchmuty1999Obeyesekerezimmermantecarroauchmuty1999Model
   init_kwargs:
     model_path: data/obeyesekere_zimmerman_tecarro_auchmuty_1999.cellml

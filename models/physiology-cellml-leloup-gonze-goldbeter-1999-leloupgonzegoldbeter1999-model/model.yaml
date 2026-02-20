@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/leloup_gonze_goldbeter_1999
   download_url: https://models.physiomeproject.org/workspace/leloup_gonze_goldbeter_1999/@@download/bfaac0e80b23726ffe05b02f98b3d1d01a2ee3b7/law1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.leloup_gonze_goldbeter_1999_leloupgonzegoldbeter1999_model:LeloupGonzeGoldbeter1999Leloupgonzegoldbeter1999Model
   init_kwargs:
     model_path: data/law1.cellml

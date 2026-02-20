@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/devries_sherman_2001
   download_url: https://models.physiomeproject.org/workspace/devries_sherman_2001/@@download/865c567066853395e54f55beb0e469d89a711be8/devries_sherman_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.devries_sherman_2001_devriessherman2001_model:DevriesSherman2001Devriessherman2001Model
   init_kwargs:
     model_path: data/devries_sherman_2001.cellml

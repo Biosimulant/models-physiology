@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2ed
   download_url: https://models.physiomeproject.org/workspace/2ed/@@download/1a9a9eda3c27e846e7386b1413f43f85a166a678/phillips_baseline_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.phillips_2008_2ed_model:Phillips20082edModel
   init_kwargs:
     model_path: data/phillips_baseline_2008.cellml

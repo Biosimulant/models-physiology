@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dawson_lea_irvine_2003
   download_url: https://models.physiomeproject.org/workspace/dawson_lea_irvine_2003/@@download/77728d2b6b2a7604bd73b765a2a85b77e1b24ced/dawson_lea_irvine_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dawson_lea_irvine_2003_dawsonleairvine2003_model:DawsonLeaIrvine2003Dawsonleairvine2003Model
   init_kwargs:
     model_path: data/dawson_lea_irvine_2003.cellml

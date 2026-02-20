@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_red_cells_and_viscosity_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_red_cells_and_viscosity_2008/@@download/0ff44abf778c96a10e84f33e8c349474411e7b1f/environment.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_red_cells_and_viscosity_2008_guytonredcellsandviscosity2008_model:GuytonRedCellsAndViscosity2008Guytonredcellsandviscosity2008Model
   init_kwargs:
     model_path: data/environment.cellml

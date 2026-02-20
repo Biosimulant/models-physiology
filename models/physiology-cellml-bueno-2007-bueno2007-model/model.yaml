@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bueno_2007
   download_url: https://models.physiomeproject.org/workspace/bueno_2007/@@download/d0662d7dce072a02ae794cb915d78a3b6130bda8/bueno_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bueno_2007_bueno2007_model:Bueno2007Bueno2007Model
   init_kwargs:
     model_path: data/bueno_2007.cellml

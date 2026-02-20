@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5af
   download_url: https://models.physiomeproject.org/workspace/5af/@@download/4af2cb7961fd1e93032cb7abdd5cecd9648364f7/cloutier_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.an_integrative_dynamic_model_of_brain_energy_met_5af_model:AnIntegrativeDynamicModelOfBrainEnergyMet5afModel
   init_kwargs:
     model_path: data/cloutier_2009.cellml

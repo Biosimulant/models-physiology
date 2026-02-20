@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/36d
   download_url: https://models.physiomeproject.org/workspace/36d/@@download/7d6624ef983720ec2234013821ec45e7def7492d/ciliberto_petrus_tyson_sible_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ciliberto_petrus_tyson_sible_2003_36d_model:CilibertoPetrusTysonSible200336dModel
   init_kwargs:
     model_path: data/ciliberto_petrus_tyson_sible_2003.cellml

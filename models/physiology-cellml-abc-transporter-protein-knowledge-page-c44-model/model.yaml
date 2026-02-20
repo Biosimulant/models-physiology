@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c44
   download_url: https://models.physiomeproject.org/workspace/c44/@@download/75e97c50f542f03edbe446053fb885d70b1f5420/BG_ABC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.abc_transporter_protein_knowledge_page_c44_model:AbcTransporterProteinKnowledgePageC44Model
   init_kwargs:
     model_path: data/BG_ABC.cellml

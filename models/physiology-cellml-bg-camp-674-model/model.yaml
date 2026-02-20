@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/674
   download_url: https://models.physiomeproject.org/workspace/674/@@download/83293df373c6041b4f12d26ee98b23acb22ce935/BG_cAMP.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_camp_674_model:BgCamp674Model
   init_kwargs:
     model_path: data/BG_cAMP.cellml

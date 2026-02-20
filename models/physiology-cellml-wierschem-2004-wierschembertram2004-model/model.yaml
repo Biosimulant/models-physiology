@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wierschem_bertram_2004
   download_url: https://models.physiomeproject.org/workspace/wierschem_bertram_2004/@@download/83a43b8d8412a6b7b79c058e853b6d194e57ad9a/wierschem_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wierschem_2004_wierschembertram2004_model:Wierschem2004Wierschembertram2004Model
   init_kwargs:
     model_path: data/wierschem_2004.cellml

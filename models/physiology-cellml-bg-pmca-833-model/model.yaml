@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/833
   download_url: https://models.physiomeproject.org/workspace/833/@@download/b4c50f00de71e0d012784daad32ce64bbeb80881/BG_PMCA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_pmca_833_model:BgPmca833Model
   init_kwargs:
     model_path: data/BG_PMCA.cellml

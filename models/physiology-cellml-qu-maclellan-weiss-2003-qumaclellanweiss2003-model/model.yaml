@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/qu_maclellan_weiss_2003
   download_url: https://models.physiomeproject.org/workspace/qu_maclellan_weiss_2003/@@download/48e4f83ba03d62531af101991ccda0d0c6bb504e/qu_maclellan_weiss_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.qu_maclellan_weiss_2003_qumaclellanweiss2003_model:QuMaclellanWeiss2003Qumaclellanweiss2003Model
   init_kwargs:
     model_path: data/qu_maclellan_weiss_2003.cellml

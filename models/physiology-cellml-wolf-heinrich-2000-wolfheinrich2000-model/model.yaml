@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wolf_heinrich_2000
   download_url: https://models.physiomeproject.org/workspace/wolf_heinrich_2000/@@download/c2a8e06d7c39dd24a502019fff1e95e744492cfc/wolf_heinrich_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wolf_heinrich_2000_wolfheinrich2000_model:WolfHeinrich2000Wolfheinrich2000Model
   init_kwargs:
     model_path: data/wolf_heinrich_2000.cellml

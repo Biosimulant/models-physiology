@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/557
   download_url: https://models.physiomeproject.org/workspace/557/@@download/db2e757378cf8810676fca0a3932a7688abb121c/acikgoz_2009a.cellml_annotations.rdf
   license: ''
-bsim:
+biosim:
   entrypoint: src.workspace_annotations_557_model:WorkspaceAnnotations557Model
   init_kwargs:
     model_path: data/acikgoz_2009a.cellml_annotations.rdf

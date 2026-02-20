@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SystemsModelTutorial1
   download_url: https://models.physiomeproject.org/workspace/SystemsModelTutorial1/@@download/480fea0d95db8c739b8299bd936ddd3d39bb6eac/PMR2metadata.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tutorial_on_constructing_a_systems_model_from_sv_systemsmodeltutorial1_model:TutorialOnConstructingASystemsModelFromSvSystemsmodeltutorial1Model
   init_kwargs:
     model_path: data/PMR2metadata.cellml

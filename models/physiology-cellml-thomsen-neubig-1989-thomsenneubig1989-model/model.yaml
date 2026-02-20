@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/thomsen_neubig_1989
   download_url: https://models.physiomeproject.org/workspace/thomsen_neubig_1989/@@download/eec8ddb62be079607812e1f6577b1cfc478a85f9/thomsen_neubig_1989.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.thomsen_neubig_1989_thomsenneubig1989_model:ThomsenNeubig1989Thomsenneubig1989Model
   init_kwargs:
     model_path: data/thomsen_neubig_1989.cellml

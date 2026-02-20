@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/825
   download_url: https://models.physiomeproject.org/workspace/825/@@download/32a75a669f04d1a67dc6a8465761d9fdd2844458/BG_Kp.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_kp_825_model:BgKp825Model
   init_kwargs:
     model_path: data/BG_Kp.cellml

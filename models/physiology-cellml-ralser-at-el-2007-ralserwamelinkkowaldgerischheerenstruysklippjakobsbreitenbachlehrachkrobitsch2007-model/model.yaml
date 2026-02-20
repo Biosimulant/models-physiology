@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/ralser_wamelink_kowald_gerisch_heeren_struys_klipp_jakobs_breitenbach_lehrach_krobitsch_2007
   download_url: https://models.physiomeproject.org/workspace/ralser_wamelink_kowald_gerisch_heeren_struys_klipp_jakobs_breitenbach_lehrach_krobitsch_2007/@@download/008db0a043e4e0d1ba9eaa7aaf05f6c8ae048cc1/ralser_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ralser_at_el_2007_ralserwamelinkkowaldgerischheerenstruysklippjakobsbreitenbachlehrachkrobitsch2007_model:RalserAtEl2007Ralserwamelinkkowaldgerischheerenstruysklippjakobsbreitenbachlehrachkrobitsch2007Model
   init_kwargs:
     model_path: data/ralser_2007.cellml

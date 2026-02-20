@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/877
   download_url: https://models.physiomeproject.org/workspace/877/@@download/a206d03ec1bf5e1ed9cf76132fed775e3d5d0cfc/BG_AE1_weinstein.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ae1_weinstein_877_model:BgAe1Weinstein877Model
   init_kwargs:
     model_path: data/BG_AE1_weinstein.cellml

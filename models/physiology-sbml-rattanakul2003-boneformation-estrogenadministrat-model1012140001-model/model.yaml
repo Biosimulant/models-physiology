@@ -23,7 +23,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1012140001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1012140001?filename=MODEL1012140001_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.rattanakul2003_boneformation_estrogenadministrat_model1012140001_model:Rattanakul2003BoneformationEstrogenadministratModel1012140001Model
   init_kwargs:
     model_path: data/MODEL1012140001.xml

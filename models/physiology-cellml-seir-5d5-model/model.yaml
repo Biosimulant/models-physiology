@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5d5
   download_url: https://models.physiomeproject.org/workspace/5d5/@@download/856cf169513b2b1a57843cb5feef01aed762d480/COVIDSim.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.seir_5d5_model:Seir5d5Model
   init_kwargs:
     model_path: data/COVIDSim.cellml

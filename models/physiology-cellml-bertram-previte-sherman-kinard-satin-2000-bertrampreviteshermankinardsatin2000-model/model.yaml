@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bertram_previte_sherman_kinard_satin_2000
   download_url: https://models.physiomeproject.org/workspace/bertram_previte_sherman_kinard_satin_2000/@@download/8a1b1fad7377413fef365fbd035adc324c00ed84/bertram_previte_sherman_kinard_satin_2000_fast.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bertram_previte_sherman_kinard_satin_2000_bertrampreviteshermankinardsatin2000_model:BertramPreviteShermanKinardSatin2000Bertrampreviteshermankinardsatin2000Model
   init_kwargs:
     model_path: data/bertram_previte_sherman_kinard_satin_2000_fast.cellml

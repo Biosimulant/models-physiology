@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/asthagiri_lauffenburger_2001
   download_url: https://models.physiomeproject.org/workspace/asthagiri_lauffenburger_2001/@@download/5f8edcfb2b4c15b979e21324966958cce0c3d173/asthagiri_lauffenburger_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.asthagiri_lauffenburger_2001_asthagirilauffenburger2001_model:AsthagiriLauffenburger2001Asthagirilauffenburger2001Model
   init_kwargs:
     model_path: data/asthagiri_lauffenburger_2001.cellml

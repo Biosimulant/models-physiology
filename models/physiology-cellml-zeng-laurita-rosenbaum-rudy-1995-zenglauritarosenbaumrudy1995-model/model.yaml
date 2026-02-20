@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/zeng_laurita_rosenbaum_rudy_1995
   download_url: https://models.physiomeproject.org/workspace/zeng_laurita_rosenbaum_rudy_1995/@@download/d0d971854f363d9b0cf04e3ffb3088a28ed6a2c0/zeng_laurita_rosenbaum_rudy_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.zeng_laurita_rosenbaum_rudy_1995_zenglauritarosenbaumrudy1995_model:ZengLauritaRosenbaumRudy1995Zenglauritarosenbaumrudy1995Model
   init_kwargs:
     model_path: data/zeng_laurita_rosenbaum_rudy_1995.cellml

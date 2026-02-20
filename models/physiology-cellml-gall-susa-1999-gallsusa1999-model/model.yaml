@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gall_susa_1999
   download_url: https://models.physiomeproject.org/workspace/gall_susa_1999/@@download/c2a71458ae6435d0fce9b8e3751d283b5e22c0c3/gall_susa_1999_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gall_susa_1999_gallsusa1999_model:GallSusa1999Gallsusa1999Model
   init_kwargs:
     model_path: data/gall_susa_1999_a.cellml

@@ -12,13 +12,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class CellmlBertramPreviteShermanKinardSatin20002(bsim.BioModule):
+class CellmlBertramPreviteShermanKinardSatin20002(biosim.BioModule):
     """BioModule wrapper for CellML model: Bertram, Previte, Sherman, Kinard, Satin, 2000."""
 
     def __init__(self, model_path: str = "data/bertram_previte_sherman_kinard_satin_2000_fast.cellml", min_dt: float = 0.01) -> None:

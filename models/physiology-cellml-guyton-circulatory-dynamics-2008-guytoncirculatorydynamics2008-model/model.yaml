@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_circulatory_dynamics_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_circulatory_dynamics_2008/@@download/a9031e651daff5ad764516a853af76d63fe3516e/circulation.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_circulatory_dynamics_2008_guytoncirculatorydynamics2008_model:GuytonCirculatoryDynamics2008Guytoncirculatorydynamics2008Model
   init_kwargs:
     model_path: data/circulation.cellml

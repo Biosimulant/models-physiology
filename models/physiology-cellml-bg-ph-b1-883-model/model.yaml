@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/883
   download_url: https://models.physiomeproject.org/workspace/883/@@download/74d284be7ccd9fa4f77cd8ce40dbe53a1464e9a6/BG_pH_B1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ph_b1_883_model:BgPhB1883Model
   init_kwargs:
     model_path: data/BG_pH_B1.cellml

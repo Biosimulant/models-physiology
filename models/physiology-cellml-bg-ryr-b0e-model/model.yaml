@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b0e
   download_url: https://models.physiomeproject.org/workspace/b0e/@@download/00daf7ab428970bae3c7a7dc0db4a68e6eb4446e/BG_RyR.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ryr_b0e_model:BgRyrB0eModel
   init_kwargs:
     model_path: data/BG_RyR.cellml

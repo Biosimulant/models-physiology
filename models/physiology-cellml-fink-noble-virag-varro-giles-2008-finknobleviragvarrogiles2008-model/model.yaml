@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fink_noble_virag_varro_giles_2008
   download_url: https://models.physiomeproject.org/workspace/fink_noble_virag_varro_giles_2008/@@download/0628c5ca2f032d1fb4be6d8fbe8bbba65326ce0e/fink_noble_virag_varro_giles_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fink_noble_virag_varro_giles_2008_finknobleviragvarrogiles2008_model:FinkNobleViragVarroGiles2008Finknobleviragvarrogiles2008Model
   init_kwargs:
     model_path: data/fink_noble_virag_varro_giles_2008.cellml

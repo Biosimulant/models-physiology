@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/610
   download_url: https://models.physiomeproject.org/workspace/610/@@download/3af550579a2d5d8d63c85f086d3e95b39ae122fa/nernst_eg.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.test_cellml_model_s_for_libomexmeta_610_model:TestCellmlModelSForLibomexmeta610Model
   init_kwargs:
     model_path: data/nernst_eg.cellml

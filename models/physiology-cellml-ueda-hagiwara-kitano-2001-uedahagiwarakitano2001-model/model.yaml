@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/ueda_hagiwara_kitano_2001
   download_url: https://models.physiomeproject.org/workspace/ueda_hagiwara_kitano_2001/@@download/09b8be6010363d54693f325ce06a0d9c12fa0d23/ueda_hagiwara_kitano_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ueda_hagiwara_kitano_2001_uedahagiwarakitano2001_model:UedaHagiwaraKitano2001Uedahagiwarakitano2001Model
   init_kwargs:
     model_path: data/ueda_hagiwara_kitano_2001.cellml

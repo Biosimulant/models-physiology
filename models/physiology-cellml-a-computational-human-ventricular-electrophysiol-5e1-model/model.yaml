@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5e1
   download_url: https://models.physiomeproject.org/workspace/5e1/@@download/bfc578e28020f362fa4592938f464ea02f169949/Tomek_model_endo.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_computational_human_ventricular_electrophysiol_5e1_model:AComputationalHumanVentricularElectrophysiol5e1Model
   init_kwargs:
     model_path: data/Tomek_model_endo.cellml

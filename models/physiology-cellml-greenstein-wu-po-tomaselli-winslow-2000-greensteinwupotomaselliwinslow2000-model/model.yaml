@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/greenstein_wu_po_tomaselli_winslow_2000
   download_url: https://models.physiomeproject.org/workspace/greenstein_wu_po_tomaselli_winslow_2000/@@download/d1ecc59a34460341d39574cb08eadb2d53e36e5e/greenstein_wu_po_tomaselli_winslow_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.greenstein_wu_po_tomaselli_winslow_2000_greensteinwupotomaselliwinslow2000_model:GreensteinWuPoTomaselliWinslow2000Greensteinwupotomaselliwinslow2000Model
   init_kwargs:
     model_path: data/greenstein_wu_po_tomaselli_winslow_2000.cellml

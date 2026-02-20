@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/halloy_bernard_loussouarn_goldbeter_2002
   download_url: https://models.physiomeproject.org/workspace/halloy_bernard_loussouarn_goldbeter_2002/@@download/9b24d1c9771a149c9dc7af9134d4f35b0ad36629/Y.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.halloy_bernard_loussouarn_goldbeter_2002_halloybernardloussouarngoldbeter2002_model:HalloyBernardLoussouarnGoldbeter2002Halloybernardloussouarngoldbeter2002Model
   init_kwargs:
     model_path: data/Y.cellml

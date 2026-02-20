@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wodarz_hamer_2007
   download_url: https://models.physiomeproject.org/workspace/wodarz_hamer_2007/@@download/c441c07b07733e6dca8d737b12841f9495f7e7d3/wodarz_hamer_2007_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wodarz_hamer_2007_wodarzhamer2007_model:WodarzHamer2007Wodarzhamer2007Model
   init_kwargs:
     model_path: data/wodarz_hamer_2007_a.cellml

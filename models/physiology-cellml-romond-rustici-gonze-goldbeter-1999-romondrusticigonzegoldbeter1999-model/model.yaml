@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/romond_rustici_gonze_goldbeter_1999
   download_url: https://models.physiomeproject.org/workspace/romond_rustici_gonze_goldbeter_1999/@@download/3ea71eee36e63fc48653cb8c227a3101b04a00ce/romond_rustici_gonze_goldbeter_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.romond_rustici_gonze_goldbeter_1999_romondrusticigonzegoldbeter1999_model:RomondRusticiGonzeGoldbeter1999Romondrusticigonzegoldbeter1999Model
   init_kwargs:
     model_path: data/romond_rustici_gonze_goldbeter_1999.cellml

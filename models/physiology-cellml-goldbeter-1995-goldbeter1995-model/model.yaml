@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/goldbeter_1995
   download_url: https://models.physiomeproject.org/workspace/goldbeter_1995/@@download/81161a6037564a35e850673c214df8a7e1b4e234/goldbeter_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.goldbeter_1995_goldbeter1995_model:Goldbeter1995Goldbeter1995Model
   init_kwargs:
     model_path: data/goldbeter_1995.cellml

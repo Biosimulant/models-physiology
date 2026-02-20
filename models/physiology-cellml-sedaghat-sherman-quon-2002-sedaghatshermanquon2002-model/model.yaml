@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sedaghat_sherman_quon_2002
   download_url: https://models.physiomeproject.org/workspace/sedaghat_sherman_quon_2002/@@download/d111840f85576fc787464ad0a8581dfc78ccc8cb/sedaghat_sherman_quon_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sedaghat_sherman_quon_2002_sedaghatshermanquon2002_model:SedaghatShermanQuon2002Sedaghatshermanquon2002Model
   init_kwargs:
     model_path: data/sedaghat_sherman_quon_2002.cellml

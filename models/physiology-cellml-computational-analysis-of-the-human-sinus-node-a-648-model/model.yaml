@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/648
   download_url: https://models.physiomeproject.org/workspace/648/@@download/2408209b761288e46e32e5ad86d7ee30ae110579/Figure4.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.computational_analysis_of_the_human_sinus_node_a_648_model:ComputationalAnalysisOfTheHumanSinusNodeA648Model
   init_kwargs:
     model_path: data/Figure4.cellml

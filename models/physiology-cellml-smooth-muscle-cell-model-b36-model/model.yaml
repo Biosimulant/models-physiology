@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b36
   download_url: https://models.physiomeproject.org/workspace/b36/@@download/9247a40137a786757f7db087533335eb6dfd9d2e/Main_SMC_Model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.smooth_muscle_cell_model_b36_model:SmoothMuscleCellModelB36Model
   init_kwargs:
     model_path: data/Main_SMC_Model.cellml

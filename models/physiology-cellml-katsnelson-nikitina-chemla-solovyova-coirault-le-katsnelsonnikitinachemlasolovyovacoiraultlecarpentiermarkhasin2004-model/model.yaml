@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/katsnelson_nikitina_chemla_solovyova_coirault_lecarpentier_markhasin_2004
   download_url: https://models.physiomeproject.org/workspace/katsnelson_nikitina_chemla_solovyova_coirault_lecarpentier_markhasin_2004/@@download/ff37a293c456b587f8256e8274c1652f8d5cfe77/katsnelson_2004a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.katsnelson_nikitina_chemla_solovyova_coirault_le_katsnelsonnikitinachemlasolovyovacoiraultlecarpentiermarkhasin2004_model:KatsnelsonNikitinaChemlaSolovyovaCoiraultLeKatsnelsonnikitinachemlasolovyovacoiraultlecarpentiermarkhasin2004Model
   init_kwargs:
     model_path: data/katsnelson_2004a.cellml

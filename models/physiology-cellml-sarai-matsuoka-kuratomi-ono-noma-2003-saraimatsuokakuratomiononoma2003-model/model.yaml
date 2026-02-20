@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sarai_matsuoka_kuratomi_ono_noma_2003
   download_url: https://models.physiomeproject.org/workspace/sarai_matsuoka_kuratomi_ono_noma_2003/@@download/aec5cb121557820abd4b8955ae00428484fd1cff/sarai_matsuoka_kuratomi_ono_noma_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sarai_matsuoka_kuratomi_ono_noma_2003_saraimatsuokakuratomiononoma2003_model:SaraiMatsuokaKuratomiOnoNoma2003Saraimatsuokakuratomiononoma2003Model
   init_kwargs:
     model_path: data/sarai_matsuoka_kuratomi_ono_noma_2003.cellml

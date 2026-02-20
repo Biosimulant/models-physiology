@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/depaor_timmons_1986
   download_url: https://models.physiomeproject.org/workspace/depaor_timmons_1986/@@download/2790eb627e4ba15e3d4e630ff56e3b2644299131/depaor_timmons_1986.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.depaor_timmons_1986_depaortimmons1986_model:DepaorTimmons1986Depaortimmons1986Model
   init_kwargs:
     model_path: data/depaor_timmons_1986.cellml

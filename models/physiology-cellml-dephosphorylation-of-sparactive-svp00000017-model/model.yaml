@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000017
   download_url: https://models.physiomeproject.org/workspace/SVP_00000017/@@download/ae4f7892095ae48c2fd752621bd414306b107282/Bioenvironment_Dephosphorylation_spaRactive.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dephosphorylation_of_sparactive_svp00000017_model:DephosphorylationOfSparactiveSvp00000017Model
   init_kwargs:
     model_path: data/Bioenvironment_Dephosphorylation_spaRactive.cellml

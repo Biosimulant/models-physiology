@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mears_sheppard_atwater_rojas_bertram_sherman_1997
   download_url: https://models.physiomeproject.org/workspace/mears_sheppard_atwater_rojas_bertram_sherman_1997/@@download/ce269993c9d841edad3befc715a210943a7638b0/mears_sheppard_atwater_rojas_bertram_sherman_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mears_1997_mearssheppardatwaterrojasbertramsherman1997_model:Mears1997Mearssheppardatwaterrojasbertramsherman1997Model
   init_kwargs:
     model_path: data/mears_sheppard_atwater_rojas_bertram_sherman_1997.cellml

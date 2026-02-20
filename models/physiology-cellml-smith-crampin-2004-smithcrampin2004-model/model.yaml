@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/smith_crampin_2004
   download_url: https://models.physiomeproject.org/workspace/smith_crampin_2004/@@download/8e72b7911dfe36aee34b355aaa13165964e3d244/smith_crampin_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.smith_crampin_2004_smithcrampin2004_model:SmithCrampin2004Smithcrampin2004Model
   init_kwargs:
     model_path: data/smith_crampin_2004.cellml

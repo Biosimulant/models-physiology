@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b0b
   download_url: https://models.physiomeproject.org/workspace/b0b/@@download/054e2bd440990fd1334dbec53bf9a5c0d4ceb955/TranSERCA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.transerca_b0b_model:TransercaB0bModel
   init_kwargs:
     model_path: data/TranSERCA.cellml

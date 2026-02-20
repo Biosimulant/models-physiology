@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/pandit_clark_giles_demir_2001
   download_url: https://models.physiomeproject.org/workspace/pandit_clark_giles_demir_2001/@@download/03f7147d47aa58c3fc524ab0e7340c6a67ee2e34/pandit_clark_giles_demir_2001_endocardial_cell.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.pandit_clark_giles_demir_2001_panditclarkgilesdemir2001_model:PanditClarkGilesDemir2001Panditclarkgilesdemir2001Model
   init_kwargs:
     model_path: data/pandit_clark_giles_demir_2001_endocardial_cell.cellml

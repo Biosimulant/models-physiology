@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/881
   download_url: https://models.physiomeproject.org/workspace/881/@@download/ef9e2416e27813d0829749b1028492c6c8153c84/BG_CHE.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_che_881_model:BgChe881Model
   init_kwargs:
     model_path: data/BG_CHE.cellml

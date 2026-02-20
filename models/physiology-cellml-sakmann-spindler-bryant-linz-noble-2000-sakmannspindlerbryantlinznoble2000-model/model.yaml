@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sakmann_spindler_bryant_linz_noble_2000
   download_url: https://models.physiomeproject.org/workspace/sakmann_spindler_bryant_linz_noble_2000/@@download/3999dfc860ad670ec81df50e3a233aab9b8c2684/sakmann_spindler_bryant_linz_noble_2000_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sakmann_spindler_bryant_linz_noble_2000_sakmannspindlerbryantlinznoble2000_model:SakmannSpindlerBryantLinzNoble2000Sakmannspindlerbryantlinznoble2000Model
   init_kwargs:
     model_path: data/sakmann_spindler_bryant_linz_noble_2000_a.cellml

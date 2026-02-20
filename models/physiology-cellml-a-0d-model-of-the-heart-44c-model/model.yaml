@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/44c
   download_url: https://models.physiomeproject.org/workspace/44c/@@download/b4f1199958a2f35524212312eea6975c99c841b3/HOD.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_0d_model_of_the_heart_44c_model:A0dModelOfTheHeart44cModel
   init_kwargs:
     model_path: data/HOD.cellml

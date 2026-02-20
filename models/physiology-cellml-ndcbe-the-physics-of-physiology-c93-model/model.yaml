@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c93
   download_url: https://models.physiomeproject.org/workspace/c93/@@download/3b2f83d333caf321c0b968a54591d039342a2d93/BG_NDCBE.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ndcbe_the_physics_of_physiology_c93_model:NdcbeThePhysicsOfPhysiologyC93Model
   init_kwargs:
     model_path: data/BG_NDCBE.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000012
   download_url: https://models.physiomeproject.org/workspace/SVP_00000012/@@download/571c1f775be941c78605a6f4d57dfbefb55e3360/Bioenvironment_Degradation_spaR.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_spar_svp00000012_model:DegradationOfSparSvp00000012Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_spaR.cellml

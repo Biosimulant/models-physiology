@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/joseph_zavros_merchant_kirschner_2003
   download_url: https://models.physiomeproject.org/workspace/joseph_zavros_merchant_kirschner_2003/@@download/76eb25661c0c1551c4bb936a29b5b9ec4412ae73/joseph_zavros_merchant_kirschner_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.joseph_zavros_merchant_kirschner_2003_josephzavrosmerchantkirschner2003_model:JosephZavrosMerchantKirschner2003Josephzavrosmerchantkirschner2003Model
   init_kwargs:
     model_path: data/joseph_zavros_merchant_kirschner_2003.cellml

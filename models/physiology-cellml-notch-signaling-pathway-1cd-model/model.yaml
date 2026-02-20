@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/1cd
   download_url: https://models.physiomeproject.org/workspace/1cd/@@download/bc9adbefa06e0bd0bf79be3ec6adcb9d007d5dfc/Notch_1_Wang.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.notch_signaling_pathway_1cd_model:NotchSignalingPathway1cdModel
   init_kwargs:
     model_path: data/Notch_1_Wang.cellml

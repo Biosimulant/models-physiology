@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/livshitz_rudy_2007
   download_url: https://models.physiomeproject.org/workspace/livshitz_rudy_2007/@@download/5bbbbbc77a6cd7e8e1ee6b404a8af65328e4e6e3/livshitz_rudy_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.livshitz_rudy_2007_livshitzrudy2007_model:LivshitzRudy2007Livshitzrudy2007Model
   init_kwargs:
     model_path: data/livshitz_rudy_2007.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/conradie_bruggeman_ciliberto_csikasz-nagy_novak_westerhoff_snoep_2010
   download_url: https://models.physiomeproject.org/workspace/conradie_bruggeman_ciliberto_csikasz-nagy_novak_westerhoff_snoep_2010/@@download/46c317f0a3625b47bd01fa69366e66efc7c59911/conradie_2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.conradie_bruggeman_ciliberto_csikasz_nagy_novak_conradiebruggemancilibertocsikasznagynovakwesterhoffsnoep2010_model:ConradieBruggemanCilibertoCsikaszNagyNovakConradiebruggemancilibertocsikasznagynovakwesterhoffsnoep2010Model
   init_kwargs:
     model_path: data/conradie_2010.cellml

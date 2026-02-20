@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chen_popel_2006
   download_url: https://models.physiomeproject.org/workspace/chen_popel_2006/@@download/d11553916e057a09771ec42b191a56d5dab23a48/chen_popel_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chen_popel_2006_chenpopel2006_model:ChenPopel2006Chenpopel2006Model
   init_kwargs:
     model_path: data/chen_popel_2006.cellml

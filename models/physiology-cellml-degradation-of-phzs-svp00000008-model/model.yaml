@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000008
   download_url: https://models.physiomeproject.org/workspace/SVP_00000008/@@download/b45b4c13d94cee9a82667fbc6505d44154887698/Bioenvironment_Degradation_PhzS.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_phzs_svp00000008_model:DegradationOfPhzsSvp00000008Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_PhzS.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vasalou_henson_2010
   download_url: https://models.physiomeproject.org/workspace/vasalou_henson_2010/@@download/48e0e8d07104ff0690373c4d39300d0ed711d25b/vasalou_2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vasalou_and_henson_2010_vasalouhenson2010_model:VasalouAndHenson2010Vasalouhenson2010Model
   init_kwargs:
     model_path: data/vasalou_2010.cellml

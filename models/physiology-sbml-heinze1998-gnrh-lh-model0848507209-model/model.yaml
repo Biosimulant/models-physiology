@@ -22,7 +22,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL0848507209
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL0848507209?filename=MODEL0848507209_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.heinze1998_gnrh_lh_model0848507209_model:Heinze1998GnrhLhModel0848507209Model
   init_kwargs:
     model_path: data/MODEL0848507209.xml

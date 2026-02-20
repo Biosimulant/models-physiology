@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lemon_gibson_bennett_2003
   download_url: https://models.physiomeproject.org/workspace/lemon_gibson_bennett_2003/@@download/e53772464254ec792a12d5fd90d4fc2581d7b6b4/lemon_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lemon_gibson_bennett_2003_lemongibsonbennett2003_model:LemonGibsonBennett2003Lemongibsonbennett2003Model
   init_kwargs:
     model_path: data/lemon_2003.cellml

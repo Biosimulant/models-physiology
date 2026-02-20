@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/pivonka_zimak_smith_gardiner_dunstan_sims_martin_mundy_2008
   download_url: https://models.physiomeproject.org/workspace/pivonka_zimak_smith_gardiner_dunstan_sims_martin_mundy_2008/@@download/42ee9fdabb9182c66a486a6e879f13694d0c8de8/pivonka_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.pivonka_zimak_smith_gardiner_dunstan_sims_martin_pivonkazimaksmithgardinerdunstansimsmartinmundy2008_model:PivonkaZimakSmithGardinerDunstanSimsMartinPivonkazimaksmithgardinerdunstansimsmartinmundy2008Model
   init_kwargs:
     model_path: data/pivonka_2008.cellml

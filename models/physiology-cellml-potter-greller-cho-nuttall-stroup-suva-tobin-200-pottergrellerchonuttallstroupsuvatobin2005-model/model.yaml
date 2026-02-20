@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/potter_greller_cho_nuttall_stroup_suva_tobin_2005
   download_url: https://models.physiomeproject.org/workspace/potter_greller_cho_nuttall_stroup_suva_tobin_2005/@@download/9eed340c4da284bee38c728f523a4e65a4f404ef/potter_greller_cho_nuttall_stroup_suva_tobin_2005_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.potter_greller_cho_nuttall_stroup_suva_tobin_200_pottergrellerchonuttallstroupsuvatobin2005_model:PotterGrellerChoNuttallStroupSuvaTobin200Pottergrellerchonuttallstroupsuvatobin2005Model
   init_kwargs:
     model_path: data/potter_greller_cho_nuttall_stroup_suva_tobin_2005_a.cellml

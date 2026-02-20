@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b18
   download_url: https://models.physiomeproject.org/workspace/b18/@@download/23c642030185d555795ff5d367e9a5ca08b70ba6/APAP_Reith2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_pharmacokinetic_pk_model_of_acetaminophen_for_b18_model:APharmacokineticPkModelOfAcetaminophenForB18Model
   init_kwargs:
     model_path: data/APAP_Reith2009.cellml

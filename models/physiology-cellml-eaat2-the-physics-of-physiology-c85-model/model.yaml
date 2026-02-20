@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c85
   download_url: https://models.physiomeproject.org/workspace/c85/@@download/387de517615b3feac6875b6ace8bc48d61fe459f/BG_EAAT2.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.eaat2_the_physics_of_physiology_c85_model:Eaat2ThePhysicsOfPhysiologyC85Model
   init_kwargs:
     model_path: data/BG_EAAT2.cellml

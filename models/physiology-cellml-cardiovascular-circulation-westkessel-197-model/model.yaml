@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/197
   download_url: https://models.physiomeproject.org/workspace/197/@@download/5860b42bdf210de346e2556fe99a5c7dd8199514/EAtrium.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cardiovascular_circulation_westkessel_197_model:CardiovascularCirculationWestkessel197Model
   init_kwargs:
     model_path: data/EAtrium.cellml

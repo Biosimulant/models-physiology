@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7fd
   download_url: https://models.physiomeproject.org/workspace/7fd/@@download/7e0450c5e3cd4aaf12d2f86758cd63fae7087d79/sampson-2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sampson_iyer_marks_kass_2010_7fd_model:SampsonIyerMarksKass20107fdModel
   init_kwargs:
     model_path: data/sampson-2010.cellml

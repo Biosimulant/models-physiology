@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000027
   download_url: https://models.physiomeproject.org/workspace/SVP_00000027/@@download/f44012cc9eb9ae52e0b49ab2938d7a8deeda5c36/Bugbuster_ProteinCDS_spaR.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.protein_cds_for_spar_svp00000027_model:ProteinCdsForSparSvp00000027Model
   init_kwargs:
     model_path: data/Bugbuster_ProteinCDS_spaR.cellml

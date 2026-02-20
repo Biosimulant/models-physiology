@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/farhy_bowers_veldhuis_2007
   download_url: https://models.physiomeproject.org/workspace/farhy_bowers_veldhuis_2007/@@download/1aa30279b2f9254c8f123a4d2a9d51a7dc9e270b/farhy_bowers_veldhuis_2007_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.farhy_bowers_veldhuis_2007_farhybowersveldhuis2007_model:FarhyBowersVeldhuis2007Farhybowersveldhuis2007Model
   init_kwargs:
     model_path: data/farhy_bowers_veldhuis_2007_a.cellml

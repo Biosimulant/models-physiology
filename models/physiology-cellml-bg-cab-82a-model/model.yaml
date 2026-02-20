@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/82a
   download_url: https://models.physiomeproject.org/workspace/82a/@@download/eac8b4671db5966c848aad5192fe4eeb5a6ada24/BG_CaB.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_cab_82a_model:BgCab82aModel
   init_kwargs:
     model_path: data/BG_CaB.cellml

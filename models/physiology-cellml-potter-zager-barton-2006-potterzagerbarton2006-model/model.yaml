@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/potter_zager_barton_2006
   download_url: https://models.physiomeproject.org/workspace/potter_zager_barton_2006/@@download/941e8c51081690afea3c2a288f6fec70528afc72/potter_zager_barton_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.potter_zager_barton_2006_potterzagerbarton2006_model:PotterZagerBarton2006Potterzagerbarton2006Model
   init_kwargs:
     model_path: data/potter_zager_barton_2006.cellml

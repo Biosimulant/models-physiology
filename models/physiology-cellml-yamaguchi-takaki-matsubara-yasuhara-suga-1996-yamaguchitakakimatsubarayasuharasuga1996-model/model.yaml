@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/yamaguchi_takaki_matsubara_yasuhara_suga_1996
   download_url: https://models.physiomeproject.org/workspace/yamaguchi_takaki_matsubara_yasuhara_suga_1996/@@download/7a42a2b99b0b62beff8b5daf8995bebfbe2681db/yamaguchi_takaki_matsubara_yasuhara_suga_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.yamaguchi_takaki_matsubara_yasuhara_suga_1996_yamaguchitakakimatsubarayasuharasuga1996_model:YamaguchiTakakiMatsubaraYasuharaSuga1996Yamaguchitakakimatsubarayasuharasuga1996Model
   init_kwargs:
     model_path: data/yamaguchi_takaki_matsubara_yasuhara_suga_1996.cellml

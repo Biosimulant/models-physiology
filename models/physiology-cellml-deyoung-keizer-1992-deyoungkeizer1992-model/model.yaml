@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/deyoung_keizer_1992
   download_url: https://models.physiomeproject.org/workspace/deyoung_keizer_1992/@@download/ca53e58197651359e51f889857d6b2765f5160ad/deyoung_keizer_1992.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.deyoung_keizer_1992_deyoungkeizer1992_model:DeyoungKeizer1992Deyoungkeizer1992Model
   init_kwargs:
     model_path: data/deyoung_keizer_1992.cellml

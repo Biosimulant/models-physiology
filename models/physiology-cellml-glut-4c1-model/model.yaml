@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4c1
   download_url: https://models.physiomeproject.org/workspace/4c1/@@download/04929af616c6a22e69ff042273dc7e7580f59e75/GLUT.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.glut_4c1_model:Glut4c1Model
   init_kwargs:
     model_path: data/GLUT.cellml

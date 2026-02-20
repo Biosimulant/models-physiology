@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/35b
   download_url: https://models.physiomeproject.org/workspace/35b/@@download/e157e5348a3f30310e1c726a574635846049096d/constitutive_law1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.houart_dupont_and_goldbeter_1999_35b_model:HouartDupontAndGoldbeter199935bModel
   init_kwargs:
     model_path: data/constitutive_law1.cellml

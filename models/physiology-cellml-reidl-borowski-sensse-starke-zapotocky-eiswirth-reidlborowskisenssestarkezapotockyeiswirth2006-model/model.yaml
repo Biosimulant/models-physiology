@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/reidl_borowski_sensse_starke_zapotocky_eiswirth_2006
   download_url: https://models.physiomeproject.org/workspace/reidl_borowski_sensse_starke_zapotocky_eiswirth_2006/@@download/e042a64508a21b49d201dd32553fbeb3af7fdc2c/reidl_borowski_sensse_starke_zapotocky_eiswirth_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.reidl_borowski_sensse_starke_zapotocky_eiswirth_reidlborowskisenssestarkezapotockyeiswirth2006_model:ReidlBorowskiSensseStarkeZapotockyEiswirthReidlborowskisenssestarkezapotockyeiswirth2006Model
   init_kwargs:
     model_path: data/reidl_borowski_sensse_starke_zapotocky_eiswirth_2006.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/856
   download_url: https://models.physiomeproject.org/workspace/856/@@download/7e9c6f9a0f6fd106d1275f6135270819398bdceb/BG_cGMP.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_cgmp_856_model:BgCgmp856Model
   init_kwargs:
     model_path: data/BG_cGMP.cellml

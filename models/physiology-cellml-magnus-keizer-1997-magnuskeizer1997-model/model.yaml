@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/magnus_keizer_1997
   download_url: https://models.physiomeproject.org/workspace/magnus_keizer_1997/@@download/64c61ee85a9827c3e492c1d16facdcca9afa3726/magnus_keizer_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.magnus_keizer_1997_magnuskeizer1997_model:MagnusKeizer1997Magnuskeizer1997Model
   init_kwargs:
     model_path: data/magnus_keizer_1997.cellml

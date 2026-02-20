@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/8a9
   download_url: https://models.physiomeproject.org/workspace/8a9/@@download/3503acc3d959d664b5a96491088f57f652bd7877/FCU_AP_and_FCU_EC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.multi_fcu_ap_and_ec_8a9_model:MultiFcuApAndEc8a9Model
   init_kwargs:
     model_path: data/FCU_AP_and_FCU_EC.cellml

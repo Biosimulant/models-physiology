@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wolf_sohn_heinrich_kuriyama_2001
   download_url: https://models.physiomeproject.org/workspace/wolf_sohn_heinrich_kuriyama_2001/@@download/3a6924b88a89a880108b8dadcbcc6146d289c051/wolf_sohn_heinrich_kuriyama_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wolf_sohn_heinrich_kuriyama_2001_wolfsohnheinrichkuriyama2001_model:WolfSohnHeinrichKuriyama2001Wolfsohnheinrichkuriyama2001Model
   init_kwargs:
     model_path: data/wolf_sohn_heinrich_kuriyama_2001.cellml

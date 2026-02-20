@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_heart_hypertrophy_or_deterioration_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_heart_hypertrophy_or_deterioration_2008/@@download/36e77b2bc771fcfae62a7fa7da6aac96606420bb/environment.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_heart_hypertrophy_or_deterioration_2008_guytonhearthypertrophyordeterioration2008_model:GuytonHeartHypertrophyOrDeterioration2008Guytonhearthypertrophyordeterioration2008Model
   init_kwargs:
     model_path: data/environment.cellml

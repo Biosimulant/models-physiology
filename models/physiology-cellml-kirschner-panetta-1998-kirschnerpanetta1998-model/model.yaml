@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/kirschner_panetta_1998
   download_url: https://models.physiomeproject.org/workspace/kirschner_panetta_1998/@@download/80651f6fc543349b7c75bb1df1fb937df5cb71f4/kirschner_panetta_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kirschner_panetta_1998_kirschnerpanetta1998_model:KirschnerPanetta1998Kirschnerpanetta1998Model
   init_kwargs:
     model_path: data/kirschner_panetta_1998.cellml

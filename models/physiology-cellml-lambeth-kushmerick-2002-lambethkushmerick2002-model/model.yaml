@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lambeth_kushmerick_2002
   download_url: https://models.physiomeproject.org/workspace/lambeth_kushmerick_2002/@@download/0cfa157d09cac454537ca407456c4daeded7af05/lambeth_kushmerick_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lambeth_kushmerick_2002_lambethkushmerick2002_model:LambethKushmerick2002Lambethkushmerick2002Model
   init_kwargs:
     model_path: data/lambeth_kushmerick_2002.cellml

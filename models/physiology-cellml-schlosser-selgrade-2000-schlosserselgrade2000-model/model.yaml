@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/schlosser_selgrade_2000
   download_url: https://models.physiomeproject.org/workspace/schlosser_selgrade_2000/@@download/73464388213e0eeb5ac101b80c211544db027123/schlosser_selgrade_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.schlosser_selgrade_2000_schlosserselgrade2000_model:SchlosserSelgrade2000Schlosserselgrade2000Model
   init_kwargs:
     model_path: data/schlosser_selgrade_2000.cellml

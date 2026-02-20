@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/iyer_hajjar_armoundas_2007
   download_url: https://models.physiomeproject.org/workspace/iyer_hajjar_armoundas_2007/@@download/47d9f1cec792404c337b867ed16c02f5c51b8248/iyer_2007_ss.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.iyer_hajjar_armoundas_2007_iyerhajjararmoundas2007_model:IyerHajjarArmoundas2007Iyerhajjararmoundas2007Model
   init_kwargs:
     model_path: data/iyer_2007_ss.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fox_mcharg_gilmour_2002
   download_url: https://models.physiomeproject.org/workspace/fox_mcharg_gilmour_2002/@@download/d296ce29bef211343160abdf6649572df1ea50ec/fox_mcharg_gilmour_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fox_mcharg_gilmour_2002_foxmcharggilmour2002_model:FoxMchargGilmour2002Foxmcharggilmour2002Model
   init_kwargs:
     model_path: data/fox_mcharg_gilmour_2002.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gonzalezheydrich_steingard_kohane_1994
   download_url: https://models.physiomeproject.org/workspace/gonzalezheydrich_steingard_kohane_1994/@@download/0c5151d49a660952483c58e46bf7bbec71384197/gonzalezheydrich_steingard_kohane_1994.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gonzalezheydrich_steingard_kohane_1994_gonzalezheydrichsteingardkohane1994_model:GonzalezheydrichSteingardKohane1994Gonzalezheydrichsteingardkohane1994Model
   init_kwargs:
     model_path: data/gonzalezheydrich_steingard_kohane_1994.cellml

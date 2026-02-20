@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hunter_mcculloch_terkeurs_1998
   download_url: https://models.physiomeproject.org/workspace/hunter_mcculloch_terkeurs_1998/@@download/af77901404b53f6e5084d33904901e8e17de40d6/hunter_mcculloch_terkeurs_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hunter_mcculloch_terkeurs_1998_huntermccullochterkeurs1998_model:HunterMccullochTerkeurs1998Huntermccullochterkeurs1998Model
   init_kwargs:
     model_path: data/hunter_mcculloch_terkeurs_1998.cellml

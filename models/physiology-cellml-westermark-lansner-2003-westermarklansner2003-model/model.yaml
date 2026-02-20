@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/westermark_lansner_2003
   download_url: https://models.physiomeproject.org/workspace/westermark_lansner_2003/@@download/77884cba4662cf8f4c938b7bf356354c51efeb0d/cons_law1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.westermark_lansner_2003_westermarklansner2003_model:WestermarkLansner2003Westermarklansner2003Model
   init_kwargs:
     model_path: data/cons_law1.cellml

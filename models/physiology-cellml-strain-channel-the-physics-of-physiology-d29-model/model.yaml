@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d29
   download_url: https://models.physiomeproject.org/workspace/d29/@@download/917d47ae334dcdb04d320d5288f5baeea626aeea/BG_strainchannel.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.strain_channel_the_physics_of_physiology_d29_model:StrainChannelThePhysicsOfPhysiologyD29Model
   init_kwargs:
     model_path: data/BG_strainchannel.cellml

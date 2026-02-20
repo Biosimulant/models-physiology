@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/87f
   download_url: https://models.physiomeproject.org/workspace/87f/@@download/9663cef135e064889113d2338e877c6a0f4244e0/BG_NBC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_nbc_87f_model:BgNbc87fModel
   init_kwargs:
     model_path: data/BG_NBC.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/nowak_bangham_1996
   download_url: https://models.physiomeproject.org/workspace/nowak_bangham_1996/@@download/cd51c6d9e6f0bae1fee01a845d33d2b24a42c5bd/nowak_bangham_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nowak_bangham_1996_nowakbangham1996_model:NowakBangham1996Nowakbangham1996Model
   init_kwargs:
     model_path: data/nowak_bangham_1996.cellml

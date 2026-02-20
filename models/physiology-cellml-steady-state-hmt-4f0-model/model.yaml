@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4f0
   download_url: https://models.physiomeproject.org/workspace/4f0/@@download/746a9569a42515d549497d72cb6abd74ea63dfba/1998_nash.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.steady_state_hmt_4f0_model:SteadyStateHmt4f0Model
   init_kwargs:
     model_path: data/1998_nash.cellml

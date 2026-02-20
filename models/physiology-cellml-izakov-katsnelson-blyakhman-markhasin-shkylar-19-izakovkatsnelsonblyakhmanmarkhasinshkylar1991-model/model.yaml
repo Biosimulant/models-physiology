@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/izakov_katsnelson_blyakhman_markhasin_shkylar_1991
   download_url: https://models.physiomeproject.org/workspace/izakov_katsnelson_blyakhman_markhasin_shkylar_1991/@@download/19a844b11417aba7b709e0fac36434446db7d5de/izakov_katsnelson_blyakhman_markhasin_shkylar_1991.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.izakov_katsnelson_blyakhman_markhasin_shkylar_19_izakovkatsnelsonblyakhmanmarkhasinshkylar1991_model:IzakovKatsnelsonBlyakhmanMarkhasinShkylar19Izakovkatsnelsonblyakhmanmarkhasinshkylar1991Model
   init_kwargs:
     model_path: data/izakov_katsnelson_blyakhman_markhasin_shkylar_1991.cellml

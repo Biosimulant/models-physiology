@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/1b5
   download_url: https://models.physiomeproject.org/workspace/1b5/@@download/710c4c8239693a7428318fe5ad9319d8d06eaf8e/arrhenius-cell-death.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cell_viability_models_for_tissue_exposed_to_ther_1b5_model:CellViabilityModelsForTissueExposedToTher1b5Model
   init_kwargs:
     model_path: data/arrhenius-cell-death.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sneyd_wetton_charles_sanderson_1995
   download_url: https://models.physiomeproject.org/workspace/sneyd_wetton_charles_sanderson_1995/@@download/aae895ac3d189081d8b6af944d3f959e15f8451a/sneyd_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.snyed_wetton_charles_sanderson_1995_sneydwettoncharlessanderson1995_model:SnyedWettonCharlesSanderson1995Sneydwettoncharlessanderson1995Model
   init_kwargs:
     model_path: data/sneyd_1995.cellml

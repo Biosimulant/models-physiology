@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6cc
   download_url: https://models.physiomeproject.org/workspace/6cc/@@download/0ce0d571863503bda7032a83ee590e3c8570c40a/BG_PKA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_pka_6cc_model:BgPka6ccModel
   init_kwargs:
     model_path: data/BG_PKA.cellml

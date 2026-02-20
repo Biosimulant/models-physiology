@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_Templates200906
   download_url: https://models.physiomeproject.org/workspace/SVP_Templates200906/@@download/f58b52e92102c76072033cb6141b599b9c9d050b/PMR2_metadata.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.standard_virtual_parts_template_models_v200906_svptemplates200906_model:StandardVirtualPartsTemplateModelsV200906Svptemplates200906Model
   init_kwargs:
     model_path: data/PMR2_metadata.cellml

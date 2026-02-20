@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2e3
   download_url: https://models.physiomeproject.org/workspace/2e3/@@download/e3b73fb3544034cd75682fb4bcc7ff8e866fadd1/benson_endocardial_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.benson_2008_2e3_model:Benson20082e3Model
   init_kwargs:
     model_path: data/benson_endocardial_2008.cellml

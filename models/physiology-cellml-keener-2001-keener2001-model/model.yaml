@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/keener_2001
   download_url: https://models.physiomeproject.org/workspace/keener_2001/@@download/587dbd7c8f9572fd20b10f74edcba99fd036335f/keener_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.keener_2001_keener2001_model:Keener2001Keener2001Model
   init_kwargs:
     model_path: data/keener_2001.cellml

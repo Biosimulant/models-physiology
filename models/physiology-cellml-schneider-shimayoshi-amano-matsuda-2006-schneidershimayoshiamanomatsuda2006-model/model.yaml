@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/schneider_shimayoshi_amano_matsuda_2006
   download_url: https://models.physiomeproject.org/workspace/schneider_shimayoshi_amano_matsuda_2006/@@download/9c27e7fe38967295216cc98b7de1492045dad08d/schneider_shimayoshi_amano_matsuda_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.schneider_shimayoshi_amano_matsuda_2006_schneidershimayoshiamanomatsuda2006_model:SchneiderShimayoshiAmanoMatsuda2006Schneidershimayoshiamanomatsuda2006Model
   init_kwargs:
     model_path: data/schneider_shimayoshi_amano_matsuda_2006.cellml

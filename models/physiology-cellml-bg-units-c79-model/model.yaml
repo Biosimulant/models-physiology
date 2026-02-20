@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c79
   download_url: https://models.physiomeproject.org/workspace/c79/@@download/8d8addd8da458c873b3b8e43f2f7ddf65973f342/constants.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_units_c79_model:BgUnitsC79Model
   init_kwargs:
     model_path: data/constants.cellml

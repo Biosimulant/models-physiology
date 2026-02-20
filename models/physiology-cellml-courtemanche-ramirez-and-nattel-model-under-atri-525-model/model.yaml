@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/525
   download_url: https://models.physiomeproject.org/workspace/525/@@download/803542b29e55d7a67161b86461cc4b2eba4d5581/Andy_CRN_AF.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.courtemanche_ramirez_and_nattel_model_under_atri_525_model:CourtemancheRamirezAndNattelModelUnderAtri525Model
   init_kwargs:
     model_path: data/Andy_CRN_AF.cellml

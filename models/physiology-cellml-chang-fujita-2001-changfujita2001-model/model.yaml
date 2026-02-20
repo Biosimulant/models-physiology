@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chang_fujita_2001
   download_url: https://models.physiomeproject.org/workspace/chang_fujita_2001/@@download/5673c61541789990c2b8d66f19efb2d105aaaafb/chang_fujita_2001_H_ATPase.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chang_fujita_2001_changfujita2001_model:ChangFujita2001Changfujita2001Model
   init_kwargs:
     model_path: data/chang_fujita_2001_H_ATPase.cellml

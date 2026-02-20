@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/goforth_bertram_khan_zhang_sherman_satin_2002
   download_url: https://models.physiomeproject.org/workspace/goforth_bertram_khan_zhang_sherman_satin_2002/@@download/80abc80b629d0f89fbd45f3b61fbf6bb1c2def7c/goforth_bertram_khan_zhang_sherman_satin_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.goforth_bertram_khan_zhang_sherman_satin_2002_goforthbertramkhanzhangshermansatin2002_model:GoforthBertramKhanZhangShermanSatin2002Goforthbertramkhanzhangshermansatin2002Model
   init_kwargs:
     model_path: data/goforth_bertram_khan_zhang_sherman_satin_2002.cellml

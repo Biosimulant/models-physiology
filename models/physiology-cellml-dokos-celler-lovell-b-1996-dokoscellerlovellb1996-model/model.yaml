@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dokos_celler_lovell_b_1996
   download_url: https://models.physiomeproject.org/workspace/dokos_celler_lovell_b_1996/@@download/b67b2d9d2e8f947920f699539f100761de655c52/dokos_celler_lovell_b_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dokos_celler_lovell_b_1996_dokoscellerlovellb1996_model:DokosCellerLovellB1996Dokoscellerlovellb1996Model
   init_kwargs:
     model_path: data/dokos_celler_lovell_b_1996.cellml

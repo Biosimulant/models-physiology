@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/577
   download_url: https://models.physiomeproject.org/workspace/577/@@download/4d233a1074d3e303e23e450ef62e829e528b5484/gerard_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gerard_and_goldbeter_2009_577_model:GerardAndGoldbeter2009577Model
   init_kwargs:
     model_path: data/gerard_2009.cellml

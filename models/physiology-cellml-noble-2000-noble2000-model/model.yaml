@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/noble_2000
   download_url: https://models.physiomeproject.org/workspace/noble_2000/@@download/e958cd879749143bab4837b527ce9c6fdbb2ae50/noble_2000_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.noble_2000_noble2000_model:Noble2000Noble2000Model
   init_kwargs:
     model_path: data/noble_2000_a.cellml

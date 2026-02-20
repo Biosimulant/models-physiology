@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dempsher_gann_phair_1984
   download_url: https://models.physiomeproject.org/workspace/dempsher_gann_phair_1984/@@download/2ca6eff5a2f314b02b8264725c5f43ef87cc2209/dempsher_gann_phair_1984.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dempsher_gann_phair_1984_dempshergannphair1984_model:DempsherGannPhair1984Dempshergannphair1984Model
   init_kwargs:
     model_path: data/dempsher_gann_phair_1984.cellml

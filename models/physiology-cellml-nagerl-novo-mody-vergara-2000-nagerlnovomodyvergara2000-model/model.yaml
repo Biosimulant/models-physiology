@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/nagerl_novo_mody_vergara_2000
   download_url: https://models.physiomeproject.org/workspace/nagerl_novo_mody_vergara_2000/@@download/b8ac62cdc838bef6b5fc77338b429493bb002537/nagerl_novo_mody_vergara_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nagerl_novo_mody_vergara_2000_nagerlnovomodyvergara2000_model:NagerlNovoModyVergara2000Nagerlnovomodyvergara2000Model
   init_kwargs:
     model_path: data/nagerl_novo_mody_vergara_2000.cellml

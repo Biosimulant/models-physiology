@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/563
   download_url: https://models.physiomeproject.org/workspace/563/@@download/17f21ce46a1a62b1a0ac8e57e89b2878a93198e9/saucerman_brunton_michailova_mcculloch_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.saucerman_brunton_michailova_mcculloch_2003_563_model:SaucermanBruntonMichailovaMcculloch2003563Model
   init_kwargs:
     model_path: data/saucerman_brunton_michailova_mcculloch_2003.cellml

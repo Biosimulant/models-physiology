@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d90
   download_url: https://models.physiomeproject.org/workspace/d90/@@download/5076e35972711f6f8ee17d2f3955822ee1686c36/HFVM_model_Avezzu2025.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_model_for_the_human_fetal_ventricular_myocyte_d90_model:AModelForTheHumanFetalVentricularMyocyteD90Model
   init_kwargs:
     model_path: data/HFVM_model_Avezzu2025.cellml

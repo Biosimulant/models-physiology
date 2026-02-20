@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dougherty_wright_yew_2005
   download_url: https://models.physiomeproject.org/workspace/dougherty_wright_yew_2005/@@download/895e9277b109f41a4833b24c9616d47aa1e6ef8d/dougherty_wright_yew_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dougherty_wright_yew_2005_doughertywrightyew2005_model:DoughertyWrightYew2005Doughertywrightyew2005Model
   init_kwargs:
     model_path: data/dougherty_wright_yew_2005.cellml

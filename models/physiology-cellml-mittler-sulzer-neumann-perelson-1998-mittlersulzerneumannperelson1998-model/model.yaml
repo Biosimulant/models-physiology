@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mittler_sulzer_neumann_perelson_1998
   download_url: https://models.physiomeproject.org/workspace/mittler_sulzer_neumann_perelson_1998/@@download/41a3b72cac7f2fd53dc63446c23e5ccf0593bada/mittler_sulzer_neumann_perelson_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mittler_sulzer_neumann_perelson_1998_mittlersulzerneumannperelson1998_model:MittlerSulzerNeumannPerelson1998Mittlersulzerneumannperelson1998Model
   init_kwargs:
     model_path: data/mittler_sulzer_neumann_perelson_1998.cellml

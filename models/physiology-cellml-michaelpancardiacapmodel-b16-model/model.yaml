@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b16
   download_url: https://models.physiomeproject.org/workspace/b16/@@download/d5e62eff159e7cf4a0e77143a9482cfabeec0dfe/MichaelPanCardiacAPModel.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.michaelpancardiacapmodel_b16_model:MichaelpancardiacapmodelB16Model
   init_kwargs:
     model_path: data/MichaelPanCardiacAPModel.cellml

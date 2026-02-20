@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/593
   download_url: https://models.physiomeproject.org/workspace/593/@@download/d31c9935f4038c8646a33d7bfeea68255a0bb881/paci_hyttinen_aaltosetala_severi_atrialVersion.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.paci_hyttinen_aaltosetala_severi_2013_593_model:PaciHyttinenAaltosetalaSeveri2013593Model
   init_kwargs:
     model_path: data/paci_hyttinen_aaltosetala_severi_atrialVersion.cellml

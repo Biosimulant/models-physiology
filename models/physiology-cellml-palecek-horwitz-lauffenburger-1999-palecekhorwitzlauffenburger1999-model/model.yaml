@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/palecek_horwitz_lauffenburger_1999
   download_url: https://models.physiomeproject.org/workspace/palecek_horwitz_lauffenburger_1999/@@download/402ebb648e50fb7ebebb3d309a3f162350190cec/palecek_horwitz_lauffenburger_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.palecek_horwitz_lauffenburger_1999_palecekhorwitzlauffenburger1999_model:PalecekHorwitzLauffenburger1999Palecekhorwitzlauffenburger1999Model
   init_kwargs:
     model_path: data/palecek_horwitz_lauffenburger_1999.cellml

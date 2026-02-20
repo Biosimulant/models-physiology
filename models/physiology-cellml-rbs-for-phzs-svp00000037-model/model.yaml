@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000037
   download_url: https://models.physiomeproject.org/workspace/SVP_00000037/@@download/bc1ffecccfdf5b24d38854c13e3e729d4b13edf2/ElectrEcoBluDevice2_RBS_PhzS.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rbs_for_phzs_svp00000037_model:RbsForPhzsSvp00000037Model
   init_kwargs:
     model_path: data/ElectrEcoBluDevice2_RBS_PhzS.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000023
   download_url: https://models.physiomeproject.org/workspace/SVP_00000023/@@download/e7309976e8330bd48a8d909101580b2901f9935c/Bugbuster_Promoter1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bugbuster_promoter_1_svp00000023_model:BugbusterPromoter1Svp00000023Model
   init_kwargs:
     model_path: data/Bugbuster_Promoter1.cellml

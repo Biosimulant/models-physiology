@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hai_murphy_1988
   download_url: https://models.physiomeproject.org/workspace/hai_murphy_1988/@@download/df0a4755df6f8e8b0b3fa273db8c58129ce43ca2/hai_1988.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hai_and_murphy_1988_haimurphy1988_model:HaiAndMurphy1988Haimurphy1988Model
   init_kwargs:
     model_path: data/hai_1988.cellml

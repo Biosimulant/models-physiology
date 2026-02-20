@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/colegrove_albrecht_friel_2000
   download_url: https://models.physiomeproject.org/workspace/colegrove_albrecht_friel_2000/@@download/fabf5900b6806d5f8bbcc9d46ddf4313165ae1da/colegrove_albrecht_friel_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.colegrove_albrecht_friel_2000_colegrovealbrechtfriel2000_model:ColegroveAlbrechtFriel2000Colegrovealbrechtfriel2000Model
   init_kwargs:
     model_path: data/colegrove_albrecht_friel_2000.cellml

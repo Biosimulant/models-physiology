@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2d5
   download_url: https://models.physiomeproject.org/workspace/2d5/@@download/adc249fb7f097043ef1a638cee0e786ace55213f/moore_li_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.moore_li_2004_2d5_model:MooreLi20042d5Model
   init_kwargs:
     model_path: data/moore_li_2004.cellml

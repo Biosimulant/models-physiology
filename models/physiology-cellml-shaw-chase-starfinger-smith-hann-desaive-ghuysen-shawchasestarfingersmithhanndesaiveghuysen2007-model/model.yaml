@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/shaw_chase_starfinger_smith_hann_desaive_ghuysen_2007
   download_url: https://models.physiomeproject.org/workspace/shaw_chase_starfinger_smith_hann_desaive_ghuysen_2007/@@download/34beaab489840252860b3faddcff4ec1cbee95a8/shaw_chase_starfinger_smith_hann_desaive_ghuysen_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shaw_chase_starfinger_smith_hann_desaive_ghuysen_shawchasestarfingersmithhanndesaiveghuysen2007_model:ShawChaseStarfingerSmithHannDesaiveGhuysenShawchasestarfingersmithhanndesaiveghuysen2007Model
   init_kwargs:
     model_path: data/shaw_chase_starfinger_smith_hann_desaive_ghuysen_2007.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/35a
   download_url: https://models.physiomeproject.org/workspace/35a/@@download/8b52d8562bf3008f28a7aa7fffa86c3b461d439e/goldbeter_1990_1.1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.goldbeter_dupont_berridge_1990_35a_model:GoldbeterDupontBerridge199035aModel
   init_kwargs:
     model_path: data/goldbeter_1990_1.1.cellml

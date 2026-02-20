@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000019
   download_url: https://models.physiomeproject.org/workspace/SVP_00000019/@@download/f7086f8206aec57d8f48e0d620f5bead83558db5/Bioenvironment_RxR1P1MM_PYOFormation.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.formation_of_pyo_svp00000019_model:FormationOfPyoSvp00000019Model
   init_kwargs:
     model_path: data/Bioenvironment_RxR1P1MM_PYOFormation.cellml

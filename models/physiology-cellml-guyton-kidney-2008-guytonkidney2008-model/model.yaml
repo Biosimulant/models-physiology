@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_kidney_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_kidney_2008/@@download/c14872fd12698ff5abb0a4054224a6a7b2a6d61c/environment.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_kidney_2008_guytonkidney2008_model:GuytonKidney2008Guytonkidney2008Model
   init_kwargs:
     model_path: data/environment.cellml

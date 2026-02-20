@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/stern_song_sham_yang_boheler_rios_1999
   download_url: https://models.physiomeproject.org/workspace/stern_song_sham_yang_boheler_rios_1999/@@download/185492dcbd7b0bbc3e215ec66b99d026ce43e6c1/stern_song_sham_yang_boheler_rios_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.stern_song_sham_yang_boheler_rios_1999_sternsongshamyangbohelerrios1999_model:SternSongShamYangBohelerRios1999Sternsongshamyangbohelerrios1999Model
   init_kwargs:
     model_path: data/stern_song_sham_yang_boheler_rios_1999.cellml

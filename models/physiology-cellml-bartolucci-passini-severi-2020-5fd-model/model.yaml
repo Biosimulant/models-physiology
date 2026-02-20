@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5fd
   download_url: https://models.physiomeproject.org/workspace/5fd/@@download/e1c2a49185ddc44b0b55b1902dd08340a41e8f0b/BPS2020.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bartolucci_passini_severi_2020_5fd_model:BartolucciPassiniSeveri20205fdModel
   init_kwargs:
     model_path: data/BPS2020.cellml

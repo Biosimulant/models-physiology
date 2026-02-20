@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/yang_tong_mccarver_hines_beard_2006
   download_url: https://models.physiomeproject.org/workspace/yang_tong_mccarver_hines_beard_2006/@@download/4c73f9690f454b7abed8c2d21276a640f7855e60/yang_tong_mccarver_hines_beard_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.yang_tong_mccarver_hines_beard_2006_yangtongmccarverhinesbeard2006_model:YangTongMccarverHinesBeard2006Yangtongmccarverhinesbeard2006Model
   init_kwargs:
     model_path: data/yang_tong_mccarver_hines_beard_2006.cellml

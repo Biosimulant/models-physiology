@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/5fb/@@download/a2c9be2ef836d59aea1c30c69b172b76a24c8b06/Prentice
     at al. The Inflection Point Hypothesis.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.the_inflection_point_hypothesis_the_relationship_5fb_model:TheInflectionPointHypothesisTheRelationship5fbModel
   init_kwargs:
     model_path: data/Prentice_at_al._The_Inflection_Point_Hypothesis.cellml

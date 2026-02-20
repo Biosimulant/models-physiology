@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/1ac
   download_url: https://models.physiomeproject.org/workspace/1ac/@@download/dc008a6714dc48840df32f1f756a4bd03507491d/Linear2ndOrderODE.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.linear_2nd_order_nonhomogeneous_ode_with_constan_1ac_model:Linear2ndOrderNonhomogeneousOdeWithConstan1acModel
   init_kwargs:
     model_path: data/Linear2ndOrderODE.cellml

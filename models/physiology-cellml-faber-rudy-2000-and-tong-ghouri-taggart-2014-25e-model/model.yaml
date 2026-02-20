@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/25e
   download_url: https://models.physiomeproject.org/workspace/25e/@@download/976a11364041e93581a83a171fc7922283fdb13d/faber_rudy_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.faber_rudy_2000_and_tong_ghouri_taggart_2014_25e_model:FaberRudy2000AndTongGhouriTaggart201425eModel
   init_kwargs:
     model_path: data/faber_rudy_2000.cellml

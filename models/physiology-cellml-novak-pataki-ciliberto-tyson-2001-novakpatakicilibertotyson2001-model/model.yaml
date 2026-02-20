@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/novak_pataki_ciliberto_tyson_2001
   download_url: https://models.physiomeproject.org/workspace/novak_pataki_ciliberto_tyson_2001/@@download/8dce5c2f9133d79ae0bf758dec001bebc0f47d1d/novak_pataki_ciliberto_tyson_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.novak_pataki_ciliberto_tyson_2001_novakpatakicilibertotyson2001_model:NovakPatakiCilibertoTyson2001Novakpatakicilibertotyson2001Model
   init_kwargs:
     model_path: data/novak_pataki_ciliberto_tyson_2001.cellml

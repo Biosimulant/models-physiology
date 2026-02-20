@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4a3
   download_url: https://models.physiomeproject.org/workspace/4a3/@@download/978a149fc8313f23192b8877b8fb2f4d3849fb99/model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_model_of_intracellular_ph_control_4a3_model:AModelOfIntracellularPhControl4a3Model
   init_kwargs:
     model_path: data/model.cellml

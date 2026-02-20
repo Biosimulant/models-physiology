@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7fb
   download_url: https://models.physiomeproject.org/workspace/7fb/@@download/959277c48267669dfd0cfd3d2051f1803d8330fc/BG_crossbridge_TRPN.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_crossbridge_trpn_7fb_model:BgCrossbridgeTrpn7fbModel
   init_kwargs:
     model_path: data/BG_crossbridge_TRPN.cellml

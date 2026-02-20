@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/schuster_beny_meister_2003
   download_url: https://models.physiomeproject.org/workspace/schuster_beny_meister_2003/@@download/143e3fe33508adcf4e5b4298987d670a957cc4d9/schuster_beny_meister_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.schuster_beny_meister_2003_schusterbenymeister2003_model:SchusterBenyMeister2003Schusterbenymeister2003Model
   init_kwargs:
     model_path: data/schuster_beny_meister_2003.cellml

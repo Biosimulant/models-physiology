@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/840
   download_url: https://models.physiomeproject.org/workspace/840/@@download/996f990613016a37eedc1d35f1a4c298e30002ea/Figure01.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.reproducibility_study_of_computational_modelling_840_model:ReproducibilityStudyOfComputationalModelling840Model
   init_kwargs:
     model_path: data/Figure01.cellml

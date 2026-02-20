@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/aed/@@download/d4accf8429dbf5bdd5dfa1719790f361f5baddbe/FAIRDO
     BG example 3.1.1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.the_physics_of_physiology_example_1_an_electrica_aed_model:ThePhysicsOfPhysiologyExample1AnElectricaAedModel
   init_kwargs:
     model_path: data/FAIRDO_BG_example_3.1.1.cellml

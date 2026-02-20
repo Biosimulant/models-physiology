@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d5c
   download_url: https://models.physiomeproject.org/workspace/d5c/@@download/8975e3be445e09f783e025526035ee8916f17eee/GLUT_BG.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.glut_demo_for_cfde_summer_school_in_mechanistic_d5c_model:GlutDemoForCfdeSummerSchoolInMechanisticD5cModel
   init_kwargs:
     model_path: data/GLUT_BG.cellml

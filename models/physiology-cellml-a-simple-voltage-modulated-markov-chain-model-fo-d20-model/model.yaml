@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d20
   download_url: https://models.physiomeproject.org/workspace/d20/@@download/8465ce0a385cdc40e2f79b001798d600e9f9e4d2/units.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_simple_voltage_modulated_markov_chain_model_fo_d20_model:ASimpleVoltageModulatedMarkovChainModelFoD20Model
   init_kwargs:
     model_path: data/units.cellml

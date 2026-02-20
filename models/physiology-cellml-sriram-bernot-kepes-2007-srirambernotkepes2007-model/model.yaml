@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sriram_bernot_kepes_2007
   download_url: https://models.physiomeproject.org/workspace/sriram_bernot_kepes_2007/@@download/0263c26988921924be4132555e8754663802039e/sriram_bernot_kepes_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sriram_bernot_kepes_2007_srirambernotkepes2007_model:SriramBernotKepes2007Srirambernotkepes2007Model
   init_kwargs:
     model_path: data/sriram_bernot_kepes_2007.cellml

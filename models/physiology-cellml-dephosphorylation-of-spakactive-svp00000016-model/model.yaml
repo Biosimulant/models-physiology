@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000016
   download_url: https://models.physiomeproject.org/workspace/SVP_00000016/@@download/90cd720076f6eaba173ec06896dbbf200d31fa1a/Bioenvironment_Dephosphorylation_spaKactive.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dephosphorylation_of_spakactive_svp00000016_model:DephosphorylationOfSpakactiveSvp00000016Model
   init_kwargs:
     model_path: data/Bioenvironment_Dephosphorylation_spaKactive.cellml

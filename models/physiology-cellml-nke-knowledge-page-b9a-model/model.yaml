@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b9a
   download_url: https://models.physiomeproject.org/workspace/b9a/@@download/02eef12049acd4f3395a6fdd77c345ab7d94a5a9/BG_NaK.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nke_knowledge_page_b9a_model:NkeKnowledgePageB9aModel
   init_kwargs:
     model_path: data/BG_NaK.cellml

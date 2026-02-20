@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/aslanidi_atrial_model_2009
   download_url: https://models.physiomeproject.org/workspace/aslanidi_atrial_model_2009/@@download/682e2ff69b20bf7e6afb7f8a7f72e5012446016a/aslanidi_atrial_model_2009_LindbladCa_corrected.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.aslanidi_atrial_model_2009_aslanidiatrialmodel2009_model:AslanidiAtrialModel2009Aslanidiatrialmodel2009Model
   init_kwargs:
     model_path: data/aslanidi_atrial_model_2009_LindbladCa_corrected.cellml

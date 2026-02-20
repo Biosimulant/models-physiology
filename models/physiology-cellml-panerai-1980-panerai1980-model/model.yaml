@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/panerai_1980
   download_url: https://models.physiomeproject.org/workspace/panerai_1980/@@download/421685629652d82b390703c2502bdca5920df0d4/panerai_1980.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.panerai_1980_panerai1980_model:Panerai1980Panerai1980Model
   init_kwargs:
     model_path: data/panerai_1980.cellml

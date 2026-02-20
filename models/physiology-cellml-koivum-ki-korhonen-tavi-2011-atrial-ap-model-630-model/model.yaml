@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/630
   download_url: https://models.physiomeproject.org/workspace/630/@@download/1503249d6fad8938d216d527152f697d203d5727/koivumaki-2011-pmr.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.koivum_ki_korhonen_tavi_2011_atrial_ap_model_630_model:KoivumKiKorhonenTavi2011AtrialApModel630Model
   init_kwargs:
     model_path: data/koivumaki-2011-pmr.cellml

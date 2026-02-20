@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/overgaard_2007
   download_url: https://models.physiomeproject.org/workspace/overgaard_2007/@@download/bbde70c75b954a7163964a271a7359a3cbf35f91/overgaard_baseline_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.overgaard_2007_overgaard2007_model:Overgaard2007Overgaard2007Model
   init_kwargs:
     model_path: data/overgaard_baseline_2007.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chen_csikasz-nagy_gyorffy_val_novak_tyson_2000
   download_url: https://models.physiomeproject.org/workspace/chen_csikasz-nagy_gyorffy_val_novak_tyson_2000/@@download/42ecf20937b31c2a58c8d1d13d0dce0ccdbc2f7d/chen_csikasz-nagy_gyorffy_val_novak_tyson_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chen_csikasz_nagy_gyorffy_val_novak_tyson_2000_chencsikasznagygyorffyvalnovaktyson2000_model:ChenCsikaszNagyGyorffyValNovakTyson2000Chencsikasznagygyorffyvalnovaktyson2000Model
   init_kwargs:
     model_path: data/chen_csikasz-nagy_gyorffy_val_novak_tyson_2000.cellml

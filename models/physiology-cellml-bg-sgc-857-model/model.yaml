@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/857
   download_url: https://models.physiomeproject.org/workspace/857/@@download/5565dce17c966ee305c4879177e048678e333ae9/BG_sGC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_sgc_857_model:BgSgc857Model
   init_kwargs:
     model_path: data/BG_sGC.cellml

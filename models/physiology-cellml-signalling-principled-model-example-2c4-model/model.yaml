@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2c4
   download_url: https://models.physiomeproject.org/workspace/2c4/@@download/ad404d66f734c5e175dca6c4601b7a2f00d8a1a3/ASignallingExample.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.signalling_principled_model_example_2c4_model:SignallingPrincipledModelExample2c4Model
   init_kwargs:
     model_path: data/ASignallingExample.cellml

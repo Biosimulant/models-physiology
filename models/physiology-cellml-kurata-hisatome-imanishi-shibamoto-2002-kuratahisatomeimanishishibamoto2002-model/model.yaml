@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/kurata_hisatome_imanishi_shibamoto_2002
   download_url: https://models.physiomeproject.org/workspace/kurata_hisatome_imanishi_shibamoto_2002/@@download/8ee75c20842f07d6aa859f2cecd399d763dc8b68/kurata_hisatome_imanishi_shibamoto_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kurata_hisatome_imanishi_shibamoto_2002_kuratahisatomeimanishishibamoto2002_model:KurataHisatomeImanishiShibamoto2002Kuratahisatomeimanishishibamoto2002Model
   init_kwargs:
     model_path: data/kurata_hisatome_imanishi_shibamoto_2002.cellml

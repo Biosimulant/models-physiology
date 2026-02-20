@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/605
   download_url: https://models.physiomeproject.org/workspace/605/@@download/0eac6f2330f9ed2ed5a458ac1f6fe8cfc8b7998d/tentusscher_noble_noble_panfilov_2004_endo.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tentusscher_noble_noble_panfilov_2004_605_model:TentusscherNobleNoblePanfilov2004605Model
   init_kwargs:
     model_path: data/tentusscher_noble_noble_panfilov_2004_endo.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bcf
   download_url: https://models.physiomeproject.org/workspace/bcf/@@download/95d6e791801ee16720b100b5e65ddf08d8b33106/BG_Kp.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kp_protein_knowledge_page_bcf_model:KpProteinKnowledgePageBcfModel
   init_kwargs:
     model_path: data/BG_Kp.cellml

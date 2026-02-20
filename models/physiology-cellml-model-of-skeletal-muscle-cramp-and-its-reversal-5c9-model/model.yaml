@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/5c9/@@download/1ed0123a140c59bb18baeb8974890a839ff3e10b/shorten_ocallaghan_davidson_soboleva_2007_wangICaECacalcb_ICalINaCaIbCaIpCainCaODEOKNoIbCaFullwithfKbSS01Hz
     - Fig09.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_of_skeletal_muscle_cramp_and_its_reversal_5c9_model:ModelOfSkeletalMuscleCrampAndItsReversal5c9Model
   init_kwargs:
     model_path: data/shorten_ocallaghan_davidson_soboleva_2007_wangICaECacalcb_ICalINaCaIbCaIpCainCaODEOKNoIbCaFullwithfK

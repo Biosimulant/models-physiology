@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/368
   download_url: https://models.physiomeproject.org/workspace/368/@@download/5d89aad47b85df943dbb87b061620b70211ecec6/cartwright_husain_1986.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cartwright_husain_1986_368_model:CartwrightHusain1986368Model
   init_kwargs:
     model_path: data/cartwright_husain_1986.cellml

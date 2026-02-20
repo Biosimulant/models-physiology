@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/smith_abdala_koizumi_rybak_paton_2007
   download_url: https://models.physiomeproject.org/workspace/smith_abdala_koizumi_rybak_paton_2007/@@download/8018c7dc4da8bf52ca790a5b9369c23614da6a97/smith_2007_aug_E.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.smith_abdala_koizumi_rybak_and_paton_2007_smithabdalakoizumirybakpaton2007_model:SmithAbdalaKoizumiRybakAndPaton2007Smithabdalakoizumirybakpaton2007Model
   init_kwargs:
     model_path: data/smith_2007_aug_E.cellml

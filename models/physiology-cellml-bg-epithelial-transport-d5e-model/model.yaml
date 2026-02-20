@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/d5e/@@download/ac7c68415948c894b4799136c905cfbbbbd8f62b/Epithelial
     cell v1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_epithelial_transport_d5e_model:BgEpithelialTransportD5eModel
   init_kwargs:
     model_path: data/Epithelial_cell_v1.cellml

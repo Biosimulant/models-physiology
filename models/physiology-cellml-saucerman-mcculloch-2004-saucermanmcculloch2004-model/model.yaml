@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/saucerman_mcculloch_2004
   download_url: https://models.physiomeproject.org/workspace/saucerman_mcculloch_2004/@@download/1510c8ec51c405141ab2f0e92d2a20ed4b7b0c02/saucerman_mcculloch_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.saucerman_mcculloch_2004_saucermanmcculloch2004_model:SaucermanMcculloch2004Saucermanmcculloch2004Model
   init_kwargs:
     model_path: data/saucerman_mcculloch_2004.cellml

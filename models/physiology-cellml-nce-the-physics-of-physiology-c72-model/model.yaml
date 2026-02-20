@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c72
   download_url: https://models.physiomeproject.org/workspace/c72/@@download/11846e21ed003929c19b407a1ec30c15eba26720/BG_NCE.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nce_the_physics_of_physiology_c72_model:NceThePhysicsOfPhysiologyC72Model
   init_kwargs:
     model_path: data/BG_NCE.cellml

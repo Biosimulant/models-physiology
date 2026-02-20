@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7a8
   download_url: https://models.physiomeproject.org/workspace/7a8/@@download/74595893eff8b56c079f8d6bc76f40579c9bf39b/FCU_EC_coupling.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fcu_excitationcontraction_coupling_7a8_model:FcuExcitationcontractionCoupling7a8Model
   init_kwargs:
     model_path: data/FCU_EC_coupling.cellml

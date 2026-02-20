@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d51
   download_url: https://models.physiomeproject.org/workspace/d51/@@download/af298ae1cd9d0e216224b5dcbce43b13ef032b65/BG_An01.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_an01_d51_model:BgAn01D51Model
   init_kwargs:
     model_path: data/BG_An01.cellml

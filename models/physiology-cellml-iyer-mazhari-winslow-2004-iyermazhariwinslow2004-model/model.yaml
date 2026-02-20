@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/iyer_mazhari_winslow_2004
   download_url: https://models.physiomeproject.org/workspace/iyer_mazhari_winslow_2004/@@download/dd670010ff89af1743769bf32dbb5a9585434bb8/iyer_mazhari_winslow_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.iyer_mazhari_winslow_2004_iyermazhariwinslow2004_model:IyerMazhariWinslow2004Iyermazhariwinslow2004Model
   init_kwargs:
     model_path: data/iyer_mazhari_winslow_2004.cellml

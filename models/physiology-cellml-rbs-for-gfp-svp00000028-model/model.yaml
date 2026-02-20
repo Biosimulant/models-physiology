@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000028
   download_url: https://models.physiomeproject.org/workspace/SVP_00000028/@@download/60936fd304b3b638892e5e639f78f2ca5a749fe9/Bugbuster_RBS_GFP.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rbs_for_gfp_svp00000028_model:RbsForGfpSvp00000028Model
   init_kwargs:
     model_path: data/Bugbuster_RBS_GFP.cellml

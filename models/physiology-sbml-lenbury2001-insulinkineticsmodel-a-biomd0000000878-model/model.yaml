@@ -22,7 +22,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/BIOMD0000000878
   download_url: https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000878?filename=Lenbury2001.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.lenbury2001_insulinkineticsmodel_a_biomd0000000878_model:Lenbury2001InsulinkineticsmodelABiomd0000000878Model
   init_kwargs:
     model_path: data/BIOMD0000000878.xml

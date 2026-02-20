@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/oyehaug_ostby_lloyd_omholt_einevoll_2011
   download_url: https://models.physiomeproject.org/workspace/oyehaug_ostby_lloyd_omholt_einevoll_2011/@@download/218a299de13f0570531c6e6767a7039f5dbe096d/oyehaug_2009_version1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.oyehaug_ostby_lloyd_omholt_einevoll_2011_oyehaugostbylloydomholteinevoll2011_model:OyehaugOstbyLloydOmholtEinevoll2011Oyehaugostbylloydomholteinevoll2011Model
   init_kwargs:
     model_path: data/oyehaug_2009_version1.cellml

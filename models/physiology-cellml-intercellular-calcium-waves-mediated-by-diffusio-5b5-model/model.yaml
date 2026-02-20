@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5b5
   download_url: https://models.physiomeproject.org/workspace/5b5/@@download/87c187f853545b3cf5cea480c7e36916329eab7a/sneyd_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.intercellular_calcium_waves_mediated_by_diffusio_5b5_model:IntercellularCalciumWavesMediatedByDiffusio5b5Model
   init_kwargs:
     model_path: data/sneyd_1995.cellml

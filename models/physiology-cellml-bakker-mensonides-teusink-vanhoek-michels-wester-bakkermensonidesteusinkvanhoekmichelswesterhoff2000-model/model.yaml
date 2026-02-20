@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bakker_mensonides_teusink_vanhoek_michels_westerhoff_2000
   download_url: https://models.physiomeproject.org/workspace/bakker_mensonides_teusink_vanhoek_michels_westerhoff_2000/@@download/f19dbed3b2aab7c0658ac2f4b1f24b05e5f9bd38/bakker_mensonides_teusink_vanhoek_michels_westerhoff_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bakker_mensonides_teusink_vanhoek_michels_wester_bakkermensonidesteusinkvanhoekmichelswesterhoff2000_model:BakkerMensonidesTeusinkVanhoekMichelsWesterBakkermensonidesteusinkvanhoekmichelswesterhoff2000Model
   init_kwargs:
     model_path: data/bakker_mensonides_teusink_vanhoek_michels_westerhoff_2000.cellml

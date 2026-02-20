@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vaseghi_baumeister_rizzi_reuss_1999
   download_url: https://models.physiomeproject.org/workspace/vaseghi_baumeister_rizzi_reuss_1999/@@download/f205304191ad3f83ee27299b4d067ec761f91d2e/vaseghi_baumeister_rizzi_reuss_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vaseghi_baumeister_rizzi_reuss_1999_vaseghibaumeisterrizzireuss1999_model:VaseghiBaumeisterRizziReuss1999Vaseghibaumeisterrizzireuss1999Model
   init_kwargs:
     model_path: data/vaseghi_baumeister_rizzi_reuss_1999.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5c8
   download_url: https://models.physiomeproject.org/workspace/5c8/@@download/92bbea105c383cf6e6e8571e851a9c5811f19b63/Astrocyte.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.neurovascular_coupling_5c8_model:NeurovascularCoupling5c8Model
   init_kwargs:
     model_path: data/Astrocyte.cellml

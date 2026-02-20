@@ -12,13 +12,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class CellmlHhSodiumCurrentModelForEstimationTask(bsim.BioModule):
+class CellmlHhSodiumCurrentModelForEstimationTask(biosim.BioModule):
     """BioModule wrapper for CellML model: HH Sodium Current model for estimation task."""
 
     def __init__(self, model_path: str = "data/sodium_ion_channel.cellml", min_dt: float = 0.01) -> None:

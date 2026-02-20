@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bd9
   download_url: https://models.physiomeproject.org/workspace/bd9/@@download/ac1f2ced39065ea8888c1cd1d92846210ca76ecd/BG_CaL.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cal_protein_knowledge_page_bd9_model:CalProteinKnowledgePageBd9Model
   init_kwargs:
     model_path: data/BG_CaL.cellml

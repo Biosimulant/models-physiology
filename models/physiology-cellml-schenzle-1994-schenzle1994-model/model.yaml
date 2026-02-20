@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/schenzle_1994
   download_url: https://models.physiomeproject.org/workspace/schenzle_1994/@@download/f4acd197187f30497b373b5fad3269ef2b2346e3/schenzle_1994.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.schenzle_1994_schenzle1994_model:Schenzle1994Schenzle1994Model
   init_kwargs:
     model_path: data/schenzle_1994.cellml

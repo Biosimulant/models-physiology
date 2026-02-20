@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4e4
   download_url: https://models.physiomeproject.org/workspace/4e4/@@download/2c2629a8e2b60c2cde677903e03c9c9be3f39a00/ohara_rudy_cipa_v1_2017.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.o_hara_rudy_cipa_v1_0_2017_4e4_model:OHaraRudyCipaV1020174e4Model
   init_kwargs:
     model_path: data/ohara_rudy_cipa_v1_2017.cellml

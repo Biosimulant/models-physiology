@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/iribe_kohl_noble_2006
   download_url: https://models.physiomeproject.org/workspace/iribe_kohl_noble_2006/@@download/c75c38ea6dfbd5e1e6f9bb4f582bb91069aaaf05/iribe_kohl_noble_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.iribe_kohl_noble_2006_iribekohlnoble2006_model:IribeKohlNoble2006Iribekohlnoble2006Model
   init_kwargs:
     model_path: data/iribe_kohl_noble_2006.cellml

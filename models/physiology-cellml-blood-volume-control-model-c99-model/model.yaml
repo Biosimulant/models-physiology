@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c99
   download_url: https://models.physiomeproject.org/workspace/c99/@@download/95833578539af26a91931d4819f5ca9836ba52d5/BloodVolumeControl.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.blood_volume_control_model_c99_model:BloodVolumeControlModelC99Model
   init_kwargs:
     model_path: data/BloodVolumeControl.cellml

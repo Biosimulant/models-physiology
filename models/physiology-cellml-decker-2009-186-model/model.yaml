@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/186
   download_url: https://models.physiomeproject.org/workspace/186/@@download/c8fd66d545120771d966658cfa9f8314682e937b/decker_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.decker_2009_186_model:Decker2009186Model
   init_kwargs:
     model_path: data/decker_2009.cellml

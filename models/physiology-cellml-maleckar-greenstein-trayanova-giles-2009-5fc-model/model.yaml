@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5fc
   download_url: https://models.physiomeproject.org/workspace/5fc/@@download/2196aa0bba8397f175a9799da3be5e93d21b7ebb/maleckar_greenstein_trayanova_giles_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.maleckar_greenstein_trayanova_giles_2009_5fc_model:MaleckarGreensteinTrayanovaGiles20095fcModel
   init_kwargs:
     model_path: data/maleckar_greenstein_trayanova_giles_2009.cellml

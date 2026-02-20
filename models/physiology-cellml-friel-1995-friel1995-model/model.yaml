@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/friel_1995
   download_url: https://models.physiomeproject.org/workspace/friel_1995/@@download/7b98fa875fa0a1773b49cbadfea18309778d22a3/friel_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.friel_1995_friel1995_model:Friel1995Friel1995Model
   init_kwargs:
     model_path: data/friel_1995.cellml

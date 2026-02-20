@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lindblad_murphey_clark_giles_1996
   download_url: https://models.physiomeproject.org/workspace/lindblad_murphey_clark_giles_1996/@@download/f4b6669e660cf52fd5a6d4748892e61734a19b9e/lindblad_murphey_clark_giles_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lindblad_murphey_clark_giles_1996_lindbladmurpheyclarkgiles1996_model:LindbladMurpheyClarkGiles1996Lindbladmurpheyclarkgiles1996Model
   init_kwargs:
     model_path: data/lindblad_murphey_clark_giles_1996.cellml

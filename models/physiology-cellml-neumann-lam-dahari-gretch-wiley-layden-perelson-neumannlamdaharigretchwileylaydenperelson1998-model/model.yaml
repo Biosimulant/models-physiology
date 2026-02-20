@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/neumann_lam_dahari_gretch_wiley_layden_perelson_1998
   download_url: https://models.physiomeproject.org/workspace/neumann_lam_dahari_gretch_wiley_layden_perelson_1998/@@download/630f3a54b30b46cd5089990a756e12b400e4618e/neumann_lam_dahari_gretch_wiley_layden_perelson_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.neumann_lam_dahari_gretch_wiley_layden_perelson_neumannlamdaharigretchwileylaydenperelson1998_model:NeumannLamDahariGretchWileyLaydenPerelsonNeumannlamdaharigretchwileylaydenperelson1998Model
   init_kwargs:
     model_path: data/neumann_lam_dahari_gretch_wiley_layden_perelson_1998.cellml

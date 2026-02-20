@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bdd
   download_url: https://models.physiomeproject.org/workspace/bdd/@@download/5f1a52295a7cc711a5c020f5b83633e188e65331/BG_CaB.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cab_protein_knowledge_page_bdd_model:CabProteinKnowledgePageBddModel
   init_kwargs:
     model_path: data/BG_CaB.cellml

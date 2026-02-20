@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chay_lee_fan_1995
   download_url: https://models.physiomeproject.org/workspace/chay_lee_fan_1995/@@download/72b2d781533dd3c024def49f84340285604bf468/chay_lee_fan_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chay_lee_fan_1995_chayleefan1995_model:ChayLeeFan1995Chayleefan1995Model
   init_kwargs:
     model_path: data/chay_lee_fan_1995.cellml

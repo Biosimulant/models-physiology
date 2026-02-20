@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/razumova_bukatina_campbell_2000
   download_url: https://models.physiomeproject.org/workspace/razumova_bukatina_campbell_2000/@@download/1a93b929c350931ebf427098f0ec4208aa1d2a7e/razumova_bukatina_campbell_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.razumova_bukatina_campbell_2000_razumovabukatinacampbell2000_model:RazumovaBukatinaCampbell2000Razumovabukatinacampbell2000Model
   init_kwargs:
     model_path: data/razumova_bukatina_campbell_2000.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/difrancesco_noble_1985
   download_url: https://models.physiomeproject.org/workspace/difrancesco_noble_1985/@@download/44d2130fb683ec46e256f9a95765bf648c7227c4/difrancesco_noble_1985.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.difrancesco_noble_1985_difrancesconoble1985_model:DifrancescoNoble1985Difrancesconoble1985Model
   init_kwargs:
     model_path: data/difrancesco_noble_1985.cellml

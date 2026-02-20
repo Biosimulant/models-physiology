@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cf9
   download_url: https://models.physiomeproject.org/workspace/cf9/@@download/e028ecf79f9cca53af7e1cac15de7b1d678fe1e5/Coupled_Main_EC_Model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.adjusted_coupled_model_exp5_kcl_cf9_model:AdjustedCoupledModelExp5KclCf9Model
   init_kwargs:
     model_path: data/Coupled_Main_EC_Model.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chay_1997
   download_url: https://models.physiomeproject.org/workspace/chay_1997/@@download/d802e054fe420d488fa7bc73f32c103269d20fff/chay_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chay_1997_chay1997_model:Chay1997Chay1997Model
   init_kwargs:
     model_path: data/chay_1997.cellml

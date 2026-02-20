@@ -12,13 +12,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class CellmlKernikEtAl2019(bsim.BioModule):
+class CellmlKernikEtAl2019(biosim.BioModule):
     """BioModule wrapper for CellML model: Kernik et al. 2019."""
 
     def __init__(self, model_path: str = "data/kernik-2019.cellml", min_dt: float = 0.01) -> None:

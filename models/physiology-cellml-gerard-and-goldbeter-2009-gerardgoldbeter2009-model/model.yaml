@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gerard_goldbeter_2009
   download_url: https://models.physiomeproject.org/workspace/gerard_goldbeter_2009/@@download/3b84cd0d62e5b725e33a056102122631447101ac/gerard_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gerard_and_goldbeter_2009_gerardgoldbeter2009_model:GerardAndGoldbeter2009Gerardgoldbeter2009Model
   init_kwargs:
     model_path: data/gerard_2009.cellml

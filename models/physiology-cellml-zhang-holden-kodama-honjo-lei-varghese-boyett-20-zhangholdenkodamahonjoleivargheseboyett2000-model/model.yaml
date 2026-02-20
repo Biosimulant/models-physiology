@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/zhang_holden_kodama_honjo_lei_varghese_boyett_2000
   download_url: https://models.physiomeproject.org/workspace/zhang_holden_kodama_honjo_lei_varghese_boyett_2000/@@download/97582b5677060f5a3d00e391d1e4b517d28fbe82/zhang_holden_kodama_honjo_lei_varghese_boyett_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.zhang_holden_kodama_honjo_lei_varghese_boyett_20_zhangholdenkodamahonjoleivargheseboyett2000_model:ZhangHoldenKodamaHonjoLeiVargheseBoyett20Zhangholdenkodamahonjoleivargheseboyett2000Model
   init_kwargs:
     model_path: data/zhang_holden_kodama_honjo_lei_varghese_boyett_2000.cellml

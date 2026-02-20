@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/flynn_green_pedley_boxer_dearling_watson_boden_begent_2002
   download_url: https://models.physiomeproject.org/workspace/flynn_green_pedley_boxer_dearling_watson_boden_begent_2002/@@download/f6e356c29a7df07344fde34d0a385b31cbbe5245/flynn_green_pedley_boxer_dearling_watson_boden_begent_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.flynn_green_pedley_boxer_dearling_watson_boden_b_flynngreenpedleyboxerdearlingwatsonbodenbegent2002_model:FlynnGreenPedleyBoxerDearlingWatsonBodenBFlynngreenpedleyboxerdearlingwatsonbodenbegent2002Model
   init_kwargs:
     model_path: data/flynn_green_pedley_boxer_dearling_watson_boden_begent_2002.cellml

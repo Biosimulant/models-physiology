@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bbf
   download_url: https://models.physiomeproject.org/workspace/bbf/@@download/625bf04da2849a6e2b8cd512b30786a202cc1664/BG_KACh.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_kach_bbf_model:BgKachBbfModel
   init_kwargs:
     model_path: data/BG_KACh.cellml

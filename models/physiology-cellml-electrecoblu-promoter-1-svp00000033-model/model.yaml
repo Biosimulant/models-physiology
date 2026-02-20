@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000033
   download_url: https://models.physiomeproject.org/workspace/SVP_00000033/@@download/37d34c6b4e437996ba945f64fc6c9039cacc943c/ElectrEcoBluDevice1_Promoter.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.electrecoblu_promoter_1_svp00000033_model:ElectrecobluPromoter1Svp00000033Model
   init_kwargs:
     model_path: data/ElectrEcoBluDevice1_Promoter.cellml

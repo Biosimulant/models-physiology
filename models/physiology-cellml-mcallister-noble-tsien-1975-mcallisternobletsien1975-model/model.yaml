@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mcallister_noble_tsien_1975
   download_url: https://models.physiomeproject.org/workspace/mcallister_noble_tsien_1975/@@download/6ec9ddd70248f369c4e2264b2f975cd1e6e59fa0/mcallister_noble_tsien_1975_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mcallister_noble_tsien_1975_mcallisternobletsien1975_model:McallisterNobleTsien1975Mcallisternobletsien1975Model
   init_kwargs:
     model_path: data/mcallister_noble_tsien_1975_a.cellml

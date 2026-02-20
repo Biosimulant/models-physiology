@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/261
   download_url: https://models.physiomeproject.org/workspace/261/@@download/6d08ab1bfd0cb61f1680a60a074989ba9412daa7/Tong_Choi_Kharche_Holden_Zhang_Taggart_2011.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tong_choi_kharche_holden_zhang_taggart_2011_261_model:TongChoiKharcheHoldenZhangTaggart2011261Model
   init_kwargs:
     model_path: data/Tong_Choi_Kharche_Holden_Zhang_Taggart_2011.cellml

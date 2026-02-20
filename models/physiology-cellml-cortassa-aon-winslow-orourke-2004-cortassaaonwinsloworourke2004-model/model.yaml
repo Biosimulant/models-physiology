@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cortassa_aon_winslow_orourke_2004
   download_url: https://models.physiomeproject.org/workspace/cortassa_aon_winslow_orourke_2004/@@download/689131006a3cd2477bd8fcd03aacfd236fe5b769/cortassa_aon_winslow_orourke_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cortassa_aon_winslow_orourke_2004_cortassaaonwinsloworourke2004_model:CortassaAonWinslowOrourke2004Cortassaaonwinsloworourke2004Model
   init_kwargs:
     model_path: data/cortassa_aon_winslow_orourke_2004.cellml

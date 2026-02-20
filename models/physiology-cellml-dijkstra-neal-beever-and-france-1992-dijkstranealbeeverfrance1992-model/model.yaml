@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dijkstra_neal_beever_france_1992
   download_url: https://models.physiomeproject.org/workspace/dijkstra_neal_beever_france_1992/@@download/76da47f4c532a36426d967db9686d1ae1700e734/dijkstra_1992.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dijkstra_neal_beever_and_france_1992_dijkstranealbeeverfrance1992_model:DijkstraNealBeeverAndFrance1992Dijkstranealbeeverfrance1992Model
   init_kwargs:
     model_path: data/dijkstra_1992.cellml

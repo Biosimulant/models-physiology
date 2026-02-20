@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/nash_panfilov_2004
   download_url: https://models.physiomeproject.org/workspace/nash_panfilov_2004/@@download/466b6dac112daee9e9181f9d12612a9561c41725/nash_panfilov_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nash_panfilov_2004_nashpanfilov2004_model:NashPanfilov2004Nashpanfilov2004Model
   init_kwargs:
     model_path: data/nash_panfilov_2004.cellml

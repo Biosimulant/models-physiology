@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lemaire_tobin_greller_cho_suva_2004
   download_url: https://models.physiomeproject.org/workspace/lemaire_tobin_greller_cho_suva_2004/@@download/a982dfbf1362734a4efe73c40bd4ef8e02d505f5/lemaire_tobin_greller_cho_suva_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lemaire_tobin_greller_cho_suva_2004_lemairetobingrellerchosuva2004_model:LemaireTobinGrellerChoSuva2004Lemairetobingrellerchosuva2004Model
   init_kwargs:
     model_path: data/lemaire_tobin_greller_cho_suva_2004.cellml

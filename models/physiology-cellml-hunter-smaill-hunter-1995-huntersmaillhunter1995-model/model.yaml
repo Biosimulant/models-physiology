@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hunter_smaill_hunter_1995
   download_url: https://models.physiomeproject.org/workspace/hunter_smaill_hunter_1995/@@download/245c984e7efa6ca1d86a85da912e48023beb1796/hunter_smaill_hunter_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hunter_smaill_hunter_1995_huntersmaillhunter1995_model:HunterSmaillHunter1995Huntersmaillhunter1995Model
   init_kwargs:
     model_path: data/hunter_smaill_hunter_1995.cellml

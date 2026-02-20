@@ -25,7 +25,7 @@ upstream:
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL2112290001?filename=Berzins2022
     - C cohnii ethanol.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.berzins2022_crypthecodinium_cohnii_ethanol_uptak_model2112290001_model:Berzins2022CrypthecodiniumCohniiEthanolUptakModel2112290001Model
   init_kwargs:
     model_path: data/MODEL2112290001.xml

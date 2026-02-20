@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/proctor_2007
   download_url: https://models.physiomeproject.org/workspace/proctor_2007/@@download/4e63fac88515893e8f2943f2014f29bbdb7f32fa/proctor_tsirigotis_gray_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.proctor_2007_proctor2007_model:Proctor2007Proctor2007Model
   init_kwargs:
     model_path: data/proctor_tsirigotis_gray_2007.cellml

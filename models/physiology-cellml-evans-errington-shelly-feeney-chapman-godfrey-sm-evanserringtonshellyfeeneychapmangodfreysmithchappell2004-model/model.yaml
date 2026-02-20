@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/evans_errington_shelly_feeney_chapman_godfrey_smith_chappell_2004
   download_url: https://models.physiomeproject.org/workspace/evans_errington_shelly_feeney_chapman_godfrey_smith_chappell_2004/@@download/f812dc2a3488dc1f01ef8619da9bec103612999b/evans_errington_shelly_feeney_chapman_godfrey_smith_chappell_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.evans_errington_shelly_feeney_chapman_godfrey_sm_evanserringtonshellyfeeneychapmangodfreysmithchappell2004_model:EvansErringtonShellyFeeneyChapmanGodfreySmEvanserringtonshellyfeeneychapmangodfreysmithchappell2004Model
   init_kwargs:
     model_path: data/evans_errington_shelly_feeney_chapman_godfrey_smith_chappell_2004.cellml

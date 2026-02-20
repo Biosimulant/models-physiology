@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/roux_noble_noble_marhl_2006
   download_url: https://models.physiomeproject.org/workspace/roux_noble_noble_marhl_2006/@@download/e16859447a131466e6afc00558084d34d0d7b435/roux_noble_noble_marhl_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.roux_noble_noble_marhl_2006_rouxnoblenoblemarhl2006_model:RouxNobleNobleMarhl2006Rouxnoblenoblemarhl2006Model
   init_kwargs:
     model_path: data/roux_noble_noble_marhl_2006.cellml

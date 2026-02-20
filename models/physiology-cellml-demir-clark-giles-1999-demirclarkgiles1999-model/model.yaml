@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/demir_clark_giles_1999
   download_url: https://models.physiomeproject.org/workspace/demir_clark_giles_1999/@@download/8d0f065ca3c1f2e0e53b841035d9a3a77dab66af/demir_clark_giles_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.demir_clark_giles_1999_demirclarkgiles1999_model:DemirClarkGiles1999Demirclarkgiles1999Model
   init_kwargs:
     model_path: data/demir_clark_giles_1999.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/33e
   download_url: https://models.physiomeproject.org/workspace/33e/@@download/fe2b0dddb29ac463c5373fbd890a7ef3a2949239/child-model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.units_import_test_33e_model:UnitsImportTest33eModel
   init_kwargs:
     model_path: data/child-model.cellml

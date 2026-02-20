@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6d6
   download_url: https://models.physiomeproject.org/workspace/6d6/@@download/10bdd9472a1d1bccd6ab461bd54ba2869bab44fb/BG_Inhib1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_inhib1_6d6_model:BgInhib16d6Model
   init_kwargs:
     model_path: data/BG_Inhib1.cellml

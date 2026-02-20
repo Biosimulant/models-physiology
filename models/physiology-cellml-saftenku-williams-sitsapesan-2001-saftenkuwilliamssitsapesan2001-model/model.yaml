@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/saftenku_williams_sitsapesan_2001
   download_url: https://models.physiomeproject.org/workspace/saftenku_williams_sitsapesan_2001/@@download/1cbe5b18da91dabf371a8491c70b6d948d120b5c/saftenku_williams_sitsapesan_2001_H1_model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.saftenku_williams_sitsapesan_2001_saftenkuwilliamssitsapesan2001_model:SaftenkuWilliamsSitsapesan2001Saftenkuwilliamssitsapesan2001Model
   init_kwargs:
     model_path: data/saftenku_williams_sitsapesan_2001_H1_model.cellml

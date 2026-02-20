@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b44
   download_url: https://models.physiomeproject.org/workspace/b44/@@download/7ca16b1b08814f2f78f09a8ca07e08cf72b06395/Bertram_2011.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bertram_et_al_2011_lymphangion_model_b44_model:BertramEtAl2011LymphangionModelB44Model
   init_kwargs:
     model_path: data/Bertram_2011.cellml

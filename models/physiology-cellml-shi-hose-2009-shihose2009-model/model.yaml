@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/shi_hose_2009
   download_url: https://models.physiomeproject.org/workspace/shi_hose_2009/@@download/b1e0acf3209eafcfadebe6cda5206e504fbd28fb/EAtrium.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shi_hose_2009_shihose2009_model:ShiHose2009Shihose2009Model
   init_kwargs:
     model_path: data/EAtrium.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/proctor_2005
   download_url: https://models.physiomeproject.org/workspace/proctor_2005/@@download/49bd8537d6b6c62d1bd271cf1a9c74449f74e1c7/proctor_soti_boys_gillespie_shanley_wilkinson_kirkwood_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.proctor_2005_proctor2005_model:Proctor2005Proctor2005Model
   init_kwargs:
     model_path: data/proctor_soti_boys_gillespie_shanley_wilkinson_kirkwood_2005.cellml

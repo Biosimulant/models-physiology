@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000042
   download_url: https://models.physiomeproject.org/workspace/SVP_00000042/@@download/71de5277db0bcbf280201f74e904aa6c47248491/ElectrEcoBluDevice2_ProteinCDS_TF.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.protein_cds_for_tf_electrecoblu_device_2_svp00000042_model:ProteinCdsForTfElectrecobluDevice2Svp00000042Model
   init_kwargs:
     model_path: data/ElectrEcoBluDevice2_ProteinCDS_TF.cellml

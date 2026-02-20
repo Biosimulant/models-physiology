@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/55d
   download_url: https://models.physiomeproject.org/workspace/55d/@@download/2a2ca5cabb4911b3b6f60264acaa2460363ce391/hodgkin_huxley_squid_axon_model_1952.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.opencor_55d_model:Opencor55dModel
   init_kwargs:
     model_path: data/hodgkin_huxley_squid_axon_model_1952.cellml

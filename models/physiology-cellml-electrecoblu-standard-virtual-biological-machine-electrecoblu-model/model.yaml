@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/electrecoblu
   download_url: https://models.physiomeproject.org/workspace/electrecoblu/@@download/4b94a84601bc79c7c0b761b9ee77a59b37ad3d31/ElectrEcoBluModel.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.electrecoblu_standard_virtual_biological_machine_electrecoblu_model:ElectrecobluStandardVirtualBiologicalMachineElectrecobluModel
   init_kwargs:
     model_path: data/ElectrEcoBluModel.cellml

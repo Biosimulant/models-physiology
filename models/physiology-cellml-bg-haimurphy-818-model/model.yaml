@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/818
   download_url: https://models.physiomeproject.org/workspace/818/@@download/a67177c16af102ea8ec4d69929c771407a9803c7/BG_HaiMurphy.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_haimurphy_818_model:BgHaimurphy818Model
   init_kwargs:
     model_path: data/BG_HaiMurphy.cellml

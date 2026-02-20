@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cooling_hunter_crampin_2007
   download_url: https://models.physiomeproject.org/workspace/cooling_hunter_crampin_2007/@@download/ee11a10f3f8f2382a5302e392a1b7f6f9b8805f2/cooling_hunter_crampin_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cooling_hunter_crampin_2007_coolinghuntercrampin2007_model:CoolingHunterCrampin2007Coolinghuntercrampin2007Model
   init_kwargs:
     model_path: data/cooling_hunter_crampin_2007.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/604
   download_url: https://models.physiomeproject.org/workspace/604/@@download/de5a4e600b57c8b9b0bd477695648c82351bc6dd/ten_tusscher_model_2006_endo.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tentusscher_panfilov_2006_604_model:TentusscherPanfilov2006604Model
   init_kwargs:
     model_path: data/ten_tusscher_model_2006_endo.cellml

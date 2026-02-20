@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/garny_kohl_hunter_boyett_noble_2003
   download_url: https://models.physiomeproject.org/workspace/garny_kohl_hunter_boyett_noble_2003/@@download/60a465479945dbd40f24dc4a9c539cc889b7455d/garny_kohl_hunter_boyett_noble_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.garny_kohl_hunter_boyett_noble_2003_garnykohlhunterboyettnoble2003_model:GarnyKohlHunterBoyettNoble2003Garnykohlhunterboyettnoble2003Model
   init_kwargs:
     model_path: data/garny_kohl_hunter_boyett_noble_2003.cellml

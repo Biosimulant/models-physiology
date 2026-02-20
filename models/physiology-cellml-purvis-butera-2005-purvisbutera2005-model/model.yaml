@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/purvis_butera_2005
   download_url: https://models.physiomeproject.org/workspace/purvis_butera_2005/@@download/4c10e77f7b64e797dd1ef39ce819f78a0cce00a9/purvis_butera_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.purvis_butera_2005_purvisbutera2005_model:PurvisButera2005Purvisbutera2005Model
   init_kwargs:
     model_path: data/purvis_butera_2005.cellml

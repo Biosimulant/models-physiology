@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b15
   download_url: https://models.physiomeproject.org/workspace/b15/@@download/1bb17a12714d5b11afa41b16169808d2511bce0c/BG_K1_MichaelParameters.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shelleycardiacapmodel_b15_model:ShelleycardiacapmodelB15Model
   init_kwargs:
     model_path: data/BG_K1_MichaelParameters.cellml

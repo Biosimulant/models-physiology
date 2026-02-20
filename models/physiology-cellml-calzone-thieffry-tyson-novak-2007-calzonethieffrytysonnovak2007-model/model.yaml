@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/calzone_thieffry_tyson_novak_2007
   download_url: https://models.physiomeproject.org/workspace/calzone_thieffry_tyson_novak_2007/@@download/e6e9d2607d3fbcadd534e7f4ceeb5767ccc477cd/calzone_thieffry_tyson_novak_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.calzone_thieffry_tyson_novak_2007_calzonethieffrytysonnovak2007_model:CalzoneThieffryTysonNovak2007Calzonethieffrytysonnovak2007Model
   init_kwargs:
     model_path: data/calzone_thieffry_tyson_novak_2007.cellml

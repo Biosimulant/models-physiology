@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/parent_supplisson_loo_wright_1992
   download_url: https://models.physiomeproject.org/workspace/parent_supplisson_loo_wright_1992/@@download/eb082010de5433c29f88c88998723cde21246941/Parent_et_al_1992.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.parent_supplisson_loo_wright_1992_parentsupplissonloowright1992_model:ParentSupplissonLooWright1992Parentsupplissonloowright1992Model
   init_kwargs:
     model_path: data/Parent_et_al_1992.cellml

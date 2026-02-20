@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/822
   download_url: https://models.physiomeproject.org/workspace/822/@@download/1081cad018cf2b033f0b9fe5b054cfbec6d62bac/BG_CMDN_buffer.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_cmdn_buffer_822_model:BgCmdnBuffer822Model
   init_kwargs:
     model_path: data/BG_CMDN_buffer.cellml

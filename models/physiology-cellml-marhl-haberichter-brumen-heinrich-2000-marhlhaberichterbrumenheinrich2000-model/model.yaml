@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/marhl_haberichter_brumen_heinrich_2000
   download_url: https://models.physiomeproject.org/workspace/marhl_haberichter_brumen_heinrich_2000/@@download/f53926c781c9fba3ca4214cfd236154576d1668c/marhl_haberichter_brumen_heinrich_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.marhl_haberichter_brumen_heinrich_2000_marhlhaberichterbrumenheinrich2000_model:MarhlHaberichterBrumenHeinrich2000Marhlhaberichterbrumenheinrich2000Model
   init_kwargs:
     model_path: data/marhl_haberichter_brumen_heinrich_2000.cellml

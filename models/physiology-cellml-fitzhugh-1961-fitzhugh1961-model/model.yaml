@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fitzhugh_1961
   download_url: https://models.physiomeproject.org/workspace/fitzhugh_1961/@@download/8f99d77593097ffe84e6936425a0d8d2aaa8a880/fitzhugh_1961.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fitzhugh_1961_fitzhugh1961_model:Fitzhugh1961Fitzhugh1961Model
   init_kwargs:
     model_path: data/fitzhugh_1961.cellml

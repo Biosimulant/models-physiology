@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sachse_glanzel_seemann_2003
   download_url: https://models.physiomeproject.org/workspace/sachse_glanzel_seemann_2003/@@download/742d9edd0448a0af4b2f3bd7adeb2ee76bc70748/sachse_glanzel_seemann_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sachse_glanzel_seemann_2003_sachseglanzelseemann2003_model:SachseGlanzelSeemann2003Sachseglanzelseemann2003Model
   init_kwargs:
     model_path: data/sachse_glanzel_seemann_2003.cellml

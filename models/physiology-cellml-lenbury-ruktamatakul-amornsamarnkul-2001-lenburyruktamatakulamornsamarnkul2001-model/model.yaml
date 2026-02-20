@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lenbury_ruktamatakul_amornsamarnkul_2001
   download_url: https://models.physiomeproject.org/workspace/lenbury_ruktamatakul_amornsamarnkul_2001/@@download/716f016fc5bd424fef954a8fb20cb2dd4e0caef2/lenbury_ruktamatakul_amornsamarnkul_2001_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lenbury_ruktamatakul_amornsamarnkul_2001_lenburyruktamatakulamornsamarnkul2001_model:LenburyRuktamatakulAmornsamarnkul2001Lenburyruktamatakulamornsamarnkul2001Model
   init_kwargs:
     model_path: data/lenbury_ruktamatakul_amornsamarnkul_2001_a.cellml

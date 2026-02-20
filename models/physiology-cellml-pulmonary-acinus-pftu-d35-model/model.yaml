@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d35
   download_url: https://models.physiomeproject.org/workspace/d35/@@download/ee4cf115a7c1cbe2a64ac1e68d1313f66b2b1af0/AthanasiadesPHSinSIwithGasET.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.pulmonary_acinus_pftu_d35_model:PulmonaryAcinusPftuD35Model
   init_kwargs:
     model_path: data/AthanasiadesPHSinSIwithGasET.cellml

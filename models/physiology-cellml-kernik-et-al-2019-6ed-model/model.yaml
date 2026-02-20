@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6ed
   download_url: https://models.physiomeproject.org/workspace/6ed/@@download/2c123f3eba5bb8b39bf7c8b2b4e5be92488f3c76/kernik-2019.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kernik_et_al_2019_6ed_model:KernikEtAl20196edModel
   init_kwargs:
     model_path: data/kernik-2019.cellml

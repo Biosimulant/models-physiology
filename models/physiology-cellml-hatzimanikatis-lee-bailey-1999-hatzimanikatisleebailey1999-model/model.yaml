@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hatzimanikatis_lee_bailey_1999
   download_url: https://models.physiomeproject.org/workspace/hatzimanikatis_lee_bailey_1999/@@download/0f0e708c5e0e709332173584a13ae4d0ba9856c2/hatzimanikatis_lee_bailey_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hatzimanikatis_lee_bailey_1999_hatzimanikatisleebailey1999_model:HatzimanikatisLeeBailey1999Hatzimanikatisleebailey1999Model
   init_kwargs:
     model_path: data/hatzimanikatis_lee_bailey_1999.cellml

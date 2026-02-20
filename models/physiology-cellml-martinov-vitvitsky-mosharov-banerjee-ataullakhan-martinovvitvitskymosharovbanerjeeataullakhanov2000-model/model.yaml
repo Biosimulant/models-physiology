@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/martinov_vitvitsky_mosharov_banerjee_ataullakhanov_2000
   download_url: https://models.physiomeproject.org/workspace/martinov_vitvitsky_mosharov_banerjee_ataullakhanov_2000/@@download/95827bc44e0699853dcf3d5b59c49dc2ed8d1631/martinov_vitvitsky_mosharov_banerjee_ataullakhanov_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.martinov_vitvitsky_mosharov_banerjee_ataullakhan_martinovvitvitskymosharovbanerjeeataullakhanov2000_model:MartinovVitvitskyMosharovBanerjeeAtaullakhanMartinovvitvitskymosharovbanerjeeataullakhanov2000Model
   init_kwargs:
     model_path: data/martinov_vitvitsky_mosharov_banerjee_ataullakhanov_2000.cellml

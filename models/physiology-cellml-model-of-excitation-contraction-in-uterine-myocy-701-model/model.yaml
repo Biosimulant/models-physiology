@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/701
   download_url: https://models.physiomeproject.org/workspace/701/@@download/6741283829975cd4f084159e7734dcbece29f7b1/test.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_of_excitation_contraction_in_uterine_myocy_701_model:ModelOfExcitationContractionInUterineMyocy701Model
   init_kwargs:
     model_path: data/test.cellml

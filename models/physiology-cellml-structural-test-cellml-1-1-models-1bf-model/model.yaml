@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/1bf
   download_url: https://models.physiomeproject.org/workspace/1bf/@@download/dabad7cb25fdcc50487835c6b80afd74f4c53ec0/1-S_equals_1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.structural_test_cellml_1_1_models_1bf_model:StructuralTestCellml11Models1bfModel
   init_kwargs:
     model_path: data/1-S_equals_1.cellml

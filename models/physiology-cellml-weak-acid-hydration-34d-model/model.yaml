@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/34d
   download_url: https://models.physiomeproject.org/workspace/34d/@@download/f14f05059af64406b6e0fd1af5c6177957b85115/CO2_Hydration_module.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.weak_acid_hydration_34d_model:WeakAcidHydration34dModel
   init_kwargs:
     model_path: data/CO2_Hydration_module.cellml

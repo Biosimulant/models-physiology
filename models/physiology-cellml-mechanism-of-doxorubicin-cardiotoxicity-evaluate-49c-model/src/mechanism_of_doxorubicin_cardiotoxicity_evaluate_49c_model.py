@@ -12,13 +12,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class CellmlMechanismOfDoxorubicinCardiotoxicityEvaluatedBy(bsim.BioModule):
+class CellmlMechanismOfDoxorubicinCardiotoxicityEvaluatedBy(biosim.BioModule):
     """BioModule wrapper for CellML model: Mechanism of doxorubicin cardiotoxicity evaluated by integrating multiple molecular effects into a biophysical model."""
 
     def __init__(self, model_path: str = "data/100uM1LeakMorotti2012.cellml", min_dt: float = 0.01) -> None:

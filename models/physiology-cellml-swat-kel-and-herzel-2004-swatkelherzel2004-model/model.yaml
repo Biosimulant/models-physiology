@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/swat_kel_herzel_2004
   download_url: https://models.physiomeproject.org/workspace/swat_kel_herzel_2004/@@download/97ca23a7b8a27e4ad15c7f013308b1431ec5eac4/swat_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.swat_kel_and_herzel_2004_swatkelherzel2004_model:SwatKelAndHerzel2004Swatkelherzel2004Model
   init_kwargs:
     model_path: data/swat_2004.cellml

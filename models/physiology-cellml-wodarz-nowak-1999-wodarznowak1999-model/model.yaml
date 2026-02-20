@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wodarz_nowak_1999
   download_url: https://models.physiomeproject.org/workspace/wodarz_nowak_1999/@@download/9b46e976aaadd1c0a5ff7ac11489f7e99d8dbbe7/wodarz_nowak_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wodarz_nowak_1999_wodarznowak1999_model:WodarzNowak1999Wodarznowak1999Model
   init_kwargs:
     model_path: data/wodarz_nowak_1999.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/253
   download_url: https://models.physiomeproject.org/workspace/253/@@download/f09ae9b4073e41c0b9615b691a075bb225a8bd8b/moss_kazmierczak_kirley_harris_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.moss_kazmierczak_kirley_harris_2009_253_model:MossKazmierczakKirleyHarris2009253Model
   init_kwargs:
     model_path: data/moss_kazmierczak_kirley_harris_2009.cellml

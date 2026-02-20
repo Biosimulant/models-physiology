@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mclean_su_vandenbogert_2003
   download_url: https://models.physiomeproject.org/workspace/mclean_su_vandenbogert_2003/@@download/feaf3ec4af91ae2341e835cb0c819127d396489e/mclean_su_vandenbogert_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mclean_su_vandenbogert_2003_mcleansuvandenbogert2003_model:McleanSuVandenbogert2003Mcleansuvandenbogert2003Model
   init_kwargs:
     model_path: data/mclean_su_vandenbogert_2003.cellml

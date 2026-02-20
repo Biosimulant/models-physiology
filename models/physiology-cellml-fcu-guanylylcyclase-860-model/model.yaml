@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/860
   download_url: https://models.physiomeproject.org/workspace/860/@@download/942577618540797370e0ce9c50a4a186d171f6dc/FCU_guanylylCyclase.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fcu_guanylylcyclase_860_model:FcuGuanylylcyclase860Model
   init_kwargs:
     model_path: data/FCU_guanylylCyclase.cellml

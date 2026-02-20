@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/yanagihara_1980
   download_url: https://models.physiomeproject.org/workspace/yanagihara_1980/@@download/23fd1c82c0a1a0a32d5146f4c922a8f34631581a/yanagihara_model_1980.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.yanagihara_1980_yanagihara1980_model:Yanagihara1980Yanagihara1980Model
   init_kwargs:
     model_path: data/yanagihara_model_1980.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/weinstein_1998
   download_url: https://models.physiomeproject.org/workspace/weinstein_1998/@@download/7ea8898403087f1a01ca94ccc8190c0e2e0b9f80/weinstein_1998_variant01.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.weinstein_1998_weinstein1998_model:Weinstein1998Weinstein1998Model
   init_kwargs:
     model_path: data/weinstein_1998_variant01.cellml

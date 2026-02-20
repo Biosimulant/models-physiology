@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fujita_toyoshima_uda_ozaki_kubota_kuroda_2010
   download_url: https://models.physiomeproject.org/workspace/fujita_toyoshima_uda_ozaki_kubota_kuroda_2010/@@download/e404cee704e963f2eff00f298ef88cc32bb92998/fujita_2010_EGFR_inhibited_Akt.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fujita_toyoshima_uda_ozaki_kubota_and_kuroda_201_fujitatoyoshimaudaozakikubotakuroda2010_model:FujitaToyoshimaUdaOzakiKubotaAndKuroda201Fujitatoyoshimaudaozakikubotakuroda2010Model
   init_kwargs:
     model_path: data/fujita_2010_EGFR_inhibited_Akt.cellml

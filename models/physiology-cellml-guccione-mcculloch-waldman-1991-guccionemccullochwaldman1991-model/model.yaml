@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guccione_mcculloch_waldman_1991
   download_url: https://models.physiomeproject.org/workspace/guccione_mcculloch_waldman_1991/@@download/40bdf00de4399c1a9c80f0ee96844781967d499c/guccione.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guccione_mcculloch_waldman_1991_guccionemccullochwaldman1991_model:GuccioneMccullochWaldman1991Guccionemccullochwaldman1991Model
   init_kwargs:
     model_path: data/guccione.cellml

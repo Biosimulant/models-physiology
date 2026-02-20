@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/costa_holmes_mcculloch_2001
   download_url: https://models.physiomeproject.org/workspace/costa_holmes_mcculloch_2001/@@download/e34a2bedae56f1eb8dc7728a938da84124265389/costa_holmes_mcculloch_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.costa_holmes_mcculloch_2001_costaholmesmcculloch2001_model:CostaHolmesMcculloch2001Costaholmesmcculloch2001Model
   init_kwargs:
     model_path: data/costa_holmes_mcculloch_2001.cellml

@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/496/@@download/e105ad14397fd6fc3de65305e5d042795124869e/BG
     tutorial model solid mechanics 4 Lorenz s-domain.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_mica_models_496_model:BgMicaModels496Model
   init_kwargs:
     model_path: data/BG_tutorial_model_solid_mechanics_4_Lorenz_s-domain.cellml

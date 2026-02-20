@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d7e
   download_url: https://models.physiomeproject.org/workspace/d7e/@@download/b8a595ae6aec59de8bee1394ede307a7b478b7dc/higgins2006_serca_wphosphate.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.serca_higgins_2006_bond_graph_v2_d7e_model:SercaHiggins2006BondGraphV2D7eModel
   init_kwargs:
     model_path: data/higgins2006_serca_wphosphate.cellml

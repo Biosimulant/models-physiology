@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/boyett_zhang_garny_holden_2001
   download_url: https://models.physiomeproject.org/workspace/boyett_zhang_garny_holden_2001/@@download/38940e98896f530598d42a18eeced9c2dd4202db/boyett_zhang_garny_holden_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.boyett_zhang_garny_holden_2001_boyettzhanggarnyholden2001_model:BoyettZhangGarnyHolden2001Boyettzhanggarnyholden2001Model
   init_kwargs:
     model_path: data/boyett_zhang_garny_holden_2001.cellml

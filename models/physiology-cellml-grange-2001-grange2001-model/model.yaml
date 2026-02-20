@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/grange_2001
   download_url: https://models.physiomeproject.org/workspace/grange_2001/@@download/858581fadf5fe1354a7ce88b6f06a2de2c2d6ef5/grange_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.grange_2001_grange2001_model:Grange2001Grange2001Model
   init_kwargs:
     model_path: data/grange_2001.cellml

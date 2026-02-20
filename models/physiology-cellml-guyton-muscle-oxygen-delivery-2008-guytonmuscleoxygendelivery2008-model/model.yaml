@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_muscle_oxygen_delivery_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_muscle_oxygen_delivery_2008/@@download/c85299b77480f3164636238951d7651e41890e2c/M_O2_delivery.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_muscle_oxygen_delivery_2008_guytonmuscleoxygendelivery2008_model:GuytonMuscleOxygenDelivery2008Guytonmuscleoxygendelivery2008Model
   init_kwargs:
     model_path: data/M_O2_delivery.cellml

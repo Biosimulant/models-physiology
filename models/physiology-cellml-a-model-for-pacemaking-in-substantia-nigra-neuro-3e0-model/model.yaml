@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/3e0
   download_url: https://models.physiomeproject.org/workspace/3e0/@@download/f8ea60406d407d11e087f33bf8501be26442d285/francis_garcia_middleton_2012_spherical.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_model_for_pacemaking_in_substantia_nigra_neuro_3e0_model:AModelForPacemakingInSubstantiaNigraNeuro3e0Model
   init_kwargs:
     model_path: data/francis_garcia_middleton_2012_spherical.cellml

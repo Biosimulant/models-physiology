@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/egli_bertram_sellix_freeman_2004
   download_url: https://models.physiomeproject.org/workspace/egli_bertram_sellix_freeman_2004/@@download/47e86468f8afb797a2684ca2bec379a9b53f79aa/egli_bertram_sellix_freeman_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.egli_bertram_sellix_freeman_2004_eglibertramsellixfreeman2004_model:EgliBertramSellixFreeman2004Eglibertramsellixfreeman2004Model
   init_kwargs:
     model_path: data/egli_bertram_sellix_freeman_2004.cellml

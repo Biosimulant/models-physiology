@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/garmendia-torres_goldbeter_jacquet_2007
   download_url: https://models.physiomeproject.org/workspace/garmendia-torres_goldbeter_jacquet_2007/@@download/543650c7f54cd79a7169297fe895d566193442a0/Msn2_fractions.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.garmendia_torres_goldbeter_and_jacquet_2007_garmendiatorresgoldbeterjacquet2007_model:GarmendiaTorresGoldbeterAndJacquet2007Garmendiatorresgoldbeterjacquet2007Model
   init_kwargs:
     model_path: data/Msn2_fractions.cellml

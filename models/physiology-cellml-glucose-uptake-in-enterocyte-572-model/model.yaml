@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/572
   download_url: https://models.physiomeproject.org/workspace/572/@@download/c052b0c460280139dad150937fbee4fa6a026505/AE1_flux.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.glucose_uptake_in_enterocyte_572_model:GlucoseUptakeInEnterocyte572Model
   init_kwargs:
     model_path: data/AE1_flux.cellml

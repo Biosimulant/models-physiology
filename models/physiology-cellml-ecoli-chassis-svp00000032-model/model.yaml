@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000032
   download_url: https://models.physiomeproject.org/workspace/SVP_00000032/@@download/1e6ef2bbb34727e485e2619624c45d3716924601/Chassis_EColi.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ecoli_chassis_svp00000032_model:EcoliChassisSvp00000032Model
   init_kwargs:
     model_path: data/Chassis_EColi.cellml

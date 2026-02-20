@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/296
   download_url: https://models.physiomeproject.org/workspace/296/@@download/60b246ddffe83f12d4beca2d6cc94391709eb1f3/Units.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.units_296_model:Units296Model
   init_kwargs:
     model_path: data/Units.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/noble_varghese_kohl_noble_1998
   download_url: https://models.physiomeproject.org/workspace/noble_varghese_kohl_noble_1998/@@download/08c8536420a9c5960c374bb779ac86176465c9a0/noble_varghese_kohl_noble_1998_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.noble_varghese_kohl_noble_1998_noblevarghesekohlnoble1998_model:NobleVargheseKohlNoble1998Noblevarghesekohlnoble1998Model
   init_kwargs:
     model_path: data/noble_varghese_kohl_noble_1998_a.cellml

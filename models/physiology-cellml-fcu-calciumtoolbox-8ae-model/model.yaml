@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/8ae
   download_url: https://models.physiomeproject.org/workspace/8ae/@@download/11717e303df40bd009fbc67c3ea690002a7d3433/FCU_CaToolbox.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fcu_calciumtoolbox_8ae_model:FcuCalciumtoolbox8aeModel
   init_kwargs:
     model_path: data/FCU_CaToolbox.cellml

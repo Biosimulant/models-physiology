@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7e8
   download_url: https://models.physiomeproject.org/workspace/7e8/@@download/92b9be68073862b6b2ffe10eaf4683c3fb8df96a/BG_KraeutlerToy.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kraeutler_logic_models_7e8_model:KraeutlerLogicModels7e8Model
   init_kwargs:
     model_path: data/BG_KraeutlerToy.cellml

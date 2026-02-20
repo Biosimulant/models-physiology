@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c6c
   download_url: https://models.physiomeproject.org/workspace/c6c/@@download/b8fa8dba4bb0faf7f440bde794d885e1efa613cf/BG_SGLT1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sglt1_the_physics_of_physiology_c6c_model:Sglt1ThePhysicsOfPhysiologyC6cModel
   init_kwargs:
     model_path: data/BG_SGLT1.cellml

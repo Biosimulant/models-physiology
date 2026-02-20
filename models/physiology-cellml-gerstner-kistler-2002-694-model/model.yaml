@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/694
   download_url: https://models.physiomeproject.org/workspace/694/@@download/74a9227b62e0f7b2e1c03fb1ede42108be155505/gerstner_kistler_model_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gerstner_kistler_2002_694_model:GerstnerKistler2002694Model
   init_kwargs:
     model_path: data/gerstner_kistler_model_2002.cellml

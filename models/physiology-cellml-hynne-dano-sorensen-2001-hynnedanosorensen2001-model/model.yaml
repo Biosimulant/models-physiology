@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hynne_dano_sorensen_2001
   download_url: https://models.physiomeproject.org/workspace/hynne_dano_sorensen_2001/@@download/ed0104aa0533741e64104eb5abd4e946657c02a4/hynne_dano_sorensen_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hynne_dano_sorensen_2001_hynnedanosorensen2001_model:HynneDanoSorensen2001Hynnedanosorensen2001Model
   init_kwargs:
     model_path: data/hynne_dano_sorensen_2001.cellml

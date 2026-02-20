@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/83b
   download_url: https://models.physiomeproject.org/workspace/83b/@@download/0084fa749de7bc58ba31705633cf1a77e7eb0603/BG_ns.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ns_ca_83b_model:BgNsCa83bModel
   init_kwargs:
     model_path: data/BG_ns.cellml

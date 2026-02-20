@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/enciso_sontag_2004
   download_url: https://models.physiomeproject.org/workspace/enciso_sontag_2004/@@download/32c60b1c5d362431ee666397a78dcf668caca9a8/enciso_sontag_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.enciso_sontag_2004_encisosontag2004_model:EncisoSontag2004Encisosontag2004Model
   init_kwargs:
     model_path: data/enciso_sontag_2004.cellml

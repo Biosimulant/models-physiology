@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/topp_promislow_devries_miura_finegood_2000
   download_url: https://models.physiomeproject.org/workspace/topp_promislow_devries_miura_finegood_2000/@@download/0b82d5ca266a6748c3fbab3018862b111484811d/topp_promislow_devries_miura_finegood_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.topp_promislow_devries_miura_finegood_2000_topppromislowdevriesmiurafinegood2000_model:ToppPromislowDevriesMiuraFinegood2000Topppromislowdevriesmiurafinegood2000Model
   init_kwargs:
     model_path: data/topp_promislow_devries_miura_finegood_2000.cellml

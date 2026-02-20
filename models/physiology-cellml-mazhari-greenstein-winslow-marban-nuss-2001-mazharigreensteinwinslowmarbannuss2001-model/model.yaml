@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mazhari_greenstein_winslow_marban_nuss_2001
   download_url: https://models.physiomeproject.org/workspace/mazhari_greenstein_winslow_marban_nuss_2001/@@download/f78c8eca8d22375850ea2c248de95ff0e1abd4cf/mazhari_greenstein_winslow_marban_nuss_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mazhari_greenstein_winslow_marban_nuss_2001_mazharigreensteinwinslowmarbannuss2001_model:MazhariGreensteinWinslowMarbanNuss2001Mazharigreensteinwinslowmarbannuss2001Model
   init_kwargs:
     model_path: data/mazhari_greenstein_winslow_marban_nuss_2001.cellml

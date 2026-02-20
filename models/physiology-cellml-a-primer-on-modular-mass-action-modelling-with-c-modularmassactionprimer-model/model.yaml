@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/modularmassactionprimer
   download_url: https://models.physiomeproject.org/workspace/modularmassactionprimer/@@download/92636bbe8bc5269c8275dfd1171a49191f570aa7/BestPractice_Cdecoupled.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_primer_on_modular_mass_action_modelling_with_c_modularmassactionprimer_model:APrimerOnModularMassActionModellingWithCModularmassactionprimerModel
   init_kwargs:
     model_path: data/BestPractice_Cdecoupled.cellml

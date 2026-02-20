@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/stilianakis_dietz_schenzle_1997
   download_url: https://models.physiomeproject.org/workspace/stilianakis_dietz_schenzle_1997/@@download/0ddb68acd79192ce2d0644b630fb03c91c4bb795/stilianakis_dietz_schenzle_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.stilianakis_dietz_schenzle_1997_stilianakisdietzschenzle1997_model:StilianakisDietzSchenzle1997Stilianakisdietzschenzle1997Model
   init_kwargs:
     model_path: data/stilianakis_dietz_schenzle_1997.cellml

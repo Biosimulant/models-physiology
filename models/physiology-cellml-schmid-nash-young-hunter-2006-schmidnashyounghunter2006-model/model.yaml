@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/schmid_nash_young_hunter_2006
   download_url: https://models.physiomeproject.org/workspace/schmid_nash_young_hunter_2006/@@download/dcf21e2ed6fb40e582c89256fdf72d226415d2ba/schmid_nash_young_hunter_2006_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.schmid_nash_young_hunter_2006_schmidnashyounghunter2006_model:SchmidNashYoungHunter2006Schmidnashyounghunter2006Model
   init_kwargs:
     model_path: data/schmid_nash_young_hunter_2006_a.cellml

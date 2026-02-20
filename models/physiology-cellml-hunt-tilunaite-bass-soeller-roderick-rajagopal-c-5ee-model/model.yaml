@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5ee
   download_url: https://models.physiomeproject.org/workspace/5ee/@@download/348331e8cfcf170ad73d8831fa6ecb1f69454ef6/Hunt_et_al_ECC_ETC_calcium_dynamics_cytosol.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hunt_tilunaite_bass_soeller_roderick_rajagopal_c_5ee_model:HuntTilunaiteBassSoellerRoderickRajagopalC5eeModel
   init_kwargs:
     model_path: data/Hunt_et_al_ECC_ETC_calcium_dynamics_cytosol.cellml

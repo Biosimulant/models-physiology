@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/li_bertram_rinzel_1996
   download_url: https://models.physiomeproject.org/workspace/li_bertram_rinzel_1996/@@download/098c6324ca31f101e95a6107003dbdb5a2d51cab/li_1996_complex.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.li_bertram_and_rinzel_1996_libertramrinzel1996_model:LiBertramAndRinzel1996Libertramrinzel1996Model
   init_kwargs:
     model_path: data/li_1996_complex.cellml

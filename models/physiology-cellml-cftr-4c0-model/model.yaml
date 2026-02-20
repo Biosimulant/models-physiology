@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4c0
   download_url: https://models.physiomeproject.org/workspace/4c0/@@download/478fdbdb0d22c9b6ac6c8be55589d64abf17e457/CFTR.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cftr_4c0_model:Cftr4c0Model
   init_kwargs:
     model_path: data/CFTR.cellml

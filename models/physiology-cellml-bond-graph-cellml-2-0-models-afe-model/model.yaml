@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/afe
   download_url: https://models.physiomeproject.org/workspace/afe/@@download/933ad22797b634b70181db55e8c40132100c308a/test_1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bond_graph_cellml_2_0_models_afe_model:BondGraphCellml20ModelsAfeModel
   init_kwargs:
     model_path: data/test_1.cellml

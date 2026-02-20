@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wang_cirit_haugh_2009
   download_url: https://models.physiomeproject.org/workspace/wang_cirit_haugh_2009/@@download/174b58815bc0a80838b3c32e2e2b5d94ea83f100/wang_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wang_cirit_and_haugh_2009_wangcirithaugh2009_model:WangCiritAndHaugh2009Wangcirithaugh2009Model
   init_kwargs:
     model_path: data/wang_2009.cellml

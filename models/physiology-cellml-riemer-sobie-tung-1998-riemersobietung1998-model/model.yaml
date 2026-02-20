@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/riemer_sobie_tung_1998
   download_url: https://models.physiomeproject.org/workspace/riemer_sobie_tung_1998/@@download/99e160b4d3a8a5be2fcce6a5c6b378bb2a8d4eb1/riemer_sobie_tung_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.riemer_sobie_tung_1998_riemersobietung1998_model:RiemerSobieTung1998Riemersobietung1998Model
   init_kwargs:
     model_path: data/riemer_sobie_tung_1998.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/520
   download_url: https://models.physiomeproject.org/workspace/520/@@download/a5fc57418b72083c6994b47ddf9f5c95881a2926/Jieyun.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.human_atrial_cell_models_for_investigating_tbx5_520_model:HumanAtrialCellModelsForInvestigatingTbx5520Model
   init_kwargs:
     model_path: data/Jieyun.cellml

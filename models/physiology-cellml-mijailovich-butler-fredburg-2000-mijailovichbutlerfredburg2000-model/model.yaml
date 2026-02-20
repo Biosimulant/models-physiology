@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mijailovich_butler_fredburg_2000
   download_url: https://models.physiomeproject.org/workspace/mijailovich_butler_fredburg_2000/@@download/a21778cfd5036ffae91f6e46551ae761400e8988/mijailovich_butler_fredburg_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mijailovich_butler_fredburg_2000_mijailovichbutlerfredburg2000_model:MijailovichButlerFredburg2000Mijailovichbutlerfredburg2000Model
   init_kwargs:
     model_path: data/mijailovich_butler_fredburg_2000.cellml

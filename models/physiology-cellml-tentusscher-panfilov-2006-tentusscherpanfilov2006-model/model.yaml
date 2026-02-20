@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tentusscher_panfilov_2006
   download_url: https://models.physiomeproject.org/workspace/tentusscher_panfilov_2006/@@download/5dc42395eef6044fe766786f7bff197dea355eb3/ten_tusscher_model_2006_IK1Ko_M_units.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tentusscher_panfilov_2006_tentusscherpanfilov2006_model:TentusscherPanfilov2006Tentusscherpanfilov2006Model
   init_kwargs:
     model_path: data/ten_tusscher_model_2006_IK1Ko_M_units.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/pasek_simurda_orchard_christe_2008
   download_url: https://models.physiomeproject.org/workspace/pasek_simurda_orchard_christe_2008/@@download/051b4a05af038c3497a0a10e3b852c38a5165083/pasek_simurda_orchard_christe_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.pasek_simurda_orchard_christe_2008_paseksimurdaorchardchriste2008_model:PasekSimurdaOrchardChriste2008Paseksimurdaorchardchriste2008Model
   init_kwargs:
     model_path: data/pasek_simurda_orchard_christe_2008.cellml

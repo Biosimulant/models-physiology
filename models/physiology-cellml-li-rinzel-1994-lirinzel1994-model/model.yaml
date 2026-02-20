@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/li_rinzel_1994
   download_url: https://models.physiomeproject.org/workspace/li_rinzel_1994/@@download/f6f168138c3524c5e8307bb541dfb882083e5ca5/li_rinzel_1994.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.li_rinzel_1994_lirinzel1994_model:LiRinzel1994Lirinzel1994Model
   init_kwargs:
     model_path: data/li_rinzel_1994.cellml

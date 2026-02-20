@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/83a
   download_url: https://models.physiomeproject.org/workspace/83a/@@download/d538df33e416eed7e2bf966c1c10584c5d5a5500/BG_K_ATP.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_k_atp_83a_model:BgKAtp83aModel
   init_kwargs:
     model_path: data/BG_K_ATP.cellml

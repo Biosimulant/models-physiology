@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mckenzie_sneyd_1998
   download_url: https://models.physiomeproject.org/workspace/mckenzie_sneyd_1998/@@download/a5ca1bd861586641044a52eb4ec110168f7447a7/mckenzie_sneyd_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mckenzie_sneyd_1998_mckenziesneyd1998_model:MckenzieSneyd1998Mckenziesneyd1998Model
   init_kwargs:
     model_path: data/mckenzie_sneyd_1998.cellml

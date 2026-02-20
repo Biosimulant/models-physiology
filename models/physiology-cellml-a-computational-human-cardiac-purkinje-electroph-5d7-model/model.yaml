@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5d7
   download_url: https://models.physiomeproject.org/workspace/5d7/@@download/793990ed87f4a79638dffb97df3e85fa5ce5cf9a/ModTrovato2020.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_computational_human_cardiac_purkinje_electroph_5d7_model:AComputationalHumanCardiacPurkinjeElectroph5d7Model
   init_kwargs:
     model_path: data/ModTrovato2020.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bindschadler_sneyd_2001
   download_url: https://models.physiomeproject.org/workspace/bindschadler_sneyd_2001/@@download/7361b13599465747c3643fa2e42b5237325a41f3/bindschadler_sneyd_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bindschadler_sneyd_2001_bindschadlersneyd2001_model:BindschadlerSneyd2001Bindschadlersneyd2001Model
   init_kwargs:
     model_path: data/bindschadler_sneyd_2001.cellml

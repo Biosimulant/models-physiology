@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/corrias_buist_2008
   download_url: https://models.physiomeproject.org/workspace/corrias_buist_2008/@@download/bcb099930f46894c9eb522a9fde0402c0dd81d2d/corrias_buist_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.corrias_buist_2008_corriasbuist2008_model:CorriasBuist2008Corriasbuist2008Model
   init_kwargs:
     model_path: data/corrias_buist_2008.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/huang_ferrell_1996
   download_url: https://models.physiomeproject.org/workspace/huang_ferrell_1996/@@download/54cb949ebc5a7da5467e973e014f6d8d4c600cbd/huang_ferrell_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.huang_ferrell_1996_huangferrell1996_model:HuangFerrell1996Huangferrell1996Model
   init_kwargs:
     model_path: data/huang_ferrell_1996.cellml

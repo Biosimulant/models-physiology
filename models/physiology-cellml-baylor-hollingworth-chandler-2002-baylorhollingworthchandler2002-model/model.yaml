@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/baylor_hollingworth_chandler_2002
   download_url: https://models.physiomeproject.org/workspace/baylor_hollingworth_chandler_2002/@@download/d3cc9340e6435cf492ae8a132a5272fb1d4b612f/baylor_hollingworth_chandler_2002_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.baylor_hollingworth_chandler_2002_baylorhollingworthchandler2002_model:BaylorHollingworthChandler2002Baylorhollingworthchandler2002Model
   init_kwargs:
     model_path: data/baylor_hollingworth_chandler_2002_a.cellml

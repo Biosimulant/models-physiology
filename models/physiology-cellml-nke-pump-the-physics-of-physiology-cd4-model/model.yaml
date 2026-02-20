@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cd4
   download_url: https://models.physiomeproject.org/workspace/cd4/@@download/a3940e07ccfde3f3f16d4b096abd78f4eed0a0b1/NKE_pump_BG_4states.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nke_pump_the_physics_of_physiology_cd4_model:NkePumpThePhysicsOfPhysiologyCd4Model
   init_kwargs:
     model_path: data/NKE_pump_BG_4states.cellml

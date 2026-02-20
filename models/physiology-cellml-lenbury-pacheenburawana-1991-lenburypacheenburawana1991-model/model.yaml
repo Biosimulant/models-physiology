@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lenbury_pacheenburawana_1991
   download_url: https://models.physiomeproject.org/workspace/lenbury_pacheenburawana_1991/@@download/3ece2f89daabcdeab34824f5833fd2bc270b308c/lenbury_pacheenburawana_1991.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lenbury_pacheenburawana_1991_lenburypacheenburawana1991_model:LenburyPacheenburawana1991Lenburypacheenburawana1991Model
   init_kwargs:
     model_path: data/lenbury_pacheenburawana_1991.cellml

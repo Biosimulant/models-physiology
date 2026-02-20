@@ -23,7 +23,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL2401110001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL2401110001?filename=pancreas_deepa.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.pancreas_glucose_model_model2401110001_model:PancreasGlucoseModelModel2401110001Model
   init_kwargs:
     model_path: data/MODEL2401110001.xml

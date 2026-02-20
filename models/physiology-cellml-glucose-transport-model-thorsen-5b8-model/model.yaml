@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/5b8/@@download/9228fb82a5fbade44d3e54d903710377759ffa77/Composite
     Model(Thorsen).cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.glucose_transport_model_thorsen_5b8_model:GlucoseTransportModelThorsen5b8Model
   init_kwargs:
     model_path: data/Composite_Model_Thorsen_.cellml

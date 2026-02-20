@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/borghans_1997
   download_url: https://models.physiomeproject.org/workspace/borghans_1997/@@download/27b0c76f3984d60237968f86af1704b4a091e2b5/borghans_dupont_goldbeter_1997a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.borghans_1997_borghans1997_model:Borghans1997Borghans1997Model
   init_kwargs:
     model_path: data/borghans_dupont_goldbeter_1997a.cellml

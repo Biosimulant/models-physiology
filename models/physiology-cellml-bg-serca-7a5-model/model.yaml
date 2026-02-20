@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7a5
   download_url: https://models.physiomeproject.org/workspace/7a5/@@download/46c17cdd44aa536551b273635d2aea53789baabc/BG_SERCA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_serca_7a5_model:BgSerca7a5Model
   init_kwargs:
     model_path: data/BG_SERCA.cellml

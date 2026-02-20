@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hund_rudy_2004
   download_url: https://models.physiomeproject.org/workspace/hund_rudy_2004/@@download/5a88399b11518a2f4f85b1745a8321cdede30241/hund_rudy_2004_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hund_rudy_2004_hundrudy2004_model:HundRudy2004Hundrudy2004Model
   init_kwargs:
     model_path: data/hund_rudy_2004_a.cellml

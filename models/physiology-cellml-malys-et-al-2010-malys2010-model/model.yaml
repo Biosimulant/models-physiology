@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/malys_2010
   download_url: https://models.physiomeproject.org/workspace/malys_2010/@@download/045a777b8151ae1a357b08630ef9d88dc0b67bd8/malys_2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.malys_et_al_2010_malys2010_model:MalysEtAl2010Malys2010Model
   init_kwargs:
     model_path: data/malys_2010.cellml

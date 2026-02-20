@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wanant_quon_2000
   download_url: https://models.physiomeproject.org/workspace/wanant_quon_2000/@@download/feffc30ccbfdad06677e5879c730e63d8c0c0ee3/wanant_quon_2000_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wanant_quon_2000_wanantquon2000_model:WanantQuon2000Wanantquon2000Model
   init_kwargs:
     model_path: data/wanant_quon_2000_a.cellml

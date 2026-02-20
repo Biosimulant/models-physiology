@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cloutier_wellstead_2009
   download_url: https://models.physiomeproject.org/workspace/cloutier_wellstead_2009/@@download/f8a6508bf3d59282041c576670d079ae34320727/cloutier_2009_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cloutier_wellstead_2009_cloutierwellstead2009_model:CloutierWellstead2009Cloutierwellstead2009Model
   init_kwargs:
     model_path: data/cloutier_2009_a.cellml

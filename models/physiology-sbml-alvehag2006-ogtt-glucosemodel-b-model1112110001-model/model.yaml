@@ -23,7 +23,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1112110001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1112110001?filename=MODEL1112110001_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.alvehag2006_ogtt_glucosemodel_b_model1112110001_model:Alvehag2006OgttGlucosemodelBModel1112110001Model
   init_kwargs:
     model_path: data/MODEL1112110001.xml

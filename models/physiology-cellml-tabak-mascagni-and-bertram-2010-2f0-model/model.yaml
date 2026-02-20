@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2f0
   download_url: https://models.physiomeproject.org/workspace/2f0/@@download/979a8f8cb2947cc443b13cd12013140937bde09d/tabak_mascagni_bertram_2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tabak_mascagni_and_bertram_2010_2f0_model:TabakMascagniAndBertram20102f0Model
   init_kwargs:
     model_path: data/tabak_mascagni_bertram_2010.cellml

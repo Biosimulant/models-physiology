@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6f9
   download_url: https://models.physiomeproject.org/workspace/6f9/@@download/79d1d59c67451485a38e1a013e70db6a2348f40f/BG_GiProtein.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_giprotein_6f9_model:BgGiprotein6f9Model
   init_kwargs:
     model_path: data/BG_GiProtein.cellml

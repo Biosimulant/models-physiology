@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5f8
   download_url: https://models.physiomeproject.org/workspace/5f8/@@download/335f7a610e1217a1ecc0172495c32b5803d04b78/Boron-CO2.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ph_regulation_5f8_model:PhRegulation5f8Model
   init_kwargs:
     model_path: data/Boron-CO2.cellml

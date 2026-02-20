@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_pulmonary_fluid_dynamics_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_pulmonary_fluid_dynamics_2008/@@download/1a8f675f318d96a3785d24b4dc8b2287f5358373/environment.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_pulmonary_fluid_dynamics_2008_guytonpulmonaryfluiddynamics2008_model:GuytonPulmonaryFluidDynamics2008Guytonpulmonaryfluiddynamics2008Model
   init_kwargs:
     model_path: data/environment.cellml

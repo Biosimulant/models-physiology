@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wodarz_2003
   download_url: https://models.physiomeproject.org/workspace/wodarz_2003/@@download/bbc93a7e5657e6f0ec11b320a808e9229d9f6cc0/wodarz_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wodarz_2003_wodarz2003_model:Wodarz2003Wodarz2003Model
   init_kwargs:
     model_path: data/wodarz_2003.cellml

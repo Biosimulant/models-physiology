@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/drouhard_roberge_1987
   download_url: https://models.physiomeproject.org/workspace/drouhard_roberge_1987/@@download/d693c8cc5f530be8bf689bb693d592aeb61e5fcd/drouhard_roberge_1987.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.drouhard_roberge_1987_drouhardroberge1987_model:DrouhardRoberge1987Drouhardroberge1987Model
   init_kwargs:
     model_path: data/drouhard_roberge_1987.cellml

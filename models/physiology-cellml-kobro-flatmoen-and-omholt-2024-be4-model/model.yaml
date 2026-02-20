@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/be4
   download_url: https://models.physiomeproject.org/workspace/be4/@@download/0f278fd7ed10438120e9c7b5767e104e71530a17/fig6.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kobro_flatmoen_and_omholt_2024_be4_model:KobroFlatmoenAndOmholt2024Be4Model
   init_kwargs:
     model_path: data/fig6.cellml

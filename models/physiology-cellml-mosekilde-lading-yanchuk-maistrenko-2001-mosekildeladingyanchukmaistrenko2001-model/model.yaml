@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mosekilde_lading_yanchuk_maistrenko_2001
   download_url: https://models.physiomeproject.org/workspace/mosekilde_lading_yanchuk_maistrenko_2001/@@download/2f3fe40158ac5675d1e445b0158bf1f9ab4fce84/mosekilde_lading_yanchuk_maistrenko_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mosekilde_lading_yanchuk_maistrenko_2001_mosekildeladingyanchukmaistrenko2001_model:MosekildeLadingYanchukMaistrenko2001Mosekildeladingyanchukmaistrenko2001Model
   init_kwargs:
     model_path: data/mosekilde_lading_yanchuk_maistrenko_2001.cellml

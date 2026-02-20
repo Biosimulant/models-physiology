@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/maly_wiley_lauffenburger_2004
   download_url: https://models.physiomeproject.org/workspace/maly_wiley_lauffenburger_2004/@@download/802236cbfff9fbf02bcdcedb60756e6d7d0b2c11/maly_wiley_lauffenburger_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.maly_wiley_lauffenburger_2004_malywileylauffenburger2004_model:MalyWileyLauffenburger2004Malywileylauffenburger2004Model
   init_kwargs:
     model_path: data/maly_wiley_lauffenburger_2004.cellml

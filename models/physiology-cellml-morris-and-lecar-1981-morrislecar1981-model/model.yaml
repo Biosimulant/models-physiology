@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/morris_lecar_1981
   download_url: https://models.physiomeproject.org/workspace/morris_lecar_1981/@@download/c5624f23dcbe41c371614210d6872a6786a6411b/morris_1981.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.morris_and_lecar_1981_morrislecar1981_model:MorrisAndLecar1981Morrislecar1981Model
   init_kwargs:
     model_path: data/morris_1981.cellml

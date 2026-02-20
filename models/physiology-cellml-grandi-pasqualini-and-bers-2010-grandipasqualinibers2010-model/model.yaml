@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/grandi_pasqualini_bers_2010
   download_url: https://models.physiomeproject.org/workspace/grandi_pasqualini_bers_2010/@@download/8a2c891da5f2f1b90d9c465b7bc63f652999d096/grandi_2010_envelope.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.grandi_pasqualini_and_bers_2010_grandipasqualinibers2010_model:GrandiPasqualiniAndBers2010Grandipasqualinibers2010Model
   init_kwargs:
     model_path: data/grandi_2010_envelope.cellml

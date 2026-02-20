@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/706
   download_url: https://models.physiomeproject.org/workspace/706/@@download/8c2290506f48935076bff398ae5b3cc2a2c42512/constants_BG.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.units_and_constants_for_bg_706_model:UnitsAndConstantsForBg706Model
   init_kwargs:
     model_path: data/constants_BG.cellml

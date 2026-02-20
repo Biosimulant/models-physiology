@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000018
   download_url: https://models.physiomeproject.org/workspace/SVP_00000018/@@download/624b9037eac9b17d159af40d1160c2812373990c/Bioenvironment_RxR1P1MM_ICFormation.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.formation_of_ic_svp00000018_model:FormationOfIcSvp00000018Model
   init_kwargs:
     model_path: data/Bioenvironment_RxR1P1MM_ICFormation.cellml

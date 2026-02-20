@@ -25,7 +25,7 @@ upstream:
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL2112280001?filename=Berzins2022
     - C cohnii glucose and glycerol.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.berzins2022_crypthecodinium_cohnii_glucose_and_g_model2112280001_model:Berzins2022CrypthecodiniumCohniiGlucoseAndGModel2112280001Model
   init_kwargs:
     model_path: data/MODEL2112280001.xml

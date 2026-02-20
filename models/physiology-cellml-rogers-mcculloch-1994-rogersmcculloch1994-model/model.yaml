@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/rogers_mcculloch_1994
   download_url: https://models.physiomeproject.org/workspace/rogers_mcculloch_1994/@@download/55dd3f58f49946c5739b1e224725055c1f4c31d9/rogers_mcculloch_1994.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rogers_mcculloch_1994_rogersmcculloch1994_model:RogersMcculloch1994Rogersmcculloch1994Model
   init_kwargs:
     model_path: data/rogers_mcculloch_1994.cellml

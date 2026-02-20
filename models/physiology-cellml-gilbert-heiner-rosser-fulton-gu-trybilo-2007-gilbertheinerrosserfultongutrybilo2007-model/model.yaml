@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gilbert_heiner_rosser_fulton_gu_trybilo_2007
   download_url: https://models.physiomeproject.org/workspace/gilbert_heiner_rosser_fulton_gu_trybilo_2007/@@download/86b9d68f693f4e22aeacb5717759357a3f5d969f/gilbert_heiner_rosser_fulton_gu_trybilo_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gilbert_heiner_rosser_fulton_gu_trybilo_2007_gilbertheinerrosserfultongutrybilo2007_model:GilbertHeinerRosserFultonGuTrybilo2007Gilbertheinerrosserfultongutrybilo2007Model
   init_kwargs:
     model_path: data/gilbert_heiner_rosser_fulton_gu_trybilo_2007.cellml

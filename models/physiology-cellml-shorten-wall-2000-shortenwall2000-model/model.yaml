@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/shorten_wall_2000
   download_url: https://models.physiomeproject.org/workspace/shorten_wall_2000/@@download/e919571d9bc2a5e7921dfd65c8e49d5952f6a125/shorten_wall_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shorten_wall_2000_shortenwall2000_model:ShortenWall2000Shortenwall2000Model
   init_kwargs:
     model_path: data/shorten_wall_2000.cellml

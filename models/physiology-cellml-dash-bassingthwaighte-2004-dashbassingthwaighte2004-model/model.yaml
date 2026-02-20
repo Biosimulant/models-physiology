@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/dash_bassingthwaighte_2004
   download_url: https://models.physiomeproject.org/workspace/dash_bassingthwaighte_2004/@@download/58eefe837c16c2e2187c87263ac74beeb612d613/dash_bassingthwaighte_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.dash_bassingthwaighte_2004_dashbassingthwaighte2004_model:DashBassingthwaighte2004Dashbassingthwaighte2004Model
   init_kwargs:
     model_path: data/dash_bassingthwaighte_2004.cellml

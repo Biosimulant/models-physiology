@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4fb
   download_url: https://models.physiomeproject.org/workspace/4fb/@@download/8fc56f2903748e3c02b75c4b1fbbb44e1d72e6e1/chan_SHP12004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.feedback_control_of_t_cell_receptor_activation_4fb_model:FeedbackControlOfTCellReceptorActivation4fbModel
   init_kwargs:
     model_path: data/chan_SHP12004.cellml

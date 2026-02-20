@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cheng_brown_loeb_2000
   download_url: https://models.physiomeproject.org/workspace/cheng_brown_loeb_2000/@@download/793a1c2df2bf235cf50ec07557216b187df3c7cc/cheng_brown_loeb_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cheng_brown_loeb_2000_chengbrownloeb2000_model:ChengBrownLoeb2000Chengbrownloeb2000Model
   init_kwargs:
     model_path: data/cheng_brown_loeb_2000.cellml

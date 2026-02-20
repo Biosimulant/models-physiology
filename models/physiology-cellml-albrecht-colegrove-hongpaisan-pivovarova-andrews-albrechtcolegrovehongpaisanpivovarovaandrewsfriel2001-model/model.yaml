@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/albrecht_colegrove_hongpaisan_pivovarova_andrews_friel_2001
   download_url: https://models.physiomeproject.org/workspace/albrecht_colegrove_hongpaisan_pivovarova_andrews_friel_2001/@@download/7fb33358bf25c4f067170946631842807b267ea2/albrecht_colegrove_hongpaisan_pivovarova_andrews_friel_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.albrecht_colegrove_hongpaisan_pivovarova_andrews_albrechtcolegrovehongpaisanpivovarovaandrewsfriel2001_model:AlbrechtColegroveHongpaisanPivovarovaAndrewsAlbrechtcolegrovehongpaisanpivovarovaandrewsfriel2001Model
   init_kwargs:
     model_path: data/albrecht_colegrove_hongpaisan_pivovarova_andrews_friel_2001.cellml

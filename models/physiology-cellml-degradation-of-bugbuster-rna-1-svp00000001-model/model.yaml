@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000001
   download_url: https://models.physiomeproject.org/workspace/SVP_00000001/@@download/05303e8da6e4cd4ecdf3bebc7b1722d0f9d48635/Bioenvironment_Degradation_BugbusterRNA1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_bugbuster_rna_1_svp00000001_model:DegradationOfBugbusterRna1Svp00000001Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_BugbusterRNA1.cellml

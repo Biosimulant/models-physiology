@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000029
   download_url: https://models.physiomeproject.org/workspace/SVP_00000029/@@download/b7b65d8b381d1fcc06bc6e20d33df2b8898ea0e9/Bugbuster_RBS_spaK.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rbs_for_spak_svp00000029_model:RbsForSpakSvp00000029Model
   init_kwargs:
     model_path: data/Bugbuster_RBS_spaK.cellml

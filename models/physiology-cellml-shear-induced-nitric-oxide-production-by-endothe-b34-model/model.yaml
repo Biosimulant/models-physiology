@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b34
   download_url: https://models.physiomeproject.org/workspace/b34/@@download/d5fac872a590c28ecb66b07757cf5b1cd2ab6956/Main_Endothelial_Cell_Model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shear_induced_nitric_oxide_production_by_endothe_b34_model:ShearInducedNitricOxideProductionByEndotheB34Model
   init_kwargs:
     model_path: data/Main_Endothelial_Cell_Model.cellml

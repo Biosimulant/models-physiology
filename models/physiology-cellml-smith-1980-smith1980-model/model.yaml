@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/smith_1980
   download_url: https://models.physiomeproject.org/workspace/smith_1980/@@download/62da0a1f992050bd29c27e2a7f052eabd3e87518/smith_1980.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.smith_1980_smith1980_model:Smith1980Smith1980Model
   init_kwargs:
     model_path: data/smith_1980.cellml

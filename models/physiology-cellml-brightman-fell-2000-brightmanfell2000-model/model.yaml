@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/brightman_fell_2000
   download_url: https://models.physiomeproject.org/workspace/brightman_fell_2000/@@download/ae78ca0381b585af01e7ee273cbecf9cf7d27f02/brightman_fell_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.brightman_fell_2000_brightmanfell2000_model:BrightmanFell2000Brightmanfell2000Model
   init_kwargs:
     model_path: data/brightman_fell_2000.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/88c
   download_url: https://models.physiomeproject.org/workspace/88c/@@download/1d688b74a446d346e7025aae8928c2e2c6033ad8/BG_diadCaDiffusion.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_diadcadiffusion_88c_model:BgDiadcadiffusion88cModel
   init_kwargs:
     model_path: data/BG_diadCaDiffusion.cellml

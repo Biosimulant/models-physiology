@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_atrial_natriuretic_peptide_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_atrial_natriuretic_peptide_2008/@@download/142a438d2668e9c2eb54d0bef8f71a36acfb49e2/atr_natriuretic_peptide.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_atrial_natriuretic_peptide_2008_guytonatrialnatriureticpeptide2008_model:GuytonAtrialNatriureticPeptide2008Guytonatrialnatriureticpeptide2008Model
   init_kwargs:
     model_path: data/atr_natriuretic_peptide.cellml

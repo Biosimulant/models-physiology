@@ -22,7 +22,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1803200001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1803200001?filename=modelYR2017.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.rozendaal2018_model_integrating_glucose_and_lipi_model1803200001_model:Rozendaal2018ModelIntegratingGlucoseAndLipiModel1803200001Model
   init_kwargs:
     model_path: data/MODEL1803200001.xml

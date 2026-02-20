@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/marwan_2003
   download_url: https://models.physiomeproject.org/workspace/marwan_2003/@@download/c650cbabe8a6a657858bcd7267fa7d5151e94665/marwan_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.marwan_2003_marwan2003_model:Marwan2003Marwan2003Model
   init_kwargs:
     model_path: data/marwan_2003.cellml

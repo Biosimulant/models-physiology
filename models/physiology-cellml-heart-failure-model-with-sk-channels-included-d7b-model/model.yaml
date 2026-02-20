@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d7b
   download_url: https://models.physiomeproject.org/workspace/d7b/@@download/247e2a7ed3c0e6ef3b64904f51901b588d9d82b4/ORdmm-SK_MID.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.heart_failure_model_with_sk_channels_included_d7b_model:HeartFailureModelWithSkChannelsIncludedD7bModel
   init_kwargs:
     model_path: data/ORdmm-SK_MID.cellml

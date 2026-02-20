@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tyson_1991
   download_url: https://models.physiomeproject.org/workspace/tyson_1991/@@download/af89af662987e09e9e773fcc27a4983f25461505/tyson_1991.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tyson_1991_tyson1991_model:Tyson1991Tyson1991Model
   init_kwargs:
     model_path: data/tyson_1991.cellml

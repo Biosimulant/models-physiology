@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/shaw_rudy_1997
   download_url: https://models.physiomeproject.org/workspace/shaw_rudy_1997/@@download/6ec73cc5bb5f2929c76884ce99103dfc4b1c85fa/shaw_rudy_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.shaw_rudy_1997_shawrudy1997_model:ShawRudy1997Shawrudy1997Model
   init_kwargs:
     model_path: data/shaw_rudy_1997.cellml

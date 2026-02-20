@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hilgemann_noble_1987
   download_url: https://models.physiomeproject.org/workspace/hilgemann_noble_1987/@@download/cf54a3e5e327900d267b3b8bca0591702d1435c2/hilgemann_noble_1987.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hilgemann_noble_1987_hilgemannnoble1987_model:HilgemannNoble1987Hilgemannnoble1987Model
   init_kwargs:
     model_path: data/hilgemann_noble_1987.cellml

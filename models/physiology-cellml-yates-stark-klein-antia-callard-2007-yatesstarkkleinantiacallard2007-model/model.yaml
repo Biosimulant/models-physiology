@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/yates_stark_klein_antia_callard_2007
   download_url: https://models.physiomeproject.org/workspace/yates_stark_klein_antia_callard_2007/@@download/6bb961f48fec279ff556f1377ee3a20edf9ca4f8/yates_stark_klein_antia_callard_2007_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.yates_stark_klein_antia_callard_2007_yatesstarkkleinantiacallard2007_model:YatesStarkKleinAntiaCallard2007Yatesstarkkleinantiacallard2007Model
   init_kwargs:
     model_path: data/yates_stark_klein_antia_callard_2007_a.cellml

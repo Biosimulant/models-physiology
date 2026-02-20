@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tabak_toporikova_freeman_bertram_2007
   download_url: https://models.physiomeproject.org/workspace/tabak_toporikova_freeman_bertram_2007/@@download/ac4ef015f8ddd593f0b314e9325e9007465d5769/tabak_toporikova_freeman_bertram_2007_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tabak_toporikova_freeman_bertram_2007_tabaktoporikovafreemanbertram2007_model:TabakToporikovaFreemanBertram2007Tabaktoporikovafreemanbertram2007Model
   init_kwargs:
     model_path: data/tabak_toporikova_freeman_bertram_2007_a.cellml

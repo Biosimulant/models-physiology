@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/178
   download_url: https://models.physiomeproject.org/workspace/178/@@download/b2146c6c6b06de44ace1035d9cbcd1d68d199808/PhysicalConstants.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ph_control_178_model:PhControl178Model
   init_kwargs:
     model_path: data/PhysicalConstants.cellml

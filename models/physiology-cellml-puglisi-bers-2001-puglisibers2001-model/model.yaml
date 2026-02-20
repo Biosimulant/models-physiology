@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/puglisi_bers_2001
   download_url: https://models.physiomeproject.org/workspace/puglisi_bers_2001/@@download/4dd9d11089352d0a58abedcb7890c5bccb95c182/puglisi_bers_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.puglisi_bers_2001_puglisibers2001_model:PuglisiBers2001Puglisibers2001Model
   init_kwargs:
     model_path: data/puglisi_bers_2001.cellml

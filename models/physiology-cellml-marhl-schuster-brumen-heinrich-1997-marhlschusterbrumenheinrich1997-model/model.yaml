@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/marhl_schuster_brumen_heinrich_1997
   download_url: https://models.physiomeproject.org/workspace/marhl_schuster_brumen_heinrich_1997/@@download/f3c330b66be95896c0f2c14c40e69c44b078cd2c/marhl_schuster_brumen_heinrich_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.marhl_schuster_brumen_heinrich_1997_marhlschusterbrumenheinrich1997_model:MarhlSchusterBrumenHeinrich1997Marhlschusterbrumenheinrich1997Model
   init_kwargs:
     model_path: data/marhl_schuster_brumen_heinrich_1997.cellml

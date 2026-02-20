@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/703
   download_url: https://models.physiomeproject.org/workspace/703/@@download/7590d988cd4b8733013617f9dfbe32bc223fe03c/ICC_Lees_green_original.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.computational_modeling_of_anoctamin_1_calcium_ac_703_model:ComputationalModelingOfAnoctamin1CalciumAc703Model
   init_kwargs:
     model_path: data/ICC_Lees_green_original.cellml

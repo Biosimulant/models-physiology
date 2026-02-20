@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cardiovascular_circulation_dvad
   download_url: https://models.physiomeproject.org/workspace/cardiovascular_circulation_dvad/@@download/2cf5e7416ac845d0a74c95b3e677d581743a86f6/EAtrium.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cardiovascular_circulation_dvad_cardiovascularcirculationdvad_model:CardiovascularCirculationDvadCardiovascularcirculationdvadModel
   init_kwargs:
     model_path: data/EAtrium.cellml

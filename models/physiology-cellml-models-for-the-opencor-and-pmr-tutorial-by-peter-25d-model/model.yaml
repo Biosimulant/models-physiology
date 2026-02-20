@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/25d
   download_url: https://models.physiomeproject.org/workspace/25d/@@download/e3ef4cf57b9be0b9f5ccb72e98dac46f2381add5/BlueSkyCatastrophy.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.models_for_the_opencor_and_pmr_tutorial_by_peter_25d_model:ModelsForTheOpencorAndPmrTutorialByPeter25dModel
   init_kwargs:
     model_path: data/BlueSkyCatastrophy.cellml

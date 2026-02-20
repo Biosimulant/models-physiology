@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bertram_pedersen_luciani_sherman
   download_url: https://models.physiomeproject.org/workspace/bertram_pedersen_luciani_sherman/@@download/ccce6e569232db266f7859db87fd1aedf245f9b9/bertram_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bertram_pedersen_luciani_and_sherman_2006_bertrampedersenlucianisherman_model:BertramPedersenLucianiAndSherman2006BertrampedersenlucianishermanModel
   init_kwargs:
     model_path: data/bertram_2006.cellml

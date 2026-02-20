@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/winograd_destexhe_sanchezvives_2008
   download_url: https://models.physiomeproject.org/workspace/winograd_destexhe_sanchezvives_2008/@@download/4d9b8bba695ec8c6c72b5742f4171f67b8500ff1/winograd_destexhe_sanchezvives_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.winograd_destexhe_sanchezvives_2008_winograddestexhesanchezvives2008_model:WinogradDestexheSanchezvives2008Winograddestexhesanchezvives2008Model
   init_kwargs:
     model_path: data/winograd_destexhe_sanchezvives_2008.cellml

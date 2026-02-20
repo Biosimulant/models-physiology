@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c96
   download_url: https://models.physiomeproject.org/workspace/c96/@@download/2f86140bdd58a4b56d058d03a638e24ff4723745/BG_HKE.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hke_the_physics_of_physiology_c96_model:HkeThePhysicsOfPhysiologyC96Model
   init_kwargs:
     model_path: data/BG_HKE.cellml

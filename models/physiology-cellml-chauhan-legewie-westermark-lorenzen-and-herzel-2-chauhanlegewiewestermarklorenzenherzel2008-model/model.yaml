@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chauhan_legewie_westermark_lorenzen_herzel_2008
   download_url: https://models.physiomeproject.org/workspace/chauhan_legewie_westermark_lorenzen_herzel_2008/@@download/93568094db734beaae3fb4a43f0ca1e523dcbaf3/chauhan_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chauhan_legewie_westermark_lorenzen_and_herzel_2_chauhanlegewiewestermarklorenzenherzel2008_model:ChauhanLegewieWestermarkLorenzenAndHerzel2Chauhanlegewiewestermarklorenzenherzel2008Model
   init_kwargs:
     model_path: data/chauhan_2008.cellml

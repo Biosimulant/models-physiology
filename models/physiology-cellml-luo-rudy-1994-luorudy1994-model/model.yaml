@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/luo_rudy_1994
   download_url: https://models.physiomeproject.org/workspace/luo_rudy_1994/@@download/766c798887470862fe566a62f7a649a88d2370a0/luo_rudy_1994.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.luo_rudy_1994_luorudy1994_model:LuoRudy1994Luorudy1994Model
   init_kwargs:
     model_path: data/luo_rudy_1994.cellml

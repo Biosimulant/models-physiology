@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/436
   download_url: https://models.physiomeproject.org/workspace/436/@@download/89cd53399e44e02d8db73780f55d1b1c8b85fe85/AE1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.na_glucose_transporter_436_model:NaGlucoseTransporter436Model
   init_kwargs:
     model_path: data/AE1.cellml

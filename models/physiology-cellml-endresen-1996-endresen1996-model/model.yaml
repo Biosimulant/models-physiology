@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/endresen_1996
   download_url: https://models.physiomeproject.org/workspace/endresen_1996/@@download/3da5d4b0903285da41ab949bd868502704e897ba/endresen_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.endresen_1996_endresen1996_model:Endresen1996Endresen1996Model
   init_kwargs:
     model_path: data/endresen_1996.cellml

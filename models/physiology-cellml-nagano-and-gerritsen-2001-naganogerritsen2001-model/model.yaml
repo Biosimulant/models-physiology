@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/nagano_gerritsen_2001
   download_url: https://models.physiomeproject.org/workspace/nagano_gerritsen_2001/@@download/390dec67fe56bf0f56aed2029a2316e914118f93/nagano_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nagano_and_gerritsen_2001_naganogerritsen2001_model:NaganoAndGerritsen2001Naganogerritsen2001Model
   init_kwargs:
     model_path: data/nagano_2001.cellml

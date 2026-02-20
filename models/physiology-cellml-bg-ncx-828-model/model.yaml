@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/828
   download_url: https://models.physiomeproject.org/workspace/828/@@download/3477e7e675810724dbedafb2ef300264037ccf32/BG_NCX.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ncx_828_model:BgNcx828Model
   init_kwargs:
     model_path: data/BG_NCX.cellml

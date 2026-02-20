@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/surkis_peskin_tranchina_leonard_1998
   download_url: https://models.physiomeproject.org/workspace/surkis_peskin_tranchina_leonard_1998/@@download/0a2d4d698cf7a7ab80c4f7637d5989204624f727/surkis_peskin_tranchina_leonard_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.surkis_peskin_tranchina_leonard_1998_surkispeskintranchinaleonard1998_model:SurkisPeskinTranchinaLeonard1998Surkispeskintranchinaleonard1998Model
   init_kwargs:
     model_path: data/surkis_peskin_tranchina_leonard_1998.cellml

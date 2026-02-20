@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/michailova_saucerman_belik_mcculloch_2005
   download_url: https://models.physiomeproject.org/workspace/michailova_saucerman_belik_mcculloch_2005/@@download/b8d421f8b4401c5fe99d828b02f3537b86c95044/michailova_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.michailova_2005_michailovasaucermanbelikmcculloch2005_model:Michailova2005Michailovasaucermanbelikmcculloch2005Model
   init_kwargs:
     model_path: data/michailova_2005.cellml

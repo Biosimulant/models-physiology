@@ -20,7 +20,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1201140001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1201140001?filename=MODEL1201140001_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.keener2001_oscillatoryinsulinsecretionmodel_model1201140001_model:Keener2001OscillatoryinsulinsecretionmodelModel1201140001Model
   init_kwargs:
     model_path: data/MODEL1201140001.xml

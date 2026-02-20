@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/367
   download_url: https://models.physiomeproject.org/workspace/367/@@download/cfaa9783ef0376b9851eda25c9bffd7e680db0ed/Carro_Rodriguez_Laguna_Pueyo_2011_ENDO.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.carro_rodriguez_laguna_pueyo_2011_367_model:CarroRodriguezLagunaPueyo2011367Model
   init_kwargs:
     model_path: data/Carro_Rodriguez_Laguna_Pueyo_2011_ENDO.cellml

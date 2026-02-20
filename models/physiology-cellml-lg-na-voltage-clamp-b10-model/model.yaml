@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b10
   download_url: https://models.physiomeproject.org/workspace/b10/@@download/362168106caa6e4eb42021f4dad428f54101f6a7/LG_Na_voltage_clamp.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lg_na_voltage_clamp_b10_model:LgNaVoltageClampB10Model
   init_kwargs:
     model_path: data/LG_Na_voltage_clamp.cellml

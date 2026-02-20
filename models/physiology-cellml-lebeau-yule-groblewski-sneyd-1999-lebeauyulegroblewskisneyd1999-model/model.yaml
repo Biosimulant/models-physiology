@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lebeau_yule_groblewski_sneyd_1999
   download_url: https://models.physiomeproject.org/workspace/lebeau_yule_groblewski_sneyd_1999/@@download/ad123aa305bebbe25b64e035d07afcf60061ada9/lebeau_yule_groblewski_sneyd_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lebeau_yule_groblewski_sneyd_1999_lebeauyulegroblewskisneyd1999_model:LebeauYuleGroblewskiSneyd1999Lebeauyulegroblewskisneyd1999Model
   init_kwargs:
     model_path: data/lebeau_yule_groblewski_sneyd_1999.cellml

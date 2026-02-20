@@ -21,7 +21,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1006230045
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1006230045?filename=MODEL1006230045_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.schlosser2000_glucoseinsulinfeedback_betacells_model1006230045_model:Schlosser2000GlucoseinsulinfeedbackBetacellsModel1006230045Model
   init_kwargs:
     model_path: data/MODEL1006230045.xml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/pasek_simurda_christe_2006
   download_url: https://models.physiomeproject.org/workspace/pasek_simurda_christe_2006/@@download/c3cd22b3e12a5dbb2612fd7998da49076688ee3d/pasek_model_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.pasek_simurda_christe_2006_paseksimurdachriste2006_model:PasekSimurdaChriste2006Paseksimurdachriste2006Model
   init_kwargs:
     model_path: data/pasek_model_2006.cellml

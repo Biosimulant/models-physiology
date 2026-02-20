@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/jelic_cupic_kolaranic_2005
   download_url: https://models.physiomeproject.org/workspace/jelic_cupic_kolaranic_2005/@@download/f87590c7d7dc16a2289c32be28f8b5fa3bf80934/jelic_cupic_kolaranic_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.jelic_cupic_kolaranic_2005_jeliccupickolaranic2005_model:JelicCupicKolaranic2005Jeliccupickolaranic2005Model
   init_kwargs:
     model_path: data/jelic_cupic_kolaranic_2005.cellml

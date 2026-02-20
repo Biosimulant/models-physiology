@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/lovell_cloherty_celler_dokos_2004
   download_url: https://models.physiomeproject.org/workspace/lovell_cloherty_celler_dokos_2004/@@download/0b0b899b03f47402b2f30f30ba868fa23abab1e5/lovell_cloherty_celler_dokos_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.lovell_cloherty_celler_dokos_2004_lovellclohertycellerdokos2004_model:LovellClohertyCellerDokos2004Lovellclohertycellerdokos2004Model
   init_kwargs:
     model_path: data/lovell_cloherty_celler_dokos_2004.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/256
   download_url: https://models.physiomeproject.org/workspace/256/@@download/6e123e79c616535a3abc555552f96b87e4fee556/thomas_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.thomas_2000_256_model:Thomas2000256Model
   init_kwargs:
     model_path: data/thomas_2000.cellml

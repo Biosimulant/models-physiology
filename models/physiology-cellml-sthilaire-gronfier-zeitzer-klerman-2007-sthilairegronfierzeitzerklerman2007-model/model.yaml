@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sthilaire_gronfier_zeitzer_klerman_2007
   download_url: https://models.physiomeproject.org/workspace/sthilaire_gronfier_zeitzer_klerman_2007/@@download/fac27d18fdac626f70275c903e9c00068aaf6a87/sthilaire_gronfier_zeitzer_klerman_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sthilaire_gronfier_zeitzer_klerman_2007_sthilairegronfierzeitzerklerman2007_model:SthilaireGronfierZeitzerKlerman2007Sthilairegronfierzeitzerklerman2007Model
   init_kwargs:
     model_path: data/sthilaire_gronfier_zeitzer_klerman_2007.cellml

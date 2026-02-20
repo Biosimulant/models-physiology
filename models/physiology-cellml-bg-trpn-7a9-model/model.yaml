@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/7a9
   download_url: https://models.physiomeproject.org/workspace/7a9/@@download/97c70a3d4262d1818e2bc7d2e5e1f5bf81ebad8d/BG_TRPN.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_trpn_7a9_model:BgTrpn7a9Model
   init_kwargs:
     model_path: data/BG_TRPN.cellml

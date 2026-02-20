@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/kesmir_deboer_1999
   download_url: https://models.physiomeproject.org/workspace/kesmir_deboer_1999/@@download/73280bb07c7f2d301db39bdd34920336374171ec/kesmir_deboer_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kesmir_deboer_1999_kesmirdeboer1999_model:KesmirDeboer1999Kesmirdeboer1999Model
   init_kwargs:
     model_path: data/kesmir_deboer_1999.cellml

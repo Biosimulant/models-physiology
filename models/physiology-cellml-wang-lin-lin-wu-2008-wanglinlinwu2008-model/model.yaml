@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wang_lin_lin_wu_2008
   download_url: https://models.physiomeproject.org/workspace/wang_lin_lin_wu_2008/@@download/8daae4dd06e94f35e2755c19ab0ab152572aee3c/wang_lin_lin_wu_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wang_lin_lin_wu_2008_wanglinlinwu2008_model:WangLinLinWu2008Wanglinlinwu2008Model
   init_kwargs:
     model_path: data/wang_lin_lin_wu_2008.cellml

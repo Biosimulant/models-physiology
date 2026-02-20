@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/perelson_kirschner_deboer_1993
   download_url: https://models.physiomeproject.org/workspace/perelson_kirschner_deboer_1993/@@download/63e5e8e2657647b24c9552db53a555b7d6ae8555/perelson_1993a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.perelson_1993_perelsonkirschnerdeboer1993_model:Perelson1993Perelsonkirschnerdeboer1993Model
   init_kwargs:
     model_path: data/perelson_1993a.cellml

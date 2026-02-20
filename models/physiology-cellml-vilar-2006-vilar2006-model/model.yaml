@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vilar_2006
   download_url: https://models.physiomeproject.org/workspace/vilar_2006/@@download/602b1f6a4a4de308cf1ec6d06f6a40a45ff83490/vilar_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vilar_2006_vilar2006_model:Vilar2006Vilar2006Model
   init_kwargs:
     model_path: data/vilar_2006.cellml

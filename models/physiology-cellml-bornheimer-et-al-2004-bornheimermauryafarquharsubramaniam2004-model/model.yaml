@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bornheimer_maurya_farquhar_subramaniam_2004
   download_url: https://models.physiomeproject.org/workspace/bornheimer_maurya_farquhar_subramaniam_2004/@@download/0958dc339ee1c6c2c4dafeda0afbbfa93c23d469/bornheimer_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bornheimer_et_al_2004_bornheimermauryafarquharsubramaniam2004_model:BornheimerEtAl2004Bornheimermauryafarquharsubramaniam2004Model
   init_kwargs:
     model_path: data/bornheimer_2004.cellml

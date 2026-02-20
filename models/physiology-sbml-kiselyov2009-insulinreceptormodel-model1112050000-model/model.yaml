@@ -23,7 +23,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1112050000
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1112050000?filename=MODEL1112050000_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.kiselyov2009_insulinreceptormodel_model1112050000_model:Kiselyov2009InsulinreceptormodelModel1112050000Model
   init_kwargs:
     model_path: data/MODEL1112050000.xml

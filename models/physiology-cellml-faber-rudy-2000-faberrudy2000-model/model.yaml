@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/faber_rudy_2000
   download_url: https://models.physiomeproject.org/workspace/faber_rudy_2000/@@download/c58dfda298fd927476039e3bea2b5d6ef31feee7/faber_rudy_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.faber_rudy_2000_faberrudy2000_model:FaberRudy2000Faberrudy2000Model
   init_kwargs:
     model_path: data/faber_rudy_2000.cellml

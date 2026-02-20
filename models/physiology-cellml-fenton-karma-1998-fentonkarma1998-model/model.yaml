@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fenton_karma_1998
   download_url: https://models.physiomeproject.org/workspace/fenton_karma_1998/@@download/377e0aa8bc3933a1d0e2e2a60261e69d805cbe18/fenton_karma_1998_BR.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fenton_karma_1998_fentonkarma1998_model:FentonKarma1998Fentonkarma1998Model
   init_kwargs:
     model_path: data/fenton_karma_1998_BR.cellml

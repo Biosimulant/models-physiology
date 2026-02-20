@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/af4/@@download/ca0ee1a16a2b93fbefe9ea6de72d5d0a6b254eed/FAIRDO
     BG example 3.9.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.the_physics_of_physiology_example_8_membrane_ion_af4_model:ThePhysicsOfPhysiologyExample8MembraneIonAf4Model
   init_kwargs:
     model_path: data/FAIRDO_BG_example_3.9.cellml

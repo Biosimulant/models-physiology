@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/beeler_reuter_1977
   download_url: https://models.physiomeproject.org/workspace/beeler_reuter_1977/@@download/cb090c96a2ce627457b14def4910ac39219b8340/beeler_reuter_1977.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.beeler_reuter_1977_beelerreuter1977_model:BeelerReuter1977Beelerreuter1977Model
   init_kwargs:
     model_path: data/beeler_reuter_1977.cellml

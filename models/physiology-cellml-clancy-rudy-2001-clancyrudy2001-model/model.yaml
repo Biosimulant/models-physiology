@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/clancy_rudy_2001
   download_url: https://models.physiomeproject.org/workspace/clancy_rudy_2001/@@download/6b827a4ab6b604a44eeb8bf3925ccf98d7eb2cad/clancy_rudy_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.clancy_rudy_2001_clancyrudy2001_model:ClancyRudy2001Clancyrudy2001Model
   init_kwargs:
     model_path: data/clancy_rudy_2001.cellml

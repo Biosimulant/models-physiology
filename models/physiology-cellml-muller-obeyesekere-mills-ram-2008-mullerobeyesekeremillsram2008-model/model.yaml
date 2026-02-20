@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/muller_obeyesekere_mills_ram_2008
   download_url: https://models.physiomeproject.org/workspace/muller_obeyesekere_mills_ram_2008/@@download/94a8494fa8b183cae8ce1f630e2c96f680afcb83/muller_obeyesekere_mills_ram_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.muller_obeyesekere_mills_ram_2008_mullerobeyesekeremillsram2008_model:MullerObeyesekereMillsRam2008Mullerobeyesekeremillsram2008Model
   init_kwargs:
     model_path: data/muller_obeyesekere_mills_ram_2008.cellml

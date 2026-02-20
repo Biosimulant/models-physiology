@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sine-approximations
   download_url: https://models.physiomeproject.org/workspace/sine-approximations/@@download/9d669cfc03c51e8499c74d60db146fc01e9db9f3/sine-approximations.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sine_approximations_sineapproximations_model:SineApproximationsSineapproximationsModel
   init_kwargs:
     model_path: data/sine-approximations.cellml

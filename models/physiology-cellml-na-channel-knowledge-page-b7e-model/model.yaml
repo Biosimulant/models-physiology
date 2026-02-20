@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b7e
   download_url: https://models.physiomeproject.org/workspace/b7e/@@download/dc2602bed865379cb7aab17c51fe9ebf7d0c1772/BG_Na.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.na_channel_knowledge_page_b7e_model:NaChannelKnowledgePageB7eModel
   init_kwargs:
     model_path: data/BG_Na.cellml

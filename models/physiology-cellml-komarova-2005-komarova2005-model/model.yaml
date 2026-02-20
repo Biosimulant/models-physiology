@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/komarova_2005
   download_url: https://models.physiomeproject.org/workspace/komarova_2005/@@download/5814cb6cc37493679592ef30a181e19dffc023c6/komarova_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.komarova_2005_komarova2005_model:Komarova2005Komarova2005Model
   init_kwargs:
     model_path: data/komarova_2005.cellml

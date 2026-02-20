@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/nelson_murray_perelson_2000
   download_url: https://models.physiomeproject.org/workspace/nelson_murray_perelson_2000/@@download/5bf656acbd7c2608436eed3fbb5acb23296d077e/nelson_murray_perelson_2000_delay.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nelson_murray_perelson_2000_nelsonmurrayperelson2000_model:NelsonMurrayPerelson2000Nelsonmurrayperelson2000Model
   init_kwargs:
     model_path: data/nelson_murray_perelson_2000_delay.cellml

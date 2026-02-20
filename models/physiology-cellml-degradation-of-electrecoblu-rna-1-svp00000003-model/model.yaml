@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000003
   download_url: https://models.physiomeproject.org/workspace/SVP_00000003/@@download/c562817b9ecf08414a22bab47f7482f1f0bbc8d6/Bioenvironment_Degradation_ElectrEcoBluDevice1RNA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_electrecoblu_rna_1_svp00000003_model:DegradationOfElectrecobluRna1Svp00000003Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_ElectrEcoBluDevice1RNA.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/81b
   download_url: https://models.physiomeproject.org/workspace/81b/@@download/e3013ef82edb9992722f478801577dfaf58fb0a2/FCU_cardiacAP.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fcu_cardiacap_pan_81b_model:FcuCardiacapPan81bModel
   init_kwargs:
     model_path: data/FCU_cardiacAP.cellml

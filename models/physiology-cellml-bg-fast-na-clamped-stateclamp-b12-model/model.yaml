@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b12
   download_url: https://models.physiomeproject.org/workspace/b12/@@download/77985516d5c95a631bf00497412fbeee98ac8dde/BG_fast_Na_clamped_stateclamp.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_fast_na_clamped_stateclamp_b12_model:BgFastNaClampedStateclampB12Model
   init_kwargs:
     model_path: data/BG_fast_Na_clamped_stateclamp.cellml

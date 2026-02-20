@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b0d
   download_url: https://models.physiomeproject.org/workspace/b0d/@@download/ceda58a766dde562f034eb3f9aecc29a87453e3b/SERCA_ThreeState.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.serca_threestate_b0d_model:SercaThreestateB0dModel
   init_kwargs:
     model_path: data/SERCA_ThreeState.cellml

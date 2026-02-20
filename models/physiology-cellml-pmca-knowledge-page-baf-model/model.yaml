@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/baf
   download_url: https://models.physiomeproject.org/workspace/baf/@@download/0a3133b06ec8157c63e932779455c1edaf00fbb8/BG_PMCA.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.pmca_knowledge_page_baf_model:PmcaKnowledgePageBafModel
   init_kwargs:
     model_path: data/BG_PMCA.cellml

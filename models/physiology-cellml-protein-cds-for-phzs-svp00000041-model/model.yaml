@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000041
   download_url: https://models.physiomeproject.org/workspace/SVP_00000041/@@download/aa64111c991d5059e91490061ca66227c4213054/ElectrEcoBluDevice2_ProteinCDS_PhzS.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.protein_cds_for_phzs_svp00000041_model:ProteinCdsForPhzsSvp00000041Model
   init_kwargs:
     model_path: data/ElectrEcoBluDevice2_ProteinCDS_PhzS.cellml

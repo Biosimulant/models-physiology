@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/keizer_levine_1996
   download_url: https://models.physiomeproject.org/workspace/keizer_levine_1996/@@download/89962c3f1ca88903ce35c51f1a1991adeb40c437/keizer_levine_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.keizer_levine_1996_keizerlevine1996_model:KeizerLevine1996Keizerlevine1996Model
   init_kwargs:
     model_path: data/keizer_levine_1996.cellml

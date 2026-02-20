@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/366
   download_url: https://models.physiomeproject.org/workspace/366/@@download/a854d85c5ff5d861498569fe6a7ce51aa0b61522/bental_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bental_2006_366_model:Bental2006366Model
   init_kwargs:
     model_path: data/bental_2006.cellml

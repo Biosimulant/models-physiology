@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/eskandari_wright_loo_2005
   download_url: https://models.physiomeproject.org/workspace/eskandari_wright_loo_2005/@@download/ca05388fbd9ffa450b7bedc4b1fd004fc693c41f/Eskandari_et_al_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.eskandari_wright_loo_2005_eskandariwrightloo2005_model:EskandariWrightLoo2005Eskandariwrightloo2005Model
   init_kwargs:
     model_path: data/Eskandari_et_al_2005.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/niederer_hunter_smith_2006
   download_url: https://models.physiomeproject.org/workspace/niederer_hunter_smith_2006/@@download/981ec5c09279a21a8ed325d169b1089225b14a71/niederer_hunter_smith_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.niederer_hunter_smith_2006_niedererhuntersmith2006_model:NiedererHunterSmith2006Niedererhuntersmith2006Model
   init_kwargs:
     model_path: data/niederer_hunter_smith_2006.cellml

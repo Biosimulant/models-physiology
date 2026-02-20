@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/486
   download_url: https://models.physiomeproject.org/workspace/486/@@download/8c9edec260b9e4fb3faa465bace51a6aa0cfd75e/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.computational_analysis_of_the_human_sinus_node_a_486_model:ComputationalAnalysisOfTheHumanSinusNodeA486Model
   init_kwargs:
     model_path: data/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/707
   download_url: https://models.physiomeproject.org/workspace/707/@@download/88369d2f746a0234b3ff860cfe8cca2efe643f28/BG_LRGbinding_M2.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_lrgbinding_m2_707_model:BgLrgbindingM2707Model
   init_kwargs:
     model_path: data/BG_LRGbinding_M2.cellml

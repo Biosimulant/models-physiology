@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/waugh_sherratt_2007
   download_url: https://models.physiomeproject.org/workspace/waugh_sherratt_2007/@@download/067c590be96dcf96e202319974e84c0262a5fa97/waugh_sherratt_2007_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.waugh_sherratt_2007_waughsherratt2007_model:WaughSherratt2007Waughsherratt2007Model
   init_kwargs:
     model_path: data/waugh_sherratt_2007_a.cellml

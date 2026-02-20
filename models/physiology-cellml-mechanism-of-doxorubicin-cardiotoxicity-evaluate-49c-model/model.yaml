@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/49c
   download_url: https://models.physiomeproject.org/workspace/49c/@@download/91bdd54bb2ce06addf16cd19f280b70dcdba9c94/100uM1LeakMorotti2012.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mechanism_of_doxorubicin_cardiotoxicity_evaluate_49c_model:MechanismOfDoxorubicinCardiotoxicityEvaluate49cModel
   init_kwargs:
     model_path: data/100uM1LeakMorotti2012.cellml

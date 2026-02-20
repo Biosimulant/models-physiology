@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/700
   download_url: https://models.physiomeproject.org/workspace/700/@@download/fcefc10a7dd7e17af448dbb9d7bab2ee8a2746f1/BG_M2_composite.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_composite_m2_700_model:BgCompositeM2700Model
   init_kwargs:
     model_path: data/BG_M2_composite.cellml

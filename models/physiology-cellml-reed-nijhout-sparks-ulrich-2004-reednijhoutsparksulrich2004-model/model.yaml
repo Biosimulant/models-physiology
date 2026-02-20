@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/reed_nijhout_sparks_ulrich_2004
   download_url: https://models.physiomeproject.org/workspace/reed_nijhout_sparks_ulrich_2004/@@download/8f85c7aa211eead2ed7cbb8454bba2bc979a0112/reed_nijhout_sparks_ulrich_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.reed_nijhout_sparks_ulrich_2004_reednijhoutsparksulrich2004_model:ReedNijhoutSparksUlrich2004Reednijhoutsparksulrich2004Model
   init_kwargs:
     model_path: data/reed_nijhout_sparks_ulrich_2004.cellml

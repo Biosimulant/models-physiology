@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/255
   download_url: https://models.physiomeproject.org/workspace/255/@@download/d9a44ca71a03bb5cf4865a58dc59f18baa19c05c/chang_fujita_b_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chang_fujita_b_1999_255_model:ChangFujitaB1999255Model
   init_kwargs:
     model_path: data/chang_fujita_b_1999.cellml

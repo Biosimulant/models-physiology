@@ -24,7 +24,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1112110003
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1112110003?filename=MODEL1112110003_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.gaetano2008_diabetesprogressionmodel_model1112110003_model:Gaetano2008DiabetesprogressionmodelModel1112110003Model
   init_kwargs:
     model_path: data/MODEL1112110003.xml

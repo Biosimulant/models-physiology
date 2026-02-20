@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/891
   download_url: https://models.physiomeproject.org/workspace/891/@@download/0e12b0f14ccd4923dc8b6f7fd13ba9f3b0ca1d20/BG_LCC_diadic.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_lcc_diadic_891_model:BgLccDiadic891Model
   init_kwargs:
     model_path: data/BG_LCC_diadic.cellml

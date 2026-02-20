@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sveiczer_csikasznagy_gyorffy_tyson_novak_2000
   download_url: https://models.physiomeproject.org/workspace/sveiczer_csikasznagy_gyorffy_tyson_novak_2000/@@download/46601e28a7bcf400fb3f7af5cadaca1e2f02e7a0/sveiczer_csikasznagy_gyorffy_tyson_novak_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sveiczer_csikasznagy_gyorffy_tyson_novak_2000_sveiczercsikasznagygyorffytysonnovak2000_model:SveiczerCsikasznagyGyorffyTysonNovak2000Sveiczercsikasznagygyorffytysonnovak2000Model
   init_kwargs:
     model_path: data/sveiczer_csikasznagy_gyorffy_tyson_novak_2000.cellml

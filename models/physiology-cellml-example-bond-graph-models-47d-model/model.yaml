@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/47d/@@download/6fad47e8e5e097485b35964f4e00dfa6801c05c0/BG
     tutorial model electrical 1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.example_bond_graph_models_47d_model:ExampleBondGraphModels47dModel
   init_kwargs:
     model_path: data/BG_tutorial_model_electrical_1.cellml

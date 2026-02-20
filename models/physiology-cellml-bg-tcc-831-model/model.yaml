@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/831
   download_url: https://models.physiomeproject.org/workspace/831/@@download/ef16f59ea55fa2a5373cdc4c4cb63686afd04653/BG_TCC.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_tcc_831_model:BgTcc831Model
   init_kwargs:
     model_path: data/BG_TCC.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/295
   download_url: https://models.physiomeproject.org/workspace/295/@@download/7e78f196f310d93e60aeaf88c034209fb8a9a56e/NBC_test.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.na_hco3_cotransporter_295_model:NaHco3Cotransporter295Model
   init_kwargs:
     model_path: data/NBC_test.cellml

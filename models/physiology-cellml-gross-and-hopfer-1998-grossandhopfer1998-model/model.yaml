@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gross_and_hopfer_1998
   download_url: https://models.physiomeproject.org/workspace/gross_and_hopfer_1998/@@download/0c5306c5dc251852cc1a1116f015fc54f543161a/gross_and_hopfer_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gross_and_hopfer_1998_grossandhopfer1998_model:GrossAndHopfer1998Grossandhopfer1998Model
   init_kwargs:
     model_path: data/gross_and_hopfer_1998.cellml

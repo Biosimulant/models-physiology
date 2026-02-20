@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/liu_hu_peng_liu_1999
   download_url: https://models.physiomeproject.org/workspace/liu_hu_peng_liu_1999/@@download/5229909e9ac58c5ef4360c5640e12d77fceec2aa/liu_hu_peng_liu_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.liu_hu_peng_liu_1999_liuhupengliu1999_model:LiuHuPengLiu1999Liuhupengliu1999Model
   init_kwargs:
     model_path: data/liu_hu_peng_liu_1999.cellml

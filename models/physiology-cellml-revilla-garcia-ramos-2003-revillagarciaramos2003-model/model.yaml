@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/revilla_garcia-ramos_2003
   download_url: https://models.physiomeproject.org/workspace/revilla_garcia-ramos_2003/@@download/f9a33bce2b89c71982ad2b003ce1e604d1326993/revilla_garcia-ramos_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.revilla_garcia_ramos_2003_revillagarciaramos2003_model:RevillaGarciaRamos2003Revillagarciaramos2003Model
   init_kwargs:
     model_path: data/revilla_garcia-ramos_2003.cellml

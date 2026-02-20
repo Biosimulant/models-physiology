@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/882
   download_url: https://models.physiomeproject.org/workspace/882/@@download/e479536490c5930360f79e4e2d44a90ed4a2cf38/BG_AE.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ae_882_model:BgAe882Model
   init_kwargs:
     model_path: data/BG_AE.cellml

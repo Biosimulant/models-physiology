@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/394
   download_url: https://models.physiomeproject.org/workspace/394/@@download/6029198d56f34b30841b0e339f1d17d148359f30/kholodenko_demin_moehren_hoek_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kholodenko_demin_moehren_hoek_1999_394_model:KholodenkoDeminMoehrenHoek1999394Model
   init_kwargs:
     model_path: data/kholodenko_demin_moehren_hoek_1999.cellml

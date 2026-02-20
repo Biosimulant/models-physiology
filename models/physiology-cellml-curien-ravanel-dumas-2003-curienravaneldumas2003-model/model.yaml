@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/curien_ravanel_dumas_2003
   download_url: https://models.physiomeproject.org/workspace/curien_ravanel_dumas_2003/@@download/4c67c03817f121c621e6f5374746454bf96b6bd2/curien_ravanel_dumas_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.curien_ravanel_dumas_2003_curienravaneldumas2003_model:CurienRavanelDumas2003Curienravaneldumas2003Model
   init_kwargs:
     model_path: data/curien_ravanel_dumas_2003.cellml

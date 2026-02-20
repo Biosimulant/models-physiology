@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/priebe_beuckelmann_1998
   download_url: https://models.physiomeproject.org/workspace/priebe_beuckelmann_1998/@@download/a9d74049a5f9d9e1bc602c765067332202108b86/priebe_beuckelmann_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.priebe_beuckelmann_1998_priebebeuckelmann1998_model:PriebeBeuckelmann1998Priebebeuckelmann1998Model
   init_kwargs:
     model_path: data/priebe_beuckelmann_1998.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wu_jeneson_beard_2006
   download_url: https://models.physiomeproject.org/workspace/wu_jeneson_beard_2006/@@download/90e327b1fa36429f6d0e930bca8df392fe38e6e2/wu_jeneson_beard_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wu_jeneson_beard_2006_wujenesonbeard2006_model:WuJenesonBeard2006Wujenesonbeard2006Model
   init_kwargs:
     model_path: data/wu_jeneson_beard_2006.cellml

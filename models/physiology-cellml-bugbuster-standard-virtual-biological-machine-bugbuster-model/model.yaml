@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bugbuster
   download_url: https://models.physiomeproject.org/workspace/bugbuster/@@download/8071102781e2ced9ca3c68e48b8f0f5fbad97459/BugbusterModel.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bugbuster_standard_virtual_biological_machine_bugbuster_model:BugbusterStandardVirtualBiologicalMachineBugbusterModel
   init_kwargs:
     model_path: data/BugbusterModel.cellml

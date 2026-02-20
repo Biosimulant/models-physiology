@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/michailova_mcculloch_2001
   download_url: https://models.physiomeproject.org/workspace/michailova_mcculloch_2001/@@download/3f9d02f653288f73cc6c3b2640ee24f60c355942/michailova_mcculloch_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.michailova_mcculloch_2001_michailovamcculloch2001_model:MichailovaMcculloch2001Michailovamcculloch2001Model
   init_kwargs:
     model_path: data/michailova_mcculloch_2001.cellml

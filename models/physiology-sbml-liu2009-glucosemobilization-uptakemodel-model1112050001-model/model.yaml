@@ -22,7 +22,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1112050001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1112050001?filename=MODEL1112050001_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.liu2009_glucosemobilization_uptakemodel_model1112050001_model:Liu2009GlucosemobilizationUptakemodelModel1112050001Model
   init_kwargs:
     model_path: data/MODEL1112050001.xml

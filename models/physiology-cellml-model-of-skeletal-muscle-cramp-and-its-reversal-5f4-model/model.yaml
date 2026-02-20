@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5f4
   download_url: https://models.physiomeproject.org/workspace/5f4/@@download/26289d9227fbf4f66ca8106d8bf80ff9a51a5ac6/Fig03.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_of_skeletal_muscle_cramp_and_its_reversal_5f4_model:ModelOfSkeletalMuscleCrampAndItsReversal5f4Model
   init_kwargs:
     model_path: data/Fig03.cellml

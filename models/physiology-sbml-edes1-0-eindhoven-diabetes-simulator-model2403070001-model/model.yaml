@@ -24,7 +24,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL2403070001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL2403070001?filename=EDES_1_0.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.edes1_0_eindhoven_diabetes_simulator_model2403070001_model:Edes10EindhovenDiabetesSimulatorModel2403070001Model
   init_kwargs:
     model_path: data/MODEL2403070001.xml

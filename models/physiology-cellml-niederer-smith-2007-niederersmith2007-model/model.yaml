@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/niederer_smith_2007
   download_url: https://models.physiomeproject.org/workspace/niederer_smith_2007/@@download/0f8a00f218752d7dea86f56eb4a036d7e9d86735/niederer_smith_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.niederer_smith_2007_niederersmith2007_model:NiedererSmith2007Niederersmith2007Model
   init_kwargs:
     model_path: data/niederer_smith_2007.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/swanson_true_lin_buhler_vessella_murray_2001
   download_url: https://models.physiomeproject.org/workspace/swanson_true_lin_buhler_vessella_murray_2001/@@download/9c558e138a769d9bb377099cd197f182e2b57bba/swanson_true_lin_buhler_vessella_murray_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.swanson_true_lin_buhler_vessella_murray_2001_swansontruelinbuhlervessellamurray2001_model:SwansonTrueLinBuhlerVessellaMurray2001Swansontruelinbuhlervessellamurray2001Model
   init_kwargs:
     model_path: data/swanson_true_lin_buhler_vessella_murray_2001.cellml

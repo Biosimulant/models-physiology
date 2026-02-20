@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/maurya_bornheimer_venkatasubramanian_subramaniam_2005
   download_url: https://models.physiomeproject.org/workspace/maurya_bornheimer_venkatasubramanian_subramaniam_2005/@@download/ef66087f637708f8fd210680ed353cd84f642eeb/maurya_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.maurya_et_al_2005_mauryabornheimervenkatasubramaniansubramaniam2005_model:MauryaEtAl2005Mauryabornheimervenkatasubramaniansubramaniam2005Model
   init_kwargs:
     model_path: data/maurya_2005.cellml

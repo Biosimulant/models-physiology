@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/650
   download_url: https://models.physiomeproject.org/workspace/650/@@download/4dad3d8d14e2bb3b938294f1173dea13e8b6cb9f/wang_sobie_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wang_sobie_2008_650_model:WangSobie2008650Model
   init_kwargs:
     model_path: data/wang_sobie_2008.cellml

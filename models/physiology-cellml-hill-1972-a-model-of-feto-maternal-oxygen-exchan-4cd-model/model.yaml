@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4cd
   download_url: https://models.physiomeproject.org/workspace/4cd/@@download/2cf04f333fadd8b8d11568aeed95d00b4a3a191c/Feto_maternal_Oxygen_transfer.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hill_1972_a_model_of_feto_maternal_oxygen_exchan_4cd_model:Hill1972AModelOfFetoMaternalOxygenExchan4cdModel
   init_kwargs:
     model_path: data/Feto_maternal_Oxygen_transfer.cellml

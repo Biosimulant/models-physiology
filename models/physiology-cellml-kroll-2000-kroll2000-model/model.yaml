@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/kroll_2000
   download_url: https://models.physiomeproject.org/workspace/kroll_2000/@@download/58a3629c25fbd5cd2530178bafdaf138f96a21f6/kroll_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kroll_2000_kroll2000_model:Kroll2000Kroll2000Model
   init_kwargs:
     model_path: data/kroll_2000.cellml

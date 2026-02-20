@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cardiovascular_circulation_windkessel
   download_url: https://models.physiomeproject.org/workspace/cardiovascular_circulation_windkessel/@@download/c78bad294c9bd532ff8a1e062dc83e688583587f/EAtrium.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cardiovascular_circulation_windkessel_cardiovascularcirculationwindkessel_model:CardiovascularCirculationWindkesselCardiovascularcirculationwindkesselModel
   init_kwargs:
     model_path: data/EAtrium.cellml

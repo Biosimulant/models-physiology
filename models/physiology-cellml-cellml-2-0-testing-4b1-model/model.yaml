@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4b1
   download_url: https://models.physiomeproject.org/workspace/4b1/@@download/a984419d72b5dc4ef514f02defb70308fa57b09c/Ohara_Rudy_2011.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cellml_2_0_testing_4b1_model:Cellml20Testing4b1Model
   init_kwargs:
     model_path: data/Ohara_Rudy_2011.cellml

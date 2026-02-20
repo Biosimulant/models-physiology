@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bernus_wilders_zemlin_verschelde_panfilov_2002
   download_url: https://models.physiomeproject.org/workspace/bernus_wilders_zemlin_verschelde_panfilov_2002/@@download/1503a0990dcc8f21542c3a4819af771d2864f206/bernus_wilders_zemlin_verschelde_panfilov_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bernus_wilders_zemlin_verschelde_panfilov_2002_bernuswilderszemlinverscheldepanfilov2002_model:BernusWildersZemlinVerscheldePanfilov2002Bernuswilderszemlinverscheldepanfilov2002Model
   init_kwargs:
     model_path: data/bernus_wilders_zemlin_verschelde_panfilov_2002.cellml

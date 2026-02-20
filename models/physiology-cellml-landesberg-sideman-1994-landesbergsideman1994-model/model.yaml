@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/landesberg_sideman_1994
   download_url: https://models.physiomeproject.org/workspace/landesberg_sideman_1994/@@download/614313fee8acc661fcb52865e809cceff5616afb/landesberg_sideman_1994.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.landesberg_sideman_1994_landesbergsideman1994_model:LandesbergSideman1994Landesbergsideman1994Model
   init_kwargs:
     model_path: data/landesberg_sideman_1994.cellml

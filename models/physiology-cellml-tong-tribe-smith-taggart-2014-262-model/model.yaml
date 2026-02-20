@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/262
   download_url: https://models.physiomeproject.org/workspace/262/@@download/3403dedc09563714ec3587df64d98df160590920/Tong_Tribe_Smith_Taggart_2014.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tong_tribe_smith_taggart_2014_262_model:TongTribeSmithTaggart2014262Model
   init_kwargs:
     model_path: data/Tong_Tribe_Smith_Taggart_2014.cellml

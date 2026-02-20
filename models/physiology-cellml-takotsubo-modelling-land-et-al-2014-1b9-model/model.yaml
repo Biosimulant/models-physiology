@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/1b9/@@download/43f172b9541e1ab7af8d85839de26e5ba297088b/Land_et_al_2012
     v2.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.takotsubo_modelling_land_et_al_2014_1b9_model:TakotsuboModellingLandEtAl20141b9Model
   init_kwargs:
     model_path: data/Land_et_al_2012_v2.cellml

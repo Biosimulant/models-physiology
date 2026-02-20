@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b3b
   download_url: https://models.physiomeproject.org/workspace/b3b/@@download/0daa8342d786c224845e6fe76a121c0f74f8b257/Calvo_Gallego_et_al_2022_hip.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.calvo_gallego_pivonka_ruiz_lozano_mart_nez_reina_b3b_model:CalvoGallegoPivonkaRuizLozanoMartNezReinaB3bModel
   init_kwargs:
     model_path: data/Calvo_Gallego_et_al_2022_hip.cellml

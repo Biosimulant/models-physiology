@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000011
   download_url: https://models.physiomeproject.org/workspace/SVP_00000011/@@download/d601425f1cb84b565b187b3b2e04ff9a8cb8e95a/Bioenvironment_Degradation_spaKactive.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.degradation_of_spakactive_svp00000011_model:DegradationOfSpakactiveSvp00000011Model
   init_kwargs:
     model_path: data/Bioenvironment_Degradation_spaKactive.cellml

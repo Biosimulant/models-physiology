@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/herz_bonhoeffer_anderson_may_nowak_1996
   download_url: https://models.physiomeproject.org/workspace/herz_bonhoeffer_anderson_may_nowak_1996/@@download/434bd8a2bbfbfe46ea3ed07c680bb9a941fdf00b/herz_bonhoeffer_anderson_may_nowak_1996.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.herz_bonhoeffer_anderson_may_nowak_1996_herzbonhoefferandersonmaynowak1996_model:HerzBonhoefferAndersonMayNowak1996Herzbonhoefferandersonmaynowak1996Model
   init_kwargs:
     model_path: data/herz_bonhoeffer_anderson_may_nowak_1996.cellml

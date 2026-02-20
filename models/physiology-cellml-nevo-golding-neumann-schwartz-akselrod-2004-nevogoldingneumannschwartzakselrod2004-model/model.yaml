@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/nevo_golding_neumann_schwartz_akselrod_2004
   download_url: https://models.physiomeproject.org/workspace/nevo_golding_neumann_schwartz_akselrod_2004/@@download/4926e83837782b52bf7ead3a0af7193f26db3f62/nevo_golding_neumann_schwartz_akselrod_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nevo_golding_neumann_schwartz_akselrod_2004_nevogoldingneumannschwartzakselrod2004_model:NevoGoldingNeumannSchwartzAkselrod2004Nevogoldingneumannschwartzakselrod2004Model
   init_kwargs:
     model_path: data/nevo_golding_neumann_schwartz_akselrod_2004.cellml

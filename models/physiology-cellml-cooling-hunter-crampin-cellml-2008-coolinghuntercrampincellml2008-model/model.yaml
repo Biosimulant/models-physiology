@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cooling_hunter_crampin_CellML_2008
   download_url: https://models.physiomeproject.org/workspace/cooling_hunter_crampin_CellML_2008/@@download/990b7b2b938c15874ac605e07b65f7c0d924ae67/GPCR_Cycle.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cooling_hunter_crampin_cellml_2008_coolinghuntercrampincellml2008_model:CoolingHunterCrampinCellml2008Coolinghuntercrampincellml2008Model
   init_kwargs:
     model_path: data/GPCR_Cycle.cellml

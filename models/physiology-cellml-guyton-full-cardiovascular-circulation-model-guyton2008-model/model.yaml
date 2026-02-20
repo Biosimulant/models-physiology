@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_2008/@@download/289ac0cbccb2fb008c77541af905e9ec414f0d3a/Guyton_Model_1-0.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_full_cardiovascular_circulation_model_guyton2008_model:GuytonFullCardiovascularCirculationModelGuyton2008Model
   init_kwargs:
     model_path: data/Guyton_Model_1-0.cellml

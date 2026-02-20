@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/purvis_smith_koizumi_butera_2007
   download_url: https://models.physiomeproject.org/workspace/purvis_smith_koizumi_butera_2007/@@download/d75208ca718c8b58c3628de76570d65b18a312e0/purvis_smith_koizumi_butera_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.purvis_smith_koizumi_butera_2007_purvissmithkoizumibutera2007_model:PurvisSmithKoizumiButera2007Purvissmithkoizumibutera2007Model
   init_kwargs:
     model_path: data/purvis_smith_koizumi_butera_2007.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6ba
   download_url: https://models.physiomeproject.org/workspace/6ba/@@download/f93a81df89503de03ab8b54e7c34531f884aca75/BG_B1AR.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_b1ar_6ba_model:BgB1ar6baModel
   init_kwargs:
     model_path: data/BG_B1AR.cellml

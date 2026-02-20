@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/841
   download_url: https://models.physiomeproject.org/workspace/841/@@download/2fed4cbe51bfb5b3c2a6b10546351fd3c2daf026/Figure02.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.computational_modelling_of_glucose_uptake_by_sgl_841_model:ComputationalModellingOfGlucoseUptakeBySgl841Model
   init_kwargs:
     model_path: data/Figure02.cellml

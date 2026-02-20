@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bdb
   download_url: https://models.physiomeproject.org/workspace/bdb/@@download/d1ad902d5303c3e15f0eed5025f8e4628e8e232f/BG_CaT.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cat_protein_knowledge_page_bdb_model:CatProteinKnowledgePageBdbModel
   init_kwargs:
     model_path: data/BG_CaT.cellml

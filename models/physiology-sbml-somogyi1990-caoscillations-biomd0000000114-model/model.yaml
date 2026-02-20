@@ -21,7 +21,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/BIOMD0000000114
   download_url: https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000114?filename=BIOMD0000000114_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.somogyi1990_caoscillations_biomd0000000114_model:Somogyi1990CaoscillationsBiomd0000000114Model
   init_kwargs:
     model_path: data/BIOMD0000000114.xml

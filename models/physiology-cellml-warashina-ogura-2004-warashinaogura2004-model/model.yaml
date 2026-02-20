@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/warashina_ogura_2004
   download_url: https://models.physiomeproject.org/workspace/warashina_ogura_2004/@@download/17f4aef262d8e849f06d3e192ee77169ce6d1ba2/warashina_ogura_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.warashina_ogura_2004_warashinaogura2004_model:WarashinaOgura2004Warashinaogura2004Model
   init_kwargs:
     model_path: data/warashina_ogura_2004.cellml

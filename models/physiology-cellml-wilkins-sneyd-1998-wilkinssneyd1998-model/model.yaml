@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wilkins_sneyd_1998
   download_url: https://models.physiomeproject.org/workspace/wilkins_sneyd_1998/@@download/93542ac90e982a9dadfb2bb26c5d598ac8d18219/wilkins_sneyd_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wilkins_sneyd_1998_wilkinssneyd1998_model:WilkinsSneyd1998Wilkinssneyd1998Model
   init_kwargs:
     model_path: data/wilkins_sneyd_1998.cellml

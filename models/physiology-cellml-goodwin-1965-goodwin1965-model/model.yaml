@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/goodwin_1965
   download_url: https://models.physiomeproject.org/workspace/goodwin_1965/@@download/7ab656a4e5096d1341b3313d6e6a0e5efcb70442/goodwin_1965_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.goodwin_1965_goodwin1965_model:Goodwin1965Goodwin1965Model
   init_kwargs:
     model_path: data/goodwin_1965_a.cellml

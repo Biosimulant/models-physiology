@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chassagnole_rais_quentin_fell_mazat_2001
   download_url: https://models.physiomeproject.org/workspace/chassagnole_rais_quentin_fell_mazat_2001/@@download/690b04e1eaf5687189bece189712bb40eb1b7f26/chassagnole_rais_quentin_fell_mazat_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chassagnole_rais_quentin_fell_mazat_2001_chassagnoleraisquentinfellmazat2001_model:ChassagnoleRaisQuentinFellMazat2001Chassagnoleraisquentinfellmazat2001Model
   init_kwargs:
     model_path: data/chassagnole_rais_quentin_fell_mazat_2001.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_muscle_blood_flow_control_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_muscle_blood_flow_control_2008/@@download/5a07162463bdebd9580b8a398465914de9c40fb2/M_blood_flow.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_muscle_blood_flow_control_2008_guytonmusclebloodflowcontrol2008_model:GuytonMuscleBloodFlowControl2008Guytonmusclebloodflowcontrol2008Model
   init_kwargs:
     model_path: data/M_blood_flow.cellml

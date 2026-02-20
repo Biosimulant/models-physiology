@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/salem_saidel_stanley_cabrera_2002
   download_url: https://models.physiomeproject.org/workspace/salem_saidel_stanley_cabrera_2002/@@download/e0281b3b5e99b20e072081571349dcd2af085f6e/salem_saidel_stanley_cabrera_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.salem_saidel_stanley_cabrera_2002_salemsaidelstanleycabrera2002_model:SalemSaidelStanleyCabrera2002Salemsaidelstanleycabrera2002Model
   init_kwargs:
     model_path: data/salem_saidel_stanley_cabrera_2002.cellml

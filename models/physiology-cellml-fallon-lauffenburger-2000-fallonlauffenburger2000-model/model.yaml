@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fallon_lauffenburger_2000
   download_url: https://models.physiomeproject.org/workspace/fallon_lauffenburger_2000/@@download/d2d26588443d7aa3cc139c6e21c3d41dd57dd253/fallon_lauffenburger_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fallon_lauffenburger_2000_fallonlauffenburger2000_model:FallonLauffenburger2000Fallonlauffenburger2000Model
   init_kwargs:
     model_path: data/fallon_lauffenburger_2000.cellml

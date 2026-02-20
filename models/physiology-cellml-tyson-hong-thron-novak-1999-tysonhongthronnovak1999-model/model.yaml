@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tyson_hong_thron_novak_1999
   download_url: https://models.physiomeproject.org/workspace/tyson_hong_thron_novak_1999/@@download/58622087b22452ecfd8e98d45df330ba07219597/tyson_hong_thron_novak_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tyson_hong_thron_novak_1999_tysonhongthronnovak1999_model:TysonHongThronNovak1999Tysonhongthronnovak1999Model
   init_kwargs:
     model_path: data/tyson_hong_thron_novak_1999.cellml

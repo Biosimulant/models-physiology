@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gardner_dolnik_collins_1998
   download_url: https://models.physiomeproject.org/workspace/gardner_dolnik_collins_1998/@@download/1c73a9f1a4f82776f996f7ca486720635685b105/gardner_dolnik_collins_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gardner_dolnik_collins_1998_gardnerdolnikcollins1998_model:GardnerDolnikCollins1998Gardnerdolnikcollins1998Model
   init_kwargs:
     model_path: data/gardner_dolnik_collins_1998.cellml

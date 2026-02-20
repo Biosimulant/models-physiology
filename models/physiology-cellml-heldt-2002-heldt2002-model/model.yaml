@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/heldt_2002
   download_url: https://models.physiomeproject.org/workspace/heldt_2002/@@download/adaa6a7dad265fb264e743ea013c8f698514cde0/circ_pbpk.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.heldt_2002_heldt2002_model:Heldt2002Heldt2002Model
   init_kwargs:
     model_path: data/circ_pbpk.cellml

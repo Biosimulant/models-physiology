@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_electrolytes_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_electrolytes_2008/@@download/dfb380550ae5bb7f761fa90c6443094b731b1e5c/electrolytes.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_electrolytes_2008_guytonelectrolytes2008_model:GuytonElectrolytes2008Guytonelectrolytes2008Model
   init_kwargs:
     model_path: data/electrolytes.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c74
   download_url: https://models.physiomeproject.org/workspace/c74/@@download/8ec889668489d9b96e64f0bac8bef38b0d85f3c4/BG_NHE1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.nhe1_the_physics_of_physiology_c74_model:Nhe1ThePhysicsOfPhysiologyC74Model
   init_kwargs:
     model_path: data/BG_NHE1.cellml

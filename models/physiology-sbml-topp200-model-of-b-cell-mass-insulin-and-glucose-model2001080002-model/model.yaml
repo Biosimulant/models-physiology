@@ -24,7 +24,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL2001080002
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL2001080002?filename=Topp2000.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.topp200_model_of_b_cell_mass_insulin_and_glucose_model2001080002_model:Topp200ModelOfBCellMassInsulinAndGlucoseModel2001080002Model
   init_kwargs:
     model_path: data/MODEL2001080002.xml

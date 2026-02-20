@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/albert_haanstra_hannaert_vanroy_opperdoes_bakker_michels_2005
   download_url: https://models.physiomeproject.org/workspace/albert_haanstra_hannaert_vanroy_opperdoes_bakker_michels_2005/@@download/59e1b44482fd120c92d4ccdc5c1a5749b3678772/albert_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.albert_haanstra_hannaert_van_roy_opperdoes_bakke_alberthaanstrahannaertvanroyopperdoesbakkermichels2005_model:AlbertHaanstraHannaertVanRoyOpperdoesBakkeAlberthaanstrahannaertvanroyopperdoesbakkermichels2005Model
   init_kwargs:
     model_path: data/albert_2005.cellml

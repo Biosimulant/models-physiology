@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b2d
   download_url: https://models.physiomeproject.org/workspace/b2d/@@download/b1e695c9531aea45514e8c25b7630c0ccb744d51/BG_RTK.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_rtk_b2d_model:BgRtkB2dModel
   init_kwargs:
     model_path: data/BG_RTK.cellml

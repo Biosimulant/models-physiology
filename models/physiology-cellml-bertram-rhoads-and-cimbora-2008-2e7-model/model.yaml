@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2e7
   download_url: https://models.physiomeproject.org/workspace/2e7/@@download/ea80a8b76c175383dfb9df909bf5acb8c108d372/bertram_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bertram_rhoads_and_cimbora_2008_2e7_model:BertramRhoadsAndCimbora20082e7Model
   init_kwargs:
     model_path: data/bertram_2008.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/ramirez_nattel_courtemanche_2000
   download_url: https://models.physiomeproject.org/workspace/ramirez_nattel_courtemanche_2000/@@download/2b863bc9d3b3da2495b6a1c0b79de08e297e32c2/ramirez_nattel_courtemanche_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ramirez_nattel_courtemanche_2000_ramireznattelcourtemanche2000_model:RamirezNattelCourtemanche2000Ramireznattelcourtemanche2000Model
   init_kwargs:
     model_path: data/ramirez_nattel_courtemanche_2000.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/705
   download_url: https://models.physiomeproject.org/workspace/705/@@download/b7e992255918137f7a8a64e6f90ccda3e6542ded/FCU_adenylylCyclase.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fcu_adenylylcyclase_705_model:FcuAdenylylcyclase705Model
   init_kwargs:
     model_path: data/FCU_adenylylCyclase.cellml

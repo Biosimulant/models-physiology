@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/maldonado_borchers_findeisen_allgower_2006
   download_url: https://models.physiomeproject.org/workspace/maldonado_borchers_findeisen_allgower_2006/@@download/d1c385b5e9d2d5fa85609401f625d06a474e2e9a/maldonado_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.maldonado_borchers_findeisen_and_allgower_2006_maldonadoborchersfindeisenallgower2006_model:MaldonadoBorchersFindeisenAndAllgower2006Maldonadoborchersfindeisenallgower2006Model
   init_kwargs:
     model_path: data/maldonado_2006.cellml

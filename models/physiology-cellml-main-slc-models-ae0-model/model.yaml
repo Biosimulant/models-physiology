@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/ae0/@@download/e25fbad7b3aa71aed73eb58bae6d721ed954a2db/Transporter
     1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.main_slc_models_ae0_model:MainSlcModelsAe0Model
   init_kwargs:
     model_path: data/Transporter_1.cellml

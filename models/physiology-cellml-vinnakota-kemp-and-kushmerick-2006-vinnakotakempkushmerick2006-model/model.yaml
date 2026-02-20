@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vinnakota_kemp_kushmerick_2006
   download_url: https://models.physiomeproject.org/workspace/vinnakota_kemp_kushmerick_2006/@@download/29125beb295c666c42c67302b9233ab693f55180/vinnakota_kemp_kushmeric_2006_exp29frA02.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vinnakota_kemp_and_kushmerick_2006_vinnakotakempkushmerick2006_model:VinnakotaKempAndKushmerick2006Vinnakotakempkushmerick2006Model
   init_kwargs:
     model_path: data/vinnakota_kemp_kushmeric_2006_exp29frA02.cellml

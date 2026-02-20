@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bertram_arnot_zamponi_2002
   download_url: https://models.physiomeproject.org/workspace/bertram_arnot_zamponi_2002/@@download/d4f32b51b9c7d733652ae40febeeb5374ee47636/bertram_arnot_zamponi_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bertram_arnot_zamponi_2002_bertramarnotzamponi2002_model:BertramArnotZamponi2002Bertramarnotzamponi2002Model
   init_kwargs:
     model_path: data/bertram_arnot_zamponi_2002.cellml

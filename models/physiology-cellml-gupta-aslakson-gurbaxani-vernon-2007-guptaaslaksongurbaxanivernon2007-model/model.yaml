@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/gupta_aslakson_gurbaxani_vernon_2007
   download_url: https://models.physiomeproject.org/workspace/gupta_aslakson_gurbaxani_vernon_2007/@@download/ccccde3d8164aeee2d8f71c8e2ed250709d9ca22/gupta_aslakson_gurbaxani_vernon_2007_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.gupta_aslakson_gurbaxani_vernon_2007_guptaaslaksongurbaxanivernon2007_model:GuptaAslaksonGurbaxaniVernon2007Guptaaslaksongurbaxanivernon2007Model
   init_kwargs:
     model_path: data/gupta_aslakson_gurbaxani_vernon_2007_a.cellml

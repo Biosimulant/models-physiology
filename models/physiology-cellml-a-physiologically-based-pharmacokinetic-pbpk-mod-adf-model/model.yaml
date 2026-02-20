@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/adf
   download_url: https://models.physiomeproject.org/workspace/adf/@@download/6867eca056feebee5b355f71496fcb942b662625/Lindane_rat_Units.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_physiologically_based_pharmacokinetic_pbpk_mod_adf_model:APhysiologicallyBasedPharmacokineticPbpkModAdfModel
   init_kwargs:
     model_path: data/Lindane_rat_Units.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/rivlin_saunders_1951
   download_url: https://models.physiomeproject.org/workspace/rivlin_saunders_1951/@@download/636d5bb1301f2b3a358b2eb11f3135a51f4b6ba9/rivlin_saunders_1951.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rivlin_saunders_1951_rivlinsaunders1951_model:RivlinSaunders1951Rivlinsaunders1951Model
   init_kwargs:
     model_path: data/rivlin_saunders_1951.cellml

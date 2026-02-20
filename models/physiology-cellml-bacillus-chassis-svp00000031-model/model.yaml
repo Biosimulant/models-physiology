@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000031
   download_url: https://models.physiomeproject.org/workspace/SVP_00000031/@@download/0127937496bb8b96fae58e107954f5957fa64522/Chassis_Bacillus.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bacillus_chassis_svp00000031_model:BacillusChassisSvp00000031Model
   init_kwargs:
     model_path: data/Chassis_Bacillus.cellml

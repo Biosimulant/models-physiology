@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/562
   download_url: https://models.physiomeproject.org/workspace/562/@@download/d244a015b9a673a14de122e4dcfbe0cf0f7667e2/yang_2005_FIg3ab.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.yang_clark_bryan_and_robertson_2005_562_model:YangClarkBryanAndRobertson2005562Model
   init_kwargs:
     model_path: data/yang_2005_FIg3ab.cellml

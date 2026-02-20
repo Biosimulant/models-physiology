@@ -20,7 +20,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1006230037
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1006230037?filename=MODEL1006230037_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.weinstein2000_omcd_model1006230037_model:Weinstein2000OmcdModel1006230037Model
   init_kwargs:
     model_path: data/MODEL1006230037.xml

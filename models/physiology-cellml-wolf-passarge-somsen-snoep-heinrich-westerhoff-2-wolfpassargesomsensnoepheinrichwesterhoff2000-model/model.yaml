@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wolf_passarge_somsen_snoep_heinrich_westerhoff_2000
   download_url: https://models.physiomeproject.org/workspace/wolf_passarge_somsen_snoep_heinrich_westerhoff_2000/@@download/780e7c5eb2b716dba3b4b3b24a3630ac1b47b4c5/wolf_passarge_somsen_snoep_heinrich_westerhoff_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wolf_passarge_somsen_snoep_heinrich_westerhoff_2_wolfpassargesomsensnoepheinrichwesterhoff2000_model:WolfPassargeSomsenSnoepHeinrichWesterhoff2Wolfpassargesomsensnoepheinrichwesterhoff2000Model
   init_kwargs:
     model_path: data/wolf_passarge_somsen_snoep_heinrich_westerhoff_2000.cellml

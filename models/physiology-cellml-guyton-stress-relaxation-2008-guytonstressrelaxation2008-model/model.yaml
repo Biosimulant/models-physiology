@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_stress_relaxation_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_stress_relaxation_2008/@@download/b867919293f1bf0c48f03c98b944a488500c3e42/environment.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_stress_relaxation_2008_guytonstressrelaxation2008_model:GuytonStressRelaxation2008Guytonstressrelaxation2008Model
   init_kwargs:
     model_path: data/environment.cellml

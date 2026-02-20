@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/362
   download_url: https://models.physiomeproject.org/workspace/362/@@download/794b3900e6b2a6f52346dcd312cf6e63c0a50cc2/aslanidi_2009.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.aslanidi_2009_362_model:Aslanidi2009362Model
   init_kwargs:
     model_path: data/aslanidi_2009.cellml

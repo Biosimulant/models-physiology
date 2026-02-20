@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/835
   download_url: https://models.physiomeproject.org/workspace/835/@@download/541f29422a04546a1579225d3dd1651077a5da7f/BG_Ca_leak.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_ca_leak_835_model:BgCaLeak835Model
   init_kwargs:
     model_path: data/BG_Ca_leak.cellml

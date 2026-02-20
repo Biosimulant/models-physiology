@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bc6
   download_url: https://models.physiomeproject.org/workspace/bc6/@@download/7641795e166738d97036757a07c81070ecab05db/BG_KACh.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kach_protein_knowledge_page_bc6_model:KachProteinKnowledgePageBc6Model
   init_kwargs:
     model_path: data/BG_KACh.cellml

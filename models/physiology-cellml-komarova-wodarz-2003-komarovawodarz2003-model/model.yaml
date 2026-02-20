@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/komarova_wodarz_2003
   download_url: https://models.physiomeproject.org/workspace/komarova_wodarz_2003/@@download/da6cde834b169daa743829a79c53356532287250/komarova_wodarz_2003_complex.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.komarova_wodarz_2003_komarovawodarz2003_model:KomarovaWodarz2003Komarovawodarz2003Model
   init_kwargs:
     model_path: data/komarova_wodarz_2003_complex.cellml

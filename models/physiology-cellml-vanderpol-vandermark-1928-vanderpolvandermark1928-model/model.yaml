@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vanderpol_vandermark_1928
   download_url: https://models.physiomeproject.org/workspace/vanderpol_vandermark_1928/@@download/70d8040c74a9e3f7f4d151fce9e31f478709e7a5/vanderpol_vandermark_1928.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vanderpol_vandermark_1928_vanderpolvandermark1928_model:VanderpolVandermark1928Vanderpolvandermark1928Model
   init_kwargs:
     model_path: data/vanderpol_vandermark_1928.cellml

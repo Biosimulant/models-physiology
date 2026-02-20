@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/297
   download_url: https://models.physiomeproject.org/workspace/297/@@download/5c6d2c520a9faad399fd954401d658362d25ef03/acid_base.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.acid_base_physiology_297_model:AcidBasePhysiology297Model
   init_kwargs:
     model_path: data/acid_base.cellml

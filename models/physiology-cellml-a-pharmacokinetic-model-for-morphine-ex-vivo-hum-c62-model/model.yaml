@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c62
   download_url: https://models.physiomeproject.org/workspace/c62/@@download/619bec41f0c48ac55eec48963236f8ce78cc3d48/Morphine_Transplacental.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_pharmacokinetic_model_for_morphine_ex_vivo_hum_c62_model:APharmacokineticModelForMorphineExVivoHumC62Model
   init_kwargs:
     model_path: data/Morphine_Transplacental.cellml

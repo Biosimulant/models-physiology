@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_thirst_drinking_and_salt_appetite_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_thirst_drinking_and_salt_appetite_2008/@@download/628e89e812cb4fd3f765ec57bc51960c35933c58/environment.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_thirst_drinking_and_salt_appetite_2008_guytonthirstdrinkingandsaltappetite2008_model:GuytonThirstDrinkingAndSaltAppetite2008Guytonthirstdrinkingandsaltappetite2008Model
   init_kwargs:
     model_path: data/environment.cellml

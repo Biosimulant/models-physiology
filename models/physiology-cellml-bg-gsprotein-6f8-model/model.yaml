@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/6f8
   download_url: https://models.physiomeproject.org/workspace/6f8/@@download/4e0bd2426bf04271c75a967dc3c8662b44877fa8/BG_GsProtein.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_gsprotein_6f8_model:BgGsprotein6f8Model
   init_kwargs:
     model_path: data/BG_GsProtein.cellml

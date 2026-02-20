@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/elowitz_leibler_2000
   download_url: https://models.physiomeproject.org/workspace/elowitz_leibler_2000/@@download/cb2913da4514ce15e56e9c2b46cfb3096525e49b/elowitz_leibler_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.elowitz_leibler_2000_elowitzleibler2000_model:ElowitzLeibler2000Elowitzleibler2000Model
   init_kwargs:
     model_path: data/elowitz_leibler_2000.cellml

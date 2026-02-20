@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/demiray_1981
   download_url: https://models.physiomeproject.org/workspace/demiray_1981/@@download/1eff38aca50954c3e71941f8137a51d13c8422cb/demiray_1981.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.demiray_1981_demiray1981_model:Demiray1981Demiray1981Model
   init_kwargs:
     model_path: data/demiray_1981.cellml

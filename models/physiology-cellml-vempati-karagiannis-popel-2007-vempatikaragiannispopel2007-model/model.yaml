@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vempati_karagiannis_popel_2007
   download_url: https://models.physiomeproject.org/workspace/vempati_karagiannis_popel_2007/@@download/17c90dc4e1b18a662af86c12379323ea21b0481b/vempati_karagiannis_popel_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vempati_karagiannis_popel_2007_vempatikaragiannispopel2007_model:VempatiKaragiannisPopel2007Vempatikaragiannispopel2007Model
   init_kwargs:
     model_path: data/vempati_karagiannis_popel_2007.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b17
   download_url: https://models.physiomeproject.org/workspace/b17/@@download/2c8fe6369870d89703604aae30706169c4bb8e8a/APAP_Pediatric.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_pharmacokinetic_pk_model_of_acetaminophen_for_b17_model:APharmacokineticPkModelOfAcetaminophenForB17Model
   init_kwargs:
     model_path: data/APAP_Pediatric.cellml

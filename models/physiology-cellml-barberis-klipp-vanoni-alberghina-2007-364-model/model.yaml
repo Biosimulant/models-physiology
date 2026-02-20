@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/364
   download_url: https://models.physiomeproject.org/workspace/364/@@download/ede13a96066e5d08fc2e2486c3d6589150e80c2e/barberis_klipp_vanoni_alberghina_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.barberis_klipp_vanoni_alberghina_2007_364_model:BarberisKlippVanoniAlberghina2007364Model
   init_kwargs:
     model_path: data/barberis_klipp_vanoni_alberghina_2007.cellml

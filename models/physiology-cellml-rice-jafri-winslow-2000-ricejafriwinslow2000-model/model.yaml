@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/rice_jafri_winslow_2000
   download_url: https://models.physiomeproject.org/workspace/rice_jafri_winslow_2000/@@download/2c157300e009a4cd3a837f91e361b39dee36e6c6/rice_jafri_winslow_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rice_jafri_winslow_2000_ricejafriwinslow2000_model:RiceJafriWinslow2000Ricejafriwinslow2000Model
   init_kwargs:
     model_path: data/rice_jafri_winslow_2000.cellml

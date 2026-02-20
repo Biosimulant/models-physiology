@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/51a
   download_url: https://models.physiomeproject.org/workspace/51a/@@download/ea7c791f6923be6dfe2a8b9549cfc741e6d9165e/Ohara_Rudy_2011.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.playing_with_stimulus_frequency_and_the_ord_mode_51a_model:PlayingWithStimulusFrequencyAndTheOrdMode51aModel
   init_kwargs:
     model_path: data/Ohara_Rudy_2011.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sneyd_tsanevaatanasova_bruce_straub_giovannucci_yule_2003
   download_url: https://models.physiomeproject.org/workspace/sneyd_tsanevaatanasova_bruce_straub_giovannucci_yule_2003/@@download/11efcdc97f1abe30b270dfcd7abd9d477ebfbed0/sneyd_tsanevaatanasova_bruce_straub_giovannucci_yule_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sneyd_tsanevaatanasova_bruce_straub_giovannucci_sneydtsanevaatanasovabrucestraubgiovannucciyule2003_model:SneydTsanevaatanasovaBruceStraubGiovannucciSneydtsanevaatanasovabrucestraubgiovannucciyule2003Model
   init_kwargs:
     model_path: data/sneyd_tsanevaatanasova_bruce_straub_giovannucci_yule_2003.cellml

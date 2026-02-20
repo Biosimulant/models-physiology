@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/smith_chase_nokes_shaw_wake_2004
   download_url: https://models.physiomeproject.org/workspace/smith_chase_nokes_shaw_wake_2004/@@download/f7b732c9707abdba5a55d471c49baf7dee92b036/smith_chase_nokes_shaw_wake_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.smith_chase_2004_smithchasenokesshawwake2004_model:SmithChase2004Smithchasenokesshawwake2004Model
   init_kwargs:
     model_path: data/smith_chase_nokes_shaw_wake_2004.cellml

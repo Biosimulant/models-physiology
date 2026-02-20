@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bingzheng_zhenye_liansong_1990
   download_url: https://models.physiomeproject.org/workspace/bingzheng_zhenye_liansong_1990/@@download/a3029e18f8b884664bfe5078b352e2aba093cca9/bingzheng_zhenye_liansong_1990.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bingzheng_zhenye_liansong_1990_bingzhengzhenyeliansong1990_model:BingzhengZhenyeLiansong1990Bingzhengzhenyeliansong1990Model
   init_kwargs:
     model_path: data/bingzheng_zhenye_liansong_1990.cellml

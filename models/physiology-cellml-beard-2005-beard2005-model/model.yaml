@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/beard_2005
   download_url: https://models.physiomeproject.org/workspace/beard_2005/@@download/e8021d49ce9b86c3a3d7488ff1eb65b765a969ce/beard_2005.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.beard_2005_beard2005_model:Beard2005Beard2005Model
   init_kwargs:
     model_path: data/beard_2005.cellml

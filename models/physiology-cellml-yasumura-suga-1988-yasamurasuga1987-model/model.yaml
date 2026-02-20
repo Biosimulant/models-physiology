@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/yasamura_suga_1987
   download_url: https://models.physiomeproject.org/workspace/yasamura_suga_1987/@@download/ca5f47314dca17914757d43ce790fb3778918870/yasumura_1988.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.yasumura_suga_1988_yasamurasuga1987_model:YasumuraSuga1988Yasamurasuga1987Model
   init_kwargs:
     model_path: data/yasumura_1988.cellml

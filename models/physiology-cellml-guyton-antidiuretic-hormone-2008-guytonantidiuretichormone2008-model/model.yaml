@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_antidiuretic_hormone_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_antidiuretic_hormone_2008/@@download/248aa91939ca186a4a29f8ba0c3bdfdf6d8a7a52/antidiuretic_hormone.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_antidiuretic_hormone_2008_guytonantidiuretichormone2008_model:GuytonAntidiureticHormone2008Guytonantidiuretichormone2008Model
   init_kwargs:
     model_path: data/antidiuretic_hormone.cellml

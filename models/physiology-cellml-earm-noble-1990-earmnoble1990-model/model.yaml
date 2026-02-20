@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/earm_noble_1990
   download_url: https://models.physiomeproject.org/workspace/earm_noble_1990/@@download/0f4051afdbdda6e9e5aed31df87ab5f2713be81f/earm_noble_1990.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.earm_noble_1990_earmnoble1990_model:EarmNoble1990Earmnoble1990Model
   init_kwargs:
     model_path: data/earm_noble_1990.cellml

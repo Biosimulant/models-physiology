@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/irvine_jafri_winslow_1999
   download_url: https://models.physiomeproject.org/workspace/irvine_jafri_winslow_1999/@@download/de42d61377f196fb5bd23eaaa00914ac09cdf683/irvine_jafri_winslow_1999.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.irvine_jafri_winslow_1999_irvinejafriwinslow1999_model:IrvineJafriWinslow1999Irvinejafriwinslow1999Model
   init_kwargs:
     model_path: data/irvine_jafri_winslow_1999.cellml

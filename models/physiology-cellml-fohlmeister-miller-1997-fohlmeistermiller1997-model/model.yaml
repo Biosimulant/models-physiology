@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fohlmeister_miller_1997
   download_url: https://models.physiomeproject.org/workspace/fohlmeister_miller_1997/@@download/c062ae68c0b1b138f72078fb4316d597a77a2ac6/fohlmeister_miller_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fohlmeister_miller_1997_fohlmeistermiller1997_model:FohlmeisterMiller1997Fohlmeistermiller1997Model
   init_kwargs:
     model_path: data/fohlmeister_miller_1997.cellml

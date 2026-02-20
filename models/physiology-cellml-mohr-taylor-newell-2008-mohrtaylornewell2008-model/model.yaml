@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mohr_taylor_newell_2008
   download_url: https://models.physiomeproject.org/workspace/mohr_taylor_newell_2008/@@download/478caf85b8df19ff4c72ad74bc80eb6bb07129ed/mohr_taylor_newell_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mohr_taylor_newell_2008_mohrtaylornewell2008_model:MohrTaylorNewell2008Mohrtaylornewell2008Model
   init_kwargs:
     model_path: data/mohr_taylor_newell_2008.cellml

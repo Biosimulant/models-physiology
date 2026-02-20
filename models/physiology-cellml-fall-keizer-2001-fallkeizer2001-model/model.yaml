@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/fall_keizer_2001
   download_url: https://models.physiomeproject.org/workspace/fall_keizer_2001/@@download/bec4aa216e94b9a2dbf7f23317670c9cdc905711/fall_keizer_2001.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fall_keizer_2001_fallkeizer2001_model:FallKeizer2001Fallkeizer2001Model
   init_kwargs:
     model_path: data/fall_keizer_2001.cellml

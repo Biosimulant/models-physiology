@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/cui_kaandorp_2008
   download_url: https://models.physiomeproject.org/workspace/cui_kaandorp_2008/@@download/061e2449aa9e5024342366f92e840c25793a52b1/cui_kaandorp_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cui_kaandorp_2008_cuikaandorp2008_model:CuiKaandorp2008Cuikaandorp2008Model
   init_kwargs:
     model_path: data/cui_kaandorp_2008.cellml

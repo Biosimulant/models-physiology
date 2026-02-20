@@ -12,13 +12,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class CellmlAPharmacokineticPkModelOfAcetaminophenForAdult(bsim.BioModule):
+class CellmlAPharmacokineticPkModelOfAcetaminophenForAdult(biosim.BioModule):
     """BioModule wrapper for CellML model: A pharmacokinetic (PK) model of acetaminophen for adult."""
 
     def __init__(self, model_path: str = "data/APAP_Reith2009.cellml", min_dt: float = 0.01) -> None:

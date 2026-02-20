@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sachse_moreno_abildskov_2008
   download_url: https://models.physiomeproject.org/workspace/sachse_moreno_abildskov_2008/@@download/6d1bf8b84d447a2915482ea244d4dee219d7420d/sachse_moreno_abildskov_2008_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sachse_moreno_abildskov_2008_sachsemorenoabildskov2008_model:SachseMorenoAbildskov2008Sachsemorenoabildskov2008Model
   init_kwargs:
     model_path: data/sachse_moreno_abildskov_2008_a.cellml

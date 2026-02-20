@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d42
   download_url: https://models.physiomeproject.org/workspace/d42/@@download/7a829c334cfa12d90cc0f489f2ea7b6edd74ac9a/Bronchodilator_sim.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_physiologically_grounded_model_of_pulmonary_ac_d42_model:APhysiologicallyGroundedModelOfPulmonaryAcD42Model
   init_kwargs:
     model_path: data/Bronchodilator_sim.cellml

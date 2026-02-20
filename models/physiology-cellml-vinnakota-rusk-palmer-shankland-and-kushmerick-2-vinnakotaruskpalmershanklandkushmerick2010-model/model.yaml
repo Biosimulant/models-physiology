@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vinnakota_rusk_palmer_shankland_kushmerick_2010
   download_url: https://models.physiomeproject.org/workspace/vinnakota_rusk_palmer_shankland_kushmerick_2010/@@download/90e422127e59e53e8463b93b5c52a9a4838e19eb/vinnakota_rusk_palmer_shankland_kushmeric_2010_edl.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vinnakota_rusk_palmer_shankland_and_kushmerick_2_vinnakotaruskpalmershanklandkushmerick2010_model:VinnakotaRuskPalmerShanklandAndKushmerick2Vinnakotaruskpalmershanklandkushmerick2010Model
   init_kwargs:
     model_path: data/vinnakota_rusk_palmer_shankland_kushmeric_2010_edl.cellml

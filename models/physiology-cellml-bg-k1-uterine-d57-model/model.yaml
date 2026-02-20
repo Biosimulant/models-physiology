@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d57
   download_url: https://models.physiomeproject.org/workspace/d57/@@download/32386e6d968ffd6099ef50267e3d7fde9d67dde4/BG_K1_uterine.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_k1_uterine_d57_model:BgK1UterineD57Model
   init_kwargs:
     model_path: data/BG_K1_uterine.cellml

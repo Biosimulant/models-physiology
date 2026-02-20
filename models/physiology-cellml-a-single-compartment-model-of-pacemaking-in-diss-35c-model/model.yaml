@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/35c
   download_url: https://models.physiomeproject.org/workspace/35c/@@download/82f47cbf0e3eebf7b5689de7cb1013723f8b7860/francis_garcia_middleton_2013.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_single_compartment_model_of_pacemaking_in_diss_35c_model:ASingleCompartmentModelOfPacemakingInDiss35cModel
   init_kwargs:
     model_path: data/francis_garcia_middleton_2013.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/c6b
   download_url: https://models.physiomeproject.org/workspace/c6b/@@download/6f92556628753a5d2a904abe1e0a5272c8560611/GLUT2_BG.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.glut2_the_physics_of_physiology_c6b_model:Glut2ThePhysicsOfPhysiologyC6bModel
   init_kwargs:
     model_path: data/GLUT2_BG.cellml

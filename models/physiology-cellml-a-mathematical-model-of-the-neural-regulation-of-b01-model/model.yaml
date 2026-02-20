@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/b01
   download_url: https://models.physiomeproject.org/workspace/b01/@@download/fd4a7ac8dc4af994ade5119e5e7850a287f524d7/ICC_SMC_Neuro.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_mathematical_model_of_the_neural_regulation_of_b01_model:AMathematicalModelOfTheNeuralRegulationOfB01Model
   init_kwargs:
     model_path: data/ICC_SMC_Neuro.cellml

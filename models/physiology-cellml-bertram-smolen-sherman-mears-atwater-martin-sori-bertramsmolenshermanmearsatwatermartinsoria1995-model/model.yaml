@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bertram_smolen_sherman_mears_atwater_martin_soria_1995
   download_url: https://models.physiomeproject.org/workspace/bertram_smolen_sherman_mears_atwater_martin_soria_1995/@@download/738df7b0ab3936ee135c90cf97c54c30c08ce44d/bertram_smolen_sherman_mears_atwater_martin_soria_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bertram_smolen_sherman_mears_atwater_martin_sori_bertramsmolenshermanmearsatwatermartinsoria1995_model:BertramSmolenShermanMearsAtwaterMartinSoriBertramsmolenshermanmearsatwatermartinsoria1995Model
   init_kwargs:
     model_path: data/bertram_smolen_sherman_mears_atwater_martin_soria_1995.cellml

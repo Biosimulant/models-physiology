@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/698
   download_url: https://models.physiomeproject.org/workspace/698/@@download/7a442848f94c670ceba148b4739d80aa213a4a64/fabbri_et_al_based_composite_SAN_model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fabbri_et_al_based_composite_san_model_698_model:FabbriEtAlBasedCompositeSanModel698Model
   init_kwargs:
     model_path: data/fabbri_et_al_based_composite_SAN_model.cellml

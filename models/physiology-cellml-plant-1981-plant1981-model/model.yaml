@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/plant_1981
   download_url: https://models.physiomeproject.org/workspace/plant_1981/@@download/642a41eb107d4cb2b95fc0443acb264eab23e21c/plant_1981.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.plant_1981_plant1981_model:Plant1981Plant1981Model
   init_kwargs:
     model_path: data/plant_1981.cellml

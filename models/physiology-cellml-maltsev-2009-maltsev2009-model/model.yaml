@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/maltsev_2009
   download_url: https://models.physiomeproject.org/workspace/maltsev_2009/@@download/15a63cff9dd19677caf9bd700777cbce8b6351f7/maltsev_2009_paper.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.maltsev_2009_maltsev2009_model:Maltsev2009Maltsev2009Model
   init_kwargs:
     model_path: data/maltsev_2009_paper.cellml

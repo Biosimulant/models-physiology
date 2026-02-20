@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_aldosterone_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_aldosterone_2008/@@download/4e79c5a5e51ee4e94aef801059d796d2278014c0/aldosterone.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_aldosterone_2008_guytonaldosterone2008_model:GuytonAldosterone2008Guytonaldosterone2008Model
   init_kwargs:
     model_path: data/aldosterone.cellml

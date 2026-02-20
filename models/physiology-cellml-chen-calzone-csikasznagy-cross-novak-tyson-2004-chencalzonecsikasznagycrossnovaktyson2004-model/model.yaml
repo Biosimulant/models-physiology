@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/chen_calzone_csikasznagy_cross_novak_tyson_2004
   download_url: https://models.physiomeproject.org/workspace/chen_calzone_csikasznagy_cross_novak_tyson_2004/@@download/edb741dbe5d9aa949e3deb6ec7a985c40a75a444/chen_calzone_csikasznagy_cross_novak_tyson_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.chen_calzone_csikasznagy_cross_novak_tyson_2004_chencalzonecsikasznagycrossnovaktyson2004_model:ChenCalzoneCsikasznagyCrossNovakTyson2004Chencalzonecsikasznagycrossnovaktyson2004Model
   init_kwargs:
     model_path: data/chen_calzone_csikasznagy_cross_novak_tyson_2004.cellml

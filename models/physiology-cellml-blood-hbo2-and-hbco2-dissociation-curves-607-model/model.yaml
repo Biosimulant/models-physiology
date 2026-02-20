@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/607
   download_url: https://models.physiomeproject.org/workspace/607/@@download/f725b6864f22a00138a2c2455308142c8baba373/Figure01(1).cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.blood_hbo2_and_hbco2_dissociation_curves_607_model:BloodHbo2AndHbco2DissociationCurves607Model
   init_kwargs:
     model_path: data/Figure01_1_.cellml

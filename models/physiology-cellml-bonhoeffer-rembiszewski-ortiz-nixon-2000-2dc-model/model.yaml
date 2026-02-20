@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/2dc
   download_url: https://models.physiomeproject.org/workspace/2dc/@@download/3fa53e9ab7dece81491113f1c9a7dd55645ef697/bonhoeffer_rembiszewski_ortiz_nixon_2000_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bonhoeffer_rembiszewski_ortiz_nixon_2000_2dc_model:BonhoefferRembiszewskiOrtizNixon20002dcModel
   init_kwargs:
     model_path: data/bonhoeffer_rembiszewski_ortiz_nixon_2000_a.cellml

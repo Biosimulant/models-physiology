@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/d39
   download_url: https://models.physiomeproject.org/workspace/d39/@@download/88a66c92c0298ffe6672ca33de29f821328542e8/BG_cvs_MVP_model.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bond_graph_cvs_model_d39_model:BondGraphCvsModelD39Model
   init_kwargs:
     model_path: data/BG_cvs_MVP_model.cellml

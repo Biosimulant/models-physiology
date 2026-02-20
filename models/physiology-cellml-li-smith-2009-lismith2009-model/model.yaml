@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/li_smith_2009
   download_url: https://models.physiomeproject.org/workspace/li_smith_2009/@@download/b4c2308e064ca41f05faa8d9f75c72c54382f2b2/C57BL7_WT_model_version1.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.li_smith_2009_lismith2009_model:LiSmith2009Lismith2009Model
   init_kwargs:
     model_path: data/C57BL7_WT_model_version1.cellml

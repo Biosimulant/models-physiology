@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/361
   download_url: https://models.physiomeproject.org/workspace/361/@@download/5961f992c9b37bbdd16ed5e38a6388dfd3e99c59/goldbeter_guilmot_1995.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.arresting_the_mitotic_oscillator_and_the_control_361_model:ArrestingTheMitoticOscillatorAndTheControl361Model
   init_kwargs:
     model_path: data/goldbeter_guilmot_1995.cellml

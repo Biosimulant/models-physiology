@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/4ac
   download_url: https://models.physiomeproject.org/workspace/4ac/@@download/d0d05dca86894705e03d7bad752782f5354d166a/BG_ADV.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.cardiovascular_circulation_4ac_model:CardiovascularCirculation4acModel
   init_kwargs:
     model_path: data/BG_ADV.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bd1
   download_url: https://models.physiomeproject.org/workspace/bd1/@@download/7b6cee28f4cb9b0804abcbe07cc328ce17180a62/BG_Kto.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.kto_knowledge_page_bd1_model:KtoKnowledgePageBd1Model
   init_kwargs:
     model_path: data/BG_Kto.cellml

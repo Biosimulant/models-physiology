@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/559
   download_url: https://models.physiomeproject.org/workspace/559/@@download/018dff981ff2d13a4d23eeb52b66751a19cddef6/aslanidi_atrial_model_2009_LindbladCa_corrected.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.optimal_velocity_and_safety_of_discontinuous_con_559_model:OptimalVelocityAndSafetyOfDiscontinuousCon559Model
   init_kwargs:
     model_path: data/aslanidi_atrial_model_2009_LindbladCa_corrected.cellml

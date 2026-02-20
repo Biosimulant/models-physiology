@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/saucerman_bers_2008
   download_url: https://models.physiomeproject.org/workspace/saucerman_bers_2008/@@download/d9dcc2971c4293d5a096e9a5c9e29ea8636d66b4/saucerman_2008_cytosol.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.saucerman_bers_2008_saucermanbers2008_model:SaucermanBers2008Saucermanbers2008Model
   init_kwargs:
     model_path: data/saucerman_2008_cytosol.cellml

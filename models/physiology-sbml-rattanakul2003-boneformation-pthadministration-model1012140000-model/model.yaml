@@ -23,7 +23,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL1012140000
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL1012140000?filename=MODEL1012140000_url.xml
   license: CC0
-bsim:
+biosim:
   entrypoint: src.rattanakul2003_boneformation_pthadministration_model1012140000_model:Rattanakul2003BoneformationPthadministrationModel1012140000Model
   init_kwargs:
     model_path: data/MODEL1012140000.xml

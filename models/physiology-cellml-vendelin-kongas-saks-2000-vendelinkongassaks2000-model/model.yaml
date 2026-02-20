@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vendelin_kongas_saks_2000
   download_url: https://models.physiomeproject.org/workspace/vendelin_kongas_saks_2000/@@download/54152205044e2616b9016b3f9f606fa9fb7104dd/vendelin_kongas_saks_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vendelin_kongas_saks_2000_vendelinkongassaks2000_model:VendelinKongasSaks2000Vendelinkongassaks2000Model
   init_kwargs:
     model_path: data/vendelin_kongas_saks_2000.cellml

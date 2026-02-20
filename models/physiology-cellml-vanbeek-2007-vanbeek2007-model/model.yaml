@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/vanbeek_2007
   download_url: https://models.physiomeproject.org/workspace/vanbeek_2007/@@download/cc4f46e1303a37d258fdcbdcfbb5fa4c8d2d43cc/vanbeek_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.vanbeek_2007_vanbeek2007_model:Vanbeek2007Vanbeek2007Model
   init_kwargs:
     model_path: data/vanbeek_2007.cellml

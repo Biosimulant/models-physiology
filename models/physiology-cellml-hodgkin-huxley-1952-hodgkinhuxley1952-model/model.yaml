@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/hodgkin_huxley_1952
   download_url: https://models.physiomeproject.org/workspace/hodgkin_huxley_1952/@@download/929433c472f824a9ed80624fb0a9ff76f3a8ee16/hodgkin_huxley_1952.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.hodgkin_huxley_1952_hodgkinhuxley1952_model:HodgkinHuxley1952Hodgkinhuxley1952Model
   init_kwargs:
     model_path: data/hodgkin_huxley_1952.cellml

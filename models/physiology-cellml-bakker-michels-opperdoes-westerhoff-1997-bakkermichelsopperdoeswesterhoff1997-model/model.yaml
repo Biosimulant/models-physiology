@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/bakker_michels_opperdoes_westerhoff_1997
   download_url: https://models.physiomeproject.org/workspace/bakker_michels_opperdoes_westerhoff_1997/@@download/1ea755282ca074bcbbb678c339854928b0dc4dc6/bakker_michels_opperdoes_westerhoff_1997.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bakker_michels_opperdoes_westerhoff_1997_bakkermichelsopperdoeswesterhoff1997_model:BakkerMichelsOpperdoesWesterhoff1997Bakkermichelsopperdoeswesterhoff1997Model
   init_kwargs:
     model_path: data/bakker_michels_opperdoes_westerhoff_1997.cellml

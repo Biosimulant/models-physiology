@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/82b
   download_url: https://models.physiomeproject.org/workspace/82b/@@download/03f7d4a3218c15f55dad09985c120722f8b6273d/BG_NaB.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_na_background_82b_model:BgNaBackground82bModel
   init_kwargs:
     model_path: data/BG_NaB.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/guyton_heart_rate_and_stroke_volume_2008
   download_url: https://models.physiomeproject.org/workspace/guyton_heart_rate_and_stroke_volume_2008/@@download/7f365eb7b47115cc6cc730e48dd37ff7dac80c33/HR_and_SV.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.guyton_heart_rate_and_stroke_volume_2008_guytonheartrateandstrokevolume2008_model:GuytonHeartRateAndStrokeVolume2008Guytonheartrateandstrokevolume2008Model
   init_kwargs:
     model_path: data/HR_and_SV.cellml

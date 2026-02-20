@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/sneyd_tsaneva-atanasova_yule_thompson_shuttleworth_2004
   download_url: https://models.physiomeproject.org/workspace/sneyd_tsaneva-atanasova_yule_thompson_shuttleworth_2004/@@download/91f5d798acf745726320887c2e1b93566db2998f/sneyd_tsaneva-atanasova_yule_thompson_shuttleworth_2004.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.sneyd_tsaneva_atanasova_yule_thompson_shuttlewor_sneydtsanevaatanasovayulethompsonshuttleworth2004_model:SneydTsanevaAtanasovaYuleThompsonShuttleworSneydtsanevaatanasovayulethompsonshuttleworth2004Model
   init_kwargs:
     model_path: data/sneyd_tsaneva-atanasova_yule_thompson_shuttleworth_2004.cellml

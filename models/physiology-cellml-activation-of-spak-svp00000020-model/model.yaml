@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/SVP_00000020
   download_url: https://models.physiomeproject.org/workspace/SVP_00000020/@@download/502b3502643d0820a5f26bfdc920483d4b3e6a54/Bioenvironment_RxR2P1_spaKActivation.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.activation_of_spak_svp00000020_model:ActivationOfSpakSvp00000020Model
   init_kwargs:
     model_path: data/Bioenvironment_RxR2P1_spaKActivation.cellml

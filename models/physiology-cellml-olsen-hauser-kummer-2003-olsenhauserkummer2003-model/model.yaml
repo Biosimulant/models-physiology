@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/olsen_hauser_kummer_2003
   download_url: https://models.physiomeproject.org/workspace/olsen_hauser_kummer_2003/@@download/eebc79f8030d250692bba908d11d14b6c2bdccc6/olsen_hauser_kummer_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.olsen_hauser_kummer_2003_olsenhauserkummer2003_model:OlsenHauserKummer2003Olsenhauserkummer2003Model
   init_kwargs:
     model_path: data/olsen_hauser_kummer_2003.cellml

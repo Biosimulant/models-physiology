@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/tomida_hirose_takizawa_shibasaki_iino_2003
   download_url: https://models.physiomeproject.org/workspace/tomida_hirose_takizawa_shibasaki_iino_2003/@@download/1b3428a091718239c0f6c3b8ff0fead9f280177a/tomida_hirose_takizawa_shibasaki_iino_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.tomida_hirose_takizawa_shibasaki_iino_2003_tomidahirosetakizawashibasakiiino2003_model:TomidaHiroseTakizawaShibasakiIino2003Tomidahirosetakizawashibasakiiino2003Model
   init_kwargs:
     model_path: data/tomida_hirose_takizawa_shibasaki_iino_2003.cellml

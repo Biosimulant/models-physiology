@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/886
   download_url: https://models.physiomeproject.org/workspace/886/@@download/13ec7e6d78f3069bf156b7d1b14325648541b3dc/BG_CO2_hyd.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_co2_hydration_886_model:BgCo2Hydration886Model
   init_kwargs:
     model_path: data/BG_CO2_hyd.cellml

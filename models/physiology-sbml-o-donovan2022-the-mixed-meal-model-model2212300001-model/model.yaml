@@ -24,7 +24,7 @@ upstream:
   original_url: https://www.ebi.ac.uk/biomodels/MODEL2212300001
   download_url: https://www.ebi.ac.uk/biomodels/model/download/MODEL2212300001?filename=Mixed_Meal_Model_MATLAB_code.zip
   license: CC0
-bsim:
+biosim:
   entrypoint: src.o_donovan2022_the_mixed_meal_model_model2212300001_model:ODonovan2022TheMixedMealModelModel2212300001Model
   init_kwargs:
     model_path: data/MODEL2212300001.xml

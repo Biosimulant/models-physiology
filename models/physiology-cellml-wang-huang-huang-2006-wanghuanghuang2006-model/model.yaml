@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wang_huang_huang_2006
   download_url: https://models.physiomeproject.org/workspace/wang_huang_huang_2006/@@download/207a885a9ac99906e7fb1612ae5a31d52bd698af/wang_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wang_huang_huang_2006_wanghuanghuang2006_model:WangHuangHuang2006Wanghuanghuang2006Model
   init_kwargs:
     model_path: data/wang_2006.cellml

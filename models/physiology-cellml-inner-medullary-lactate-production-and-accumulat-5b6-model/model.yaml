@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5b6
   download_url: https://models.physiomeproject.org/workspace/5b6/@@download/3e2a4710066924ebb1f3dd02d0a7be650b348962/thomas_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.inner_medullary_lactate_production_and_accumulat_5b6_model:InnerMedullaryLactateProductionAndAccumulat5b6Model
   init_kwargs:
     model_path: data/thomas_2000.cellml

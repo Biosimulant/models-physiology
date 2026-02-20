@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/rice_wang_bers_detombe_2008
   download_url: https://models.physiomeproject.org/workspace/rice_wang_bers_detombe_2008/@@download/caa4e79eb6bb06cca6a275e036521708b6eaa7a3/rice_wang_bers_detombe_2008.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.rice_wang_bers_detombe_2008_ricewangbersdetombe2008_model:RiceWangBersDetombe2008Ricewangbersdetombe2008Model
   init_kwargs:
     model_path: data/rice_wang_bers_detombe_2008.cellml

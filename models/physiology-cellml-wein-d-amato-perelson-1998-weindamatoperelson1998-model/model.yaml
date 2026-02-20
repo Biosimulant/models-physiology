@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/wein_damato_perelson_1998
   download_url: https://models.physiomeproject.org/workspace/wein_damato_perelson_1998/@@download/4704fb2999377cfa3d1bd6a9dc5a3c33daa21913/wein_1998.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.wein_d_amato_perelson_1998_weindamatoperelson1998_model:WeinDAmatoPerelson1998Weindamatoperelson1998Model
   init_kwargs:
     model_path: data/wein_1998.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/839
   download_url: https://models.physiomeproject.org/workspace/839/@@download/87f41474d3f05aeab29a337406a982903190fe9b/main.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.fcu_cardiacap_composite_839_model:FcuCardiacapComposite839Model
   init_kwargs:
     model_path: data/main.cellml

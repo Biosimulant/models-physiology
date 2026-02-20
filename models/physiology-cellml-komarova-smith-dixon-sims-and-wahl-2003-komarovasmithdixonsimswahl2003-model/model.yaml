@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/komarova_smith_dixon_sims_wahl_2003
   download_url: https://models.physiomeproject.org/workspace/komarova_smith_dixon_sims_wahl_2003/@@download/43c141c7f131e55a22f0a7faa649d3024cdc00f0/komarova_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.komarova_smith_dixon_sims_and_wahl_2003_komarovasmithdixonsimswahl2003_model:KomarovaSmithDixonSimsAndWahl2003Komarovasmithdixonsimswahl2003Model
   init_kwargs:
     model_path: data/komarova_2003.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/iber_maini_2002
   download_url: https://models.physiomeproject.org/workspace/iber_maini_2002/@@download/9e92fec768b840cafd8e81260e426091a5efe47d/iber_maini_2002.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.iber_maini_2002_ibermaini2002_model:IberMaini2002Ibermaini2002Model
   init_kwargs:
     model_path: data/iber_maini_2002.cellml

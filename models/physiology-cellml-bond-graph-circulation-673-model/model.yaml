@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/673
   download_url: https://models.physiomeproject.org/workspace/673/@@download/9c4778c86df9c284ec56d5bb1a5de179942f6bb2/BG_Modules.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bond_graph_circulation_673_model:BondGraphCirculation673Model
   init_kwargs:
     model_path: data/BG_Modules.cellml

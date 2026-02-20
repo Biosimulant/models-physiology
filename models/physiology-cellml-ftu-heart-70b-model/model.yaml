@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/70b/@@download/e1a23a38b70b72e2080e990995ba85f8c120e848/Cardiac
     FTU v7.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ftu_heart_70b_model:FtuHeart70bModel
   init_kwargs:
     model_path: data/Cardiac_FTU_v7.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/novak_tyson_1993
   download_url: https://models.physiomeproject.org/workspace/novak_tyson_1993/@@download/cdb4ce4b76569d670e685731657a49e210bae1b7/novak_tyson_1993_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.novak_tyson_1993_novaktyson1993_model:NovakTyson1993Novaktyson1993Model
   init_kwargs:
     model_path: data/novak_tyson_1993_a.cellml

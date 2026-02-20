@@ -19,7 +19,7 @@ upstream:
   download_url: https://models.physiomeproject.org/workspace/af2/@@download/b70c68cac4814ff329fa16813fb4b6b93850ae28/FAIRDO
     BG example 3.6.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.the_physics_of_physiology_example_6_an_enzyme_ca_af2_model:ThePhysicsOfPhysiologyExample6AnEnzymeCaAf2Model
   init_kwargs:
     model_path: data/FAIRDO_BG_example_3.6.cellml

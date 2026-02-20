@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/international_si_units_2006
   download_url: https://models.physiomeproject.org/workspace/international_si_units_2006/@@download/114949e598563e34ef1f0d57779735c2a987e2db/international_si_units_2006.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.international_si_units_2006_internationalsiunits2006_model:InternationalSiUnits2006Internationalsiunits2006Model
   init_kwargs:
     model_path: data/international_si_units_2006.cellml

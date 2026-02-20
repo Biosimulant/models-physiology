@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/zager_schlosser_tran_2007
   download_url: https://models.physiomeproject.org/workspace/zager_schlosser_tran_2007/@@download/248df9f7c5072e210267eb2b3a09b51606ea364c/zager_schlosser_tran_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.zager_schlosser_tran_2007_zagerschlossertran2007_model:ZagerSchlosserTran2007Zagerschlossertran2007Model
   init_kwargs:
     model_path: data/zager_schlosser_tran_2007.cellml

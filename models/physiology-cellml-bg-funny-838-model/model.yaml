@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/838
   download_url: https://models.physiomeproject.org/workspace/838/@@download/7253f3ad1bea5077430a219a92f3b191ae3e4aa0/BG_funny.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.bg_funny_838_model:BgFunny838Model
   init_kwargs:
     model_path: data/BG_funny.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5b7
   download_url: https://models.physiomeproject.org/workspace/5b7/@@download/547382087780419f3046e1b7b01b2c7e9cc7d606/Weinstein_2000.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.a_mathematical_model_of_the_outer_medullary_coll_5b7_model:AMathematicalModelOfTheOuterMedullaryColl5b7Model
   init_kwargs:
     model_path: data/Weinstein_2000.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/alexander_wahl_2010
   download_url: https://models.physiomeproject.org/workspace/alexander_wahl_2010/@@download/7045a36c3bd85666e4b738243aa195a95dabccff/alexander_2010.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.alexander_and_wahl_2010_alexanderwahl2010_model:AlexanderAndWahl2010Alexanderwahl2010Model
   init_kwargs:
     model_path: data/alexander_2010.cellml

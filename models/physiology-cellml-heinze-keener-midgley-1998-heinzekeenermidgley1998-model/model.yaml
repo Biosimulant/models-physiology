@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/heinze_keener_midgley_1998
   download_url: https://models.physiomeproject.org/workspace/heinze_keener_midgley_1998/@@download/08afec304029e86dadbd997ea533cf3017406e71/heinze_keener_midgley_1998_a.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.heinze_keener_midgley_1998_heinzekeenermidgley1998_model:HeinzeKeenerMidgley1998Heinzekeenermidgley1998Model
   init_kwargs:
     model_path: data/heinze_keener_midgley_1998_a.cellml

@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/iancu_2007
   download_url: https://models.physiomeproject.org/workspace/iancu_2007/@@download/6b30877afca435748d1b63eebf452f2eeba8cff7/iancu_jones_harvey_2007.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.iancu_2007_iancu2007_model:Iancu2007Iancu2007Model
   init_kwargs:
     model_path: data/iancu_jones_harvey_2007.cellml

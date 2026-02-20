@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/mitchell_schaeffer_2003
   download_url: https://models.physiomeproject.org/workspace/mitchell_schaeffer_2003/@@download/25103ab3451d4a4fb31fc2a4fea92b38b60e33e7/mitchell_schaeffer_2003.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.mitchell_schaeffer_2003_mitchellschaeffer2003_model:MitchellSchaeffer2003Mitchellschaeffer2003Model
   init_kwargs:
     model_path: data/mitchell_schaeffer_2003.cellml

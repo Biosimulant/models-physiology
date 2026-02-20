@@ -18,7 +18,7 @@ upstream:
   original_url: https://models.physiomeproject.org/workspace/5b0
   download_url: https://models.physiomeproject.org/workspace/5b0/@@download/6894509149e3cf46f1f0ac5a0f396bb07a65f02f/ni_2017.cellml
   license: ''
-bsim:
+biosim:
   entrypoint: src.ni_et_al_2017_human_atrial_model_5b0_model:NiEtAl2017HumanAtrialModel5b0Model
   init_kwargs:
     model_path: data/ni_2017.cellml
