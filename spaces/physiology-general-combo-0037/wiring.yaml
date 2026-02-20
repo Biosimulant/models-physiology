@@ -1,0 +1,36 @@
+modules:
+  bertram_arnot_1:
+    class: src.bertram_arnot_zamponi_2002_bertramarnotzamponi2002_model:BertramArnotZamponi2002Bertramarnotzamponi2002Model
+    args:
+      model_path: data/bertram_arnot_zamponi_2002.cellml
+  bertram_et_2:
+    class: src.bertram_et_al_2011_lymphangion_model_b44_model:BertramEtAl2011LymphangionModelB44Model
+    args:
+      model_path: data/Bertram_2011.cellml
+  bertram_pedersen_3:
+    class: src.bertram_pedersen_luciani_and_sherman_2006_bertrampedersenlucianisherman_model:BertramPedersenLucianiAndSherman2006BertrampedersenlucianishermanModel
+    args:
+      model_path: data/bertram_2006.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bertram_arnot_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bertram_et_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bertram_pedersen_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

@@ -1,0 +1,36 @@
+modules:
+  bental_1:
+    class: src.bental_2006_366_model:Bental2006366Model
+    args:
+      model_path: data/bental_2006.cellml
+  bental_2:
+    class: src.bental_2006_bental2006_model:Bental2006Bental2006Model
+    args:
+      model_path: data/bental_2006.cellml
+  bernus_wilders_3:
+    class: src.bernus_wilders_zemlin_verschelde_panfilov_2002_bernuswilderszemlinverscheldepanfilov2002_model:BernusWildersZemlinVerscheldePanfilov2002Bernuswilderszemlinverscheldepanfilov2002Model
+    args:
+      model_path: data/bernus_wilders_zemlin_verschelde_panfilov_2002.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bental_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bental_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bernus_wilders_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

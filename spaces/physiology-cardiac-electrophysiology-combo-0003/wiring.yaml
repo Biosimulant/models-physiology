@@ -1,0 +1,28 @@
+modules:
+  a_computational_1:
+    class: src.a_computational_human_ventricular_electrophysiol_5e2_model:AComputationalHumanVentricularElectrophysiol5e2Model
+    args:
+      model_path: data/Tomek_model_endo.cellml
+  a_model_2:
+    class: src.a_model_for_the_human_fetal_ventricular_myocyte_d90_model:AModelForTheHumanFetalVentricularMyocyteD90Model
+    args:
+      model_path: data/HFVM_model_Avezzu2025.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_computational_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: a_model_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

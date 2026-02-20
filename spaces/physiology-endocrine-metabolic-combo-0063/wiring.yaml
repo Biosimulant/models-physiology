@@ -1,0 +1,44 @@
+modules:
+  shrestha2010_hyp_1:
+    class: src.shrestha2010_hypocalcemia_pthresponse_biomd0000000276_model:Shrestha2010HypocalcemiaPthresponseBiomd0000000276Model
+    args:
+      model_path: data/BIOMD0000000276.xml
+  silber2007_intra_2:
+    class: src.silber2007_intravenousglucose_integratedglucosei_model1112110004_model:Silber2007IntravenousglucoseIntegratedglucoseiModel1112110004Model
+    args:
+      model_path: data/MODEL1112110004.xml
+  smith1980_hypoth_3:
+    class: src.smith1980_hypothalamic_regulation_biomd0000000831_model:Smith1980HypothalamicRegulationBiomd0000000831Model
+    args:
+      model_path: data/BIOMD0000000831.xml
+  somogyi1990_caos_4:
+    class: src.somogyi1990_caoscillations_biomd0000000114_model:Somogyi1990CaoscillationsBiomd0000000114Model
+    args:
+      model_path: data/BIOMD0000000114.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: shrestha2010_hyp_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: silber2007_intra_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: smith1980_hypoth_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: somogyi1990_caos_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

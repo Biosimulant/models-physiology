@@ -1,0 +1,28 @@
+modules:
+  a_pharmacokineti_1:
+    class: src.a_pharmacokinetic_model_for_morphine_ex_vivo_hum_c62_model:APharmacokineticModelForMorphineExVivoHumC62Model
+    args:
+      model_path: data/Morphine_Transplacental.cellml
+  a_pharmacokineti_2:
+    class: src.a_pharmacokinetic_pk_model_of_acetaminophen_for_b17_model:APharmacokineticPkModelOfAcetaminophenForB17Model
+    args:
+      model_path: data/APAP_Pediatric.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_pharmacokineti_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: a_pharmacokineti_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

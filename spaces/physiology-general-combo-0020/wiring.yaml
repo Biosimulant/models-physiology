@@ -1,0 +1,28 @@
+modules:
+  activation_of_1:
+    class: src.activation_of_spar_svp00000021_model:ActivationOfSparSvp00000021Model
+    args:
+      model_path: data/Bioenvironment_RxR2P1_spaRActivation.cellml
+  activation_of_2:
+    class: src.activation_of_the_liver_glycogen_phosphorylase_b_35d_model:ActivationOfTheLiverGlycogenPhosphorylaseB35dModel
+    args:
+      model_path: data/gall_2000.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: activation_of_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: activation_of_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

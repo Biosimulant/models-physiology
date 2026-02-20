@@ -1,0 +1,28 @@
+modules:
+  fcu_cardiac_1:
+    class: src.fcu_cardiac_ph_885_model:FcuCardiacPh885Model
+    args:
+      model_path: data/FCU_cardiac_pH.cellml
+  fcu_cardiacap_2:
+    class: src.fcu_cardiacap_composite_839_model:FcuCardiacapComposite839Model
+    args:
+      model_path: data/main.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: fcu_cardiac_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: fcu_cardiacap_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

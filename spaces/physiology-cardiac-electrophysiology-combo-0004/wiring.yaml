@@ -1,0 +1,28 @@
+modules:
+  aslanidi_atrial_1:
+    class: src.aslanidi_atrial_model_2009_aslanidiatrialmodel2009_model:AslanidiAtrialModel2009Aslanidiatrialmodel2009Model
+    args:
+      model_path: data/aslanidi_atrial_model_2009_LindbladCa_corrected.cellml
+  atrial_fibroblas_2:
+    class: src.atrial_fibroblast_model_4be_model:AtrialFibroblastModel4beModel
+    args:
+      model_path: data/Morgan_atrial_fibroblast_2016.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: aslanidi_atrial_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: atrial_fibroblas_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

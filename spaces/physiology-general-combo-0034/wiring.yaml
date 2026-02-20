@@ -1,0 +1,36 @@
+modules:
+  bartolucci_passi_1:
+    class: src.bartolucci_passini_severi_2020_5fd_model:BartolucciPassiniSeveri20205fdModel
+    args:
+      model_path: data/BPS2020.cellml
+  baylor_hollingwo_2:
+    class: src.baylor_hollingworth_chandler_2002_baylorhollingworthchandler2002_model:BaylorHollingworthChandler2002Baylorhollingworthchandler2002Model
+    args:
+      model_path: data/baylor_hollingworth_chandler_2002_a.cellml
+  beard_3:
+    class: src.beard_2005_beard2005_model:Beard2005Beard2005Model
+    args:
+      model_path: data/beard_2005.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bartolucci_passi_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: baylor_hollingwo_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: beard_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

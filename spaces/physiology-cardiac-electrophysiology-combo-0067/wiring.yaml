@@ -1,0 +1,44 @@
+modules:
+  shelleycardiacap_1:
+    class: src.shelleycardiacapmodel_b15_model:ShelleycardiacapmodelB15Model
+    args:
+      model_path: data/BG_K1_MichaelParameters.cellml
+  toward_a_2:
+    class: src.toward_a_comprehensive_cardiomyocyte_model_d59_model:TowardAComprehensiveCardiomyocyteModelD59Model
+    args:
+      model_path: data/noble_2000_a.cellml
+  varela_canine_3:
+    class: src.varela_canine_atrial_cell_models_47c_model:VarelaCanineAtrialCellModels47cModel
+    args:
+      model_path: data/Varela_LA_2016.cellml
+  voigt_heijman_4:
+    class: src.voigt_heijman_et_al_2013_human_atrial_ap_model_633_model:VoigtHeijmanEtAl2013HumanAtrialApModel633Model
+    args:
+      model_path: data/voigt-heijman-2013-pmr.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: shelleycardiacap_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: toward_a_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: varela_canine_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: voigt_heijman_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

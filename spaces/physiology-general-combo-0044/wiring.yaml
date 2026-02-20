@@ -1,0 +1,36 @@
+modules:
+  bg_camp_1:
+    class: src.bg_camp_674_model:BgCamp674Model
+    args:
+      model_path: data/BG_cAMP.cellml
+  bg_cgmp_2:
+    class: src.bg_cgmp_856_model:BgCgmp856Model
+    args:
+      model_path: data/BG_cGMP.cellml
+  bg_che_3:
+    class: src.bg_che_881_model:BgChe881Model
+    args:
+      model_path: data/BG_CHE.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_camp_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_cgmp_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_che_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

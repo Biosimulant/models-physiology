@@ -1,0 +1,36 @@
+modules:
+  a_physiologicall_1:
+    class: src.a_physiologically_grounded_model_of_pulmonary_ac_d42_model:APhysiologicallyGroundedModelOfPulmonaryAcD42Model
+    args:
+      model_path: data/Bronchodilator_sim.cellml
+  guyton_pulmonary_2:
+    class: src.guyton_pulmonary_fluid_dynamics_2008_guytonpulmonaryfluiddynamics2008_model:GuytonPulmonaryFluidDynamics2008Guytonpulmonaryfluiddynamics2008Model
+    args:
+      model_path: data/environment.cellml
+  guyton_pulmonary_3:
+    class: src.guyton_pulmonary_oxygen_uptake_2008_guytonpulmonaryoxygenuptake2008_model:GuytonPulmonaryOxygenUptake2008Guytonpulmonaryoxygenuptake2008Model
+    args:
+      model_path: data/environment.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_physiologicall_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: guyton_pulmonary_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: guyton_pulmonary_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

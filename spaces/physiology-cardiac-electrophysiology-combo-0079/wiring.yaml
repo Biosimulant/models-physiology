@@ -1,0 +1,44 @@
+modules:
+  fcu_cardiacap_1:
+    class: src.fcu_cardiacap_composite_839_model:FcuCardiacapComposite839Model
+    args:
+      model_path: data/main.cellml
+  fcu_cardiacap_2:
+    class: src.fcu_cardiacap_pan_81b_model:FcuCardiacapPan81bModel
+    args:
+      model_path: data/FCU_cardiacAP.cellml
+  ftu_heart_3:
+    class: src.ftu_heart_70b_model:FtuHeart70bModel
+    args:
+      model_path: data/Cardiac_FTU_v7.cellml
+  grandi_et_4:
+    class: src.grandi_et_al_2011_atrial_action_potential_and_ca_595_model:GrandiEtAl2011AtrialActionPotentialAndCa595Model
+    args:
+      model_path: data/grandi_2011_atrial_with_meta.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: fcu_cardiacap_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: fcu_cardiacap_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: ftu_heart_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: grandi_et_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

@@ -1,0 +1,36 @@
+modules:
+  bakker_michels_1:
+    class: src.bakker_michels_opperdoes_westerhoff_1997_bakkermichelsopperdoeswesterhoff1997_model:BakkerMichelsOpperdoesWesterhoff1997Bakkermichelsopperdoeswesterhoff1997Model
+    args:
+      model_path: data/bakker_michels_opperdoes_westerhoff_1997.cellml
+  barberis_klipp_2:
+    class: src.barberis_klipp_vanoni_alberghina_2007_364_model:BarberisKlippVanoniAlberghina2007364Model
+    args:
+      model_path: data/barberis_klipp_vanoni_alberghina_2007.cellml
+  barberis_klipp_3:
+    class: src.barberis_klipp_vanoni_alberghina_2007_barberisklippvanonialberghina2007_model:BarberisKlippVanoniAlberghina2007Barberisklippvanonialberghina2007Model
+    args:
+      model_path: data/barberis_klipp_vanoni_alberghina_2007.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bakker_michels_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: barberis_klipp_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: barberis_klipp_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

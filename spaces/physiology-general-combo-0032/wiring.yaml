@@ -1,0 +1,36 @@
+modules:
+  bagci_1:
+    class: src.bagci_2008_363_model:Bagci2008363Model
+    args:
+      model_path: data/bagci_2008a.cellml
+  bagci_2:
+    class: src.bagci_2008_bagci2008_model:Bagci2008Bagci2008Model
+    args:
+      model_path: data/bagci_2008a.cellml
+  bakker_mensonide_3:
+    class: src.bakker_mensonides_teusink_vanhoek_michels_wester_bakkermensonidesteusinkvanhoekmichelswesterhoff2000_model:BakkerMensonidesTeusinkVanhoekMichelsWesterBakkermensonidesteusinkvanhoekmichelswesterhoff2000Model
+    args:
+      model_path: data/bakker_mensonides_teusink_vanhoek_michels_westerhoff_2000.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bagci_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bagci_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bakker_mensonide_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

@@ -1,0 +1,28 @@
+modules:
+  alexander_and_1:
+    class: src.alexander_and_wahl_2010_2d8_model:AlexanderAndWahl20102d8Model
+    args:
+      model_path: data/alexander_2010.cellml
+  alexander_and_2:
+    class: src.alexander_and_wahl_2010_alexanderwahl2010_model:AlexanderAndWahl2010Alexanderwahl2010Model
+    args:
+      model_path: data/alexander_2010.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: alexander_and_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: alexander_and_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

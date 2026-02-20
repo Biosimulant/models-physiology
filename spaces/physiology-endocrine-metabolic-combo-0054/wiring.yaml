@@ -1,0 +1,36 @@
+modules:
+  computational_mo_1:
+    class: src.computational_modelling_of_glucose_uptake_by_sgl_841_model:ComputationalModellingOfGlucoseUptakeBySgl841Model
+    args:
+      model_path: data/Figure02.cellml
+  glucose_transpor_2:
+    class: src.glucose_transport_model_thorsen_5b8_model:GlucoseTransportModelThorsen5b8Model
+    args:
+      model_path: data/Composite_Model_Thorsen_.cellml
+  glucose_uptake_3:
+    class: src.glucose_uptake_in_enterocyte_572_model:GlucoseUptakeInEnterocyte572Model
+    args:
+      model_path: data/AE1_flux.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: computational_mo_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: glucose_transpor_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: glucose_uptake_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

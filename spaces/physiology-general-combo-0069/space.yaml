@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Physiology: General (COMBO_0069)'
+description: Physiology general comparative space with 4 models, configured as non-causal
+  co-simulation.
+models:
+- repo: Biosimulant/models-physiology
+  alias: gaetano2008_diab_1
+  manifest_path: models/physiology-sbml-gaetano2008-diabetesprogressionmodel-model1112110003-model/model.yaml
+  parameters:
+    model_path: data/MODEL1112110003.xml
+- repo: Biosimulant/models-physiology
+  alias: nampala2013_live_2
+  manifest_path: models/physiology-sbml-nampala2013-liver-enzyme-elevation-in-hiv-mono-i-model1812040002-model/model.yaml
+  parameters:
+    model_path: data/MODEL1812040002.xml
+- repo: Biosimulant/models-physiology
+  alias: potter2006_andro_3
+  manifest_path: models/physiology-sbml-potter2006-androgenicregulation-model8684444027-model/model.yaml
+  parameters:
+    model_path: data/MODEL8684444027.xml
+- repo: Biosimulant/models-physiology
+  alias: weinstein2000_om_4
+  manifest_path: models/physiology-sbml-weinstein2000-omcd-model1006230037-model/model.yaml
+  parameters:
+    model_path: data/MODEL1006230037.xml
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 20.0
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: gaetano2008_diab_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nampala2013_live_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: potter2006_andro_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: weinstein2000_om_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do general mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'physiology-sbml-gaetano2008-diabetesprogressionmodel-model1112110003-model ::
+    biomodels_ebi:MODEL1112110003 :: https://www.ebi.ac.uk/biomodels/MODEL1112110003'
+  - 'physiology-sbml-nampala2013-liver-enzyme-elevation-in-hiv-mono-i-model1812040002-model
+    :: biomodels_ebi:MODEL1812040002 :: https://www.ebi.ac.uk/biomodels/MODEL1812040002'
+  - 'physiology-sbml-potter2006-androgenicregulation-model8684444027-model :: biomodels_ebi:MODEL8684444027
+    :: https://www.ebi.ac.uk/biomodels/MODEL8684444027'
+  - 'physiology-sbml-weinstein2000-omcd-model1006230037-model :: biomodels_ebi:MODEL1006230037
+    :: https://www.ebi.ac.uk/biomodels/MODEL1006230037'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

@@ -1,0 +1,36 @@
+modules:
+  bg_cmdn_1:
+    class: src.bg_cmdn_buffer_822_model:BgCmdnBuffer822Model
+    args:
+      model_path: data/BG_CMDN_buffer.cellml
+  bg_co2_2:
+    class: src.bg_co2_hydration_886_model:BgCo2Hydration886Model
+    args:
+      model_path: data/BG_CO2_hyd.cellml
+  bg_composite_3:
+    class: src.bg_composite_m2_700_model:BgCompositeM2700Model
+    args:
+      model_path: data/BG_M2_composite.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_cmdn_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_co2_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_composite_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

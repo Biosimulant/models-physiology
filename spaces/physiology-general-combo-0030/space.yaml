@@ -1,0 +1,63 @@
+schema_version: '2.0'
+title: 'Physiology: General (COMBO_0030)'
+description: Physiology general comparative space with 2 models, configured as non-causal
+  co-simulation.
+models:
+- repo: Biosimulant/models-physiology
+  alias: aslanidi_1
+  manifest_path: models/physiology-cellml-aslanidi-2009-362-model/model.yaml
+  parameters:
+    model_path: data/aslanidi_2009.cellml
+- repo: Biosimulant/models-physiology
+  alias: aslanidi_2
+  manifest_path: models/physiology-cellml-aslanidi-2009-aslanidipurkinjemodel2009-model/model.yaml
+  parameters:
+    model_path: data/aslanidi_2009.cellml
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 20.0
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: aslanidi_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: aslanidi_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+scientific_context:
+  question: How do general mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'physiology-cellml-aslanidi-2009-362-model :: physiome:362 :: https://models.physiomeproject.org/workspace/362'
+  - 'physiology-cellml-aslanidi-2009-aslanidipurkinjemodel2009-model :: physiome:aslanidi_purkinje_model_2009
+    :: https://models.physiomeproject.org/workspace/aslanidi_purkinje_model_2009'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

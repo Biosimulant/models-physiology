@@ -1,0 +1,36 @@
+modules:
+  guyton_antidiure_1:
+    class: src.guyton_antidiuretic_hormone_2008_guytonantidiuretichormone2008_model:GuytonAntidiureticHormone2008Guytonantidiuretichormone2008Model
+    args:
+      model_path: data/antidiuretic_hormone.cellml
+  modular_version_2:
+    class: src.modular_version_of_glucose_uptake_including_wate_58c_model:ModularVersionOfGlucoseUptakeIncludingWate58cModel
+    args:
+      model_path: data/AE1_flux.cellml
+  na_glucose_3:
+    class: src.na_glucose_transporter_436_model:NaGlucoseTransporter436Model
+    args:
+      model_path: data/AE1.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: guyton_antidiure_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: modular_version_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: na_glucose_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

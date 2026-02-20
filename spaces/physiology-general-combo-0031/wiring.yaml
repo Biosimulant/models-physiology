@@ -1,0 +1,36 @@
+modules:
+  asthagiri_lauffe_1:
+    class: src.asthagiri_lauffenburger_2001_asthagirilauffenburger2001_model:AsthagiriLauffenburger2001Asthagirilauffenburger2001Model
+    args:
+      model_path: data/asthagiri_lauffenburger_2001.cellml
+  bacillus_chassis_2:
+    class: src.bacillus_chassis_svp00000031_model:BacillusChassisSvp00000031Model
+    args:
+      model_path: data/Chassis_Bacillus.cellml
+  bagci_3:
+    class: src.bagci_2006_bagci2006_model:Bagci2006Bagci2006Model
+    args:
+      model_path: data/bagci_2006.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: asthagiri_lauffe_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bacillus_chassis_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bagci_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

@@ -1,0 +1,28 @@
+modules:
+  heart_failure_1:
+    class: src.heart_failure_model_with_sk_channels_included_d7b_model:HeartFailureModelWithSkChannelsIncludedD7bModel
+    args:
+      model_path: data/ORdmm-SK_MID.cellml
+  human_atrial_2:
+    class: src.human_atrial_cell_models_for_investigating_tbx5_520_model:HumanAtrialCellModelsForInvestigatingTbx5520Model
+    args:
+      model_path: data/Jieyun.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: heart_failure_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: human_atrial_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

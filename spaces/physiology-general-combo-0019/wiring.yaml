@@ -1,0 +1,28 @@
+modules:
+  acid_base_1:
+    class: src.acid_base_physiology_297_model:AcidBasePhysiology297Model
+    args:
+      model_path: data/acid_base.cellml
+  activation_of_2:
+    class: src.activation_of_spak_svp00000020_model:ActivationOfSpakSvp00000020Model
+    args:
+      model_path: data/Bioenvironment_RxR2P1_spaKActivation.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: acid_base_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: activation_of_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

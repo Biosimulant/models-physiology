@@ -1,0 +1,36 @@
+modules:
+  bg_crossbridge_1:
+    class: src.bg_crossbridge_trpn_7fb_model:BgCrossbridgeTrpn7fbModel
+    args:
+      model_path: data/BG_crossbridge_TRPN.cellml
+  bg_diadcadiffusi_2:
+    class: src.bg_diadcadiffusion_88c_model:BgDiadcadiffusion88cModel
+    args:
+      model_path: data/BG_diadCaDiffusion.cellml
+  bg_epithelial_3:
+    class: src.bg_epithelial_transport_d5e_model:BgEpithelialTransportD5eModel
+    args:
+      model_path: data/Epithelial_cell_v1.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_crossbridge_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_diadcadiffusi_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_epithelial_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

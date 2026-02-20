@@ -1,0 +1,28 @@
+modules:
+  adjusted_coupled_1:
+    class: src.adjusted_coupled_model_exp5_kcl_cf9_model:AdjustedCoupledModelExp5KclCf9Model
+    args:
+      model_path: data/Coupled_Main_EC_Model.cellml
+  adrian_chandler_2:
+    class: src.adrian_chandler_hodgkin_1970_adrianchandlerhodgkin1970_model:AdrianChandlerHodgkin1970Adrianchandlerhodgkin1970Model
+    args:
+      model_path: data/adrian_chandler_hodgkin_1970.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: adjusted_coupled_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: adrian_chandler_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

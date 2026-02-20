@@ -1,0 +1,28 @@
+modules:
+  ae1_bg_1:
+    class: src.ae1_bg_6b9_model:Ae1Bg6b9Model
+    args:
+      model_path: data/AE1-BG.cellml
+  ae3_the_2:
+    class: src.ae3_the_physics_of_physiology_c78_model:Ae3ThePhysicsOfPhysiologyC78Model
+    args:
+      model_path: data/BG_AE3.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: ae1_bg_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: ae3_the_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

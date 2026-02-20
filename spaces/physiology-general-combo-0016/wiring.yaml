@@ -1,0 +1,28 @@
+modules:
+  a_pharmacokineti_1:
+    class: src.a_pharmacokinetic_pk_model_of_acetaminophen_for_b18_model:APharmacokineticPkModelOfAcetaminophenForB18Model
+    args:
+      model_path: data/APAP_Reith2009.cellml
+  a_physiologicall_2:
+    class: src.a_physiologically_based_pharmacokinetic_pbpk_mod_adf_model:APhysiologicallyBasedPharmacokineticPbpkModAdfModel
+    args:
+      model_path: data/Lindane_rat_Units.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_pharmacokineti_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: a_physiologicall_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

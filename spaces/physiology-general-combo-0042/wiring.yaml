@@ -1,0 +1,36 @@
+modules:
+  bg_an01_1:
+    class: src.bg_an01_d51_model:BgAn01D51Model
+    args:
+      model_path: data/BG_An01.cellml
+  bg_b1ar_2:
+    class: src.bg_b1ar_6ba_model:BgB1ar6baModel
+    args:
+      model_path: data/BG_B1AR.cellml
+  bg_bk_3:
+    class: src.bg_bk_d47_model:BgBkD47Model
+    args:
+      model_path: data/BG_BK.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_an01_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_b1ar_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_bk_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

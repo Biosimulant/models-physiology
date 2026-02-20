@@ -1,0 +1,28 @@
+modules:
+  andycalciumsubsy_1:
+    class: src.andycalciumsubsystem_b13_model:AndycalciumsubsystemB13Model
+    args:
+      model_path: data/AndyBGCaSubsystem.cellml
+  anion_exchanger_2:
+    class: src.anion_exchanger_290_model:AnionExchanger290Model
+    args:
+      model_path: data/Weinstein_2000_AE1.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: andycalciumsubsy_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: anion_exchanger_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

@@ -1,0 +1,44 @@
+modules:
+  sturis1991_insul_1:
+    class: src.sturis1991_insulinglucosemodel_ultradianoscillat_biomd0000000382_model:Sturis1991InsulinglucosemodelUltradianoscillatBiomd0000000382Model
+    args:
+      model_path: data/BIOMD0000000382.xml
+  tolic2000_insuli_2:
+    class: src.tolic2000_insulinglucosefeedback_biomd0000000372_model:Tolic2000InsulinglucosefeedbackBiomd0000000372Model
+    args:
+      model_path: data/BIOMD0000000372.xml
+  topp200_model_3:
+    class: src.topp200_model_of_b_cell_mass_insulin_and_glucose_model2001080002_model:Topp200ModelOfBCellMassInsulinAndGlucoseModel2001080002Model
+    args:
+      model_path: data/MODEL2001080002.xml
+  topp2000_betacel_4:
+    class: src.topp2000_betacellmass_diabetes_biomd0000000341_model:Topp2000BetacellmassDiabetesBiomd0000000341Model
+    args:
+      model_path: data/BIOMD0000000341.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: sturis1991_insul_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: tolic2000_insuli_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: topp200_model_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: topp2000_betacel_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

@@ -1,0 +1,74 @@
+schema_version: '2.0'
+title: 'Physiology: General (COMBO_0034)'
+description: Physiology general comparative space with 3 models, configured as non-causal
+  co-simulation.
+models:
+- repo: Biosimulant/models-physiology
+  alias: bartolucci_passi_1
+  manifest_path: models/physiology-cellml-bartolucci-passini-severi-2020-5fd-model/model.yaml
+  parameters:
+    model_path: data/BPS2020.cellml
+- repo: Biosimulant/models-physiology
+  alias: baylor_hollingwo_2
+  manifest_path: models/physiology-cellml-baylor-hollingworth-chandler-2002-baylorhollingworthchandler2002-model/model.yaml
+  parameters:
+    model_path: data/baylor_hollingworth_chandler_2002_a.cellml
+- repo: Biosimulant/models-physiology
+  alias: beard_3
+  manifest_path: models/physiology-cellml-beard-2005-beard2005-model/model.yaml
+  parameters:
+    model_path: data/beard_2005.cellml
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 20.0
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: bartolucci_passi_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: baylor_hollingwo_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: beard_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+scientific_context:
+  question: How do general mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'physiology-cellml-bartolucci-passini-severi-2020-5fd-model :: physiome:5fd ::
+    https://models.physiomeproject.org/workspace/5fd'
+  - 'physiology-cellml-baylor-hollingworth-chandler-2002-baylorhollingworthchandler2002-model
+    :: physiome:baylor_hollingworth_chandler_2002 :: https://models.physiomeproject.org/workspace/baylor_hollingworth_chandler_2002'
+  - 'physiology-cellml-beard-2005-beard2005-model :: physiome:beard_2005 :: https://models.physiomeproject.org/workspace/beard_2005'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

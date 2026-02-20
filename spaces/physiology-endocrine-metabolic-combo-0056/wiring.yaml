@@ -1,0 +1,44 @@
+modules:
+  alvehag2006_ivgt_1:
+    class: src.alvehag2006_ivgtt_glucosemodel_a_model1112110000_model:Alvehag2006IvgttGlucosemodelAModel1112110000Model
+    args:
+      model_path: data/MODEL1112110000.xml
+  alvehag2006_ogtt_2:
+    class: src.alvehag2006_ogtt_glucosemodel_b_model1112110001_model:Alvehag2006OgttGlucosemodelBModel1112110001Model
+    args:
+      model_path: data/MODEL1112110001.xml
+  berzins2022_cryp_3:
+    class: src.berzins2022_crypthecodinium_cohnii_ethanol_uptak_model2112290001_model:Berzins2022CrypthecodiniumCohniiEthanolUptakModel2112290001Model
+    args:
+      model_path: data/MODEL2112290001.xml
+  berzins2022_cryp_4:
+    class: src.berzins2022_crypthecodinium_cohnii_glucose_and_g_model2112280001_model:Berzins2022CrypthecodiniumCohniiGlucoseAndGModel2112280001Model
+    args:
+      model_path: data/MODEL2112280001.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: alvehag2006_ivgt_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: alvehag2006_ogtt_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: berzins2022_cryp_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: berzins2022_cryp_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

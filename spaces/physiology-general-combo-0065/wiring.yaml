@@ -1,0 +1,44 @@
+modules:
+  corrias2008_gast_1:
+    class: src.corrias2008_gastricslowwaveactivity_model0913095435_model:Corrias2008GastricslowwaveactivityModel0913095435Model
+    args:
+      model_path: data/MODEL0913095435.xml
+  gaetano2008_diab_2:
+    class: src.gaetano2008_diabetesprogressionmodel_model1112110003_model:Gaetano2008DiabetesprogressionmodelModel1112110003Model
+    args:
+      model_path: data/MODEL1112110003.xml
+  nampala2013_live_3:
+    class: src.nampala2013_liver_enzyme_elevation_in_hiv_mono_i_model1812040002_model:Nampala2013LiverEnzymeElevationInHivMonoIModel1812040002Model
+    args:
+      model_path: data/MODEL1812040002.xml
+  potter2006_andro_4:
+    class: src.potter2006_androgenicregulation_model8684444027_model:Potter2006AndrogenicregulationModel8684444027Model
+    args:
+      model_path: data/MODEL8684444027.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: corrias2008_gast_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: gaetano2008_diab_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: nampala2013_live_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: potter2006_andro_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

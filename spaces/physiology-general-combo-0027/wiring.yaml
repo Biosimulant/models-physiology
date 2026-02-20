@@ -1,0 +1,28 @@
+modules:
+  an_integrative_1:
+    class: src.an_integrative_dynamic_model_of_brain_energy_met_546_model:AnIntegrativeDynamicModelOfBrainEnergyMet546Model
+    args:
+      model_path: data/cloutier_2009.cellml
+  an_integrative_2:
+    class: src.an_integrative_dynamic_model_of_brain_energy_met_5af_model:AnIntegrativeDynamicModelOfBrainEnergyMet5afModel
+    args:
+      model_path: data/cloutier_2009.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: an_integrative_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: an_integrative_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Physiology: Endocrine Metabolic (COMBO_0062)'
+description: Physiology endocrine metabolic comparative space with 4 models, configured
+  as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-physiology
+  alias: rattanakul2003_b_1
+  manifest_path: models/physiology-sbml-rattanakul2003-boneformationmodel-biomd0000000274-model/model.yaml
+  parameters:
+    model_path: data/BIOMD0000000274.xml
+- repo: Biosimulant/models-physiology
+  alias: rozendaal2018_mo_2
+  manifest_path: models/physiology-sbml-rozendaal2018-model-integrating-glucose-and-lipi-model1803200001-model/model.yaml
+  parameters:
+    model_path: data/MODEL1803200001.xml
+- repo: Biosimulant/models-physiology
+  alias: schlosser2000_gl_3
+  manifest_path: models/physiology-sbml-schlosser2000-glucoseinsulinfeedback-betacells-model1006230045-model/model.yaml
+  parameters:
+    model_path: data/MODEL1006230045.xml
+- repo: Biosimulant/models-physiology
+  alias: shrestha2010_hyp_4
+  manifest_path: models/physiology-sbml-shrestha2010-hypercalcemia-pthresponse-biomd0000000277-model/model.yaml
+  parameters:
+    model_path: data/BIOMD0000000277.xml
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 20.0
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: rattanakul2003_b_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: rozendaal2018_mo_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: schlosser2000_gl_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: shrestha2010_hyp_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do endocrine metabolic mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'physiology-sbml-rattanakul2003-boneformationmodel-biomd0000000274-model :: biomodels_ebi:BIOMD0000000274
+    :: https://www.ebi.ac.uk/biomodels/BIOMD0000000274'
+  - 'physiology-sbml-rozendaal2018-model-integrating-glucose-and-lipi-model1803200001-model
+    :: biomodels_ebi:MODEL1803200001 :: https://www.ebi.ac.uk/biomodels/MODEL1803200001'
+  - 'physiology-sbml-schlosser2000-glucoseinsulinfeedback-betacells-model1006230045-model
+    :: biomodels_ebi:MODEL1006230045 :: https://www.ebi.ac.uk/biomodels/MODEL1006230045'
+  - 'physiology-sbml-shrestha2010-hypercalcemia-pthresponse-biomd0000000277-model
+    :: biomodels_ebi:BIOMD0000000277 :: https://www.ebi.ac.uk/biomodels/BIOMD0000000277'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

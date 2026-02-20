@@ -1,0 +1,44 @@
+modules:
+  rattanakul2003_b_1:
+    class: src.rattanakul2003_boneformationmodel_biomd0000000274_model:Rattanakul2003BoneformationmodelBiomd0000000274Model
+    args:
+      model_path: data/BIOMD0000000274.xml
+  rozendaal2018_mo_2:
+    class: src.rozendaal2018_model_integrating_glucose_and_lipi_model1803200001_model:Rozendaal2018ModelIntegratingGlucoseAndLipiModel1803200001Model
+    args:
+      model_path: data/MODEL1803200001.xml
+  schlosser2000_gl_3:
+    class: src.schlosser2000_glucoseinsulinfeedback_betacells_model1006230045_model:Schlosser2000GlucoseinsulinfeedbackBetacellsModel1006230045Model
+    args:
+      model_path: data/MODEL1006230045.xml
+  shrestha2010_hyp_4:
+    class: src.shrestha2010_hypercalcemia_pthresponse_biomd0000000277_model:Shrestha2010HypercalcemiaPthresponseBiomd0000000277Model
+    args:
+      model_path: data/BIOMD0000000277.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: rattanakul2003_b_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: rozendaal2018_mo_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: schlosser2000_gl_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: shrestha2010_hyp_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

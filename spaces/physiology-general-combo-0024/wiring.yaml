@@ -1,0 +1,28 @@
+modules:
+  aguda_tang_1:
+    class: src.aguda_tang_1999_agudatang1999_model:AgudaTang1999Agudatang1999Model
+    args:
+      model_path: data/aguda_tang_1999.cellml
+  albert_haanstra_2:
+    class: src.albert_haanstra_hannaert_van_roy_opperdoes_bakke_alberthaanstrahannaertvanroyopperdoesbakkermichels2005_model:AlbertHaanstraHannaertVanRoyOpperdoesBakkeAlberthaanstrahannaertvanroyopperdoesbakkermichels2005Model
+    args:
+      model_path: data/albert_2005.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: aguda_tang_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: albert_haanstra_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

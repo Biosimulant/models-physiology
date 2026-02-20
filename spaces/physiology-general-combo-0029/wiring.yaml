@@ -1,0 +1,28 @@
+modules:
+  aon_cortassa_1:
+    class: src.aon_cortassa_2002_aoncortassa2002_model:AonCortassa2002Aoncortassa2002Model
+    args:
+      model_path: data/aon_cortassa_2002.cellml
+  arresting_the_2:
+    class: src.arresting_the_mitotic_oscillator_and_the_control_361_model:ArrestingTheMitoticOscillatorAndTheControl361Model
+    args:
+      model_path: data/goldbeter_guilmot_1995.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: aon_cortassa_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: arresting_the_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

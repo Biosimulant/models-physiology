@@ -1,0 +1,28 @@
+modules:
+  toward_a_1:
+    class: src.toward_a_comprehensive_cardiomyocyte_model_d59_model:TowardAComprehensiveCardiomyocyteModelD59Model
+    args:
+      model_path: data/noble_2000_a.cellml
+  varela_canine_2:
+    class: src.varela_canine_atrial_cell_models_47c_model:VarelaCanineAtrialCellModels47cModel
+    args:
+      model_path: data/Varela_LA_2016.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: toward_a_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: varela_canine_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

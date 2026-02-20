@@ -1,0 +1,36 @@
+modules:
+  bg_ca_1:
+    class: src.bg_ca_leak_835_model:BgCaLeak835Model
+    args:
+      model_path: data/BG_Ca_leak.cellml
+  bg_cab_2:
+    class: src.bg_cab_82a_model:BgCab82aModel
+    args:
+      model_path: data/BG_CaB.cellml
+  bg_cal_3:
+    class: src.bg_cal_6d7_model:BgCal6d7Model
+    args:
+      model_path: data/BG_LCC.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_ca_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_cab_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_cal_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

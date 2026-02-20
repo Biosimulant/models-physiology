@@ -1,0 +1,28 @@
+modules:
+  koivum_ki_1:
+    class: src.koivum_ki_korhonen_tavi_2011_atrial_ap_model_630_model:KoivumKiKorhonenTavi2011AtrialApModel630Model
+    args:
+      model_path: data/koivumaki-2011-pmr.cellml
+  michaelpancardia_2:
+    class: src.michaelpancardiacapmodel_b16_model:MichaelpancardiacapmodelB16Model
+    args:
+      model_path: data/MichaelPanCardiacAPModel.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: koivum_ki_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: michaelpancardia_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

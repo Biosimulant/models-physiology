@@ -1,0 +1,28 @@
+modules:
+  fcu_cardiacap_1:
+    class: src.fcu_cardiacap_pan_81b_model:FcuCardiacapPan81bModel
+    args:
+      model_path: data/FCU_cardiacAP.cellml
+  ftu_heart_2:
+    class: src.ftu_heart_70b_model:FtuHeart70bModel
+    args:
+      model_path: data/Cardiac_FTU_v7.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: fcu_cardiacap_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: ftu_heart_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

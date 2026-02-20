@@ -1,0 +1,28 @@
+modules:
+  a_0d_1:
+    class: src.a_0d_model_of_the_heart_44c_model:A0dModelOfTheHeart44cModel
+    args:
+      model_path: data/HOD.cellml
+  a_computational_2:
+    class: src.a_computational_human_atrial_myofibroblast_elect_785_model:AComputationalHumanAtrialMyofibroblastElect785Model
+    args:
+      model_path: data/atrialmyofibroblast.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_0d_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: a_computational_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

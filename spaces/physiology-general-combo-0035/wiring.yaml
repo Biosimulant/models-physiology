@@ -1,0 +1,36 @@
+modules:
+  beeler_reuter_1:
+    class: src.beeler_reuter_1977_beelerreuter1977_model:BeelerReuter1977Beelerreuter1977Model
+    args:
+      model_path: data/beeler_reuter_1977.cellml
+  benson_2:
+    class: src.benson_2008_2e3_model:Benson20082e3Model
+    args:
+      model_path: data/benson_endocardial_2008.cellml
+  benson_3:
+    class: src.benson_2008_benson2008_model:Benson2008Benson2008Model
+    args:
+      model_path: data/benson_endocardial_2008.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: beeler_reuter_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: benson_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: benson_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

@@ -1,0 +1,36 @@
+modules:
+  bg_gpcr_1:
+    class: src.bg_gpcr_m2_reduced_7dd_model:BgGpcrM2Reduced7ddModel
+    args:
+      model_path: data/BG_GPCR_M2_reduced.cellml
+  bg_gsprotein_2:
+    class: src.bg_gsprotein_6f8_model:BgGsprotein6f8Model
+    args:
+      model_path: data/BG_GsProtein.cellml
+  bg_gsprotein_3:
+    class: src.bg_gsprotein_sneyd_6cb_model:BgGsproteinSneyd6cbModel
+    args:
+      model_path: data/BG_GsProtein.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_gpcr_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_gsprotein_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_gsprotein_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

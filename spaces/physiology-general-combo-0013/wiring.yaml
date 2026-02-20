@@ -1,0 +1,28 @@
+modules:
+  a_mathematical_1:
+    class: src.a_mathematical_model_of_the_neural_regulation_of_b01_model:AMathematicalModelOfTheNeuralRegulationOfB01Model
+    args:
+      model_path: data/ICC_SMC_Neuro.cellml
+  a_mathematical_2:
+    class: src.a_mathematical_model_of_the_outer_medullary_coll_5b7_model:AMathematicalModelOfTheOuterMedullaryColl5b7Model
+    args:
+      model_path: data/Weinstein_2000.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_mathematical_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: a_mathematical_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

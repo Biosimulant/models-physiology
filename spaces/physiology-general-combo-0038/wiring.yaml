@@ -1,0 +1,36 @@
+modules:
+  bertram_previte_1:
+    class: src.bertram_previte_sherman_kinard_satin_2000_2e0_model:BertramPreviteShermanKinardSatin20002e0Model
+    args:
+      model_path: data/bertram_previte_sherman_kinard_satin_2000_fast.cellml
+  bertram_previte_2:
+    class: src.bertram_previte_sherman_kinard_satin_2000_bertrampreviteshermankinardsatin2000_model:BertramPreviteShermanKinardSatin2000Bertrampreviteshermankinardsatin2000Model
+    args:
+      model_path: data/bertram_previte_sherman_kinard_satin_2000_fast.cellml
+  bertram_rhoads_3:
+    class: src.bertram_rhoads_and_cimbora_2008_2e7_model:BertramRhoadsAndCimbora20082e7Model
+    args:
+      model_path: data/bertram_2008.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bertram_previte_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bertram_previte_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bertram_rhoads_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

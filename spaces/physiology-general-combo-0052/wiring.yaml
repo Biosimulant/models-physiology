@@ -1,0 +1,36 @@
+modules:
+  bg_k1_1:
+    class: src.bg_k1_uterine_d57_model:BgK1UterineD57Model
+    args:
+      model_path: data/BG_K1_uterine.cellml
+  bg_kach_2:
+    class: src.bg_kach_bbf_model:BgKachBbfModel
+    args:
+      model_path: data/BG_KACh.cellml
+  bg_kp_3:
+    class: src.bg_kp_825_model:BgKp825Model
+    args:
+      model_path: data/BG_Kp.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_k1_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_kach_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_kp_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

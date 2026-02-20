@@ -1,0 +1,44 @@
+modules:
+  a_model_1:
+    class: src.a_model_for_the_human_fetal_ventricular_myocyte_d90_model:AModelForTheHumanFetalVentricularMyocyteD90Model
+    args:
+      model_path: data/HFVM_model_Avezzu2025.cellml
+  aslanidi_atrial_2:
+    class: src.aslanidi_atrial_model_2009_aslanidiatrialmodel2009_model:AslanidiAtrialModel2009Aslanidiatrialmodel2009Model
+    args:
+      model_path: data/aslanidi_atrial_model_2009_LindbladCa_corrected.cellml
+  atrial_fibroblas_3:
+    class: src.atrial_fibroblast_model_4be_model:AtrialFibroblastModel4beModel
+    args:
+      model_path: data/Morgan_atrial_fibroblast_2016.cellml
+  fcu_cardiac_4:
+    class: src.fcu_cardiac_ph_885_model:FcuCardiacPh885Model
+    args:
+      model_path: data/FCU_cardiac_pH.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_model_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: aslanidi_atrial_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: atrial_fibroblas_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: fcu_cardiac_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

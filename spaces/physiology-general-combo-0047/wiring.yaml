@@ -1,0 +1,36 @@
+modules:
+  bg_fast_1:
+    class: src.bg_fast_na_826_model:BgFastNa826Model
+    args:
+      model_path: data/BG_fast_Na.cellml
+  bg_fast_2:
+    class: src.bg_fast_na_clamped_stateclamp_b12_model:BgFastNaClampedStateclampB12Model
+    args:
+      model_path: data/BG_fast_Na_clamped_stateclamp.cellml
+  bg_fast_3:
+    class: src.bg_fast_na_voltage_clamp_b11_model:BgFastNaVoltageClampB11Model
+    args:
+      model_path: data/BG_fast_Na_voltage_clamp.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_fast_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_fast_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_fast_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

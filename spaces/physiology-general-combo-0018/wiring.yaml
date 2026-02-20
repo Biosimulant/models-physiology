@@ -1,0 +1,28 @@
+modules:
+  a_single_1:
+    class: src.a_single_compartment_model_of_pacemaking_in_diss_35c_model:ASingleCompartmentModelOfPacemakingInDiss35cModel
+    args:
+      model_path: data/francis_garcia_middleton_2013.cellml
+  abc_transporter_2:
+    class: src.abc_transporter_protein_knowledge_page_c44_model:AbcTransporterProteinKnowledgePageC44Model
+    args:
+      model_path: data/BG_ABC.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_single_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: abc_transporter_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

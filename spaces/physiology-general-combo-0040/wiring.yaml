@@ -1,0 +1,36 @@
+modules:
+  bertram_satin_1:
+    class: src.bertram_satin_zhang_smolen_sherman_2004_bertramsatinzhangsmolensherman2004_model:BertramSatinZhangSmolenSherman2004Bertramsatinzhangsmolensherman2004Model
+    args:
+      model_path: data/bertram_satin_zhang_smolen_sherman_2004_a.cellml
+  bertram_sherman_2:
+    class: src.bertram_sherman_2004_bertramsherman2004_model:BertramSherman2004Bertramsherman2004Model
+    args:
+      model_path: data/bertram_sherman_2004.cellml
+  bertram_smolen_3:
+    class: src.bertram_smolen_sherman_mears_atwater_martin_sori_bertramsmolenshermanmearsatwatermartinsoria1995_model:BertramSmolenShermanMearsAtwaterMartinSoriBertramsmolenshermanmearsatwatermartinsoria1995Model
+    args:
+      model_path: data/bertram_smolen_sherman_mears_atwater_martin_soria_1995.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bertram_satin_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bertram_sherman_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bertram_smolen_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

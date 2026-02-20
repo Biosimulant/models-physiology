@@ -1,0 +1,28 @@
+modules:
+  aguda_b_1:
+    class: src.aguda_b_1999_35e_model:AgudaB199935eModel
+    args:
+      model_path: data/aguda_b_1999.cellml
+  aguda_b_2:
+    class: src.aguda_b_1999_agudab1999_model:AgudaB1999Agudab1999Model
+    args:
+      model_path: data/aguda_b_1999.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: aguda_b_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: aguda_b_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

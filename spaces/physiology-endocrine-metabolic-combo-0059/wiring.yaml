@@ -1,0 +1,44 @@
+modules:
+  kiselyov2009_ins_1:
+    class: src.kiselyov2009_insulinreceptormodel_model1112050000_model:Kiselyov2009InsulinreceptormodelModel1112050000Model
+    args:
+      model_path: data/MODEL1112050000.xml
+  komarova2005_pth_2:
+    class: src.komarova2005_pthaction_osteoclastosteoblastcoupl_biomd0000000279_model:Komarova2005PthactionOsteoclastosteoblastcouplBiomd0000000279Model
+    args:
+      model_path: data/BIOMD0000000279.xml
+  kroll2000_pth_3:
+    class: src.kroll2000_pth_boneformationdesorption_model1006230083_model:Kroll2000PthBoneformationdesorptionModel1006230083Model
+    args:
+      model_path: data/MODEL1006230083.xml
+  lenbury2001_insu_4:
+    class: src.lenbury2001_insulinkineticsmodel_a_biomd0000000878_model:Lenbury2001InsulinkineticsmodelABiomd0000000878Model
+    args:
+      model_path: data/BIOMD0000000878.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: kiselyov2009_ins_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: komarova2005_pth_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: kroll2000_pth_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: lenbury2001_insu_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

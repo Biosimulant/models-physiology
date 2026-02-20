@@ -1,0 +1,44 @@
+modules:
+  fridlyand2010_gl_1:
+    class: src.fridlyand2010_glucosesensitivity_b_biomd0000000349_model:Fridlyand2010GlucosesensitivityBBiomd0000000349Model
+    args:
+      model_path: data/BIOMD0000000349.xml
+  heinze1998_gnrh_2:
+    class: src.heinze1998_gnrh_lh_model0848507209_model:Heinze1998GnrhLhModel0848507209Model
+    args:
+      model_path: data/MODEL0848507209.xml
+  jiang2007_gsis_3:
+    class: src.jiang2007_gsis_system_pancreatic_beta_cells_biomd0000000239_model:Jiang2007GsisSystemPancreaticBetaCellsBiomd0000000239Model
+    args:
+      model_path: data/BIOMD0000000239.xml
+  keener2001_oscil_4:
+    class: src.keener2001_oscillatoryinsulinsecretionmodel_model1201140001_model:Keener2001OscillatoryinsulinsecretionmodelModel1201140001Model
+    args:
+      model_path: data/MODEL1201140001.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: fridlyand2010_gl_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: heinze1998_gnrh_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: jiang2007_gsis_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: keener2001_oscil_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

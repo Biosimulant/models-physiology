@@ -1,0 +1,44 @@
+modules:
+  o_donovan2022_1:
+    class: src.o_donovan2022_the_mixed_meal_model_model2212300001_model:ODonovan2022TheMixedMealModelModel2212300001Model
+    args:
+      model_path: data/MODEL2212300001.xml
+  pancreas_glucose_2:
+    class: src.pancreas_glucose_model_model2401110001_model:PancreasGlucoseModelModel2401110001Model
+    args:
+      model_path: data/MODEL2401110001.xml
+  rattanakul2003_b_3:
+    class: src.rattanakul2003_boneformation_estrogenadministrat_model1012140001_model:Rattanakul2003BoneformationEstrogenadministratModel1012140001Model
+    args:
+      model_path: data/MODEL1012140001.xml
+  rattanakul2003_b_4:
+    class: src.rattanakul2003_boneformation_pthadministration_model1012140000_model:Rattanakul2003BoneformationPthadministrationModel1012140000Model
+    args:
+      model_path: data/MODEL1012140000.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: o_donovan2022_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: pancreas_glucose_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: rattanakul2003_b_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: rattanakul2003_b_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

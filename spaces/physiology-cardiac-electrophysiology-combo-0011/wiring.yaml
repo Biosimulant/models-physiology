@@ -1,0 +1,28 @@
+modules:
+  ni_et_1:
+    class: src.ni_et_al_2017_human_atrial_model_5b0_model:NiEtAl2017HumanAtrialModel5b0Model
+    args:
+      model_path: data/ni_2017.cellml
+  shelleycardiacap_2:
+    class: src.shelleycardiacapmodel_b15_model:ShelleycardiacapmodelB15Model
+    args:
+      model_path: data/BG_K1_MichaelParameters.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: ni_et_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: shelleycardiacap_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

@@ -1,0 +1,44 @@
+modules:
+  lenbury2001_insu_1:
+    class: src.lenbury2001_insulinkineticsmodel_b_model1201140003_model:Lenbury2001InsulinkineticsmodelBModel1201140003Model
+    args:
+      model_path: data/MODEL1201140003.xml
+  liu2009_glucosem_2:
+    class: src.liu2009_glucosemobilization_uptakemodel_model1112050001_model:Liu2009GlucosemobilizationUptakemodelModel1112050001Model
+    args:
+      model_path: data/MODEL1112050001.xml
+  mackenzie1996_na_3:
+    class: src.mackenzie1996_naglucosecotransporter_kidney_model1006230076_model:Mackenzie1996NaglucosecotransporterKidneyModel1006230076Model
+    args:
+      model_path: data/MODEL1006230076.xml
+  nad_labelling_4:
+    class: src.nad_labelling_dynamics_model2409150001_model:NadLabellingDynamicsModel2409150001Model
+    args:
+      model_path: data/MODEL2409150001.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: lenbury2001_insu_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: liu2009_glucosem_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: mackenzie1996_na_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: nad_labelling_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

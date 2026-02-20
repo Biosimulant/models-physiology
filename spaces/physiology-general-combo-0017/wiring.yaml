@@ -1,0 +1,28 @@
+modules:
+  a_primer_1:
+    class: src.a_primer_on_modular_mass_action_modelling_with_c_modularmassactionprimer_model:APrimerOnModularMassActionModellingWithCModularmassactionprimerModel
+    args:
+      model_path: data/BestPractice_Cdecoupled.cellml
+  a_simple_2:
+    class: src.a_simple_voltage_modulated_markov_chain_model_fo_d20_model:ASimpleVoltageModulatedMarkovChainModelFoD20Model
+    args:
+      model_path: data/units.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: a_primer_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: a_simple_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

@@ -1,0 +1,36 @@
+modules:
+  bg_abc_1:
+    class: src.bg_abc_c2a_model:BgAbcC2aModel
+    args:
+      model_path: data/BG_ABC.cellml
+  bg_ae_2:
+    class: src.bg_ae_882_model:BgAe882Model
+    args:
+      model_path: data/BG_AE.cellml
+  bg_ae1_3:
+    class: src.bg_ae1_weinstein_877_model:BgAe1Weinstein877Model
+    args:
+      model_path: data/BG_AE1_weinstein.cellml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: bg_abc_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: bg_ae_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: bg_ae1_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

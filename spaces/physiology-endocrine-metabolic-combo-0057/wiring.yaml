@@ -1,0 +1,44 @@
+modules:
+  chay1997_calcium_1:
+    class: src.chay1997_calciumconcentration_biomd0000000378_model:Chay1997CalciumconcentrationBiomd0000000378Model
+    args:
+      model_path: data/BIOMD0000000378.xml
+  dallaman2007_mea_2:
+    class: src.dallaman2007_mealmodel_glucoseinsulinsystem_biomd0000000379_model:Dallaman2007MealmodelGlucoseinsulinsystemBiomd0000000379Model
+    args:
+      model_path: data/BIOMD0000000379.xml
+  edes1_eindhoven_3:
+    class: src.edes1_0_eindhoven_diabetes_simulator_model2403070001_model:Edes10EindhovenDiabetesSimulatorModel2403070001Model
+    args:
+      model_path: data/MODEL2403070001.xml
+  fridlyand2010_gl_4:
+    class: src.fridlyand2010_glucosesensitivity_a_biomd0000000348_model:Fridlyand2010GlucosesensitivityABiomd0000000348Model
+    args:
+      model_path: data/BIOMD0000000348.xml
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: chay1997_calcium_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: dallaman2007_mea_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: edes1_eindhoven_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: fridlyand2010_gl_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
