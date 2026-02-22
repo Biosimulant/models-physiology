@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BondarenkoSzigetiBettKimRasmusson2004Bondarenkoszigetibettkimrasmusson2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology bondarenko szigeti bett kim rasmusson represents physiology bondarenko szigeti bett kim rasmusson mechanisms from physiome reference physiome:bondarenko_szigeti_bett_kim_rasmusson_2004. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

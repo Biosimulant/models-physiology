@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: APharmacokineticPkModelOfAcetaminophenForB18Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology APharmacokinetic Pk Model Of Acetaminophen For B18Model represents physiology a pharmacokinetic pk of acetaminophen mechanisms from physiome reference physiome:b18. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

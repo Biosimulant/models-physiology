@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LebeauYuleGroblewskiSneyd1999Lebeauyulegroblewskisneyd1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Lebeau Yule Groblewski Sneyd1999Lebeauyulegroblewskisneyd1999Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:lebeau_yule_groblewski_sneyd_1999), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

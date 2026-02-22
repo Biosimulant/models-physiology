@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuytonNonMuscleOxygenDelivery2008Guytonnonmuscleoxygendelivery2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Guyton Non Muscle Oxygen Delivery2008Guytonnonmuscleoxygendelivery2008Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:guyton_non_muscle_oxygen_delivery_200. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

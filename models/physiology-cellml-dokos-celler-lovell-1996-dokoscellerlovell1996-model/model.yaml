@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DokosCellerLovell1996Dokoscellerlovell1996Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Dokos Celler Lovell1996Dokoscellerlovell1996Model represents physiology dokos celler lovell 1996 dokoscellerlovell1996 mechanisms from physiome reference physiome:dokos_celler_lovell_1996. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

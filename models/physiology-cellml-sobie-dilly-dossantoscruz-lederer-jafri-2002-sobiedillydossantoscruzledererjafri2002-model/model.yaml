@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SobieDillyDossantoscruzLedererJafri2002Sobiedillydossantoscruzledererjafri2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology sobie dilly dossantoscruz lederer jafri represents physiology sobie dilly dossantoscruz lederer jafri mechanisms from physiome reference physiome:sobie_dilly_dossantoscruz_lederer_jafri_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

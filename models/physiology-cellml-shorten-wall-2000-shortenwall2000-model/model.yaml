@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ShortenWall2000Shortenwall2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Shorten Wall2000Shortenwall2000Model captures physiology shorten wall 2000 shortenwall2000 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

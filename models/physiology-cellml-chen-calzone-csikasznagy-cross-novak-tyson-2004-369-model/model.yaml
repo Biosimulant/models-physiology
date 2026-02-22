@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ChenCalzoneCsikasznagyCrossNovakTyson2004369Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Chen Calzone Csikasznagy Cross Novak Tyson2004369Model models physiology chen calzone csikasznagy cross novak dynamics as a OTHER simulation curated from physiome (physiome:369), focused on physiolog. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

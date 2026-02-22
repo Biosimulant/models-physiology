@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WinogradDestexheSanchezvives2008Winograddestexhesanchezvives2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Winograd Destexhe Sanchezvives2008Winograddestexhesanchezvives2008Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:winograd_destexhe_sanchezvives_2008), foc. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: InnerMedullaryLactateProductionAndAccumulat5b6Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Inner Medullary Lactate Production And Accumulat5b6Model models physiology inner medullary lactate production and dynamics as a OTHER simulation curated from physiome (physiome:5b6), focused on physi. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

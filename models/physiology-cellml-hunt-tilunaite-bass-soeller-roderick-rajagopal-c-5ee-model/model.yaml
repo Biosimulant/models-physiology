@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HuntTilunaiteBassSoellerRoderickRajagopalC5eeModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hunt Tilunaite Bass Soeller Roderick Rajagopal C5ee Model represents physiology hunt tilunaite bass soeller roderick mechanisms from physiome reference physiome:5ee. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

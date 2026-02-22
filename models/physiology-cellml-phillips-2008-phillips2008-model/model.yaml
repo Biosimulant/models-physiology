@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Phillips2008Phillips2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Phillips2008Phillips2008Model represents physiology phillips 2008 phillips2008 mechanisms from physiome reference physiome:phillips_2008. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

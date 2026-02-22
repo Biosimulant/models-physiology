@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Eaat2ThePhysicsOfPhysiologyC85Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Eaat2The Physics Of Physiology C85Model captures physiology eaat2 the physics of physiology behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

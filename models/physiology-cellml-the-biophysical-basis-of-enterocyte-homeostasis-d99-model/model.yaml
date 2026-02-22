@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TheBiophysicalBasisOfEnterocyteHomeostasisD99Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology The Biophysical Basis Of Enterocyte Homeostasis D99Model captures physiology the biophysical basis of enterocyte behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

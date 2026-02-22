@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NadLabellingDynamicsModel2409150001Model'
-description: Model constructed to resample stable isotope labelling experiments using
-  13C-Glucose
+description: "Model constructed to resample stable isotope labelling experiments using 13C-Glucose. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

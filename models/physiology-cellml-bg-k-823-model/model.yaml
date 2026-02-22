@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgK823Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg K823Model models physiology bg k 823 dynamics as a OTHER simulation curated from physiome (physiome:823), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

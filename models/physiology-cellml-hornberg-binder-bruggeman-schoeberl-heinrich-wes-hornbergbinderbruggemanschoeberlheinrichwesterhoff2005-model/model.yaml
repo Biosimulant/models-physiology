@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HornbergBinderBruggemanSchoeberlHeinrichWesHornbergbinderbruggemanschoeberlheinrichwesterhoff2005Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology hornberg binder bruggeman schoeberl heinrich models physiology hornberg binder bruggeman schoeberl heinrich dynamics as a OTHER simulation curated from physiome (physiome:hornberg_binder_bruggeman_sc. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ConradieBruggemanCilibertoCsikaszNagyNovakConradiebruggemancilibertocsikasznagynovakwesterhoffsnoep2010Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology conradie bruggeman ciliberto csikasz nagy models physiology conradie bruggeman ciliberto csikasz nagy dynamics as a OTHER simulation curated from physiome (physiome:conradie_bruggeman_ciliberto_csika. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

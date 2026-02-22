@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Endocrine Metabolic (COMBO_0062)'
-description: Physiology endocrine metabolic comparative space with 4 models, configured
-  as non-causal co-simulation.
+description: "Physiology Endocrine Metabolic (COMBO_0062) organizes rattanakul2003_b_1, rozendaal2018_mo_2, schlosser2000_gl_3 into a comparative simulation setup to examine how endocrine metabolic mechanisms compare across these mode. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-physiology
   alias: rattanakul2003_b_1

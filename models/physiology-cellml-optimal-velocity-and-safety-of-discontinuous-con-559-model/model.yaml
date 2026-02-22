@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: OptimalVelocityAndSafetyOfDiscontinuousCon559Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Optimal Velocity And Safety Of Discontinuous Con559Model represents physiology optimal velocity and safety of mechanisms from physiome reference physiome:559. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

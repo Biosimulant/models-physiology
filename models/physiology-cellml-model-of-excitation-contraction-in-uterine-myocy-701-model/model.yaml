@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ModelOfExcitationContractionInUterineMyocy701Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Model Of Excitation Contraction In Uterine Myocy701Model models physiology of excitation contraction in uterine dynamics as a OTHER simulation curated from physiome (physiome:701), focused on physiol. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

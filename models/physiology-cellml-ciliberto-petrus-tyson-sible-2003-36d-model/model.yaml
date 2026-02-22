@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CilibertoPetrusTysonSible200336dModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Ciliberto Petrus Tyson Sible200336d Model represents physiology ciliberto petrus tyson sible 2003 mechanisms from physiome reference physiome:36d. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

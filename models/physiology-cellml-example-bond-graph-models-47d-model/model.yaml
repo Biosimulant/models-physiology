@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ExampleBondGraphModels47dModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Example Bond Graph Models47d Model represents physiology example bond graph 47d mechanisms from physiome reference physiome:47d. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

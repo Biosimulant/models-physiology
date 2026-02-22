@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgKachBbfModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Kach Bbf Model captures physiology bg kach bbf behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

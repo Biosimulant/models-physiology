@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WebbSherrattFish2002Webbsherrattfish2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Webb Sherratt Fish2002Webbsherrattfish2002Model represents physiology webb sherratt fish 2002 webbsherrattfish2002 mechanisms from physiome reference physiome:webb_sherratt_fish_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

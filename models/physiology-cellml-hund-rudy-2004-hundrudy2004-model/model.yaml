@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HundRudy2004Hundrudy2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hund Rudy2004Hundrudy2004Model represents physiology hund rudy 2004 hundrudy2004 mechanisms from physiome reference physiome:hund_rudy_2004. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

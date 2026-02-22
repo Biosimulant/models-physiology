@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: General (COMBO_0034)'
-description: Physiology general comparative space with 3 models, configured as non-causal
-  co-simulation.
+description: "Physiology General (COMBO_0034) organizes bartolucci_passi_1, baylor_hollingwo_2, beard_3 into a comparative simulation setup to examine how general mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-physiology
   alias: bartolucci_passi_1

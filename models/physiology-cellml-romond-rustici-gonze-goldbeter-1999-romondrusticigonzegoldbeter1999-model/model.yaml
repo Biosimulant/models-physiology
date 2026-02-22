@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RomondRusticiGonzeGoldbeter1999Romondrusticigonzegoldbeter1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Romond Rustici Gonze Goldbeter1999Romondrusticigonzegoldbeter1999Model represents core biological mechanisms from physiome reference physiome:romond_rustici_gonze_goldbeter_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

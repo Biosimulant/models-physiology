@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RyanodineReceptorKnowledgePageBb8Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Ryanodine Receptor Knowledge Page Bb8Model represents physiology ryanodine receptor knowledge page bb8 mechanisms from physiome reference physiome:bb8. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

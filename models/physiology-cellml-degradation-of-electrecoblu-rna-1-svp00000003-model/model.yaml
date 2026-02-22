@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DegradationOfElectrecobluRna1Svp00000003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Degradation Of Electrecoblu Rna1Svp00000003Model represents physiology degradation of electrecoblu rna 1 mechanisms from physiome reference physiome:SVP_00000003. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NaganoAndGerritsen2001Naganogerritsen2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Nagano And Gerritsen2001Naganogerritsen2001Model models physiology nagano and gerritsen 2001 naganogerritsen2001 dynamics as a OTHER simulation curated from physiome (physiome:nagano_gerritsen_2001). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

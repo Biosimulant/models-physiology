@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ShelleycardiacapmodelB15Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Shelleycardiacapmodel B15Model represents physiology shelleycardiacapmodel b15 mechanisms from physiome reference physiome:b15. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

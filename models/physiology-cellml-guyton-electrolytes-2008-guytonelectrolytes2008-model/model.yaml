@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuytonElectrolytes2008Guytonelectrolytes2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Guyton Electrolytes2008Guytonelectrolytes2008Model represents physiology guyton electrolytes 2008 guytonelectrolytes2008 mechanisms from physiome reference physiome:guyton_electrolytes_2008. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

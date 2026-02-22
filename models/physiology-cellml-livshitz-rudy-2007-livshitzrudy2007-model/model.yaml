@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LivshitzRudy2007Livshitzrudy2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Livshitz Rudy2007Livshitzrudy2007Model represents physiology livshitz rudy 2007 livshitzrudy2007 mechanisms from physiome reference physiome:livshitz_rudy_2007. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

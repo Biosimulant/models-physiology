@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MosekildeLadingYanchukMaistrenko2001Mosekildeladingyanchukmaistrenko2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology mosekilde lading yanchuk maistrenko 2001 represents physiology mosekilde lading yanchuk maistrenko 2001 mechanisms from physiome reference physiome:mosekilde_lading_yanchuk_maistrenko_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

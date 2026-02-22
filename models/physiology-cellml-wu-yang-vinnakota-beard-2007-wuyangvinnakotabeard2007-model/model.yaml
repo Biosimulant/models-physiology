@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WuYangVinnakotaBeard2007Wuyangvinnakotabeard2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Wu Yang Vinnakota Beard2007Wuyangvinnakotabeard2007Model represents physiology wu yang vinnakota beard 2007 mechanisms from physiome reference physiome:wu_yang_vinnakota_beard_2007. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

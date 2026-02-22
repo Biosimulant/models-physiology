@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BertramSmolenShermanMearsAtwaterMartinSoriBertramsmolenshermanmearsatwatermartinsoria1995Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology bertram smolen sherman mears atwater represents physiology bertram smolen sherman mears atwater mechanisms from physiome reference physiome:bertram_smolen_sherman_mears_atwater_martin_soria_1995. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

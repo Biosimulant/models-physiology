@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: PivonkaZimakSmithGardinerDunstanSimsMartinPivonkazimaksmithgardinerdunstansimsmartinmundy2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology pivonka zimak smith gardiner dunstan models physiology pivonka zimak smith gardiner dunstan dynamics as a OTHER simulation curated from physiome (physiome:pivonka_zimak_smith_gardiner_dunstan_sims_ma. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

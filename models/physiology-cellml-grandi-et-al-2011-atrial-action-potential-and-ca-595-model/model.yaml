@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GrandiEtAl2011AtrialActionPotentialAndCa595Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Grandi Et Al2011Atrial Action Potential And Ca595Model captures physiology grandi et al 2011 atrial behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

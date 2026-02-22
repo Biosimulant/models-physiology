@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RiceWinslowHunter1999Ricewinslowhunter1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Rice Winslow Hunter1999Ricewinslowhunter1999Model models physiology rice winslow hunter 1999 ricewinslowhunter1999 dynamics as a OTHER simulation curated from physiome (physiome:rice_winslow_hunter_1. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

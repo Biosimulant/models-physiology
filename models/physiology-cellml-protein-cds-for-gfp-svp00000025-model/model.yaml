@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ProteinCdsForGfpSvp00000025Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Protein Cds For Gfp Svp00000025Model captures physiology protein cds for gfp svp00000025 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

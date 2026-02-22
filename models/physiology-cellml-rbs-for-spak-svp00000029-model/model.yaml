@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RbsForSpakSvp00000029Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Rbs For Spak Svp00000029Model represents physiology rbs for spak svp00000029 mechanisms from physiome reference physiome:SVP_00000029. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

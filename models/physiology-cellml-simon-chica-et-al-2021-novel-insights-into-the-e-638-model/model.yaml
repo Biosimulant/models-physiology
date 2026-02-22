@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SimonChicaEtAl2021NovelInsightsIntoTheE638Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Simon Chica Et Al2021Novel Insights Into The E638Model represents physiology simon chica et al 2021 mechanisms from physiome reference physiome:638. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: General (COMBO_0026)'
-description: Physiology general comparative space with 2 models, configured as non-causal
-  co-simulation.
+description: "Physiology General (COMBO_0026) organizes alexander_and_1, alexander_and_2, state_compare_mon into a comparative simulation setup to examine how general mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-physiology
   alias: alexander_and_1

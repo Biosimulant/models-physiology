@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: IberMaini2002Ibermaini2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Iber Maini2002Ibermaini2002Model represents physiology iber maini 2002 ibermaini2002 mechanisms from physiome reference physiome:iber_maini_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

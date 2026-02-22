@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Cardiac Electrophysiology (COMBO_0012)'
-description: Physiology cardiac electrophysiology comparative space with 2 models,
-  configured as non-causal co-simulation.
+description: "Physiology Cardiac Electrophysiology (COMBO_0012) assembles toward_a_1, varela_canine_2, state_compare_mon as a comparative composed simulation to examine how cardiac electrophysiology mechanisms compare across these mod. When you run it, you can compare synchronized outputs through the declared wiring paths and monitor views."
 models:
 - repo: Biosimulant/models-physiology
   alias: toward_a_1

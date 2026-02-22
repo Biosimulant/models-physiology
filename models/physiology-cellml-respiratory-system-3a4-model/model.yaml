@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RespiratorySystem3a4Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Respiratory System3a4Model represents physiology respiratory system 3a4 mechanisms from physiome reference physiome:3a4. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

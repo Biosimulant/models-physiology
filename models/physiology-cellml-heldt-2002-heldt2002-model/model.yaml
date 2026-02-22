@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Heldt2002Heldt2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Heldt2002Heldt2002Model represents physiology heldt 2002 heldt2002 mechanisms from physiome reference physiome:heldt_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

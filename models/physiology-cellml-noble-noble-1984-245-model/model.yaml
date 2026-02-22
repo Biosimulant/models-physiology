@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NobleNoble1984245Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Noble Noble1984245Model models physiology noble noble 1984 245 dynamics as a OTHER simulation curated from physiome (physiome:245), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuytonAldosterone2008Guytonaldosterone2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Guyton Aldosterone2008Guytonaldosterone2008Model models physiology guyton aldosterone 2008 guytonaldosterone2008 dynamics as a OTHER simulation curated from physiome (physiome:guyton_aldosterone_2008. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

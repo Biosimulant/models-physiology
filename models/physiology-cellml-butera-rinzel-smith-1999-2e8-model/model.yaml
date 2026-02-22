@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ButeraRinzelSmith19992e8Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Butera Rinzel Smith19992e8Model models physiology butera rinzel smith 1999 2e8 dynamics as a OTHER simulation curated from physiome (physiome:2e8), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

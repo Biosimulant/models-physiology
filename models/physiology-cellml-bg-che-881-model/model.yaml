@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgChe881Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Che881Model represents physiology bg che 881 mechanisms from physiome reference physiome:881. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

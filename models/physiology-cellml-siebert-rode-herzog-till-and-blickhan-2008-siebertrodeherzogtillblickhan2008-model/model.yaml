@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SiebertRodeHerzogTillAndBlickhan2008Siebertrodeherzogtillblickhan2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology siebert rode herzog till and models physiology siebert rode herzog till and dynamics as a OTHER simulation curated from physiome (physiome:siebert_rode_herzog_till_blickhan_2008), focused on physiolo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

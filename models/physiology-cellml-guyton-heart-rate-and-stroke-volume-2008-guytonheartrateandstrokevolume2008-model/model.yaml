@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuytonHeartRateAndStrokeVolume2008Guytonheartrateandstrokevolume2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology guyton heart rate and stroke models physiology guyton heart rate and stroke dynamics as a OTHER simulation curated from physiome (physiome:guyton_heart_rate_and_stroke_volume_2008), focused on physio. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

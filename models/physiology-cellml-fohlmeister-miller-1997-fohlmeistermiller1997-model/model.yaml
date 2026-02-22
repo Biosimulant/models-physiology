@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FohlmeisterMiller1997Fohlmeistermiller1997Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Fohlmeister Miller1997Fohlmeistermiller1997Model represents physiology fohlmeister miller 1997 fohlmeistermiller1997 mechanisms from physiome reference physiome:fohlmeister_miller_1997. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

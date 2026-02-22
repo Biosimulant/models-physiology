@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: EbiharaJohnson1980Ebiharajohnson1980Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Ebihara Johnson1980Ebiharajohnson1980Model represents physiology ebihara johnson 1980 ebiharajohnson1980 mechanisms from physiome reference physiome:ebihara_johnson_1980. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Borghans1997Borghans1997Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Borghans1997Borghans1997Model models physiology borghans 1997 borghans1997 dynamics as a OTHER simulation curated from physiome (physiome:borghans_1997), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

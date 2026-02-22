@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WangLinLinWu2008Wanglinlinwu2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Wang Lin Lin Wu2008Wanglinlinwu2008Model models physiology wang lin lin wu 2008 dynamics as a OTHER simulation curated from physiome (physiome:wang_lin_lin_wu_2008), focused on physiology, cellml, ph. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

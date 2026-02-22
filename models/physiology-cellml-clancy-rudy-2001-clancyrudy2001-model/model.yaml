@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ClancyRudy2001Clancyrudy2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Clancy Rudy2001Clancyrudy2001Model represents physiology clancy rudy 2001 clancyrudy2001 mechanisms from physiome reference physiome:clancy_rudy_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

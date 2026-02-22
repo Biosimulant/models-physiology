@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NobleVargheseKohlNoble1998Noblevarghesekohlnoble1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Noble Varghese Kohl Noble1998Noblevarghesekohlnoble1998Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:noble_varghese_kohl_noble_1998), focused on physiolo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

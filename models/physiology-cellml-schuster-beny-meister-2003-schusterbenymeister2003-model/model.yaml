@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SchusterBenyMeister2003Schusterbenymeister2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Schuster Beny Meister2003Schusterbenymeister2003Model captures physiology schuster beny meister 2003 schusterbenymeister2003 behavior in the context of physiology, cellml, physiome using a physiome-s. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

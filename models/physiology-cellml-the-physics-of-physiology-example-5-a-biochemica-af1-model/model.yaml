@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ThePhysicsOfPhysiologyExample5ABiochemicaAf1Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology The Physics Of Physiology Example5ABiochemica Af1Model models physiology the physics of physiology example dynamics as a OTHER simulation curated from physiome (physiome:af1), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

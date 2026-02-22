@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ModelsForTheOpencorAndPmrTutorialByPeter25dModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Models For The Opencor And Pmr Tutorial By Peter25d Model represents physiology for the opencor and pmr mechanisms from physiome reference physiome:25d. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

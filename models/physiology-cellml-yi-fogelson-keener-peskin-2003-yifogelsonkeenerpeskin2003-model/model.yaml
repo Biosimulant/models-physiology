@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: YiFogelsonKeenerPeskin2003Yifogelsonkeenerpeskin2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Yi Fogelson Keener Peskin2003Yifogelsonkeenerpeskin2003Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:yi_fogelson_keener_peskin_2003), focused on physiolo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

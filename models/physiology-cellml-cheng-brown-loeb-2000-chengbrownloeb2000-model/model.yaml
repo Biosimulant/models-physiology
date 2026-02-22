@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ChengBrownLoeb2000Chengbrownloeb2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Cheng Brown Loeb2000Chengbrownloeb2000Model models physiology cheng brown loeb 2000 chengbrownloeb2000 dynamics as a OTHER simulation curated from physiome (physiome:cheng_brown_loeb_2000), focused o. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

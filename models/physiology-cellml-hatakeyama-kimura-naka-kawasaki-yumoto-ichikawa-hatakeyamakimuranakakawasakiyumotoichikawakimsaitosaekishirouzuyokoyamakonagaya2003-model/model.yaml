@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HatakeyamaKimuraNakaKawasakiYumotoIchikawaHatakeyamakimuranakakawasakiyumotoichikawakimsaitosaekishirouzuyokoyamakonagaya2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology hatakeyama kimura naka kawasaki yumoto represents physiology hatakeyama kimura naka kawasaki yumoto mechanisms from physiome reference physiome:hatakeyama_kimura_naka_kawasaki_yumoto_ichikawa_kim_sai. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

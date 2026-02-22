@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GrossAndHopfer1998Grossandhopfer1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Gross And Hopfer1998Grossandhopfer1998Model represents physiology gross and hopfer 1998 grossandhopfer1998 mechanisms from physiome reference physiome:gross_and_hopfer_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

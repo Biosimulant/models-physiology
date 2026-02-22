@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: IrvineJafriWinslow1999Irvinejafriwinslow1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Irvine Jafri Winslow1999Irvinejafriwinslow1999Model represents physiology irvine jafri winslow 1999 irvinejafriwinslow1999 mechanisms from physiome reference physiome:irvine_jafri_winslow_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

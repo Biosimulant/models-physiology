@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Decker2009Decker2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Decker2009Decker2009Model represents physiology decker 2009 decker2009 mechanisms from physiome reference physiome:decker_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

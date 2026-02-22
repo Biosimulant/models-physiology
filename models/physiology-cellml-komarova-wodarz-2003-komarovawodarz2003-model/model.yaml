@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KomarovaWodarz2003Komarovawodarz2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Komarova Wodarz2003Komarovawodarz2003Model represents physiology komarova wodarz 2003 komarovawodarz2003 mechanisms from physiome reference physiome:komarova_wodarz_2003. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

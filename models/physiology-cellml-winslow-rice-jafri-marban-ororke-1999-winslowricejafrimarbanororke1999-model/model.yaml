@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WinslowRiceJafriMarbanOrorke1999Winslowricejafrimarbanororke1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Winslow Rice Jafri Marban Ororke1999Winslowricejafrimarbanororke1999Model represents core biological mechanisms from physiome reference physiome:winslow_rice_jafri_marban_ororke_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

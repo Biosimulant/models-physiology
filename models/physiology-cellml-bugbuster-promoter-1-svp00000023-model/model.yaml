@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BugbusterPromoter1Svp00000023Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bugbuster Promoter1Svp00000023Model captures physiology bugbuster promoter 1 svp00000023 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BertramEtAl2011LymphangionModelB44Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bertram Et Al2011Lymphangion Model B44Model models physiology bertram et al 2011 lymphangion dynamics as a OTHER simulation curated from physiome (physiome:b44), focused on physiology, cellml, physio. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

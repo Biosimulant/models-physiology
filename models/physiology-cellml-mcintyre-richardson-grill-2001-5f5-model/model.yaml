@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: McintyreRichardsonGrill20015f5Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Mcintyre Richardson Grill20015f5Model represents physiology mcintyre richardson grill 2001 5f5 mechanisms from physiome reference physiome:5f5. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Proctor2007Proctor2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Proctor2007Proctor2007Model models physiology proctor 2007 proctor2007 dynamics as a OTHER simulation curated from physiome (physiome:proctor_2007), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

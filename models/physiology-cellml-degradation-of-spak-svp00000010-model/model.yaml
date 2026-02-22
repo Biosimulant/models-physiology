@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DegradationOfSpakSvp00000010Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Degradation Of Spak Svp00000010Model captures physiology degradation of spak svp00000010 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

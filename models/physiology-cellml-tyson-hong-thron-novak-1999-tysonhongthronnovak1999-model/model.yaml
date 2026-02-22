@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TysonHongThronNovak1999Tysonhongthronnovak1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tyson Hong Thron Novak1999Tysonhongthronnovak1999Model models physiology tyson hong thron novak 1999 dynamics as a OTHER simulation curated from physiome (physiome:tyson_hong_thron_novak_1999), focus. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

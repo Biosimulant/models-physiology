@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GoldbeterDupontBerridge199035aModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Goldbeter Dupont Berridge199035a Model captures physiology goldbeter dupont berridge 1990 35a behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

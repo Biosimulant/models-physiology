@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MckenzieSneyd1998Mckenziesneyd1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Mckenzie Sneyd1998Mckenziesneyd1998Model captures physiology mckenzie sneyd 1998 mckenziesneyd1998 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

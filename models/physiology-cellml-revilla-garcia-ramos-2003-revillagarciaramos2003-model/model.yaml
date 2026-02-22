@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RevillaGarciaRamos2003Revillagarciaramos2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Revilla Garcia Ramos2003Revillagarciaramos2003Model represents physiology revilla garcia ramos 2003 revillagarciaramos2003 mechanisms from physiome reference physiome:revilla_garcia-ramos_2003. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

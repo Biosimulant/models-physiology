@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Respiratory Physiology (COMBO_0053)'
-description: Physiology respiratory physiology comparative space with 3 models, configured
-  as non-causal co-simulation.
+description: "Physiology Respiratory Physiology (COMBO_0053) assembles a_physiologicall_1, guyton_pulmonary_2, guyton_pulmonary_3 as a comparative composed simulation to examine how respiratory physiology mechanisms compare across the. When you run it, you can compare synchronized outputs through the declared wiring paths and monitor views."
 models:
 - repo: Biosimulant/models-physiology
   alias: a_physiologicall_1

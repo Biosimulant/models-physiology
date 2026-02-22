@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DevriesSherman2001Devriessherman2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Devries Sherman2001Devriessherman2001Model captures physiology devries sherman 2001 devriessherman2001 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

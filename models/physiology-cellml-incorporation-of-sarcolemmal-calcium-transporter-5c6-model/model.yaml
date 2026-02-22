@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: IncorporationOfSarcolemmalCalciumTransporter5c6Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Incorporation Of Sarcolemmal Calcium Transporter5c6Model models physiology incorporation of sarcolemmal calcium transporter dynamics as a OTHER simulation curated from physiome (physiome:5c6), focuse. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

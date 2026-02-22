@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DegradationOfSparSvp00000012Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Degradation Of Spar Svp00000012Model represents physiology degradation of spar svp00000012 mechanisms from physiome reference physiome:SVP_00000012. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

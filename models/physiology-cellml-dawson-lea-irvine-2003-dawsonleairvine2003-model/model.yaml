@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DawsonLeaIrvine2003Dawsonleairvine2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Dawson Lea Irvine2003Dawsonleairvine2003Model represents physiology dawson lea irvine 2003 dawsonleairvine2003 mechanisms from physiome reference physiome:dawson_lea_irvine_2003. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

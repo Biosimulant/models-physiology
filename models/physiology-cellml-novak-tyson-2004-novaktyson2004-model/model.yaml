@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NovakTyson2004Novaktyson2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Novak Tyson2004Novaktyson2004Model represents physiology novak tyson 2004 novaktyson2004 mechanisms from physiome reference physiome:novak_tyson_2004. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

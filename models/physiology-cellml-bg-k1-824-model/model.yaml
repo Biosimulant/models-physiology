@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgK1824Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg K1824Model models physiology bg k1 824 dynamics as a OTHER simulation curated from physiome (physiome:824), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

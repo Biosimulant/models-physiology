@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RbsForPhzsSvp00000037Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Rbs For Phzs Svp00000037Model represents physiology rbs for phzs svp00000037 mechanisms from physiome reference physiome:SVP_00000037. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

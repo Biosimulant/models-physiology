@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Kroll2000Kroll2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Kroll2000Kroll2000Model represents physiology kroll 2000 kroll2000 mechanisms from physiome reference physiome:kroll_2000. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NagerlNovoModyVergara2000Nagerlnovomodyvergara2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Nagerl Novo Mody Vergara2000Nagerlnovomodyvergara2000Model models physiology nagerl novo mody vergara 2000 dynamics as a OTHER simulation curated from physiome (physiome:nagerl_novo_mody_vergara_2000. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

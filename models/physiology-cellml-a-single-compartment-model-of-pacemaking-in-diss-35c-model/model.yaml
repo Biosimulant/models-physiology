@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ASingleCompartmentModelOfPacemakingInDiss35cModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology ASingle Compartment Model Of Pacemaking In Diss35c Model models physiology a single compartment of pacemaking dynamics as a OTHER simulation curated from physiome (physiome:35c), focused on physiolog. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

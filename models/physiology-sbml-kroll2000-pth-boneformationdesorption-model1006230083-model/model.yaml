@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Kroll2000PthBoneformationdesorptionModel1006230083Model'
-description: 'This a model from the article: Parathyroid hormone temporal effects
-  on bone formation and resorption. Kroll MH. Bull Math Biol 2000 Jan;62(1):163-88
-  10824426 , Abstract: Parathyroid hormone (PTH) para'
+description: "This a model from the article: Parathyroid hormone temporal effects on bone formation and resorption. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

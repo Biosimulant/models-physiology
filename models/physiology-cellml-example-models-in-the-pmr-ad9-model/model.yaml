@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ExampleModelsInThePmrAd9Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Example Models In The Pmr Ad9Model represents physiology example in the pmr ad9 mechanisms from physiome reference physiome:ad9. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

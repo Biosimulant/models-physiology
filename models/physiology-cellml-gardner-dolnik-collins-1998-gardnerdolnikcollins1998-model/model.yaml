@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GardnerDolnikCollins1998Gardnerdolnikcollins1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Gardner Dolnik Collins1998Gardnerdolnikcollins1998Model captures physiology gardner dolnik collins 1998 gardnerdolnikcollins1998 behavior in the context of physiology, cellml, physiome using a physio. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

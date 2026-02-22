@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BloodHbo2AndHbco2DissociationCurves607Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Blood Hbo2And Hbco2Dissociation Curves607Model represents physiology blood hbo2 and hbco2 dissociation mechanisms from physiome reference physiome:607. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

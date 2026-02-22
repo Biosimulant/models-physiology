@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DegradationOfPyoSvp00000009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Degradation Of Pyo Svp00000009Model models physiology degradation of pyo svp00000009 dynamics as a OTHER simulation curated from physiome (physiome:SVP_00000009), focused on physiology, cellml, physi. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ZengLauritaRosenbaumRudy1995Zenglauritarosenbaumrudy1995Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Zeng Laurita Rosenbaum Rudy1995Zenglauritarosenbaumrudy1995Model represents core biological mechanisms from physiome reference physiome:zeng_laurita_rosenbaum_rudy_1995. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

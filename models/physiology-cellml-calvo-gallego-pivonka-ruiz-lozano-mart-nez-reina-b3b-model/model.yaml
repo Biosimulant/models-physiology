@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CalvoGallegoPivonkaRuizLozanoMartNezReinaB3bModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Calvo Gallego Pivonka Ruiz Lozano Mart Nez Reina B3b Model captures physiology calvo gallego pivonka ruiz lozano behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

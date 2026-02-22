@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LeloupGoldbeter1998Leloupgoldbeter1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Leloup Goldbeter1998Leloupgoldbeter1998Model represents physiology leloup goldbeter 1998 leloupgoldbeter1998 mechanisms from physiome reference physiome:leloup_goldbeter_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

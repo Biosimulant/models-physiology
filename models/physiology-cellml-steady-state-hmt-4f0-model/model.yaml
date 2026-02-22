@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SteadyStateHmt4f0Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Steady State Hmt4f0Model models physiology steady state hmt 4f0 dynamics as a OTHER simulation curated from physiome (physiome:4f0), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

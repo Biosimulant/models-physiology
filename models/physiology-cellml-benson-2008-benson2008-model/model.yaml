@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Benson2008Benson2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Benson2008Benson2008Model represents physiology benson 2008 benson2008 mechanisms from physiome reference physiome:benson_2008. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

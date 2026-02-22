@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SternSongShamYangBohelerRios1999Sternsongshamyangbohelerrios1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Stern Song Sham Yang Boheler Rios1999Sternsongshamyangbohelerrios1999Model represents core biological mechanisms from physiome reference physiome:stern_song_sham_yang_boheler_rios_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

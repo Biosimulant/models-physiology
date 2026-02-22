@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BonhoefferRembiszewskiOrtizNixon20002dcModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bonhoeffer Rembiszewski Ortiz Nixon20002dc Model represents physiology bonhoeffer rembiszewski ortiz nixon 2000 mechanisms from physiome reference physiome:2dc. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

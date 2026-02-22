@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ChassagnoleRaisQuentinFellMazat2001Chassagnoleraisquentinfellmazat2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology chassagnole rais quentin fell mazat represents physiology chassagnole rais quentin fell mazat mechanisms from physiome reference physiome:chassagnole_rais_quentin_fell_mazat_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

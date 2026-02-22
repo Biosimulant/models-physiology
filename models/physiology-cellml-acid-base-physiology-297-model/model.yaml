@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AcidBasePhysiology297Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Acid Base Physiology297Model represents physiology acid base physiology 297 mechanisms from physiome reference physiome:297. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

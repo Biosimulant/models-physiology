@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NovakTyson1993Novaktyson1993Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Novak Tyson1993Novaktyson1993Model models physiology novak tyson 1993 novaktyson1993 dynamics as a OTHER simulation curated from physiome (physiome:novak_tyson_1993), focused on physiology, cellml, p. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

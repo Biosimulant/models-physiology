@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ExtendedSeveriAndFabbriModelC65Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Extended Severi And Fabbri Model C65Model represents physiology extended severi and fabbri c65 mechanisms from physiome reference physiome:c65. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KholodenkoDeminMoehrenHoek1999394Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Kholodenko Demin Moehren Hoek1999394Model models physiology kholodenko demin moehren hoek 1999 dynamics as a OTHER simulation curated from physiome (physiome:394), focused on physiology, cellml, phys. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

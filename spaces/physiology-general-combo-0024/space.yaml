@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: General (COMBO_0024)'
-description: Physiology general comparative space with 2 models, configured as non-causal
-  co-simulation.
+description: "Physiology General (COMBO_0024) assembles aguda_tang_1, albert_haanstra_2, state_compare_mon as a comparative composed simulation to examine how general mechanisms compare across these models. When you run it, you can compare synchronized outputs through the declared wiring paths and monitor views."
 models:
 - repo: Biosimulant/models-physiology
   alias: aguda_tang_1

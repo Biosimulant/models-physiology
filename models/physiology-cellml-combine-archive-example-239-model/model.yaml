@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CombineArchiveExample239Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Combine Archive Example239Model represents physiology combine archive example 239 mechanisms from physiome reference physiome:239. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

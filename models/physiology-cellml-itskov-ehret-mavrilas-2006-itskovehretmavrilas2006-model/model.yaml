@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ItskovEhretMavrilas2006Itskovehretmavrilas2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Itskov Ehret Mavrilas2006Itskovehretmavrilas2006Model represents physiology itskov ehret mavrilas 2006 itskovehretmavrilas2006 mechanisms from physiome reference physiome:itskov_ehret_mavrilas_2006. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

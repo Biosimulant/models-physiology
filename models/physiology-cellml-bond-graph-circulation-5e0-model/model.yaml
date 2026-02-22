@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BondGraphCirculation5e0Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bond Graph Circulation5e0Model captures physiology bond graph circulation 5e0 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

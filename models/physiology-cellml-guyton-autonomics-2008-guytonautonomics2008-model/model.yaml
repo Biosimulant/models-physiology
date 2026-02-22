@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuytonAutonomics2008Guytonautonomics2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Guyton Autonomics2008Guytonautonomics2008Model captures physiology guyton autonomics 2008 guytonautonomics2008 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER m. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

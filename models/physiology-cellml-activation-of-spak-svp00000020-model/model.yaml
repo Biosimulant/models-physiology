@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ActivationOfSpakSvp00000020Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Activation Of Spak Svp00000020Model models physiology activation of spak svp00000020 dynamics as a OTHER simulation curated from physiome (physiome:SVP_00000020), focused on physiology, cellml, physi. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

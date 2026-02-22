@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AModelForTheHumanFetalVentricularMyocyteD90Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology AModel For The Human Fetal Ventricular Myocyte D90Model represents physiology a for the human fetal mechanisms from physiome reference physiome:d90. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

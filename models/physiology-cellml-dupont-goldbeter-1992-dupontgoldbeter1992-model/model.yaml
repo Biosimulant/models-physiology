@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DupontGoldbeter1992Dupontgoldbeter1992Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Dupont Goldbeter1992Dupontgoldbeter1992Model represents physiology dupont goldbeter 1992 dupontgoldbeter1992 mechanisms from physiome reference physiome:dupont_goldbeter_1992. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

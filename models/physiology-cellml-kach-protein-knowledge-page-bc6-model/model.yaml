@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KachProteinKnowledgePageBc6Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Kach Protein Knowledge Page Bc6Model represents physiology kach protein knowledge page bc6 mechanisms from physiome reference physiome:bc6. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

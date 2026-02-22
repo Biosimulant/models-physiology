@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SnyderPalmerMoore2000Snyderpalmermoore2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Snyder Palmer Moore2000Snyderpalmermoore2000Model captures physiology snyder palmer moore 2000 snyderpalmermoore2000 behavior in the context of physiology, cellml, physiome using a physiome-sourced O. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

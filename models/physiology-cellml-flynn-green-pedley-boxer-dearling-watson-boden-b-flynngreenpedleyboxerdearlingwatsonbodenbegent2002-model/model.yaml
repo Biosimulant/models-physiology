@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FlynnGreenPedleyBoxerDearlingWatsonBodenBFlynngreenpedleyboxerdearlingwatsonbodenbegent2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology flynn green pedley boxer dearling represents physiology flynn green pedley boxer dearling mechanisms from physiome reference physiome:flynn_green_pedley_boxer_dearling_watson_boden_begent_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

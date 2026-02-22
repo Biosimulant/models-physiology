@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HilgemannNoble1987Hilgemannnoble1987Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hilgemann Noble1987Hilgemannnoble1987Model represents physiology hilgemann noble 1987 hilgemannnoble1987 mechanisms from physiome reference physiome:hilgemann_noble_1987. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

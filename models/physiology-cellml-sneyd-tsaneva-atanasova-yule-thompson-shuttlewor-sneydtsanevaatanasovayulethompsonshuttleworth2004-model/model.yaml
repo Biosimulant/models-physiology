@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SneydTsanevaAtanasovaYuleThompsonShuttleworSneydtsanevaatanasovayulethompsonshuttleworth2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology sneyd tsaneva atanasova yule thompson captures physiology sneyd tsaneva atanasova yule thompson behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

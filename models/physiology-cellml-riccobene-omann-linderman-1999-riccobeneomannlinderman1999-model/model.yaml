@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RiccobeneOmannLinderman1999Riccobeneomannlinderman1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Riccobene Omann Linderman1999Riccobeneomannlinderman1999Model represents core biological mechanisms from physiome reference physiome:riccobene_omann_linderman_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

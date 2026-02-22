@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DeyoungKeizer1992Deyoungkeizer1992Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Deyoung Keizer1992Deyoungkeizer1992Model models physiology deyoung keizer 1992 deyoungkeizer1992 dynamics as a OTHER simulation curated from physiome (physiome:deyoung_keizer_1992), focused on physio. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: InternationalSiUnits2006Internationalsiunits2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology International Si Units2006Internationalsiunits2006Model captures physiology international si units 2006 internationalsiunits2006 behavior in the context of physiology, cellml, physiome using a physio. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

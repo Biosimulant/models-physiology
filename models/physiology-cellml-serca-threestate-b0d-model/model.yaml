@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SercaThreestateB0dModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Serca Threestate B0d Model models physiology serca threestate b0d dynamics as a OTHER simulation curated from physiome (physiome:b0d), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

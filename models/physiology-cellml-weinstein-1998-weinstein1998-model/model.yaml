@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Weinstein1998Weinstein1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Weinstein1998Weinstein1998Model represents physiology weinstein 1998 weinstein1998 mechanisms from physiome reference physiome:weinstein_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

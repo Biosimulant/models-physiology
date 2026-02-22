@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: General (COMBO_0015)'
-description: Physiology general comparative space with 2 models, configured as non-causal
-  co-simulation.
+description: "Physiology General (COMBO_0015) brings together a_pharmacokineti_1, a_pharmacokineti_2, state_compare_mon in a comparative space to examine how general mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-physiology
   alias: a_pharmacokineti_1

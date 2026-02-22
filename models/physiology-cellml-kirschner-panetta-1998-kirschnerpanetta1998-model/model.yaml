@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KirschnerPanetta1998Kirschnerpanetta1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Kirschner Panetta1998Kirschnerpanetta1998Model represents physiology kirschner panetta 1998 kirschnerpanetta1998 mechanisms from physiome reference physiome:kirschner_panetta_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

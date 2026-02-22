@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CoolingHunterCrampin2009Coolinghuntercrampin2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Cooling Hunter Crampin2009Coolinghuntercrampin2009Model represents physiology cooling hunter crampin 2009 coolinghuntercrampin2009 mechanisms from physiome reference physiome:cooling_hunter_crampin_2. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

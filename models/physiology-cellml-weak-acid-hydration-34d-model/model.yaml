@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WeakAcidHydration34dModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Weak Acid Hydration34d Model models physiology weak acid hydration 34d dynamics as a OTHER simulation curated from physiome (physiome:34d), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LoeweLutzFabbriSeveriHumanSinusNodeCellul58fModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Loewe Lutz Fabbri Severi Human Sinus Node Cellul58f Model captures physiology loewe lutz fabbri severi human behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER mod. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

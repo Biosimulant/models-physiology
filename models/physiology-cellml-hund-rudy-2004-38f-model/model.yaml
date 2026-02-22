@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HundRudy200438fModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hund Rudy200438f Model represents physiology hund rudy 2004 38f mechanisms from physiome reference physiome:38f. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

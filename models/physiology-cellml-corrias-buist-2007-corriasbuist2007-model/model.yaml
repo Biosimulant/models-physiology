@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CorriasBuist2007Corriasbuist2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Corrias Buist2007Corriasbuist2007Model models physiology corrias buist 2007 corriasbuist2007 dynamics as a OTHER simulation curated from physiome (physiome:corrias_buist_2007), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

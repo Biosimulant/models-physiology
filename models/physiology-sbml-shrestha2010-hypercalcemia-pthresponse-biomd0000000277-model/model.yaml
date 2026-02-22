@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Shrestha2010HypercalcemiaPthresponseBiomd0000000277Model'
-description: 'This a model from the article: A mathematical model of parathyroid hormone
-  response to acute changes in plasma ionized calcium concentration in humans. Shrestha
-  RP, Hollot CV, Chipkin SR, Schmitt CP, '
+description: "This a model from the article: A mathematical model of parathyroid hormone response to acute changes in plasma ionized calcium concentration in humans. Shrestha RP, Hollot CV, Chipkin SR, Schmitt CP,."
 standard: other
 tags:
 - physiology

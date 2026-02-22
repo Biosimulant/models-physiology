@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CellViabilityModelsForTissueExposedToTher1b5Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Cell Viability Models For Tissue Exposed To Ther1b5Model models physiology cell viability for tissue exposed dynamics as a OTHER simulation curated from physiome (physiome:1b5), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

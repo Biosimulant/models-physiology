@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Smith1980Smith1980Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Smith1980Smith1980Model represents physiology smith 1980 smith1980 mechanisms from physiome reference physiome:smith_1980. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

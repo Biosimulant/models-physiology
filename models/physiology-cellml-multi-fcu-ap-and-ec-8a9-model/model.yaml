@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MultiFcuApAndEc8a9Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Multi Fcu Ap And Ec8a9Model represents physiology multi fcu ap and ec mechanisms from physiome reference physiome:8a9. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

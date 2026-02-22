@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: General (COMBO_0041)'
-description: Physiology general comparative space with 3 models, configured as non-causal
-  co-simulation.
+description: "Physiology General (COMBO_0041) brings together bg_abc_1, bg_ae_2, bg_ae1_3 in a comparative space to examine how general mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-physiology
   alias: bg_abc_1

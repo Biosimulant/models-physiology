@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: JosephZavrosMerchantKirschner2003Josephzavrosmerchantkirschner2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Joseph Zavros Merchant Kirschner2003Josephzavrosmerchantkirschner2003Model represents core biological mechanisms from physiome reference physiome:joseph_zavros_merchant_kirschner_2003. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

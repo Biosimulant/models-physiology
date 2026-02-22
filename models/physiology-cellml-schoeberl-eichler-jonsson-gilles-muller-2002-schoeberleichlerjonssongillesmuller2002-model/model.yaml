@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SchoeberlEichlerJonssonGillesMuller2002Schoeberleichlerjonssongillesmuller2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology schoeberl eichler jonsson gilles muller models physiology schoeberl eichler jonsson gilles muller dynamics as a OTHER simulation curated from physiome (physiome:schoeberl_eichlerjonsson_gilles_muller. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

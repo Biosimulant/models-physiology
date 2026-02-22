@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Ae3ThePhysicsOfPhysiologyC78Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Ae3The Physics Of Physiology C78Model represents physiology ae3 the physics of physiology mechanisms from physiome reference physiome:c78. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

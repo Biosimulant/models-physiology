@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MacgregorLeng2005Macgregorleng2005Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Macgregor Leng2005Macgregorleng2005Model models physiology macgregor leng 2005 macgregorleng2005 dynamics as a OTHER simulation curated from physiome (physiome:macgregor_leng_2005), focused on physio. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

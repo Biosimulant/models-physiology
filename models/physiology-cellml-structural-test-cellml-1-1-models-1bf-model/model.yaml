@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: StructuralTestCellml11Models1bfModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Structural Test Cellml11Models1bf Model models physiology structural test 1 1 1bf dynamics as a OTHER simulation curated from physiome (physiome:1bf), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Bagci2008Bagci2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bagci2008Bagci2008Model models physiology bagci 2008 bagci2008 dynamics as a OTHER simulation curated from physiome (physiome:bagci_2008), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

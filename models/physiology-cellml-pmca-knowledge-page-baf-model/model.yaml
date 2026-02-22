@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: PmcaKnowledgePageBafModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Pmca Knowledge Page Baf Model models physiology pmca knowledge page baf dynamics as a OTHER simulation curated from physiome (physiome:baf), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

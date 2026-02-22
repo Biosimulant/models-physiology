@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: PaciHyttinenAaltosetalaSeveri2013593Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Paci Hyttinen Aaltosetala Severi2013593Model models physiology paci hyttinen aaltosetala severi 2013 dynamics as a OTHER simulation curated from physiome (physiome:593), focused on physiology, cellml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

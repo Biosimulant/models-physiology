@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Heinze1998GnrhLhModel0848507209Model'
-description: 'This a model from the article: A mathematical model of luteinizing hormone
-  release from ovine pituitary cellsin perifusion. Heinze K, Keener RW, Midgley AR
-  Jr. Am J Physiol 1998 Dec;275(6 Pt 1):E1061-'
+description: "This a model from the article: A mathematical model of luteinizing hormone release from ovine pituitary cellsin perifusion. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

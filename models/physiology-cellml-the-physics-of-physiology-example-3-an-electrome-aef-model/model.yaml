@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ThePhysicsOfPhysiologyExample3AnElectromeAefModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology The Physics Of Physiology Example3An Electrome Aef Model captures physiology the physics of physiology example behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER m. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

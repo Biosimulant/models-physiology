@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MarhlHaberichterBrumenHeinrich2000Marhlhaberichterbrumenheinrich2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Marhl Haberichter Brumen Heinrich2000Marhlhaberichterbrumenheinrich2000Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:marhl_haberichter_brumen_heinrich_20. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

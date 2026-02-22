@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: APhysiologicallyGroundedModelOfPulmonaryAcD42Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology APhysiologically Grounded Model Of Pulmonary Ac D42Model captures physiology a physiologically grounded of pulmonary behavior in the context of physiology, cellml, physiome using a physiome-sourced O. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

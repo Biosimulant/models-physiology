@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AnIntegrativeDynamicModelOfBrainEnergyMet546Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology An Integrative Dynamic Model Of Brain Energy Met546Model captures physiology an integrative dynamic of brain behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER mod. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GasserOgdenHolzapfel2006Gasserogdenholzapfel2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Gasser Ogden Holzapfel2006Gasserogdenholzapfel2006Model captures physiology gasser ogden holzapfel 2006 gasserogdenholzapfel2006 behavior in the context of physiology, cellml, physiome using a physio. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

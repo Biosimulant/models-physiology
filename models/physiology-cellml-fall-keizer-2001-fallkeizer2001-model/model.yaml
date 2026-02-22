@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FallKeizer2001Fallkeizer2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Fall Keizer2001Fallkeizer2001Model represents physiology fall keizer 2001 fallkeizer2001 mechanisms from physiome reference physiome:fall_keizer_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

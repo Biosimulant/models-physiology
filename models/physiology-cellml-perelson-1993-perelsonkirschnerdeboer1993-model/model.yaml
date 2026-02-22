@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Perelson1993Perelsonkirschnerdeboer1993Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Perelson1993Perelsonkirschnerdeboer1993Model represents physiology perelson 1993 perelsonkirschnerdeboer1 mechanisms from physiome reference physiome:perelson_kirschner_deboer_1993. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

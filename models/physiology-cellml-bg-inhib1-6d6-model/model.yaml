@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgInhib16d6Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Inhib16d6Model models physiology bg inhib1 6d6 dynamics as a OTHER simulation curated from physiome (physiome:6d6), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

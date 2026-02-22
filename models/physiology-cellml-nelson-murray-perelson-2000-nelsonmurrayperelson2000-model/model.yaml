@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NelsonMurrayPerelson2000Nelsonmurrayperelson2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Nelson Murray Perelson2000Nelsonmurrayperelson2000Model represents physiology nelson murray perelson 2000 nelsonmurrayperelson2000 mechanisms from physiome reference physiome:nelson_murray_perelson_2. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

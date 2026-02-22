@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuccioneMccullochWaldman1991Guccionemccullochwaldman1991Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Guccione Mcculloch Waldman1991Guccionemccullochwaldman1991Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:guccione_mcculloch_waldman_1991), focused on phys. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

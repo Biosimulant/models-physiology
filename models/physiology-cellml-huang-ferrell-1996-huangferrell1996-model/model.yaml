@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HuangFerrell1996Huangferrell1996Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Huang Ferrell1996Huangferrell1996Model models physiology huang ferrell 1996 huangferrell1996 dynamics as a OTHER simulation curated from physiome (physiome:huang_ferrell_1996), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

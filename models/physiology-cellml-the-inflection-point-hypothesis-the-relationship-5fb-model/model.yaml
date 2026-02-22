@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TheInflectionPointHypothesisTheRelationship5fbModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology The Inflection Point Hypothesis The Relationship5fb Model models physiology the inflection point hypothesis the dynamics as a OTHER simulation curated from physiome (physiome:5fb), focused on physiol. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

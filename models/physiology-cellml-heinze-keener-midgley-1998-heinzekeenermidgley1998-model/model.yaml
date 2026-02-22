@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HeinzeKeenerMidgley1998Heinzekeenermidgley1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Heinze Keener Midgley1998Heinzekeenermidgley1998Model models physiology heinze keener midgley 1998 heinzekeenermidgley1998 dynamics as a OTHER simulation curated from physiome (physiome:heinze_keener. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

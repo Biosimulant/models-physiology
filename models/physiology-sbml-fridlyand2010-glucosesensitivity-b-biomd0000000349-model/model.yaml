@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Fridlyand2010GlucosesensitivityBBiomd0000000349Model'
-description: 'This a model from the article: Glucose sensing in the pancreatic beta
-  cell: a computational systems analysis. Fridlyand LE, Philipson LH. Theor Biol Med
-  Model. 2010 May 24;7:15. 20497556 , Abstract: B'
+description: "This a model from the article: Glucose sensing in the pancreatic beta cell: a computational systems analysis. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

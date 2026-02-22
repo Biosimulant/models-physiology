@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CardiovascularCirculationSystemicCardiovascularcirculationsystemicModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Cardiovascular Circulation Systemic Cardiovascularcirculationsystemic Model represents core biological mechanisms from physiome reference physiome:cardiovascular_circulation_systemic. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ModularVersionOfGlucoseUptakeIncludingWate58cModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Modular Version Of Glucose Uptake Including Wate58c Model captures physiology modular version of glucose uptake behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

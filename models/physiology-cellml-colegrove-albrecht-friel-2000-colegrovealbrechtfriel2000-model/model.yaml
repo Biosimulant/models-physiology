@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ColegroveAlbrechtFriel2000Colegrovealbrechtfriel2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Colegrove Albrecht Friel2000Colegrovealbrechtfriel2000Model represents physiology colegrove albrecht friel 2000 colegrovealbrechtfriel20 mechanisms from physiome reference physiome:colegrove_albrecht. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

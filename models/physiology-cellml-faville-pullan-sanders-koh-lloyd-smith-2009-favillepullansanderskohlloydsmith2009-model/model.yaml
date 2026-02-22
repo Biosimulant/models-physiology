@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FavillePullanSandersKohLloydSmith2009Favillepullansanderskohlloydsmith2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology faville pullan sanders koh lloyd models physiology faville pullan sanders koh lloyd dynamics as a OTHER simulation curated from physiome (physiome:faville_pullan_sanders_koh_lloyd_smith_2009), focuse. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

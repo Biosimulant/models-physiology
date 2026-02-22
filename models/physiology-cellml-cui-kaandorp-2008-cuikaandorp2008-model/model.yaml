@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CuiKaandorp2008Cuikaandorp2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Cui Kaandorp2008Cuikaandorp2008Model captures physiology cui kaandorp 2008 cuikaandorp2008 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

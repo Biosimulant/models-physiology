@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BugbusterPromoter2Svp00000024Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bugbuster Promoter2Svp00000024Model represents physiology bugbuster promoter 2 svp00000024 mechanisms from physiome reference physiome:SVP_00000024. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

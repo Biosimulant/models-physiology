@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CarbonDioxidePhGasTransportAndExchange8c0Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Carbon Dioxide Ph Gas Transport And Exchange8c0Model represents physiology carbon dioxide ph gas transport mechanisms from physiome reference physiome:8c0. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

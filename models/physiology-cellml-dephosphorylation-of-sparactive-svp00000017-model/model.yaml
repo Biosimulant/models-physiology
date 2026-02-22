@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DephosphorylationOfSparactiveSvp00000017Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Dephosphorylation Of Sparactive Svp00000017Model represents physiology dephosphorylation of sparactive svp00000017 mechanisms from physiome reference physiome:SVP_00000017. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

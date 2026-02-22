@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ElectrecobluStandardVirtualBiologicalMachineElectrecobluModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Electrecoblu Standard Virtual Biological Machine Electrecoblu Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:electrecoblu), focused on physiology, cellml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

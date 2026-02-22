@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ShannonWangPuglisiWeberBers2004Shannonwangpuglisiweberbers2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Shannon Wang Puglisi Weber Bers2004Shannonwangpuglisiweberbers2004Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:shannon_wang_puglisi_weber_bers_2004), fo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

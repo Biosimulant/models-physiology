@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LiSmith2009Lismith2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Li Smith2009Lismith2009Model represents physiology li smith 2009 lismith2009 mechanisms from physiome reference physiome:li_smith_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

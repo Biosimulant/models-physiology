@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GilbertHeinerRosserFultonGuTrybilo2007Gilbertheinerrosserfultongutrybilo2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology gilbert heiner rosser fulton gu represents physiology gilbert heiner rosser fulton gu mechanisms from physiome reference physiome:gilbert_heiner_rosser_fulton_gu_trybilo_2007. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

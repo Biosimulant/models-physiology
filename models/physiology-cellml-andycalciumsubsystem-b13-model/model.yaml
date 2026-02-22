@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AndycalciumsubsystemB13Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Andycalciumsubsystem B13Model models physiology andycalciumsubsystem b13 dynamics as a OTHER simulation curated from physiome (physiome:b13), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

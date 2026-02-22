@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ParentSupplissonLooWright1992Parentsupplissonloowright1992Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Parent Supplisson Loo Wright1992Parentsupplissonloowright1992Model represents core biological mechanisms from physiome reference physiome:parent_supplisson_loo_wright_1992. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

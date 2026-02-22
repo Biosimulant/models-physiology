@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KernikEtAl20196edModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Kernik Et Al20196ed Model represents physiology kernik et al 2019 6ed mechanisms from physiome reference physiome:6ed. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

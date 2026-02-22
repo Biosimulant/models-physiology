@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Glut2ThePhysicsOfPhysiologyC6bModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Glut2The Physics Of Physiology C6b Model represents physiology glut2 the physics of physiology mechanisms from physiome reference physiome:c6b. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

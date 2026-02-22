@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ModelOfSkeletalMuscleCrampAndItsReversal5c9Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Model Of Skeletal Muscle Cramp And Its Reversal5c9Model models physiology of skeletal muscle cramp and dynamics as a OTHER simulation curated from physiome (physiome:5c9), focused on physiology, cell. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Jiang2007GsisSystemPancreaticBetaCellsBiomd0000000239Model'
-description: Jiang2007 - GSIS system, Pancreatic Beta Cells Description of a core
-  kinetic model of the glucose-stimulated insulin secretion system (GSIS) in pancreatic
-  beta cells. This model is described in the ar
+description: "Jiang2007 - GSIS system, Pancreatic Beta Cells Description of a core kinetic model of the glucose-stimulated insulin secretion system (GSIS) in pancreatic beta cells. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

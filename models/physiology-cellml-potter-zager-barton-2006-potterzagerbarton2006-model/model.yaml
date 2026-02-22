@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: PotterZagerBarton2006Potterzagerbarton2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Potter Zager Barton2006Potterzagerbarton2006Model captures physiology potter zager barton 2006 potterzagerbarton2006 behavior in the context of physiology, cellml, physiome using a physiome-sourced O. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

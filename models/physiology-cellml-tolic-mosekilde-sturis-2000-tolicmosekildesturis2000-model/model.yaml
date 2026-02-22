@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TolicMosekildeSturis2000Tolicmosekildesturis2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tolic Mosekilde Sturis2000Tolicmosekildesturis2000Model models physiology tolic mosekilde sturis 2000 tolicmosekildesturis2000 dynamics as a OTHER simulation curated from physiome (physiome:tolic_mos. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

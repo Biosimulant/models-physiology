@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NaChannelKnowledgePageB7eModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Na Channel Knowledge Page B7e Model represents physiology na channel knowledge page b7e mechanisms from physiome reference physiome:b7e. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

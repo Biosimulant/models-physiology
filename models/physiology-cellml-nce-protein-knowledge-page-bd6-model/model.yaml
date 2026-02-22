@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NceProteinKnowledgePageBd6Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Nce Protein Knowledge Page Bd6Model models physiology nce protein knowledge page bd6 dynamics as a OTHER simulation curated from physiome (physiome:bd6), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

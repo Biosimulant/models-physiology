@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: McallisterNobleTsien1975Mcallisternobletsien1975Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Mcallister Noble Tsien1975Mcallisternobletsien1975Model captures physiology mcallister noble tsien 1975 mcallisternobletsien1975 behavior in the context of physiology, cellml, physiome using a physio. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

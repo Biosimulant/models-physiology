@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ChangFujita2001Changfujita2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Chang Fujita2001Changfujita2001Model models physiology chang fujita 2001 changfujita2001 dynamics as a OTHER simulation curated from physiome (physiome:chang_fujita_2001), focused on physiology, cell. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BarberisKlippVanoniAlberghina2007364Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Barberis Klipp Vanoni Alberghina2007364Model models physiology barberis klipp vanoni alberghina 2007 dynamics as a OTHER simulation curated from physiome (physiome:364), focused on physiology, cellml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgCab82aModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Cab82a Model represents physiology bg cab 82a mechanisms from physiome reference physiome:82a. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

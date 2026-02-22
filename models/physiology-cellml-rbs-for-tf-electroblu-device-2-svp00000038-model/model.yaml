@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RbsForTfElectrobluDevice2Svp00000038Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Rbs For Tf Electroblu Device2Svp00000038Model captures physiology rbs for tf electroblu device behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

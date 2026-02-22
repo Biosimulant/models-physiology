@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: VendelinKongasSaks2000Vendelinkongassaks2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Vendelin Kongas Saks2000Vendelinkongassaks2000Model captures physiology vendelin kongas saks 2000 vendelinkongassaks2000 behavior in the context of physiology, cellml, physiome using a physiome-sourc. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

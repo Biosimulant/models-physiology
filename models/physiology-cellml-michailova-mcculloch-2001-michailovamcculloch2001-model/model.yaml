@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MichailovaMcculloch2001Michailovamcculloch2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Michailova Mcculloch2001Michailovamcculloch2001Model models physiology michailova mcculloch 2001 michailovamcculloch2001 dynamics as a OTHER simulation curated from physiome (physiome:michailova_mccu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

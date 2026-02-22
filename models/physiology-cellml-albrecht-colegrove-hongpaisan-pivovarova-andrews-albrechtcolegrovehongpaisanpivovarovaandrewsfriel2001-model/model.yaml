@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AlbrechtColegroveHongpaisanPivovarovaAndrewsAlbrechtcolegrovehongpaisanpivovarovaandrewsfriel2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology albrecht colegrove hongpaisan pivovarova andrews models physiology albrecht colegrove hongpaisan pivovarova andrews dynamics as a OTHER simulation curated from physiome (physiome:albrecht_colegrove_h. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: VangoorLebeauKrsmanovicShermanCattStojilkovVangoorlebeaukrsmanovicshermancattstojilkovic2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology vangoor lebeau krsmanovic sherman catt represents physiology vangoor lebeau krsmanovic sherman catt mechanisms from physiome reference physiome:vangoor_lebeau_krsmanovic_sherman_catt_stojilkovic_2000. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SercaHiggins2006BondGraphV2D7eModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Serca Higgins2006Bond Graph V2D7e Model models physiology serca higgins 2006 bond graph dynamics as a OTHER simulation curated from physiome (physiome:d7e), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

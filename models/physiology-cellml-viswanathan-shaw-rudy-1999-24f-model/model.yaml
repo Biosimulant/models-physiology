@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ViswanathanShawRudy199924fModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Viswanathan Shaw Rudy199924f Model represents physiology viswanathan shaw rudy 1999 24f mechanisms from physiome reference physiome:24f. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: VanderpolVandermark1928Vanderpolvandermark1928Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Vanderpol Vandermark1928Vanderpolvandermark1928Model models physiology vanderpol vandermark 1928 vanderpolvandermark1928 dynamics as a OTHER simulation curated from physiome (physiome:vanderpol_vande. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

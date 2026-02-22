@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: PasekSimurdaOrchardChriste2008Paseksimurdaorchardchriste2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Pasek Simurda Orchard Christe2008Paseksimurdaorchardchriste2008Model represents core biological mechanisms from physiome reference physiome:pasek_simurda_orchard_christe_2008. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

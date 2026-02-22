@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BertramPreviteShermanKinardSatin20002e0Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bertram Previte Sherman Kinard Satin20002e0Model represents physiology bertram previte sherman kinard satin mechanisms from physiome reference physiome:2e0. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

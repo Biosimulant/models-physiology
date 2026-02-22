@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SthilaireGronfierZeitzerKlerman2007Sthilairegronfierzeitzerklerman2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology sthilaire gronfier zeitzer klerman 2007 models physiology sthilaire gronfier zeitzer klerman 2007 dynamics as a OTHER simulation curated from physiome (physiome:sthilaire_gronfier_zeitzer_klerman_200. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

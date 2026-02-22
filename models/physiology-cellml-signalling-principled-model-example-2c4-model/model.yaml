@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SignallingPrincipledModelExample2c4Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Signalling Principled Model Example2c4Model represents physiology signalling principled example 2c4 mechanisms from physiome reference physiome:2c4. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

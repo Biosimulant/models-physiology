@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Friel19952e9Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Friel19952e9Model represents physiology friel 1995 2e9 mechanisms from physiome reference physiome:2e9. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

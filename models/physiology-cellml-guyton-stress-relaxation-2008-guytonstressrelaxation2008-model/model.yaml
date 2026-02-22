@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuytonStressRelaxation2008Guytonstressrelaxation2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Guyton Stress Relaxation2008Guytonstressrelaxation2008Model represents physiology guyton stress relaxation 2008 guytonstressrelaxation20 mechanisms from physiome reference physiome:guyton_stress_rela. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

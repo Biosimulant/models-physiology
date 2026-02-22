@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FujitaToyoshimaUdaOzakiKubotaAndKuroda201Fujitatoyoshimaudaozakikubotakuroda2010Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology fujita toyoshima uda ozaki kubota represents physiology fujita toyoshima uda ozaki kubota mechanisms from physiome reference physiome:fujita_toyoshima_uda_ozaki_kubota_kuroda_2010. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

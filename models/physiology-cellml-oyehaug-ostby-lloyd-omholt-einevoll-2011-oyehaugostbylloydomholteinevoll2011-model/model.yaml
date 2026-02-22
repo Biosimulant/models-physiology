@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: OyehaugOstbyLloydOmholtEinevoll2011Oyehaugostbylloydomholteinevoll2011Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology oyehaug ostby lloyd omholt einevoll models physiology oyehaug ostby lloyd omholt einevoll dynamics as a OTHER simulation curated from physiome (physiome:oyehaug_ostby_lloyd_omholt_einevoll_2011), foc. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

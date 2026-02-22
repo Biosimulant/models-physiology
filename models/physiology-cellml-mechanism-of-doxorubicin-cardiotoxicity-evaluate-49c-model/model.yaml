@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MechanismOfDoxorubicinCardiotoxicityEvaluate49cModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Mechanism Of Doxorubicin Cardiotoxicity Evaluate49c Model represents physiology mechanism of doxorubicin cardiotoxicity evaluate mechanisms from physiome reference physiome:49c. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

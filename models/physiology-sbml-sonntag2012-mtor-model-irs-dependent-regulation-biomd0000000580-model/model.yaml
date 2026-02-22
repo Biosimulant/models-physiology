@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Sonntag2012MtorModelIrsDependentRegulationBiomd0000000580Model'
-description: 'Sonntag2012 - mTOR model - IRS dependent regulation of AMPK by insulin
-  TSC1-TSC2 complex has two states: 1)active (TSC1_TSC2_pS1387), regulated by AMPK_pT172;
-  2) inactive(TSC1_TSC2_pT1462) regulated b'
+description: "Sonntag2012 - mTOR model - IRS dependent regulation of AMPK by insulin TSC1-TSC2 complex has two states: 1)active (TSC1_TSC2_pS1387), regulated by AMPK_pT172; 2) inactive(TSC1_TSC2_pT1462) regulated b. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

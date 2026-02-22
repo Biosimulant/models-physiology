@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LiuHuPengLiu1999Liuhupengliu1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Liu Hu Peng Liu1999Liuhupengliu1999Model represents physiology liu hu peng liu 1999 mechanisms from physiome reference physiome:liu_hu_peng_liu_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

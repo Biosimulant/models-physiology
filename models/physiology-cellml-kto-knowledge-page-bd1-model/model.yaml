@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KtoKnowledgePageBd1Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Kto Knowledge Page Bd1Model models physiology kto knowledge page bd1 dynamics as a OTHER simulation curated from physiome (physiome:bd1), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

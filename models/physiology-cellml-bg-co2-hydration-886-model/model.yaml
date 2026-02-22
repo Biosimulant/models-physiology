@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgCo2Hydration886Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Co2Hydration886Model models physiology bg co2 hydration 886 dynamics as a OTHER simulation curated from physiome (physiome:886), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

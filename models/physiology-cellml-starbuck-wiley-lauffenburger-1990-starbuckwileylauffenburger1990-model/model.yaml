@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: StarbuckWileyLauffenburger1990Starbuckwileylauffenburger1990Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Starbuck Wiley Lauffenburger1990Starbuckwileylauffenburger1990Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:starbuck_wiley_lauffenburger_1990), focused o. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

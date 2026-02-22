@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgGpcrB1arReduced7dcModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Gpcr B1ar Reduced7dc Model represents physiology bg gpcr b1ar reduced 7dc mechanisms from physiome reference physiome:7dc. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

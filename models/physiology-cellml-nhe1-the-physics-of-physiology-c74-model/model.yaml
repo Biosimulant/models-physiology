@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Nhe1ThePhysicsOfPhysiologyC74Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Nhe1The Physics Of Physiology C74Model represents physiology nhe1 the physics of physiology mechanisms from physiome reference physiome:c74. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

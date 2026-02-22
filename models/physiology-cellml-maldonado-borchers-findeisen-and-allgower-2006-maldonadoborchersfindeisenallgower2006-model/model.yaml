@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MaldonadoBorchersFindeisenAndAllgower2006Maldonadoborchersfindeisenallgower2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology maldonado borchers findeisen and allgower models physiology maldonado borchers findeisen and allgower dynamics as a OTHER simulation curated from physiome (physiome:maldonado_borchers_findeisen_allgo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

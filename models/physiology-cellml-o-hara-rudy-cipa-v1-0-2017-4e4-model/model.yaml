@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: OHaraRudyCipaV1020174e4Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology OHara Rudy Cipa V1020174e4Model represents physiology o hara rudy cipa v1 mechanisms from physiome reference physiome:4e4. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

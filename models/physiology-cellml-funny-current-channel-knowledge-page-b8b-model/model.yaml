@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FunnyCurrentChannelKnowledgePageB8bModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Funny Current Channel Knowledge Page B8b Model models physiology funny current channel knowledge page dynamics as a OTHER simulation curated from physiome (physiome:b8b), focused on physiology, cellm. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

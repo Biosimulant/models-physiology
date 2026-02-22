@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CartwrightHusain1986Cartwrighthusain1986Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Cartwright Husain1986Cartwrighthusain1986Model models physiology cartwright husain 1986 cartwrighthusain1986 dynamics as a OTHER simulation curated from physiome (physiome:cartwright_husain_1986), fo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

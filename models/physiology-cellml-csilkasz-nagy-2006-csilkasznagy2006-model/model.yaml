@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CsilkaszNagy2006Csilkasznagy2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Csilkasz Nagy2006Csilkasznagy2006Model represents physiology csilkasz nagy 2006 csilkasznagy2006 mechanisms from physiome reference physiome:csilkasz_nagy_2006. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

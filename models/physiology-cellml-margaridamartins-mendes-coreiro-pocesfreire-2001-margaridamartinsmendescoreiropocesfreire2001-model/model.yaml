@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MargaridamartinsMendesCoreiroPocesfreire2001Margaridamartinsmendescoreiropocesfreire2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology margaridamartins mendes coreiro pocesfreire 2001 represents physiology margaridamartins mendes coreiro pocesfreire 2001 mechanisms from physiome reference physiome:margaridamartins_mendes_coreiro_poc. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

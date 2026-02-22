@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LindbladMurpheyClarkGiles1996Lindbladmurpheyclarkgiles1996Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Lindblad Murphey Clark Giles1996Lindbladmurpheyclarkgiles1996Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:lindblad_murphey_clark_giles_1996), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

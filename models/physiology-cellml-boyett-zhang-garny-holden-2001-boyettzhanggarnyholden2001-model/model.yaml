@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BoyettZhangGarnyHolden2001Boyettzhanggarnyholden2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Boyett Zhang Garny Holden2001Boyettzhanggarnyholden2001Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:boyett_zhang_garny_holden_2001), focused on physiolo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

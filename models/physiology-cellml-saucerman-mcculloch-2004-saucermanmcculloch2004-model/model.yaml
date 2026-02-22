@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SaucermanMcculloch2004Saucermanmcculloch2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Saucerman Mcculloch2004Saucermanmcculloch2004Model models physiology saucerman mcculloch 2004 saucermanmcculloch2004 dynamics as a OTHER simulation curated from physiome (physiome:saucerman_mcculloch. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

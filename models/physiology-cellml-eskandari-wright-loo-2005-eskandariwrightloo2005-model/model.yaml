@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: EskandariWrightLoo2005Eskandariwrightloo2005Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Eskandari Wright Loo2005Eskandariwrightloo2005Model models physiology eskandari wright loo 2005 eskandariwrightloo2005 dynamics as a OTHER simulation curated from physiome (physiome:eskandari_wright_. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

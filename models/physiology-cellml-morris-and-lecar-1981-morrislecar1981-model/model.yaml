@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MorrisAndLecar1981Morrislecar1981Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Morris And Lecar1981Morrislecar1981Model models physiology morris and lecar 1981 morrislecar1981 dynamics as a OTHER simulation curated from physiome (physiome:morris_lecar_1981), focused on physiolo. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

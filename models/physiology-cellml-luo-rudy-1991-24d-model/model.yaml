@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LuoRudy199124dModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Luo Rudy199124d Model represents physiology luo rudy 1991 24d mechanisms from physiome reference physiome:24d. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

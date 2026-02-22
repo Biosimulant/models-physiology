@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TongChoiKharcheHoldenZhangTaggart2011Redu8bcModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tong Choi Kharche Holden Zhang Taggart2011Redu8bc Model represents physiology tong choi kharche holden zhang mechanisms from physiome reference physiome:8bc. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

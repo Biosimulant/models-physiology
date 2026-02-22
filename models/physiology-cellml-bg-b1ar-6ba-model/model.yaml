@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgB1ar6baModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg B1ar6ba Model represents physiology bg b1ar 6ba mechanisms from physiome reference physiome:6ba. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

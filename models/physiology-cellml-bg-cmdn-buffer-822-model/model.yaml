@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgCmdnBuffer822Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Cmdn Buffer822Model represents physiology bg cmdn buffer 822 mechanisms from physiome reference physiome:822. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

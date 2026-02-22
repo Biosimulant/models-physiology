@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NygrenFisetFirekClarkLindbladClarkGiles19Nygrenfisetfirekclarklindbladclarkgiles1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology nygren fiset firek clark lindblad represents physiology nygren fiset firek clark lindblad mechanisms from physiome reference physiome:nygren_fiset_firek_clark_lindblad_clark_giles_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

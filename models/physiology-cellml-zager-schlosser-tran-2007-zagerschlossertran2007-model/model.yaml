@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ZagerSchlosserTran2007Zagerschlossertran2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Zager Schlosser Tran2007Zagerschlossertran2007Model represents physiology zager schlosser tran 2007 zagerschlossertran2007 mechanisms from physiome reference physiome:zager_schlosser_tran_2007. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

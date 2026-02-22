@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgRyrB0eModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Ryr B0e Model represents physiology bg ryr b0e mechanisms from physiome reference physiome:b0e. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HunterMcnaughtonNoble1975Huntermcnaughtonnoble1975Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hunter Mcnaughton Noble1975Huntermcnaughtonnoble1975Model represents physiology hunter mcnaughton noble 1975 huntermcnaughtonnoble197 mechanisms from physiome reference physiome:hunter_mcnaughton_nob. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

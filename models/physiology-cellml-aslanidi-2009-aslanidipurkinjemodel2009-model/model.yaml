@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Aslanidi2009Aslanidipurkinjemodel2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Aslanidi2009Aslanidipurkinjemodel2009Model captures physiology aslanidi 2009 aslanidipurkinjemodel200 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

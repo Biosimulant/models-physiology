@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: APharmacokineticModelForMorphineExVivoHumC62Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology APharmacokinetic Model For Morphine Ex Vivo Hum C62Model models physiology a pharmacokinetic for morphine ex dynamics as a OTHER simulation curated from physiome (physiome:c62), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

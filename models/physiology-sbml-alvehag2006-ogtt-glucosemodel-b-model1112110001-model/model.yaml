@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Alvehag2006OgttGlucosemodelBModel1112110001Model'
-description: 'This a model from the article: The Feedback Control of Glucose: On the
-  road to type II diabetes Alvehag, K.; Martin, C. Proceedings of 45th IEEE Conference
-  on Decision and Control 2006,685-690 Abstrac'
+description: "This a model from the article: The Feedback Control of Glucose: On the road to type II diabetes Alvehag, K.; Martin, C. Proceedings of 45th IEEE Conference on Decision and Control 2006,685-690 Abstrac."
 standard: other
 tags:
 - physiology

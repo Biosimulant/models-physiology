@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AComputationalHumanAtrialMyofibroblastElect785Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology AComputational Human Atrial Myofibroblast Elect785Model represents physiology a computational human atrial myofibroblast mechanisms from physiome reference physiome:785. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

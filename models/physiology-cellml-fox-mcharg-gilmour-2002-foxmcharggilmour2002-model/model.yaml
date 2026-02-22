@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FoxMchargGilmour2002Foxmcharggilmour2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Fox Mcharg Gilmour2002Foxmcharggilmour2002Model models physiology fox mcharg gilmour 2002 foxmcharggilmour2002 dynamics as a OTHER simulation curated from physiome (physiome:fox_mcharg_gilmour_2002). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

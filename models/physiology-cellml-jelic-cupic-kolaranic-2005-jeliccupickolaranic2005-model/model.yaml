@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: JelicCupicKolaranic2005Jeliccupickolaranic2005Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Jelic Cupic Kolaranic2005Jeliccupickolaranic2005Model models physiology jelic cupic kolaranic 2005 jeliccupickolaranic2005 dynamics as a OTHER simulation curated from physiome (physiome:jelic_cupic_k. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

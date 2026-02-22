@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SakmannSpindlerBryantLinzNoble2000Sakmannspindlerbryantlinznoble2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Sakmann Spindler Bryant Linz Noble2000Sakmannspindlerbryantlinznoble2000Model represents core biological mechanisms from physiome reference physiome:sakmann_spindler_bryant_linz_noble_2000. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

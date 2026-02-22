@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ProteinCdsForPhzmSvp00000040Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Protein Cds For Phzm Svp00000040Model represents physiology protein cds for phzm svp00000040 mechanisms from physiome reference physiome:SVP_00000040. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

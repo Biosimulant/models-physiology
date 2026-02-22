@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Mears1997Mearssheppardatwaterrojasbertramsherman1997Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Mears1997Mearssheppardatwaterrojasbertramsherman1997Model represents physiology mears 1997 mearssheppardatwaterroja mechanisms from physiome reference physiome:mears_sheppard_atwater_rojas_bertram_sh. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

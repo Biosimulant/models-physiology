@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TerkildsenNiedererCrampinHunterSmith2008Terkildsenniederercrampinhuntersmith2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology terkildsen niederer crampin hunter smith represents physiology terkildsen niederer crampin hunter smith mechanisms from physiome reference physiome:terkildsen_niederer_crampin_hunter_smith_2008. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

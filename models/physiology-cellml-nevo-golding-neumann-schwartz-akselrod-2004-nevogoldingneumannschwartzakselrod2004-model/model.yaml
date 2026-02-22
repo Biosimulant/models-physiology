@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NevoGoldingNeumannSchwartzAkselrod2004Nevogoldingneumannschwartzakselrod2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology nevo golding neumann schwartz akselrod represents physiology nevo golding neumann schwartz akselrod mechanisms from physiome reference physiome:nevo_golding_neumann_schwartz_akselrod_2004. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

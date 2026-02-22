@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: VilarKuehBarkaiLeibler2002Vilarkuehbarkaileibler2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Vilar Kueh Barkai Leibler2002Vilarkuehbarkaileibler2002Model represents core biological mechanisms from physiome reference physiome:vilar_kueh_barkai_leibler_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

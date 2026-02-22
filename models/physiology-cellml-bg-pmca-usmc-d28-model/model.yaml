@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgPmcaUsmcD28Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Pmca Usmc D28Model represents physiology bg pmca usmc d28 mechanisms from physiome reference physiome:d28. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HhSodiumCurrentModelForEstimationTask4e9Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hh Sodium Current Model For Estimation Task4e9Model models physiology hh sodium current for estimation dynamics as a OTHER simulation curated from physiome (physiome:4e9), focused on physiology, cell. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

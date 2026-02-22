@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MossKazmierczakKirleyHarris2009Mosskazmierczakkirleyharris2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Moss Kazmierczak Kirley Harris2009Mosskazmierczakkirleyharris2009Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:moss_kazmierczak_kirley_harris_2009), focu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

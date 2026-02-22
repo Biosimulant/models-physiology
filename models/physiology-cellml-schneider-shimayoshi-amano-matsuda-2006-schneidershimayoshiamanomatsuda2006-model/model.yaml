@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SchneiderShimayoshiAmanoMatsuda2006Schneidershimayoshiamanomatsuda2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology schneider shimayoshi amano matsuda 2006 represents physiology schneider shimayoshi amano matsuda 2006 mechanisms from physiome reference physiome:schneider_shimayoshi_amano_matsuda_2006. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

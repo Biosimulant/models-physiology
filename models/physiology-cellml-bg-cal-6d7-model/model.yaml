@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgCal6d7Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Cal6d7Model captures physiology bg cal 6d7 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

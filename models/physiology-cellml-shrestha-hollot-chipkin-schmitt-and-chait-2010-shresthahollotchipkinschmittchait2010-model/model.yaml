@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ShresthaHollotChipkinSchmittAndChait2010Shresthahollotchipkinschmittchait2010Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology shrestha hollot chipkin schmitt and models physiology shrestha hollot chipkin schmitt and dynamics as a OTHER simulation curated from physiome (physiome:shrestha_hollot_chipkin_schmitt_chait_2010), f. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

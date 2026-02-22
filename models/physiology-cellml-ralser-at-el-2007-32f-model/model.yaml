@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RalserAtEl200732fModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Ralser At El200732f Model models physiology ralser at el 2007 32f dynamics as a OTHER simulation curated from physiome (physiome:32f), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

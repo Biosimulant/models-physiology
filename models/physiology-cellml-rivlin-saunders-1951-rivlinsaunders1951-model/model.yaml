@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RivlinSaunders1951Rivlinsaunders1951Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Rivlin Saunders1951Rivlinsaunders1951Model models physiology rivlin saunders 1951 rivlinsaunders1951 dynamics as a OTHER simulation curated from physiome (physiome:rivlin_saunders_1951), focused on p. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

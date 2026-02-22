@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgGsprotein6f8Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Gsprotein6f8Model represents physiology bg gsprotein 6f8 mechanisms from physiome reference physiome:6f8. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

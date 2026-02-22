@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CurienRavanelDumas2003Curienravaneldumas2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Curien Ravanel Dumas2003Curienravaneldumas2003Model captures physiology curien ravanel dumas 2003 curienravaneldumas2003 behavior in the context of physiology, cellml, physiome using a physiome-sourc. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

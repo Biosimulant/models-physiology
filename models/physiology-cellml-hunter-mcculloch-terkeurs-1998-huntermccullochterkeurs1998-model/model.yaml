@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HunterMccullochTerkeurs1998Huntermccullochterkeurs1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hunter Mcculloch Terkeurs1998Huntermccullochterkeurs1998Model represents core biological mechanisms from physiome reference physiome:hunter_mcculloch_terkeurs_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

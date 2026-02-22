@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CortassaAonMarbanWinslowOrourke2003Cortassaaonmarbanwinsloworourke2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology cortassa aon marban winslow orourke captures physiology cortassa aon marban winslow orourke behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

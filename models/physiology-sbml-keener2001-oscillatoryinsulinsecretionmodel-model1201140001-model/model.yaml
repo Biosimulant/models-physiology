@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Keener2001OscillatoryinsulinsecretionmodelModel1201140001Model'
-description: 'This a model from the article: Diffusion induced oscillatory insulin
-  secretion. Keener JP. Bull Math Biol. 2001 Jul;63(4):625-41. 11497161 , Abstract:
-  Oscillatory secretion of insulin has been observe'
+description: "This a model from the article: Diffusion induced oscillatory insulin secretion. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

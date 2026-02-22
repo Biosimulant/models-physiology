@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: VarelaCanineAtrialCellModels47cModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Varela Canine Atrial Cell Models47c Model represents physiology varela canine atrial cell 47c mechanisms from physiome reference physiome:47c. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

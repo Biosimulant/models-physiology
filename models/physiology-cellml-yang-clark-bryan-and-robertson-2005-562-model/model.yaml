@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: YangClarkBryanAndRobertson2005562Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Yang Clark Bryan And Robertson2005562Model represents physiology yang clark bryan and robertson mechanisms from physiome reference physiome:562. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

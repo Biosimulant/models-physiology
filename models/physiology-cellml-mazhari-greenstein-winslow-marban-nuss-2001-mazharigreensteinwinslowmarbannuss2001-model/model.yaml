@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MazhariGreensteinWinslowMarbanNuss2001Mazharigreensteinwinslowmarbannuss2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology mazhari greenstein winslow marban nuss represents physiology mazhari greenstein winslow marban nuss mechanisms from physiome reference physiome:mazhari_greenstein_winslow_marban_nuss_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

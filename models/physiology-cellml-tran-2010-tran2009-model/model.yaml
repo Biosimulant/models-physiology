@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Tran2010Tran2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tran2010Tran2009Model represents physiology tran 2010 tran2009 mechanisms from physiome reference physiome:tran_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

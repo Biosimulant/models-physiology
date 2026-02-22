@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FcuCardiacPh885Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Fcu Cardiac Ph885Model captures physiology fcu cardiac ph 885 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

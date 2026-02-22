@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Maltsev2009Maltsev2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Maltsev2009Maltsev2009Model represents physiology maltsev 2009 maltsev2009 mechanisms from physiome reference physiome:maltsev_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

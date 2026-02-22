@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BeelerReuter1977Beelerreuter1977Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Beeler Reuter1977Beelerreuter1977Model represents physiology beeler reuter 1977 beelerreuter1977 mechanisms from physiome reference physiome:beeler_reuter_1977. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

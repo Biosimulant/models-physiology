@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BertramRhoadsAndCimbora2008Bertramrhoadscimbora2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bertram Rhoads And Cimbora2008Bertramrhoadscimbora2008Model represents physiology bertram rhoads and cimbora 2008 mechanisms from physiome reference physiome:bertram_rhoads_cimbora_2008. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

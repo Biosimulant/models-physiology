@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BindschadlerSneyd2001Bindschadlersneyd2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bindschadler Sneyd2001Bindschadlersneyd2001Model represents physiology bindschadler sneyd 2001 bindschadlersneyd2001 mechanisms from physiome reference physiome:bindschadler_sneyd_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

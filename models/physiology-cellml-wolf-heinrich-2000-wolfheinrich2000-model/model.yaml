@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WolfHeinrich2000Wolfheinrich2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Wolf Heinrich2000Wolfheinrich2000Model models physiology wolf heinrich 2000 wolfheinrich2000 dynamics as a OTHER simulation curated from physiome (physiome:wolf_heinrich_2000), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

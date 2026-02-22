@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RongPerelson2009Rongperelson2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Rong Perelson2009Rongperelson2009Model models physiology rong perelson 2009 rongperelson2009 dynamics as a OTHER simulation curated from physiome (physiome:rong_perelson_2009), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

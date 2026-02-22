@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HunterSmaillHunter1995Huntersmaillhunter1995Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hunter Smaill Hunter1995Huntersmaillhunter1995Model captures physiology hunter smaill hunter 1995 huntersmaillhunter1995 behavior in the context of physiology, cellml, physiome using a physiome-sourc. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

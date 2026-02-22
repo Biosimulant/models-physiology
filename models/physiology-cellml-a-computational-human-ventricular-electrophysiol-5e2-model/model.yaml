@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AComputationalHumanVentricularElectrophysiol5e2Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology AComputational Human Ventricular Electrophysiol5e2Model represents physiology a computational human ventricular electrophysiol mechanisms from physiome reference physiome:5e2. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

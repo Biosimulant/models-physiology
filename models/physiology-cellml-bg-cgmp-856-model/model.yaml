@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgCgmp856Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Cgmp856Model models physiology bg cgmp 856 dynamics as a OTHER simulation curated from physiome (physiome:856), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgGsproteinSneyd6cbModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Gsprotein Sneyd6cb Model represents physiology bg gsprotein sneyd 6cb mechanisms from physiome reference physiome:6cb. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

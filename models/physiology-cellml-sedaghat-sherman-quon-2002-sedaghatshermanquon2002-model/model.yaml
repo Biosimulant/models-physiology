@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SedaghatShermanQuon2002Sedaghatshermanquon2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Sedaghat Sherman Quon2002Sedaghatshermanquon2002Model models physiology sedaghat sherman quon 2002 sedaghatshermanquon2002 dynamics as a OTHER simulation curated from physiome (physiome:sedaghat_sher. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

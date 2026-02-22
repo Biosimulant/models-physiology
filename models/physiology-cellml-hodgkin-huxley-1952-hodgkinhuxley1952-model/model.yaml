@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HodgkinHuxley1952Hodgkinhuxley1952Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Hodgkin Huxley1952Hodgkinhuxley1952Model represents physiology hodgkin huxley 1952 hodgkinhuxley1952 mechanisms from physiome reference physiome:hodgkin_huxley_1952. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

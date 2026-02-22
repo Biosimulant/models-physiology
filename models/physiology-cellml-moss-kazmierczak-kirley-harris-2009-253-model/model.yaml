@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MossKazmierczakKirleyHarris2009253Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Moss Kazmierczak Kirley Harris2009253Model represents physiology moss kazmierczak kirley harris 2009 mechanisms from physiome reference physiome:253. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

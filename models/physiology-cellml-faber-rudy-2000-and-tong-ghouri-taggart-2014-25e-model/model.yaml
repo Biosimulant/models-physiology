@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: FaberRudy2000AndTongGhouriTaggart201425eModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Faber Rudy2000And Tong Ghouri Taggart201425e Model models physiology faber rudy 2000 and tong dynamics as a OTHER simulation curated from physiome (physiome:25e), focused on physiology, cellml, physi. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TabakMascagniAndBertram20102f0Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tabak Mascagni And Bertram20102f0Model models physiology tabak mascagni and bertram 2010 dynamics as a OTHER simulation curated from physiome (physiome:2f0), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

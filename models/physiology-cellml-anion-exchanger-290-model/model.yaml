@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AnionExchanger290Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Anion Exchanger290Model represents physiology anion exchanger 290 mechanisms from physiome reference physiome:290. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

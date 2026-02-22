@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DegradationOfPhzsSvp00000008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Degradation Of Phzs Svp00000008Model represents physiology degradation of phzs svp00000008 mechanisms from physiome reference physiome:SVP_00000008. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

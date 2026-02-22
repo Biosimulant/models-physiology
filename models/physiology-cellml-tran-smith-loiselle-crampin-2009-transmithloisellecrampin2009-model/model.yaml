@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TranSmithLoiselleCrampin2009Transmithloisellecrampin2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tran Smith Loiselle Crampin2009Transmithloisellecrampin2009Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:tran_smith_loiselle_crampin_2009), focused on ph. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

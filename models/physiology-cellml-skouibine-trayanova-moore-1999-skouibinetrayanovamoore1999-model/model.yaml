@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SkouibineTrayanovaMoore1999Skouibinetrayanovamoore1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Skouibine Trayanova Moore1999Skouibinetrayanovamoore1999Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:skouibine_trayanova_moore_1999), focused on physiol. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

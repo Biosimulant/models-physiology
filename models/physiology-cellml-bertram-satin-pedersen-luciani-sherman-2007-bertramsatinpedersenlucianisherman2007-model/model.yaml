@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BertramSatinPedersenLucianiSherman2007Bertramsatinpedersenlucianisherman2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology bertram satin pedersen luciani sherman represents physiology bertram satin pedersen luciani sherman mechanisms from physiome reference physiome:bertram_satin_pedersen_luciani_sherman_2007. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

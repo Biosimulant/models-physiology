@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KurataHisatomeImanishiShibamoto2002Kuratahisatomeimanishishibamoto2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology kurata hisatome imanishi shibamoto 2002 captures physiology kurata hisatome imanishi shibamoto 2002 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: EncisoSontag2004Encisosontag2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Enciso Sontag2004Encisosontag2004Model models physiology enciso sontag 2004 encisosontag2004 dynamics as a OTHER simulation curated from physiome (physiome:enciso_sontag_2004), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

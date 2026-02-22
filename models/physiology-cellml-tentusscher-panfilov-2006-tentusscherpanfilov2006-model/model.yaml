@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TentusscherPanfilov2006Tentusscherpanfilov2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tentusscher Panfilov2006Tentusscherpanfilov2006Model represents physiology tentusscher panfilov 2006 tentusscherpanfilov2006 mechanisms from physiome reference physiome:tentusscher_panfilov_2006. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

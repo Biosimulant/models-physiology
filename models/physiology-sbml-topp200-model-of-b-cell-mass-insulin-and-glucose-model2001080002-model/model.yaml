@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Topp200ModelOfBCellMassInsulinAndGlucoseModel2001080002Model'
-description: "A Model of \u03B2 -Cell Mass, Insulin, and Glucose Kinetics: Pathways\
-  \ to DiabetesBRIANTOPP, KEITHPROMISLOW, GERDADEVRIES, ROBERT MMIURA, DIANE TFINEGOODDiabetes\
-  \ is a disease of the glucose regulatory syste"
+description: "A Model of \u03b2 -Cell Mass, Insulin, and Glucose Kinetics: Pathways to DiabetesBRIANTOPP, KEITHPROMISLOW, GERDADEVRIES, ROBERT MMIURA, DIANE TFINEGOODDiabetes is a disease of the glucose regulatory syste. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

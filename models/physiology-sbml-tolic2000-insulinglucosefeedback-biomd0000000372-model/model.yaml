@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Tolic2000InsulinglucosefeedbackBiomd0000000372Model'
-description: 'This a model from the article: Modeling the insulin-glucose feedback
-  system: the significance of pulsatileinsulin secretion. Tolic IM, Mosekilde E, Sturis
-  J. J Theor Biol 2000 Dec 7;207(3):361-75 1108'
+description: "This a model from the article: Modeling the insulin-glucose feedback system: the significance of pulsatileinsulin secretion. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

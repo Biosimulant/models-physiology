@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Sglt1ThePhysicsOfPhysiologyC6cModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Sglt1The Physics Of Physiology C6c Model models physiology sglt1 the physics of physiology dynamics as a OTHER simulation curated from physiome (physiome:c6c), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BakkerMensonidesTeusinkVanhoekMichelsWesterBakkermensonidesteusinkvanhoekmichelswesterhoff2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology bakker mensonides teusink vanhoek michels represents physiology bakker mensonides teusink vanhoek michels mechanisms from physiome reference physiome:bakker_mensonides_teusink_vanhoek_michels_westerh. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

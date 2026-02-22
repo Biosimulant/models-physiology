@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HAtpaseProtonPump293Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology HAtpase Proton Pump293Model represents physiology h atpase proton pump 293 mechanisms from physiome reference physiome:293. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

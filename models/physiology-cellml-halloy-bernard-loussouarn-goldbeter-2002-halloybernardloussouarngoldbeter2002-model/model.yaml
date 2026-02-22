@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HalloyBernardLoussouarnGoldbeter2002Halloybernardloussouarngoldbeter2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology halloy bernard loussouarn goldbeter 2002 represents physiology halloy bernard loussouarn goldbeter 2002 mechanisms from physiome reference physiome:halloy_bernard_loussouarn_goldbeter_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

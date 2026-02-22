@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DavidCuminPhdModelDavidcuminphdmodelModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology David Cumin Phd Model Davidcuminphdmodel Model represents physiology david cumin phd davidcuminphdmodel mechanisms from physiome reference physiome:david_cumin_phd_model. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

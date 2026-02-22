@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MahajanShiferawSatoBaherOlceseXieYangChenMahajanshiferawsatobaherolcesexieyangchenrestrepokarmagarfinkelquweiss2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology mahajan shiferaw sato baher olcese captures physiology mahajan shiferaw sato baher olcese behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

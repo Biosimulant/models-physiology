@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SchmidNashYoungHunter2006Schmidnashyounghunter2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Schmid Nash Young Hunter2006Schmidnashyounghunter2006Model captures physiology schmid nash young hunter 2006 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER mod. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

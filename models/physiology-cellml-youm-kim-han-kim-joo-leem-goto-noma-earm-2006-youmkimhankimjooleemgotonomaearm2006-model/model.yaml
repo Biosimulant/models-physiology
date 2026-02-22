@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: YoumKimHanKimJooLeemGotoNomaEarm2006Youmkimhankimjooleemgotonomaearm2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology youm kim han kim joo models physiology youm kim han kim joo dynamics as a OTHER simulation curated from physiome (physiome:youm_kim_han_kim_joo_leem_goto_noma_earm_2006), focused on physiology, cellm. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

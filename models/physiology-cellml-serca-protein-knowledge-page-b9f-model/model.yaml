@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SercaProteinKnowledgePageB9fModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Serca Protein Knowledge Page B9f Model captures physiology serca protein knowledge page b9f behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

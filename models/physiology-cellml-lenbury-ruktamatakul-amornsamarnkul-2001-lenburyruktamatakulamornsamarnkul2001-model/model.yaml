@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LenburyRuktamatakulAmornsamarnkul2001Lenburyruktamatakulamornsamarnkul2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology lenbury ruktamatakul amornsamarnkul 2001 lenburyruktamatakulamorn represents core biological mechanisms from physiome reference physiome:lenbury_ruktamatakul_amornsamarnkul_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

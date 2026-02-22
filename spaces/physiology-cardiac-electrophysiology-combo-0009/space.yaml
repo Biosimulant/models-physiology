@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Cardiac Electrophysiology (COMBO_0009)'
-description: Physiology cardiac electrophysiology comparative space with 2 models,
-  configured as non-causal co-simulation.
+description: "Physiology Cardiac Electrophysiology (COMBO_0009) brings together heart_failure_1, human_atrial_2, state_compare_mon in a comparative space to examine how cardiac electrophysiology mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-physiology
   alias: heart_failure_1

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SimpleGrowthModel27aModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Simple Growth Model27a Model models physiology simple growth 27a dynamics as a OTHER simulation curated from physiome (physiome:27a), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

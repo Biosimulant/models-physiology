@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ThomsenNeubig1989Thomsenneubig1989Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Thomsen Neubig1989Thomsenneubig1989Model captures physiology thomsen neubig 1989 thomsenneubig1989 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

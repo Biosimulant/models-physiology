@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SpiroParkinsonOthmer1997Spiroparkinsonothmer1997Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Spiro Parkinson Othmer1997Spiroparkinsonothmer1997Model captures physiology spiro parkinson othmer 1997 spiroparkinsonothmer1997 behavior in the context of physiology, cellml, physiome using a physio. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

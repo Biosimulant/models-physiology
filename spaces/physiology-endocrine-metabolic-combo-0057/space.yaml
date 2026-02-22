@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Endocrine Metabolic (COMBO_0057)'
-description: Physiology endocrine metabolic comparative space with 4 models, configured
-  as non-causal co-simulation.
+description: "Physiology Endocrine Metabolic (COMBO_0057) brings together chay1997_calcium_1, dallaman2007_mea_2, edes1_eindhoven_3 in a comparative space to examine how endocrine metabolic mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-physiology
   alias: chay1997_calcium_1

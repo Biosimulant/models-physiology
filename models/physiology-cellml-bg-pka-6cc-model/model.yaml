@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgPka6ccModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Pka6cc Model models physiology bg pka 6cc dynamics as a OTHER simulation curated from physiome (physiome:6cc), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

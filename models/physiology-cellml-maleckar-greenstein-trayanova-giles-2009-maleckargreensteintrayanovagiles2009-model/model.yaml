@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MaleckarGreensteinTrayanovaGiles2009Maleckargreensteintrayanovagiles2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology maleckar greenstein trayanova giles 2009 represents physiology maleckar greenstein trayanova giles 2009 mechanisms from physiome reference physiome:maleckar_greenstein_trayanova_giles_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

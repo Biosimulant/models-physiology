@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RogersMcculloch1994Rogersmcculloch1994Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Rogers Mcculloch1994Rogersmcculloch1994Model represents physiology rogers mcculloch 1994 rogersmcculloch1994 mechanisms from physiome reference physiome:rogers_mcculloch_1994. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

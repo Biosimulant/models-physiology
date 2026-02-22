@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Opencor55dModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Opencor55d Model represents physiology opencor 55d mechanisms from physiome reference physiome:55d. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

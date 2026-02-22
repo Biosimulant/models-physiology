@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Wodarz2003Wodarz2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Wodarz2003Wodarz2003Model models physiology wodarz 2003 wodarz2003 dynamics as a OTHER simulation curated from physiome (physiome:wodarz_2003), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

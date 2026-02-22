@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BartolucciPassiniSeveri20205fdModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bartolucci Passini Severi20205fd Model represents physiology bartolucci passini severi 2020 5fd mechanisms from physiome reference physiome:5fd. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

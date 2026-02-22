@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: PancreasGlucoseModelModel2401110001Model'
-description: The pancreas plays a critical role in maintaining glucose homeostasis
-  through the secretion of hormones from the islets of Langerhans. Glucose-stimulated
-  insulin secretion (GSIS) by the pancreatic bet
+description: "The pancreas plays a critical role in maintaining glucose homeostasis through the secretion of hormones from the islets of Langerhans. Glucose-stimulated insulin secretion (GSIS) by the pancreatic bet."
 standard: other
 tags:
 - physiology

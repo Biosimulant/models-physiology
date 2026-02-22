@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NiedererHunterSmith2006Niedererhuntersmith2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Niederer Hunter Smith2006Niedererhuntersmith2006Model captures physiology niederer hunter smith 2006 niedererhuntersmith2006 behavior in the context of physiology, cellml, physiome using a physiome-s. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WodarzSierroKlenerman2007Wodarzsierroklenerman2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Wodarz Sierro Klenerman2007Wodarzsierroklenerman2007Model captures physiology wodarz sierro klenerman 2007 wodarzsierroklenerman200 behavior in the context of physiology, cellml, physiome using a phy. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

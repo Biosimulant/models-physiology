@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LiRinzel1994Lirinzel1994Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Li Rinzel1994Lirinzel1994Model models physiology li rinzel 1994 lirinzel1994 dynamics as a OTHER simulation curated from physiome (physiome:li_rinzel_1994), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SobolevaVetharaniamNixonMontenegroPearsonSnSobolevavetharaniamnixonmontenegropearsonsneyd2005Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology soboleva vetharaniam nixon montenegro pearson represents physiology soboleva vetharaniam nixon montenegro pearson mechanisms from physiome reference physiome:soboleva_vetharaniam_nixon_montenegro_pea. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

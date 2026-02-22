@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: IribeKohlNoble2006Iribekohlnoble2006Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Iribe Kohl Noble2006Iribekohlnoble2006Model models physiology iribe kohl noble 2006 iribekohlnoble2006 dynamics as a OTHER simulation curated from physiome (physiome:iribe_kohl_noble_2006), focused o. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

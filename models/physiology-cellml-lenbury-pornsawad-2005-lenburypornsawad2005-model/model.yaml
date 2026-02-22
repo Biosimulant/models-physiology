@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LenburyPornsawad2005Lenburypornsawad2005Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Lenbury Pornsawad2005Lenburypornsawad2005Model represents physiology lenbury pornsawad 2005 lenburypornsawad2005 mechanisms from physiome reference physiome:lenbury_pornsawad_2005. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: IyerMazhariWinslow20046fbModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Iyer Mazhari Winslow20046fb Model models physiology iyer mazhari winslow 2004 6fb dynamics as a OTHER simulation curated from physiome (physiome:6fb), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

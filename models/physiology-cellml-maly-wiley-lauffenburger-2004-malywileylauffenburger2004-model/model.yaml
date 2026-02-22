@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MalyWileyLauffenburger2004Malywileylauffenburger2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Maly Wiley Lauffenburger2004Malywileylauffenburger2004Model captures physiology maly wiley lauffenburger 2004 malywileylauffenburger20 behavior in the context of physiology, cellml, physiome using a. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

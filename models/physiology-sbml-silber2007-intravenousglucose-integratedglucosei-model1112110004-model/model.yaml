@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Silber2007IntravenousglucoseIntegratedglucoseiModel1112110004Model'
-description: 'This a model from the article: An integrated model for glucose and insulin
-  regulation in healthy volunteers and type 2 diabetic patients following intravenous
-  glucose provocations. Silber HE, Jauslin '
+description: "This a model from the article: An integrated model for glucose and insulin regulation in healthy volunteers and type 2 diabetic patients following intravenous glucose provocations. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

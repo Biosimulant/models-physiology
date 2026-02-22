@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ProteinCdsForTfElectrecobluDevice1Svp00000039Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Protein Cds For Tf Electrecoblu Device1Svp00000039Model represents physiology protein cds for tf electrecoblu mechanisms from physiome reference physiome:SVP_00000039. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

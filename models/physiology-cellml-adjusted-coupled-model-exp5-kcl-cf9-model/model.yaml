@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AdjustedCoupledModelExp5KclCf9Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Adjusted Coupled Model Exp5Kcl Cf9Model represents physiology adjusted coupled exp5 kcl cf9 mechanisms from physiome reference physiome:cf9. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

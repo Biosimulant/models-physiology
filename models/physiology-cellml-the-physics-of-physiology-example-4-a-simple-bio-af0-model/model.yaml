@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ThePhysicsOfPhysiologyExample4ASimpleBioAf0Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology The Physics Of Physiology Example4ASimple Bio Af0Model represents physiology the physics of physiology example mechanisms from physiome reference physiome:af0. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

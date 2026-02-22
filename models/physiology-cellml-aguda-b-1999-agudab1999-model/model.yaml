@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AgudaB1999Agudab1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Aguda B1999Agudab1999Model represents physiology aguda b 1999 agudab1999 mechanisms from physiome reference physiome:aguda_b_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

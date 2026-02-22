@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NotchSignalingPathway1cdModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Notch Signaling Pathway1cd Model represents physiology notch signaling pathway 1cd mechanisms from physiome reference physiome:1cd. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

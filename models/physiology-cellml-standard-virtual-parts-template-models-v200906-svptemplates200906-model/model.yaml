@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: StandardVirtualPartsTemplateModelsV200906Svptemplates200906Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Standard Virtual Parts Template Models V200906Svptemplates200906Model captures core biological behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

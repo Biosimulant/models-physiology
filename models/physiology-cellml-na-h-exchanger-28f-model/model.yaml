@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NaHExchanger28fModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Na HExchanger28f Model captures physiology na h exchanger 28f behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

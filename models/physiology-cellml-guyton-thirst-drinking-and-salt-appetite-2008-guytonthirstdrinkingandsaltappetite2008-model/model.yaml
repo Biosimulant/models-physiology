@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuytonThirstDrinkingAndSaltAppetite2008Guytonthirstdrinkingandsaltappetite2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology guyton thirst drinking and salt models physiology guyton thirst drinking and salt dynamics as a OTHER simulation curated from physiome (physiome:guyton_thirst_drinking_and_salt_appetite_2008), focuse. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

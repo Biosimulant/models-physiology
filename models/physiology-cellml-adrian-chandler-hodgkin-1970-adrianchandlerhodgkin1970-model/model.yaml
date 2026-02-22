@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AdrianChandlerHodgkin1970Adrianchandlerhodgkin1970Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Adrian Chandler Hodgkin1970Adrianchandlerhodgkin1970Model captures physiology adrian chandler hodgkin 1970 adrianchandlerhodgkin197 behavior in the context of physiology, cellml, physiome using a phy. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

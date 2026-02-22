@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgEpithelialTransportD5eModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Epithelial Transport D5e Model models physiology bg epithelial transport d5e dynamics as a OTHER simulation curated from physiome (physiome:d5e), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

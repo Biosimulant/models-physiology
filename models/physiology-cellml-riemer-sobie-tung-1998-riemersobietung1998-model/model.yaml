@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RiemerSobieTung1998Riemersobietung1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Riemer Sobie Tung1998Riemersobietung1998Model represents physiology riemer sobie tung 1998 riemersobietung1998 mechanisms from physiome reference physiome:riemer_sobie_tung_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

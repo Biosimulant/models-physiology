@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WolfPassargeSomsenSnoepHeinrichWesterhoff2Wolfpassargesomsensnoepheinrichwesterhoff2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology wolf passarge somsen snoep heinrich models physiology wolf passarge somsen snoep heinrich dynamics as a OTHER simulation curated from physiome (physiome:wolf_passarge_somsen_snoep_heinrich_westerhoff. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

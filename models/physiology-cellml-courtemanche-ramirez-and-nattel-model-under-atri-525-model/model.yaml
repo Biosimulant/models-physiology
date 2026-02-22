@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CourtemancheRamirezAndNattelModelUnderAtri525Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Courtemanche Ramirez And Nattel Model Under Atri525Model models physiology courtemanche ramirez and nattel under dynamics as a OTHER simulation curated from physiome (physiome:525), focused on physio. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

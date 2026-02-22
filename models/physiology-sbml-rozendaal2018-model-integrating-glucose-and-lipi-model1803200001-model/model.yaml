@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Rozendaal2018ModelIntegratingGlucoseAndLipiModel1803200001Model'
-description: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006145
+description: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006145. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

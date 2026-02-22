@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ComputationalModellingOfGlucoseUptakeBySgl841Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Computational Modelling Of Glucose Uptake By Sgl841Model models physiology computational modelling of glucose uptake dynamics as a OTHER simulation curated from physiome (physiome:841), focused on ph. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

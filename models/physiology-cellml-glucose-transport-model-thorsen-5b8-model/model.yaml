@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GlucoseTransportModelThorsen5b8Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Glucose Transport Model Thorsen5b8Model represents physiology glucose transport thorsen 5b8 mechanisms from physiome reference physiome:5b8. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

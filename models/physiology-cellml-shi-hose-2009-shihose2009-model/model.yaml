@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ShiHose2009Shihose2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Shi Hose2009Shihose2009Model represents physiology shi hose 2009 shihose2009 mechanisms from physiome reference physiome:shi_hose_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

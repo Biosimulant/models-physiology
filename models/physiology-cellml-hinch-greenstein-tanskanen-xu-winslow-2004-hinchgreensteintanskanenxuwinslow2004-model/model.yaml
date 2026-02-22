@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HinchGreensteinTanskanenXuWinslow2004Hinchgreensteintanskanenxuwinslow2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology hinch greenstein tanskanen xu winslow models physiology hinch greenstein tanskanen xu winslow dynamics as a OTHER simulation curated from physiome (physiome:hinch_greenstein_tanskanen_xu_winslow_2004. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

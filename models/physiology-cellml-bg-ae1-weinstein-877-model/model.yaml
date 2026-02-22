@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgAe1Weinstein877Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Ae1Weinstein877Model models physiology bg ae1 weinstein 877 dynamics as a OTHER simulation curated from physiome (physiome:877), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

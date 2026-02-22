@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KirProteinKnowledgePageBc8Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Kir Protein Knowledge Page Bc8Model models physiology kir protein knowledge page bc8 dynamics as a OTHER simulation curated from physiome (physiome:bc8), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

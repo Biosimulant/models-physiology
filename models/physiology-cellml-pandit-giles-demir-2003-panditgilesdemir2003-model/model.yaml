@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: PanditGilesDemir2003Panditgilesdemir2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Pandit Giles Demir2003Panditgilesdemir2003Model models physiology pandit giles demir 2003 panditgilesdemir2003 dynamics as a OTHER simulation curated from physiome (physiome:pandit_giles_demir_2003). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

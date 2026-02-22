@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GuptaMauryaStephensDennisAndSubramaniam200Guptamauryastephensdennissubramanium2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology gupta maurya stephens dennis and captures physiology gupta maurya stephens dennis and behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

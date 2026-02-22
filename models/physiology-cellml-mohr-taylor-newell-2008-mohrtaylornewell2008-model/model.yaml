@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MohrTaylorNewell2008Mohrtaylornewell2008Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Mohr Taylor Newell2008Mohrtaylornewell2008Model models physiology mohr taylor newell 2008 mohrtaylornewell2008 dynamics as a OTHER simulation curated from physiome (physiome:mohr_taylor_newell_2008). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

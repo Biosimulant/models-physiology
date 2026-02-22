@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CarroRodriguezLagunaPueyo201166bModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Carro Rodriguez Laguna Pueyo201166b Model represents physiology carro rodriguez laguna pueyo 2011 mechanisms from physiome reference physiome:66b. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

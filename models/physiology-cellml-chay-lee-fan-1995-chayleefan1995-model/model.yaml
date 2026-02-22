@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ChayLeeFan1995Chayleefan1995Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Chay Lee Fan1995Chayleefan1995Model models physiology chay lee fan 1995 chayleefan1995 dynamics as a OTHER simulation curated from physiome (physiome:chay_lee_fan_1995), focused on physiology, cellml. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

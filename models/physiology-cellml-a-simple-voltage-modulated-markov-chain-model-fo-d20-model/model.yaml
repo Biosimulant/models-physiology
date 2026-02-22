@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ASimpleVoltageModulatedMarkovChainModelFoD20Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology ASimple Voltage Modulated Markov Chain Model Fo D20Model represents physiology a simple voltage modulated markov mechanisms from physiome reference physiome:d20. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NobleNoble1984Noblenoble1984Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Noble Noble1984Noblenoble1984Model represents physiology noble noble 1984 noblenoble1984 mechanisms from physiome reference physiome:noble_noble_1984. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

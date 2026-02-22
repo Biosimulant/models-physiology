@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: WangLiKuang2007Wanglikuang2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Wang Li Kuang2007Wanglikuang2007Model represents physiology wang li kuang 2007 wanglikuang2007 mechanisms from physiome reference physiome:wang_li_kuang_2007. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

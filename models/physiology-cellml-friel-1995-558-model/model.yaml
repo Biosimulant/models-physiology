@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Friel1995558Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Friel1995558Model models physiology friel 1995 558 dynamics as a OTHER simulation curated from physiome (physiome:558), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

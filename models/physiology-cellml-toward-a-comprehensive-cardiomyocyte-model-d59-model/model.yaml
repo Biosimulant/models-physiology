@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: TowardAComprehensiveCardiomyocyteModelD59Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Toward AComprehensive Cardiomyocyte Model D59Model captures physiology toward a comprehensive cardiomyocyte d59 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Rattanakul2003BoneformationPthadministrationModel1012140000Model'
-description: 'This a model from the article: Modeling of bone formation and resorption
-  mediated by parathyroid hormone: response to estrogen/PTH therapy. Rattanakul C,
-  Lenbury Y, Krishnamara N, Wollkind DJ. Biosyst'
+description: "This a model from the article: Modeling of bone formation and resorption mediated by parathyroid hormone: response to estrogen/PTH therapy. Rattanakul C, Lenbury Y, Krishnamara N, Wollkind DJ."
 standard: other
 tags:
 - physiology

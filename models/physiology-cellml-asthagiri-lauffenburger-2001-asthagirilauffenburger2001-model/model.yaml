@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: AsthagiriLauffenburger2001Asthagirilauffenburger2001Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Asthagiri Lauffenburger2001Asthagirilauffenburger2001Model models physiology asthagiri lauffenburger 2001 asthagirilauffenburger20 dynamics as a OTHER simulation curated from physiome (physiome:astha. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

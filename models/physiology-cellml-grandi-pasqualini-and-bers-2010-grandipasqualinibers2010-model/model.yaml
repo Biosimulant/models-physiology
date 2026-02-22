@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GrandiPasqualiniAndBers2010Grandipasqualinibers2010Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Grandi Pasqualini And Bers2010Grandipasqualinibers2010Model represents physiology grandi pasqualini and bers 2010 mechanisms from physiome reference physiome:grandi_pasqualini_bers_2010. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

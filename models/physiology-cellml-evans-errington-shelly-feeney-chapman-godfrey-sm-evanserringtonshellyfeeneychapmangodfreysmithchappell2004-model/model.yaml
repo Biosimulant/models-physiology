@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: EvansErringtonShellyFeeneyChapmanGodfreySmEvanserringtonshellyfeeneychapmangodfreysmithchappell2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology evans errington shelly feeney chapman represents physiology evans errington shelly feeney chapman mechanisms from physiome reference physiome:evans_errington_shelly_feeney_chapman_godfrey_smith_chapp. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

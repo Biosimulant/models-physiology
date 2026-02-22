@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NashPanfilov2004Nashpanfilov2004Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Nash Panfilov2004Nashpanfilov2004Model captures physiology nash panfilov 2004 nashpanfilov2004 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Tyson1991Tyson1991Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Tyson1991Tyson1991Model represents physiology tyson 1991 tyson1991 mechanisms from physiome reference physiome:tyson_1991. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

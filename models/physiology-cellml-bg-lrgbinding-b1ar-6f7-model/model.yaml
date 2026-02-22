@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgLrgbindingB1ar6f7Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Lrgbinding B1ar6f7Model represents physiology bg lrgbinding b1ar 6f7 mechanisms from physiome reference physiome:6f7. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

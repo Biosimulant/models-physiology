@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Corrias2008GastricslowwaveactivityModel0913095435Model'
-description: 'This a model from the article: Quantitative cellular description of
-  gastric slow wave activity. Corrias A, Buist ML. Am J Physiol Gastrointest Liver
-  Physiol 2008 Apr;294(4):G989-95 18276830 , Abstract'
+description: "This a model from the article: Quantitative cellular description of gastric slow wave activity. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

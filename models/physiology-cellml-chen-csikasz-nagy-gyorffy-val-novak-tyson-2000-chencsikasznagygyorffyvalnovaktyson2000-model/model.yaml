@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ChenCsikaszNagyGyorffyValNovakTyson2000Chencsikasznagygyorffyvalnovaktyson2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology chen csikasz nagy gyorffy val captures physiology chen csikasz nagy gyorffy val behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

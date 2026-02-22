@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: CronwrightRohwerPrior2002Cronwrightrohwerprior2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Cronwright Rohwer Prior2002Cronwrightrohwerprior2002Model captures physiology cronwright rohwer prior 2002 cronwrightrohwerprior200 behavior in the context of physiology, cellml, physiome using a phy. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

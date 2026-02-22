@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NovakCsikasznagyGyorffyChenTyson1998Novakcsikasznagygyorffychentyson1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology novak csikasznagy gyorffy chen tyson represents physiology novak csikasznagy gyorffy chen tyson mechanisms from physiome reference physiome:novak_csikasznagy_gyorffy_chen_tyson_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

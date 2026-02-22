@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SemanticAnnotation267Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Semantic Annotation267Model represents physiology semantic annotation 267 mechanisms from physiome reference physiome:267. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

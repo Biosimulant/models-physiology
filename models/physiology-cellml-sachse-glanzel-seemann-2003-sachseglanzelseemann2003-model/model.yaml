@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SachseGlanzelSeemann2003Sachseglanzelseemann2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Sachse Glanzel Seemann2003Sachseglanzelseemann2003Model captures physiology sachse glanzel seemann 2003 sachseglanzelseemann2003 behavior in the context of physiology, cellml, physiome using a physio. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

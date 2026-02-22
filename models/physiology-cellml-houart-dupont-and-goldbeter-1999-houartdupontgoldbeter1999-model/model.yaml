@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: HouartDupontAndGoldbeter1999Houartdupontgoldbeter1999Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Houart Dupont And Goldbeter1999Houartdupontgoldbeter1999Model represents core biological mechanisms from physiome reference physiome:houart_dupont_goldbeter_1999. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: DephosphorylationOfSpakactiveSvp00000016Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Dephosphorylation Of Spakactive Svp00000016Model models physiology dephosphorylation of spakactive svp00000016 dynamics as a OTHER simulation curated from physiome (physiome:SVP_00000016), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SveiczerCsikasznagyGyorffyTysonNovak2000Sveiczercsikasznagygyorffytysonnovak2000Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology sveiczer csikasznagy gyorffy tyson novak models physiology sveiczer csikasznagy gyorffy tyson novak dynamics as a OTHER simulation curated from physiome (physiome:sveiczer_csikasznagy_gyorffy_tyson_n. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

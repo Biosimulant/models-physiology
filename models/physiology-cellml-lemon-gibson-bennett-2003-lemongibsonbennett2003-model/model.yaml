@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LemonGibsonBennett2003Lemongibsonbennett2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Lemon Gibson Bennett2003Lemongibsonbennett2003Model models physiology lemon gibson bennett 2003 lemongibsonbennett2003 dynamics as a OTHER simulation curated from physiome (physiome:lemon_gibson_benn. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

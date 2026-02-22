@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: RattananakulLenburyKrishnamaraWollkind2003Rattananakullenburykrishnamarawollkind2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology rattananakul lenbury krishnamara wollkind 2003 represents physiology rattananakul lenbury krishnamara wollkind 2003 mechanisms from physiome reference physiome:rattananakul_lenbury_krishnamara_wollki. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

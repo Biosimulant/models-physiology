@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: NabProteinKnowledgePageBd4Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Nab Protein Knowledge Page Bd4Model represents physiology nab protein knowledge page bd4 mechanisms from physiome reference physiome:bd4. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

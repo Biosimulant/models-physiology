@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SnyedWettonCharlesSanderson1995Sneydwettoncharlessanderson1995Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Snyed Wetton Charles Sanderson1995Sneydwettoncharlessanderson1995Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:sneyd_wetton_charles_sanderson_1995), focu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

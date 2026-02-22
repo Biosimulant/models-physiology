@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgSerca7a5Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Serca7a5Model represents physiology bg serca 7a5 mechanisms from physiome reference physiome:7a5. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

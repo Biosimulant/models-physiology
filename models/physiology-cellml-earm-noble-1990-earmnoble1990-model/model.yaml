@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: EarmNoble1990Earmnoble1990Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Earm Noble1990Earmnoble1990Model represents physiology earm noble 1990 earmnoble1990 mechanisms from physiome reference physiome:earm_noble_1990. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Berzins2022CrypthecodiniumCohniiEthanolUptakModel2112290001Model'
-description: "This model is a supplementary material of publication \u201CKinetic\
-  \ and stoichiometric modeling-based analysis of do-cosahexaenoic acid (DHA) production\
-  \ potential by C.cohnii from glycerol, glucose and eth"
+description: "This model is a supplementary material of publication \u201cKinetic and stoichiometric modeling-based analysis of do-cosahexaenoic acid (DHA) production potential by C.cohnii from glycerol, glucose and eth. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

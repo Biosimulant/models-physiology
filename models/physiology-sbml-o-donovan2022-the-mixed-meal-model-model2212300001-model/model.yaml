@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: ODonovan2022TheMixedMealModelModel2212300001Model'
-description: 'The Mixed Meal Model is a physiology based mathematical model describing
-  the post-meal interplay between glucose, insulin, triglycerides and non-esterified
-  fatty acids (NEFA).The Mixed Meal Model can '
+description: "The Mixed Meal Model is a physiology based mathematical model describing the post-meal interplay between glucose, insulin, triglycerides and non-esterified fatty acids (NEFA).The Mixed Meal Model can. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

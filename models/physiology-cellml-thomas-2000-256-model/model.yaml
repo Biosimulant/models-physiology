@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Thomas2000256Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Thomas2000256Model represents physiology thomas 2000 256 mechanisms from physiome reference physiome:256. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Chay1997CalciumconcentrationBiomd0000000378Model'
-description: 'This a model from the article: Effects of extracellular calcium on electrical
-  bursting and intracellular and luminal calcium oscillations in insulin secreting
-  pancreatic beta-cells. Chay TR Biophys J.'
+description: "This a model from the article: Effects of extracellular calcium on electrical bursting and intracellular and luminal calcium oscillations in insulin secreting pancreatic beta-cells. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

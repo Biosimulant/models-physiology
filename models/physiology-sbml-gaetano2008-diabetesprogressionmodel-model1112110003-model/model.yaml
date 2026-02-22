@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Gaetano2008DiabetesprogressionmodelModel1112110003Model'
-description: 'This a model from the article: Mathematical models of diabetes progression.
-  De Gaetano A, Hardy T, Beck B, Abu-Raddad E, Palumbo P, Bue-Valleskey J, Porksen
-  N. Am J Physiol Endocrinol Metab. 2008 Dec;'
+description: "This a model from the article: Mathematical models of diabetes progression. De Gaetano A, Hardy T, Beck B, Abu-Raddad E, Palumbo P, Bue-Valleskey J, Porksen N."
 standard: other
 tags:
 - physiology

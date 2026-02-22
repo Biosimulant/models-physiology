@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: SarkarLauffenburger2003Sarkarlauffenburger2003Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Sarkar Lauffenburger2003Sarkarlauffenburger2003Model models physiology sarkar lauffenburger 2003 sarkarlauffenburger2003 dynamics as a OTHER simulation curated from physiome (physiome:sarkar_lauffenb. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

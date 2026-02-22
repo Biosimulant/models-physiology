@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BaylorHollingworthChandler2002Baylorhollingworthchandler2002Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Baylor Hollingworth Chandler2002Baylorhollingworthchandler2002Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:baylor_hollingworth_chandler_2002), focused o. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

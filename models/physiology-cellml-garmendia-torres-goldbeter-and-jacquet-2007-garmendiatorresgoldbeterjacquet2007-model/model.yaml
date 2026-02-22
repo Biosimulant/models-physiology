@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: GarmendiaTorresGoldbeterAndJacquet2007Garmendiatorresgoldbeterjacquet2007Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology garmendia torres goldbeter and jacquet models physiology garmendia torres goldbeter and jacquet dynamics as a OTHER simulation curated from physiome (physiome:garmendia-torres_goldbeter_jacquet_2007). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

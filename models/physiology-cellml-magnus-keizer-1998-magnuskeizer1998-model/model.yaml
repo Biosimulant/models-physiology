@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MagnusKeizer1998Magnuskeizer1998Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Magnus Keizer1998Magnuskeizer1998Model models physiology magnus keizer 1998 magnuskeizer1998 dynamics as a OTHER simulation curated from physiome (physiome:magnus_keizer_1998), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology

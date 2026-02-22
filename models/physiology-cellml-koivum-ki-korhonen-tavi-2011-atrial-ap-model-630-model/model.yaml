@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: KoivumKiKorhonenTavi2011AtrialApModel630Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Koivum Ki Korhonen Tavi2011Atrial Ap Model630Model captures physiology koivum ki korhonen tavi 2011 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - physiology

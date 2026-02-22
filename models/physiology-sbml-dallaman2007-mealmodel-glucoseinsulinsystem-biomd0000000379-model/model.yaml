@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Dallaman2007MealmodelGlucoseinsulinsystemBiomd0000000379Model'
-description: 'This a model from the article: Meal simulation model of the glucose-insulin
-  system. Dalla Man C, Rizza RA, Cobelli C. IEEE Trans Biomed Eng. 2007 Oct;54(10):1740-9.
-  17926672 , Abstract: A simulation m'
+description: "This a model from the article: Meal simulation model of the glucose-insulin system. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:
 - physiology

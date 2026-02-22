@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: BgNsCa83bModel'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Bg Ns Ca83b Model represents physiology bg ns ca 83b mechanisms from physiome reference physiome:83b. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

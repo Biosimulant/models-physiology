@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: MarcanoYangNievesGonzalezClausenMoore2009Marcanoyangnievesgonzalezclausenmoore2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "physiology marcano yang nieves gonzalez clausen represents physiology marcano yang nieves gonzalez clausen mechanisms from physiome reference physiome:marcano_yang_nievesgonzalez_clausen_moore_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

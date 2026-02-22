@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: Inada2009Inada2009Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Inada2009Inada2009Model represents physiology inada 2009 inada2009 mechanisms from physiome reference physiome:inada_2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - physiology

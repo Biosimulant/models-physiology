@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Physiology: LuoRudy1991Luorudy1991Model'
-description: Faithful wrapper of upstream CELLML model.
+description: "Physiology Luo Rudy1991Luorudy1991Model models physiology luo rudy 1991 luorudy1991 dynamics as a OTHER simulation curated from physiome (physiome:luo_rudy_1991), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - physiology
