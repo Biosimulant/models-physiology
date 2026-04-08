@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: RalserAtEl2007Ralserwamelinkkowaldgerischheerenstruysklippjakobsbreitenbachlehrachkrobitsch2007Model'
+title: "Ralser at el. 2007"
 description: "physiology ralser at el 2007 ralserwamelinkkowaldgeri represents physiology ralser at el 2007 ralserwamelinkkowaldgeri mechanisms from physiome reference physiome:ralser_wamelink_kowald_gerisch_heeren_struys_kl. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

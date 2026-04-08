@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: APharmacokineticPkModelOfAcetaminophenForB17Model'
+title: "A pharmacokinetic (PK) model of acetaminophen for neonates"
 description: "Physiology APharmacokinetic Pk Model Of Acetaminophen For B17Model represents physiology a pharmacokinetic pk of acetaminophen mechanisms from physiome reference physiome:b17. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

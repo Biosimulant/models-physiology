@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BernusWildersZemlinVerscheldePanfilov2002Bernuswilderszemlinverscheldepanfilov2002Model'
+title: "Bernus, Wilders, Zemlin, Verschelde, Panfilov, 2002"
 description: "physiology bernus wilders zemlin verschelde panfilov models physiology bernus wilders zemlin verschelde panfilov dynamics as a OTHER simulation curated from physiome (physiome:bernus_wilders_zemlin_verschelde_p. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

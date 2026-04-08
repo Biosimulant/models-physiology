@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: APrimerOnModularMassActionModellingWithCModularmassactionprimerModel'
+title: "A Primer on Modular Mass Action Modelling with CellML"
 description: "Physiology APrimer On Modular Mass Action Modelling With CModularmassactionprimer Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:modularmassactionprimer), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

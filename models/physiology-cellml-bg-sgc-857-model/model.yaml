@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgSgc857Model'
+title: "BG_sGC"
 description: "Physiology Bg Sgc857Model represents physiology bg sgc 857 mechanisms from physiome reference physiome:857. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

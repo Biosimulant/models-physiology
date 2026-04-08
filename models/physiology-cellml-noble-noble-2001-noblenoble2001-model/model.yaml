@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: NobleNoble2001Noblenoble2001Model'
+title: "Noble, Noble, 2001"
 description: "Physiology Noble Noble2001Noblenoble2001Model represents physiology noble noble 2001 noblenoble2001 mechanisms from physiome reference physiome:noble_noble_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

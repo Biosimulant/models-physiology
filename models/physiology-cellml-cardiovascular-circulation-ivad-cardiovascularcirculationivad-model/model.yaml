@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: CardiovascularCirculationIvadCardiovascularcirculationivadModel'
+title: "Cardiovascular Circulation IVad"
 description: "Physiology Cardiovascular Circulation Ivad Cardiovascularcirculationivad Model represents core biological mechanisms from physiome reference physiome:cardiovascular_circulation_ivad. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

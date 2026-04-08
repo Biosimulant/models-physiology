@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: AModelForPacemakingInSubstantiaNigraNeuro3e0Model'
+title: "A model for pacemaking in substantia nigra neurons (A simple model based on a spherical geometry)"
 description: "Physiology AModel For Pacemaking In Substantia Nigra Neuro3e0Model represents physiology a for pacemaking in substantia mechanisms from physiome reference physiome:3e0. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

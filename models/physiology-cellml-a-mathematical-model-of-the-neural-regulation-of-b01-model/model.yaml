@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: AMathematicalModelOfTheNeuralRegulationOfB01Model'
+title: "A mathematical model of the neural regulation of phasic contractions and slow waves in the distal stomach"
 description: "Physiology AMathematical Model Of The Neural Regulation Of B01Model models physiology a mathematical of the neural dynamics as a OTHER simulation curated from physiome (physiome:b01), focused on physiology, cel. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

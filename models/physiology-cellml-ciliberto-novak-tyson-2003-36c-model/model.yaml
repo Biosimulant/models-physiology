@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: CilibertoNovakTyson200336cModel'
+title: "Ciliberto, Novak, Tyson, 2003"
 description: "Physiology Ciliberto Novak Tyson200336c Model captures physiology ciliberto novak tyson 2003 36c behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

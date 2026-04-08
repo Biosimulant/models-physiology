@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Nampala2013LiverEnzymeElevationInHivMonoIModel1812040002Model'
+title: "Nampala2013 - Liver enzyme elevation in HIV mono-infection"
 description: "the model depicts a unique endemic equilibrium with a transcritical bifurcation when the basic reproductive number is unity. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:

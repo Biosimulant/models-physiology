@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: NazaretHeiskeThurleyAndMazat2009Nazaretheiskethurleymazat2009Model'
+title: "Nazaret, Heiske, Thurley and Mazat, 2009"
 description: "Physiology Nazaret Heiske Thurley And Mazat2009Nazaretheiskethurleymazat2009Model captures core biological behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

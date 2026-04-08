@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Liu2009GlucosemobilizationUptakemodelModel1112050001Model'
+title: "Liu2009_GlucoseMobilization_UptakeModel"
 description: "This a model from the article: A molecular mathematical model of glucose mobilization and uptake. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:

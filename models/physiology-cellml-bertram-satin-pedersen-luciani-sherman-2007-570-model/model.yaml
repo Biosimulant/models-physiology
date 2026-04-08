@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BertramSatinPedersenLucianiSherman2007570Model'
+title: "Bertram, Satin, Pedersen, Luciani, Sherman, 2007"
 description: "Physiology Bertram Satin Pedersen Luciani Sherman2007570Model models physiology bertram satin pedersen luciani sherman dynamics as a OTHER simulation curated from physiome (physiome:570), focused on physiology. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

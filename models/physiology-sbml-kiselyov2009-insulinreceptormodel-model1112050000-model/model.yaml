@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Kiselyov2009InsulinreceptormodelModel1112050000Model'
+title: "Kiselyov2009_InsulinReceptorModel"
 description: "This a model from the article: Harmonic oscillator model of the insulin and IGF1 receptors' allosteric binding and activation. Kiselyov VV, Versteyhe S, Gauguin L, De Meyts P."
 standard: other
 tags:

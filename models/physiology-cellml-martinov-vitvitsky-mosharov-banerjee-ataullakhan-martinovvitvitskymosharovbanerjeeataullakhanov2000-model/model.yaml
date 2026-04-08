@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: MartinovVitvitskyMosharovBanerjeeAtaullakhanMartinovvitvitskymosharovbanerjeeataullakhanov2000Model'
+title: "Martinov, Vitvitsky, Mosharov, Banerjee, Ataullakhanov, 2000"
 description: "physiology martinov vitvitsky mosharov banerjee ataullakhan represents physiology martinov vitvitsky mosharov banerjee ataullakhan mechanisms from physiome reference physiome:martinov_vitvitsky_mosharov_banerje. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BondGraphCellml20ModelsAfeModel'
+title: "Bond Graph CellML 2.0 models"
 description: "Physiology Bond Graph Cellml20Models Afe Model models physiology bond graph 2 0 afe dynamics as a OTHER simulation curated from physiome (physiome:afe), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

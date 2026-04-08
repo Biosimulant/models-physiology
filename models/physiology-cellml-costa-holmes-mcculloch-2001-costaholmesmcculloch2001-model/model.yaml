@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: CostaHolmesMcculloch2001Costaholmesmcculloch2001Model'
+title: "Costa, Holmes, Mcculloch, 2001"
 description: "Physiology Costa Holmes Mcculloch2001Costaholmesmcculloch2001Model captures physiology costa holmes mcculloch 2001 costaholmesmcculloch2001 behavior in the context of physiology, cellml, physiome using a physio. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: HumanAtrialCellModelsForInvestigatingTbx5520Model'
+title: "Human atrial cell models for investigating TBX5/PITX2 insufficiency-induced atrial fibrillation"
 description: "Physiology Human Atrial Cell Models For Investigating Tbx5520Model represents physiology human atrial cell for investigating mechanisms from physiome reference physiome:520. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

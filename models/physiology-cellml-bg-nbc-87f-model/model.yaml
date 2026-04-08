@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgNbc87fModel'
+title: "BG_NBC"
 description: "Physiology Bg Nbc87f Model represents physiology bg nbc 87f mechanisms from physiome reference physiome:87f. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

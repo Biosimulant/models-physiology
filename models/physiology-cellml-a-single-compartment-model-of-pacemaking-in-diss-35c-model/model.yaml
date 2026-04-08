@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ASingleCompartmentModelOfPacemakingInDiss35cModel'
+title: "A single compartment model of pacemaking in dissasociated Substantia nigra neurons with hyperbolic tetrahedral geometry"
 description: "Physiology ASingle Compartment Model Of Pacemaking In Diss35c Model models physiology a single compartment of pacemaking dynamics as a OTHER simulation curated from physiome (physiome:35c), focused on physiolog. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

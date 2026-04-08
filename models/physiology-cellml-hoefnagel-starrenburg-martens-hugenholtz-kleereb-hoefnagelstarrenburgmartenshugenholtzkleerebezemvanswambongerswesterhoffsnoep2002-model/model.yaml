@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: HoefnagelStarrenburgMartensHugenholtzKleerebHoefnagelstarrenburgmartenshugenholtzkleerebezemvanswambongerswesterhoffsnoep2002Model'
+title: "Hoefnagel, Starrenburg, Martens, Hugenholtz, Kleerebezem, Vanswam, Bongers, Westerhoff, Snoep, 2002"
 description: "physiology hoefnagel starrenburg martens hugenholtz kleereb models physiology hoefnagel starrenburg martens hugenholtz kleereb dynamics as a OTHER simulation curated from physiome (physiome:hoefnagel_starrenbur. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

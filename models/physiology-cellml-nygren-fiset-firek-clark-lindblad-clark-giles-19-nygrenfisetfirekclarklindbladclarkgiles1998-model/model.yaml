@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: NygrenFisetFirekClarkLindbladClarkGiles19Nygrenfisetfirekclarklindbladclarkgiles1998Model'
+title: "Nygren, Fiset, Firek, Clark, Lindblad, Clark, Giles, 1998"
 description: "physiology nygren fiset firek clark lindblad represents physiology nygren fiset firek clark lindblad mechanisms from physiome reference physiome:nygren_fiset_firek_clark_lindblad_clark_giles_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

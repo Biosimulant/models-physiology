@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: GonzalezheydrichSteingardKohane1994Gonzalezheydrichsteingardkohane1994Model'
+title: "Gonzalezheydrich, Steingard, Kohane, 1994"
 description: "Physiology Gonzalezheydrich Steingard Kohane1994Gonzalezheydrichsteingardkohane1994Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:gonzalezheydrich_steingard_kohane_1. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

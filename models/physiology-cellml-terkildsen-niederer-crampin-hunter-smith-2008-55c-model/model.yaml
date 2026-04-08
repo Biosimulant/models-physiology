@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: TerkildsenNiedererCrampinHunterSmith200855cModel'
+title: "Terkildsen, Niederer, Crampin, Hunter, Smith, 2008"
 description: "Physiology Terkildsen Niederer Crampin Hunter Smith200855c Model represents physiology terkildsen niederer crampin hunter smith mechanisms from physiome reference physiome:55c. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

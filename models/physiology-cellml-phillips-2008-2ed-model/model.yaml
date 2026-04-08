@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Phillips20082edModel'
+title: "Phillips 2008"
 description: "Physiology Phillips20082ed Model represents physiology phillips 2008 2ed mechanisms from physiome reference physiome:2ed. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

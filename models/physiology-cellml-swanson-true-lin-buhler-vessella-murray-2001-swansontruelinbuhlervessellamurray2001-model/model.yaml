@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: SwansonTrueLinBuhlerVessellaMurray2001Swansontruelinbuhlervessellamurray2001Model'
+title: "Swanson, True, Lin, Buhler, Vessella, Murray, 2001"
 description: "physiology swanson true lin buhler vessella represents physiology swanson true lin buhler vessella mechanisms from physiome reference physiome:swanson_true_lin_buhler_vessella_murray_2001. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

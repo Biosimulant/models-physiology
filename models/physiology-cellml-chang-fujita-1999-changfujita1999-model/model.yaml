@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ChangFujita1999Changfujita1999Model'
+title: "Chang, Fujita, 1999"
 description: "Physiology Chang Fujita1999Changfujita1999Model captures physiology chang fujita 1999 changfujita1999 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

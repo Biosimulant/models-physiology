@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: FridlyandTamarinaPhilipson2003Fridlyandtamarinaphilipson2003Model'
+title: "Fridlyand, Tamarina, Philipson, 2003"
 description: "Physiology Fridlyand Tamarina Philipson2003Fridlyandtamarinaphilipson2003Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:fridlyand_tamarina_philipson_2003), focused o. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

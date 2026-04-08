@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Gaetano2008DiabetesprogressionmodelModel1112110003Model'
+title: "Gaetano2008_DiabetesProgressionModel"
 description: "This a model from the article: Mathematical models of diabetes progression. De Gaetano A, Hardy T, Beck B, Abu-Raddad E, Palumbo P, Bue-Valleskey J, Porksen N."
 standard: other
 tags:

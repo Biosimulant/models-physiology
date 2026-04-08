@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Exp5AgonistEffectCoupledModelCdcModel'
+title: "Exp 5_Agonist_effect_Coupled_Model"
 description: "Physiology Exp5Agonist Effect Coupled Model Cdc Model represents physiology exp 5 agonist effect coupled mechanisms from physiome reference physiome:cdc. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

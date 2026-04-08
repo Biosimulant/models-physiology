@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: CalProteinKnowledgePageBd9Model'
+title: "CaL protein knowledge page"
 description: "Physiology Cal Protein Knowledge Page Bd9Model represents physiology cal protein knowledge page bd9 mechanisms from physiome reference physiome:bd9. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

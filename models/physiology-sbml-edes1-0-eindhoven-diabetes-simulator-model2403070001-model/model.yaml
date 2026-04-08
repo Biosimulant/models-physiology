@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Edes10EindhovenDiabetesSimulatorModel2403070001Model'
+title: "EDES1.0 Eindhoven Diabetes Simulator"
 description: "First version (1.0) of the Eindhoven Diabetes Simulator (EDES) model, describing postprandial glucose and insulin dynamics for a healthy human. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:

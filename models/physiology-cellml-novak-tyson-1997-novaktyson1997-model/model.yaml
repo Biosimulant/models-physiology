@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: NovakTyson1997Novaktyson1997Model'
+title: "Novak, Tyson, 1997"
 description: "Physiology Novak Tyson1997Novaktyson1997Model represents physiology novak tyson 1997 novaktyson1997 mechanisms from physiome reference physiome:novak_tyson_1997. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: TakotsuboModellingLandEtAl20141b9Model'
+title: "Takotsubo modelling, Land et al. 2014"
 description: "Physiology Takotsubo Modelling Land Et Al20141b9Model models physiology takotsubo modelling land et al dynamics as a OTHER simulation curated from physiome (physiome:1b9), focused on physiology, cellml, physiom. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

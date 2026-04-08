@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ChenCsikaszNagyGyorffyValNovakTyson2000Chencsikasznagygyorffyvalnovaktyson2000Model'
+title: "Chen, Csikasz-Nagy, Gyorffy, Val, Novak, Tyson, 2000"
 description: "physiology chen csikasz nagy gyorffy val captures physiology chen csikasz nagy gyorffy val behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: CatProteinKnowledgePageBdbModel'
+title: "CaT protein knowledge page"
 description: "Physiology Cat Protein Knowledge Page Bdb Model captures physiology cat protein knowledge page bdb behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

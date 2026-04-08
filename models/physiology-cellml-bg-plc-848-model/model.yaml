@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgPlc848Model'
+title: "BG_PLC"
 description: "Physiology Bg Plc848Model represents physiology bg plc 848 mechanisms from physiome reference physiome:848. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

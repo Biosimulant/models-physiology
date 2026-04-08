@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ShearInducedNitricOxideProductionByEndotheB34Model'
+title: "Shear-induced nitric oxide production by endothelial cells"
 description: "Physiology Shear Induced Nitric Oxide Production By Endothe B34Model models physiology shear induced nitric oxide production dynamics as a OTHER simulation curated from physiome (physiome:b34), focused on physi. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

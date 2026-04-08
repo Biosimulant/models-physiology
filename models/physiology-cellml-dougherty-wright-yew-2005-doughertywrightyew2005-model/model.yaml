@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: DoughertyWrightYew2005Doughertywrightyew2005Model'
+title: "Dougherty, Wright, Yew, 2005"
 description: "Physiology Dougherty Wright Yew2005Doughertywrightyew2005Model models physiology dougherty wright yew 2005 doughertywrightyew2005 dynamics as a OTHER simulation curated from physiome (physiome:dougherty_wright_. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

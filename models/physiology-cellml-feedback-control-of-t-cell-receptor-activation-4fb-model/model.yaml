@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: FeedbackControlOfTCellReceptorActivation4fbModel'
+title: "Feedback control of T-cell receptor activation"
 description: "Physiology Feedback Control Of TCell Receptor Activation4fb Model represents physiology feedback control of t cell mechanisms from physiome reference physiome:4fb. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

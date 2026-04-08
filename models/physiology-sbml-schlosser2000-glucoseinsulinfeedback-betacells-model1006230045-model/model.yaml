@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Schlosser2000GlucoseinsulinfeedbackBetacellsModel1006230045Model'
+title: "Schlosser2000_GlucoseInsulinFeedback_BetaCells"
 description: "This a model from the article: Modeling insulin kinetics: responses to a single oral glucose administration orambulatory-fed conditions. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:

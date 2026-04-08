@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: AModelOfIntracellularPhControl4a3Model'
+title: "A model of intracellular pH control"
 description: "Physiology AModel Of Intracellular Ph Control4a3Model represents physiology a of intracellular ph control mechanisms from physiome reference physiome:4a3. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

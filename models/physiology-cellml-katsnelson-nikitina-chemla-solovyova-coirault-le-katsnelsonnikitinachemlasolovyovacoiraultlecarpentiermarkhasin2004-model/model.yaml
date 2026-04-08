@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: KatsnelsonNikitinaChemlaSolovyovaCoiraultLeKatsnelsonnikitinachemlasolovyovacoiraultlecarpentiermarkhasin2004Model'
+title: "Katsnelson, Nikitina, Chemla, Solovyova, Coirault, Lecarpentier, Markhasin, 2004"
 description: "physiology katsnelson nikitina chemla solovyova coirault models physiology katsnelson nikitina chemla solovyova coirault dynamics as a OTHER simulation curated from physiome (physiome:katsnelson_nikitina_chemla. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

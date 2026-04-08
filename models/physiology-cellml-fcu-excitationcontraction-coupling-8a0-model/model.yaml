@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: FcuExcitationcontractionCoupling8a0Model'
+title: "FCU_ExcitationContraction_Coupling"
 description: "Physiology Fcu Excitationcontraction Coupling8a0Model captures physiology fcu excitationcontraction coupling 8a0 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

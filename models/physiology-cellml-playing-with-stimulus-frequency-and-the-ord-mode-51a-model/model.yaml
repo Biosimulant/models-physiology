@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: PlayingWithStimulusFrequencyAndTheOrdMode51aModel'
+title: "Playing with stimulus frequency and the ORd model"
 description: "Physiology Playing With Stimulus Frequency And The Ord Mode51a Model captures physiology playing with stimulus frequency and behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHE. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgRtkB2dModel'
+title: "BG_RTK"
 description: "Physiology Bg Rtk B2d Model captures physiology bg rtk b2d behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

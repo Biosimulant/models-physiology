@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: WestermarkLansner2003Westermarklansner2003Model'
+title: "Westermark, Lansner, 2003"
 description: "Physiology Westermark Lansner2003Westermarklansner2003Model represents physiology westermark lansner 2003 westermarklansner2003 mechanisms from physiome reference physiome:westermark_lansner_2003. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

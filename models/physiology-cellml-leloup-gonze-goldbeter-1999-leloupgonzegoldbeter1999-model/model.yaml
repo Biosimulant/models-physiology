@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: LeloupGonzeGoldbeter1999Leloupgonzegoldbeter1999Model'
+title: "Leloup, Gonze, Goldbeter, 1999"
 description: "Physiology Leloup Gonze Goldbeter1999Leloupgonzegoldbeter1999Model models physiology leloup gonze goldbeter 1999 leloupgonzegoldbeter1999 dynamics as a OTHER simulation curated from physiome (physiome:leloup_go. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

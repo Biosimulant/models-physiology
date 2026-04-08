@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Nbce1ThePhysicsOfPhysiologyC91Model'
+title: "NBCe1 - The Physics of Physiology"
 description: "Physiology Nbce1The Physics Of Physiology C91Model represents physiology nbce1 the physics of physiology mechanisms from physiome reference physiome:c91. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

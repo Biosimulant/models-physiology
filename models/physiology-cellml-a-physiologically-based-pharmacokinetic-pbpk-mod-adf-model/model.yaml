@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: APhysiologicallyBasedPharmacokineticPbpkModAdfModel'
+title: "A physiologically based pharmacokinetic (PBPK) model of lindane for rats"
 description: "Physiology APhysiologically Based Pharmacokinetic Pbpk Mod Adf Model models physiology a physiologically based pharmacokinetic pbpk dynamics as a OTHER simulation curated from physiome (physiome:adf), focused o. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

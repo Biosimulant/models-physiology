@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ActivationOfTheLiverGlycogenPhosphorylaseB35dModel'
+title: "Activation of the Liver Glycogen Phosphorylase by Ca2+ Oscillations: a Theoretical Study"
 description: "Physiology Activation Of The Liver Glycogen Phosphorylase B35d Model represents physiology activation of the liver glycogen mechanisms from physiome reference physiome:35d. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

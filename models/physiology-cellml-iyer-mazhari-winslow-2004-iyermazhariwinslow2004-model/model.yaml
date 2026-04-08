@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: IyerMazhariWinslow2004Iyermazhariwinslow2004Model'
+title: "Iyer, Mazhari, Winslow, 2004"
 description: "Physiology Iyer Mazhari Winslow2004Iyermazhariwinslow2004Model models physiology iyer mazhari winslow 2004 iyermazhariwinslow2004 dynamics as a OTHER simulation curated from physiome (physiome:iyer_mazhari_wins. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: TentusscherNobleNoblePanfilov2004Tentusschernoblenoblepanfilov2004Model'
+title: "Tentusscher, Noble, Noble, Panfilov, 2004"
 description: "Physiology Tentusscher Noble Noble Panfilov2004Tentusschernoblenoblepanfilov2004Model represents core biological mechanisms from physiome reference physiome:tentusscher_noble_noble_panfilov_2004. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

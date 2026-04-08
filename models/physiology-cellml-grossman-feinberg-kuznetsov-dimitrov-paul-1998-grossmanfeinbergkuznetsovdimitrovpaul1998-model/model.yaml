@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: GrossmanFeinbergKuznetsovDimitrovPaul1998Grossmanfeinbergkuznetsovdimitrovpaul1998Model'
+title: "Grossman, Feinberg, Kuznetsov, Dimitrov, Paul, 1998"
 description: "physiology grossman feinberg kuznetsov dimitrov paul models physiology grossman feinberg kuznetsov dimitrov paul dynamics as a OTHER simulation curated from physiome (physiome:grossman_feinberg_kuznetsov_dimitr. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

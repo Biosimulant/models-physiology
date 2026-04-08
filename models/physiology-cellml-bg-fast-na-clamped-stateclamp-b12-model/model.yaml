@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgFastNaClampedStateclampB12Model'
+title: "BG_fast_Na_clamped_stateclamp"
 description: "Physiology Bg Fast Na Clamped Stateclamp B12Model models physiology bg fast na clamped stateclamp dynamics as a OTHER simulation curated from physiome (physiome:b12), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BertramSherman2004Bertramsherman2004Model'
+title: "Bertram, Sherman, 2004"
 description: "Physiology Bertram Sherman2004Bertramsherman2004Model models physiology bertram sherman 2004 bertramsherman2004 dynamics as a OTHER simulation curated from physiome (physiome:bertram_sherman_2004), focused on p. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

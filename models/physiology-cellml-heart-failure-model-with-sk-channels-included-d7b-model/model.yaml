@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: HeartFailureModelWithSkChannelsIncludedD7bModel'
+title: "Heart Failure model with SK channels included"
 description: "Physiology Heart Failure Model With Sk Channels Included D7b Model models physiology heart failure with sk channels dynamics as a OTHER simulation curated from physiome (physiome:d7b), focused on physiology, ce. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

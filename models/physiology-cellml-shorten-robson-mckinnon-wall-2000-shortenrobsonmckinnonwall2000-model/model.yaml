@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ShortenRobsonMckinnonWall2000Shortenrobsonmckinnonwall2000Model'
+title: "Shorten, Robson, Mckinnon, Wall, 2000"
 description: "Physiology Shorten Robson Mckinnon Wall2000Shortenrobsonmckinnonwall2000Model represents core biological mechanisms from physiome reference physiome:shorten_robson_mckinnon_wall_2000. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

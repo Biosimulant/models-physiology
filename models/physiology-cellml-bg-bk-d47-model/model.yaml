@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgBkD47Model'
+title: "BG_BK"
 description: "Physiology Bg Bk D47Model represents physiology bg bk d47 mechanisms from physiome reference physiome:d47. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

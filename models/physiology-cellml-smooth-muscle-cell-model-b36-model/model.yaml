@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: SmoothMuscleCellModelB36Model'
+title: "Smooth Muscle Cell Model"
 description: "Physiology Smooth Muscle Cell Model B36Model models physiology smooth muscle cell b36 dynamics as a OTHER simulation curated from physiome (physiome:b36), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

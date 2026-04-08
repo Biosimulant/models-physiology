@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: WanantQuon2000Wanantquon2000Model'
+title: "Wanant, Quon, 2000"
 description: "Physiology Wanant Quon2000Wanantquon2000Model represents physiology wanant quon 2000 wanantquon2000 mechanisms from physiome reference physiome:wanant_quon_2000. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

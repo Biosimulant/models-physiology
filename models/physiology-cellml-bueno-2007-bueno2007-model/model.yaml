@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Bueno2007Bueno2007Model'
+title: "Bueno, 2007"
 description: "Physiology Bueno2007Bueno2007Model models physiology bueno 2007 bueno2007 dynamics as a OTHER simulation curated from physiome (physiome:bueno_2007), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

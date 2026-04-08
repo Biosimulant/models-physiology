@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: SampsonIyerMarksKass20107fdModel'
+title: "Sampson-Iyer-Marks-Kass-2010"
 description: "Physiology Sampson Iyer Marks Kass20107fd Model represents physiology sampson iyer marks kass 2010 mechanisms from physiome reference physiome:7fd. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

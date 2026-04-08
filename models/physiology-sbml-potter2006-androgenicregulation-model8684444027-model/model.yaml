@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Potter2006AndrogenicregulationModel8684444027Model'
+title: "Potter2006_AndrogenicRegulation"
 description: "This a model from the article: Mathematical model for the androgenic regulation of the prostate in intact and castrated adult male rats. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:

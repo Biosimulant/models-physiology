@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: SalemSaidelStanleyCabrera2002Salemsaidelstanleycabrera2002Model'
+title: "Salem, Saidel, Stanley, Cabrera, 2002"
 description: "Physiology Salem Saidel Stanley Cabrera2002Salemsaidelstanleycabrera2002Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:salem_saidel_stanley_cabrera_2002), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

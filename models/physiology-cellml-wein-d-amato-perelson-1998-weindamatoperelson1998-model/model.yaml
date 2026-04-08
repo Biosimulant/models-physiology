@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: WeinDAmatoPerelson1998Weindamatoperelson1998Model'
+title: "Wein, D'Amato, Perelson 1998"
 description: "Physiology Wein DAmato Perelson1998Weindamatoperelson1998Model models physiology wein d amato perelson 1998 dynamics as a OTHER simulation curated from physiome (physiome:wein_damato_perelson_1998), focused on. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

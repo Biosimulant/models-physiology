@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ChauhanLegewieWestermarkLorenzenAndHerzel2Chauhanlegewiewestermarklorenzenherzel2008Model'
+title: "Chauhan, Legewie, Westermark, Lorenzen and Herzel, 2008"
 description: "physiology chauhan legewie westermark lorenzen and models physiology chauhan legewie westermark lorenzen and dynamics as a OTHER simulation curated from physiome (physiome:chauhan_legewie_westermark_lorenzen_he. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

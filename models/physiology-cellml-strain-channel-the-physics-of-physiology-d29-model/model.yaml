@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: StrainChannelThePhysicsOfPhysiologyD29Model'
+title: "Strain channel - The Physics of Physiology"
 description: "Physiology Strain Channel The Physics Of Physiology D29Model models physiology strain channel the physics of dynamics as a OTHER simulation curated from physiome (physiome:d29), focused on physiology, cellml, p. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

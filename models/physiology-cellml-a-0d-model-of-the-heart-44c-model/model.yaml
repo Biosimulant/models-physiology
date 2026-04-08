@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: A0dModelOfTheHeart44cModel'
+title: "A 0D model of the Heart"
 description: "Physiology A0d Model Of The Heart44c Model models physiology a 0d of the heart dynamics as a OTHER simulation curated from physiome (physiome:44c), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

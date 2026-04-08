@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: IzakovKatsnelsonBlyakhmanMarkhasinShkylar19Izakovkatsnelsonblyakhmanmarkhasinshkylar1991Model'
+title: "Izakov, Katsnelson, Blyakhman, Markhasin, Shkylar, 1991"
 description: "physiology izakov katsnelson blyakhman markhasin shkylar represents physiology izakov katsnelson blyakhman markhasin shkylar mechanisms from physiome reference physiome:izakov_katsnelson_blyakhman_markhasin_shk. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

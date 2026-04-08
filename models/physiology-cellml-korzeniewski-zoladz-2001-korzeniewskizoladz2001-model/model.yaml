@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: KorzeniewskiZoladz2001Korzeniewskizoladz2001Model'
+title: "Korzeniewski, Zoladz, 2001"
 description: "Physiology Korzeniewski Zoladz2001Korzeniewskizoladz2001Model captures physiology korzeniewski zoladz 2001 korzeniewskizoladz2001 behavior in the context of physiology, cellml, physiome using a physiome-sourced. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

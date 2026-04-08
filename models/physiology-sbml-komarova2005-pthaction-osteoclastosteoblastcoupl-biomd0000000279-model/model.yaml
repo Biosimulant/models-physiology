@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Komarova2005PthactionOsteoclastosteoblastcouplBiomd0000000279Model'
+title: "Komarova2005_PTHaction_OsteoclastOsteoblastCoupling"
 description: "This a model from the article: Mathematical model of paracrine interactions between osteoclasts and osteoblasts predicts anabolic action of parathyroid hormone on bone. It can be used to explore physiological dynamics and compare system behavior across conditions."
 standard: other
 tags:

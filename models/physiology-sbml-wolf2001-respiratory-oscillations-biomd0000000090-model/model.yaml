@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Wolf2001RespiratoryOscillationsBiomd0000000090Model'
+title: "Wolf2001_Respiratory_Oscillations"
 description: "This model by Jana Wolf et al. 2001 is the first mechanistic model of respiratory oscillations in Saccharomyces cerevisae."
 standard: other
 tags:

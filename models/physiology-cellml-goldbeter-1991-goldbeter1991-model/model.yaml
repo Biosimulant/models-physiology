@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Goldbeter1991Goldbeter1991Model'
+title: "Goldbeter, 1991"
 description: "Physiology Goldbeter1991Goldbeter1991Model captures physiology goldbeter 1991 goldbeter1991 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgPmca833Model'
+title: "BG_PMCA"
 description: "Physiology Bg Pmca833Model represents physiology bg pmca 833 mechanisms from physiome reference physiome:833. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

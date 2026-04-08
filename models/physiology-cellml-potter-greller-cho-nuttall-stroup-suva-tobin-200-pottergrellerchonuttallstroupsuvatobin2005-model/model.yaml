@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: PotterGrellerChoNuttallStroupSuvaTobin200Pottergrellerchonuttallstroupsuvatobin2005Model'
+title: "Potter, Greller, Cho, Nuttall, Stroup, Suva, Tobin, 2005"
 description: "physiology potter greller cho nuttall stroup models physiology potter greller cho nuttall stroup dynamics as a OTHER simulation curated from physiome (physiome:potter_greller_cho_nuttall_stroup_suva_tobin_2005). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: NaHco3Cotransporter295Model'
+title: "Na+/HCO3- Cotransporter"
 description: "Physiology Na Hco3Cotransporter295Model models physiology na hco3 cotransporter 295 dynamics as a OTHER simulation curated from physiome (physiome:295), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

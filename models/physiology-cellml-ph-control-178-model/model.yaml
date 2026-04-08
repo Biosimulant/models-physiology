@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: PhControl178Model'
+title: "pH control"
 description: "Physiology Ph Control178Model represents physiology ph control 178 mechanisms from physiome reference physiome:178. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: LockwoodEwyHermannHolford2006Lockwoodewyhermannholford2006Model'
+title: "Lockwood, Ewy, Hermann, Holford, 2006"
 description: "Physiology Lockwood Ewy Hermann Holford2006Lockwoodewyhermannholford2006Model represents core biological mechanisms from physiome reference physiome:lockwood_ewy_hermann_holford_2006. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

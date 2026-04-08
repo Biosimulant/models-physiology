@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: WuJenesonBeard2006Wujenesonbeard2006Model'
+title: "Wu, Jeneson, Beard, 2006"
 description: "Physiology Wu Jeneson Beard2006Wujenesonbeard2006Model captures physiology wu jeneson beard 2006 wujenesonbeard2006 behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

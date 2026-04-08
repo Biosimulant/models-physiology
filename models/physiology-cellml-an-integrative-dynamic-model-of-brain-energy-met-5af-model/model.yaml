@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: AnIntegrativeDynamicModelOfBrainEnergyMet5afModel'
+title: "An integrative dynamic model of brain energy metabolism using in vivo neurochemical measurements, Mathieu Cloutier, Fiachra B. Bolger, John P. Lowry and Peter Wellstead, 2009"
 description: "Physiology An Integrative Dynamic Model Of Brain Energy Met5af Model captures physiology an integrative dynamic of brain behavior in the context of physiology, cellml, physiome using a physiome-sourced OTHER mo. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:

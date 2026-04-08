@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: GoforthBertramKhanZhangShermanSatin2002Goforthbertramkhanzhangshermansatin2002Model'
+title: "Goforth, Bertram, Khan, Zhang, Sherman, Satin, 2002"
 description: "physiology goforth bertram khan zhang sherman represents physiology goforth bertram khan zhang sherman mechanisms from physiome reference physiome:goforth_bertram_khan_zhang_sherman_satin_2002. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

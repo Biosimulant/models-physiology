@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: MackenzieLooPanayotovaHeiermannAndWright19Mackenzieloopanayotovaheiermannwright1996Model'
+title: "Mackenzie, Loo, Panayotova-Heiermann and Wright, 1996"
 description: "physiology mackenzie loo panayotova heiermann and represents physiology mackenzie loo panayotova heiermann and mechanisms from physiome reference physiome:mackenzie_loo_panayotova-heiermann_wright_1996. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

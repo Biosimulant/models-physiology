@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Shrestha2010HypocalcemiaPthresponseBiomd0000000276Model'
+title: "Shrestha2010_HypoCalcemia_PTHresponse"
 description: "This a model from the article: A mathematical model of parathyroid hormone response to acute changes in plasma ionized calcium concentration in humans. Shrestha RP, Hollot CV, Chipkin SR, Schmitt CP,."
 standard: other
 tags:

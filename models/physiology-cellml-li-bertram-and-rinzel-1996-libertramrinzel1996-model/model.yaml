@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: LiBertramAndRinzel1996Libertramrinzel1996Model'
+title: "Li, Bertram and Rinzel, 1996"
 description: "Physiology Li Bertram And Rinzel1996Libertramrinzel1996Model models physiology li bertram and rinzel 1996 dynamics as a OTHER simulation curated from physiome (physiome:li_bertram_rinzel_1996), focused on physi. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

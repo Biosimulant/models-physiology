@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgDiadcadiffusion88cModel'
+title: "BG_diadCaDiffusion"
 description: "Physiology Bg Diadcadiffusion88c Model models physiology bg diadcadiffusion 88c dynamics as a OTHER simulation curated from physiome (physiome:88c), focused on physiology, cellml, physiome. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BertramSatinZhangSmolenSherman2004Bertramsatinzhangsmolensherman2004Model'
+title: "Bertram, Satin, Zhang, Smolen, Sherman, 2004"
 description: "Physiology Bertram Satin Zhang Smolen Sherman2004Bertramsatinzhangsmolensherman2004Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:bertram_satin_zhang_smolen_sherman_. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

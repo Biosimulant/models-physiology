@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Sturis1991InsulinglucosemodelUltradianoscillatBiomd0000000382Model'
+title: "Sturis1991_InsulinGlucoseModel_UltradianOscillation"
 description: "This a model from the article: Computer model for mechanisms underlying ultradian oscillations of insulin and glucose. Sturis J, Polonsky KS, Mosekilde E, Van Cauter E."
 standard: other
 tags:

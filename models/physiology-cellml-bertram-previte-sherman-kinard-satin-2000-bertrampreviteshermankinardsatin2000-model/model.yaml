@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BertramPreviteShermanKinardSatin2000Bertrampreviteshermankinardsatin2000Model'
+title: "Bertram, Previte, Sherman, Kinard, Satin, 2000"
 description: "physiology bertram previte sherman kinard satin models physiology bertram previte sherman kinard satin dynamics as a OTHER simulation curated from physiome (physiome:bertram_previte_sherman_kinard_satin_2000). When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

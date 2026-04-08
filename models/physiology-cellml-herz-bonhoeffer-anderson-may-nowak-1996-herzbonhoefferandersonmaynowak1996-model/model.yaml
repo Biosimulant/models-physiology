@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: HerzBonhoefferAndersonMayNowak1996Herzbonhoefferandersonmaynowak1996Model'
+title: "Herz, Bonhoeffer, Anderson, May, Nowak, 1996"
 description: "Physiology Herz Bonhoeffer Anderson May Nowak1996Herzbonhoefferandersonmaynowak1996Model models core biological dynamics as a OTHER simulation curated from physiome (physiome:herz_bonhoeffer_anderson_may_nowak_. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

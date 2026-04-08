@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: GuptaMauryaStephensDennisAndSubramaniam20035fModel'
+title: "Gupta, Maurya, Stephens, Dennis and Subramaniam, 2009"
 description: "Physiology Gupta Maurya Stephens Dennis And Subramaniam20035f Model represents physiology gupta maurya stephens dennis and mechanisms from physiome reference physiome:35f. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

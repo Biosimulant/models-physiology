@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ArrestingTheMitoticOscillatorAndTheControl361Model'
+title: "Arresting the mitotic oscillator and the control of cell proliferation: insights from a cascade model for cdc2 kinase activation"
 description: "Physiology Arresting The Mitotic Oscillator And The Control361Model models physiology arresting the mitotic oscillator and dynamics as a OTHER simulation curated from physiome (physiome:361), focused on physiol. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

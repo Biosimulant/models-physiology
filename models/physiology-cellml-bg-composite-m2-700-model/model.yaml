@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: BgCompositeM2700Model'
+title: "BG_composite_M2"
 description: "Physiology Bg Composite M2700Model represents physiology bg composite m2 700 mechanisms from physiome reference physiome:700. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:

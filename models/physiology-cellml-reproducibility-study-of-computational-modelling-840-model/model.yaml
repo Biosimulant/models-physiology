@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: ReproducibilityStudyOfComputationalModelling840Model'
+title: "Reproducibility study of Computational modelling of glucose uptake by SGLT1 and GLUT2 in the enterocyte"
 description: "Physiology Reproducibility Study Of Computational Modelling840Model models physiology reproducibility study of computational modelling dynamics as a OTHER simulation curated from physiome (physiome:840), focuse. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:

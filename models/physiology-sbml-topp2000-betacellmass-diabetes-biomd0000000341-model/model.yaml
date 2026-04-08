@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: Topp2000BetacellmassDiabetesBiomd0000000341Model'
+title: "Topp2000_BetaCellMass_Diabetes"
 description: "This model is from the article: A model of beta-cell mass, insulin, and glucose kinetics: pathways to diabetes. Topp B, Promislow K, deVries G, Miura RM, Finegood DT."
 standard: other
 tags:

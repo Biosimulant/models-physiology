@@ -1,5 +1,5 @@
 schema_version: '2.0'
-title: 'Physiology: NovakCsikasznagyGyorffyChenTyson1998Novakcsikasznagygyorffychentyson1998Model'
+title: "Novak, Csikasznagy, Gyorffy, Chen, Tyson, 1998"
 description: "physiology novak csikasznagy gyorffy chen tyson represents physiology novak csikasznagy gyorffy chen tyson mechanisms from physiome reference physiome:novak_csikasznagy_gyorffy_chen_tyson_1998. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
