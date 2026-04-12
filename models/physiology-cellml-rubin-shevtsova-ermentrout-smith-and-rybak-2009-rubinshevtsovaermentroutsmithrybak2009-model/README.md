@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-rubin-shevtsova-ermentrout-smith-and-rybak-2009-rubinshevtsovaermentroutsmithrybak2009-model
     alias: model
-    manifest_path: models/physiology-cellml-rubin-shevtsova-ermentrout-smith-and-rybak-2009-rubinshevtsovaermentroutsmithrybak2009-model/model.yaml
 ```
 
 ## Tags

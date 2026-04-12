@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-grandi-et-al-2011-atrial-action-potential-and-ca-595-model
     alias: model
-    manifest_path: models/physiology-cellml-grandi-et-al-2011-atrial-action-potential-and-ca-595-model/model.yaml
 ```
 
 ## Tags

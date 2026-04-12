@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-fink-slepchenko-loew-1999-finkslepchenkoloew1999-model
     alias: model
-    manifest_path: models/physiology-cellml-fink-slepchenko-loew-1999-finkslepchenkoloew1999-model/model.yaml
 ```
 
 ## Tags

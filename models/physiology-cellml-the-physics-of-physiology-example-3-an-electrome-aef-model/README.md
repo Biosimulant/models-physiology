@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-the-physics-of-physiology-example-3-an-electrome-aef-model
     alias: model
-    manifest_path: models/physiology-cellml-the-physics-of-physiology-example-3-an-electrome-aef-model/model.yaml
 ```
 
 ## Tags

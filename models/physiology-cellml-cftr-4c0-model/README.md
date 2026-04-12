@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-cftr-4c0-model
     alias: model
-    manifest_path: models/physiology-cellml-cftr-4c0-model/model.yaml
 ```
 
 ## Tags

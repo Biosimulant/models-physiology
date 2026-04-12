@@ -11,14 +11,13 @@ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006145
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-rozendaal2018-model-integrating-glucose-and-lipi-model1803200001-model
     alias: model
-    manifest_path: models/physiology-sbml-rozendaal2018-model-integrating-glucose-and-lipi-model1803200001-model/model.yaml
 ```
 
 ## Tags

@@ -11,14 +11,13 @@ This a model from the article: Computer model for mechanisms underlying ultradia
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-sturis1991-insulinglucosemodel-ultradianoscillat-biomd0000000382-model
     alias: model
-    manifest_path: models/physiology-sbml-sturis1991-insulinglucosemodel-ultradianoscillat-biomd0000000382-model/model.yaml
 ```
 
 ## Tags

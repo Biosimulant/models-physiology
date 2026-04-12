@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-arresting-the-mitotic-oscillator-and-the-control-361-model
     alias: model
-    manifest_path: models/physiology-cellml-arresting-the-mitotic-oscillator-and-the-control-361-model/model.yaml
 ```
 
 ## Tags

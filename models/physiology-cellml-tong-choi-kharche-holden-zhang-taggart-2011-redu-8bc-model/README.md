@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-tong-choi-kharche-holden-zhang-taggart-2011-redu-8bc-model
     alias: model
-    manifest_path: models/physiology-cellml-tong-choi-kharche-holden-zhang-taggart-2011-redu-8bc-model/model.yaml
 ```
 
 ## Tags

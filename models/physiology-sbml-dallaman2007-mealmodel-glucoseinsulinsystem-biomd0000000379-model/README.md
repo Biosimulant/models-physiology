@@ -11,14 +11,13 @@ This a model from the article: Meal simulation model of the glucose-insulin syst
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-dallaman2007-mealmodel-glucoseinsulinsystem-biomd0000000379-model
     alias: model
-    manifest_path: models/physiology-sbml-dallaman2007-mealmodel-glucoseinsulinsystem-biomd0000000379-model/model.yaml
 ```
 
 ## Tags

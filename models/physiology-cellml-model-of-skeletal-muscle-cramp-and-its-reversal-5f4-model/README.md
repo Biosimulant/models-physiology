@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-model-of-skeletal-muscle-cramp-and-its-reversal-5f4-model
     alias: model
-    manifest_path: models/physiology-cellml-model-of-skeletal-muscle-cramp-and-its-reversal-5f4-model/model.yaml
 ```
 
 ## Tags

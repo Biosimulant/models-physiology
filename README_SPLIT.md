@@ -4,7 +4,7 @@ Generated from monolithic models repo split.
 
 - Domain: physiology
 - Model count: 923
-- Source: /Volumes/dem-ssd/imp/projects/Nitoons/Biosimulant/models
+- Source: monolithic models repository
 
 Layout:
 - models/<slug>/model.yaml

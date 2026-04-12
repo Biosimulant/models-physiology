@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-carbon-dioxide-ph-gas-transport-and-exchange-8c0-model
     alias: model
-    manifest_path: models/physiology-cellml-carbon-dioxide-ph-gas-transport-and-exchange-8c0-model/model.yaml
 ```
 
 ## Tags

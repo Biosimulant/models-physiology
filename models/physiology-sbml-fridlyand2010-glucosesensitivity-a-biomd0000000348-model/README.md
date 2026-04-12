@@ -11,14 +11,13 @@ This a model from the article: Glucose sensing in the pancreatic beta cell: a co
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-fridlyand2010-glucosesensitivity-a-biomd0000000348-model
     alias: model
-    manifest_path: models/physiology-sbml-fridlyand2010-glucosesensitivity-a-biomd0000000348-model/model.yaml
 ```
 
 ## Tags

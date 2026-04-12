@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-vanderpol-vandermark-1928-vanderpolvandermark1928-model
     alias: model
-    manifest_path: models/physiology-cellml-vanderpol-vandermark-1928-vanderpolvandermark1928-model/model.yaml
 ```
 
 ## Tags

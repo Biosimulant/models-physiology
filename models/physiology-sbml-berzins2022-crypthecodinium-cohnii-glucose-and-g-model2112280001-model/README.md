@@ -11,14 +11,13 @@ This model is a supplementary material of publication “Kinetic and stoichiomet
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-berzins2022-crypthecodinium-cohnii-glucose-and-g-model2112280001-model
     alias: model
-    manifest_path: models/physiology-sbml-berzins2022-crypthecodinium-cohnii-glucose-and-g-model2112280001-model/model.yaml
 ```
 
 ## Tags

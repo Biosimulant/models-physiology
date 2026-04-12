@@ -11,14 +11,13 @@ This a model from the article: Effects of extracellular calcium on electrical bu
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-chay1997-calciumconcentration-biomd0000000378-model
     alias: model
-    manifest_path: models/physiology-sbml-chay1997-calciumconcentration-biomd0000000378-model/model.yaml
 ```
 
 ## Tags

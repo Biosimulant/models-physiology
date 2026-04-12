@@ -11,14 +11,13 @@ This a model from the article: Quantitative cellular description of gastric slow
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-corrias2008-gastricslowwaveactivity-model0913095435-model
     alias: model
-    manifest_path: models/physiology-sbml-corrias2008-gastricslowwaveactivity-model0913095435-model/model.yaml
 ```
 
 ## Tags

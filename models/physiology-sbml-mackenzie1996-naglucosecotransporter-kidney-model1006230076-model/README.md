@@ -11,14 +11,13 @@ This a model from the article: Biophysical characteristics of the pig kidney Na+
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-mackenzie1996-naglucosecotransporter-kidney-model1006230076-model
     alias: model
-    manifest_path: models/physiology-sbml-mackenzie1996-naglucosecotransporter-kidney-model1006230076-model/model.yaml
 ```
 
 ## Tags

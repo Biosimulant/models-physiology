@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-a-pharmacokinetic-model-for-morphine-ex-vivo-hum-c62-model
     alias: model
-    manifest_path: models/physiology-cellml-a-pharmacokinetic-model-for-morphine-ex-vivo-hum-c62-model/model.yaml
 ```
 
 ## Tags

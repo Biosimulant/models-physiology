@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-shear-induced-nitric-oxide-production-by-endothe-b34-model
     alias: model
-    manifest_path: models/physiology-cellml-shear-induced-nitric-oxide-production-by-endothe-b34-model/model.yaml
 ```
 
 ## Tags

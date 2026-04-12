@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-faber-rudy-2000-and-tong-ghouri-taggart-2014-25e-model
     alias: model
-    manifest_path: models/physiology-cellml-faber-rudy-2000-and-tong-ghouri-taggart-2014-25e-model/model.yaml
 ```
 
 ## Tags

@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-grossman-feinberg-kuznetsov-dimitrov-paul-1998-grossmanfeinbergkuznetsovdimitrovpaul1998-model
     alias: model
-    manifest_path: models/physiology-cellml-grossman-feinberg-kuznetsov-dimitrov-paul-1998-grossmanfeinbergkuznetsovdimitrovpaul1998-model/model.yaml
 ```
 
 ## Tags

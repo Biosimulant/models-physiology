@@ -11,14 +11,13 @@ This model is from the article: A model of beta-cell mass, insulin, and glucose 
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-topp2000-betacellmass-diabetes-biomd0000000341-model
     alias: model
-    manifest_path: models/physiology-sbml-topp2000-betacellmass-diabetes-biomd0000000341-model/model.yaml
 ```
 
 ## Tags

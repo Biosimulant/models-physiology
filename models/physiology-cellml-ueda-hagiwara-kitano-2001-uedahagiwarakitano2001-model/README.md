@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-ueda-hagiwara-kitano-2001-uedahagiwarakitano2001-model
     alias: model
-    manifest_path: models/physiology-cellml-ueda-hagiwara-kitano-2001-uedahagiwarakitano2001-model/model.yaml
 ```
 
 ## Tags

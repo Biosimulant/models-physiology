@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-wang-lin-lin-wu-2008-wanglinlinwu2008-model
     alias: model
-    manifest_path: models/physiology-cellml-wang-lin-lin-wu-2008-wanglinlinwu2008-model/model.yaml
 ```
 
 ## Tags

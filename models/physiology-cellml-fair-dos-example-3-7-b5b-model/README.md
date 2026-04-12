@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-fair-dos-example-3-7-b5b-model
     alias: model
-    manifest_path: models/physiology-cellml-fair-dos-example-3-7-b5b-model/model.yaml
 ```
 
 ## Tags

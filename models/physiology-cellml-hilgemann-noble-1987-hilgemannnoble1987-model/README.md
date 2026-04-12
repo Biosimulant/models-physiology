@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-hilgemann-noble-1987-hilgemannnoble1987-model
     alias: model
-    manifest_path: models/physiology-cellml-hilgemann-noble-1987-hilgemannnoble1987-model/model.yaml
 ```
 
 ## Tags

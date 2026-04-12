@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-dijkstra-neal-beever-and-france-1992-dijkstranealbeeverfrance1992-model
     alias: model
-    manifest_path: models/physiology-cellml-dijkstra-neal-beever-and-france-1992-dijkstranealbeeverfrance1992-model/model.yaml
 ```
 
 ## Tags

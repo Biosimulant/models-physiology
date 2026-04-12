@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-yang-clark-bryan-and-robertson-2005-562-model
     alias: model
-    manifest_path: models/physiology-cellml-yang-clark-bryan-and-robertson-2005-562-model/model.yaml
 ```
 
 ## Tags

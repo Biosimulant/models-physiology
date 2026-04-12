@@ -11,14 +11,13 @@ This a model from the article: An integrated model for glucose and insulin regul
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-silber2007-intravenousglucose-integratedglucosei-model1112110004-model
     alias: model
-    manifest_path: models/physiology-sbml-silber2007-intravenousglucose-integratedglucosei-model1112110004-model/model.yaml
 ```
 
 ## Tags

@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-feedback-control-of-t-cell-receptor-activation-4fb-model
     alias: model
-    manifest_path: models/physiology-cellml-feedback-control-of-t-cell-receptor-activation-4fb-model/model.yaml
 ```
 
 ## Tags

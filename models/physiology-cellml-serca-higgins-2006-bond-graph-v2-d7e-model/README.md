@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-serca-higgins-2006-bond-graph-v2-d7e-model
     alias: model
-    manifest_path: models/physiology-cellml-serca-higgins-2006-bond-graph-v2-d7e-model/model.yaml
 ```
 
 ## Tags

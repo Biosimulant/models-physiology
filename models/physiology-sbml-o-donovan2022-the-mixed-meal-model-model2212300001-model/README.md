@@ -11,14 +11,13 @@ The Mixed Meal Model is a physiology based mathematical model describing the pos
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-o-donovan2022-the-mixed-meal-model-model2212300001-model
     alias: model
-    manifest_path: models/physiology-sbml-o-donovan2022-the-mixed-meal-model-model2212300001-model/model.yaml
 ```
 
 ## Tags

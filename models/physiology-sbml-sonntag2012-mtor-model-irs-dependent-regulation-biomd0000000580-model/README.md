@@ -11,14 +11,13 @@ Sonntag2012 - mTOR model - IRS dependent regulation of AMPK by insulin TSC1-TSC2
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-sonntag2012-mtor-model-irs-dependent-regulation-biomd0000000580-model
     alias: model
-    manifest_path: models/physiology-sbml-sonntag2012-mtor-model-irs-dependent-regulation-biomd0000000580-model/model.yaml
 ```
 
 ## Tags

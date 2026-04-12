@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-bertram-et-al-2011-lymphangion-model-b44-model
     alias: model
-    manifest_path: models/physiology-cellml-bertram-et-al-2011-lymphangion-model-b44-model/model.yaml
 ```
 
 ## Tags

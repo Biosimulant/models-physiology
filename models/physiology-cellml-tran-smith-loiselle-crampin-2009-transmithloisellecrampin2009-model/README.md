@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-tran-smith-loiselle-crampin-2009-transmithloisellecrampin2009-model
     alias: model
-    manifest_path: models/physiology-cellml-tran-smith-loiselle-crampin-2009-transmithloisellecrampin2009-model/model.yaml
 ```
 
 ## Tags

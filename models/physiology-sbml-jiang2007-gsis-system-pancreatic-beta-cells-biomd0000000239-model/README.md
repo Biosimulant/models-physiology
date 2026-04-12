@@ -11,14 +11,13 @@ Jiang2007 - GSIS system, Pancreatic Beta Cells Description of a core kinetic mod
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-jiang2007-gsis-system-pancreatic-beta-cells-biomd0000000239-model
     alias: model
-    manifest_path: models/physiology-sbml-jiang2007-gsis-system-pancreatic-beta-cells-biomd0000000239-model/model.yaml
 ```
 
 ## Tags

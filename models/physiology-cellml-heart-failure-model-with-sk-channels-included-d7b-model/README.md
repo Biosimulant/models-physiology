@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-heart-failure-model-with-sk-channels-included-d7b-model
     alias: model
-    manifest_path: models/physiology-cellml-heart-failure-model-with-sk-channels-included-d7b-model/model.yaml
 ```
 
 ## Tags

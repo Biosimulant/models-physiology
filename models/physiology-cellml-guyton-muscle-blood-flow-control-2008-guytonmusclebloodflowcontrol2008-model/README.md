@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-guyton-muscle-blood-flow-control-2008-guytonmusclebloodflowcontrol2008-model
     alias: model
-    manifest_path: models/physiology-cellml-guyton-muscle-blood-flow-control-2008-guytonmusclebloodflowcontrol2008-model/model.yaml
 ```
 
 ## Tags

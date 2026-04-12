@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-tong-tribe-smith-taggart-2014-262-model
     alias: model
-    manifest_path: models/physiology-cellml-tong-tribe-smith-taggart-2014-262-model/model.yaml
 ```
 
 ## Tags

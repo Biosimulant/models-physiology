@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-bondarenko-szigeti-bett-kim-rasmusson-2004-bondarenkoszigetibettkimrasmusson2004-model
     alias: model
-    manifest_path: models/physiology-cellml-bondarenko-szigeti-bett-kim-rasmusson-2004-bondarenkoszigetibettkimrasmusson2004-model/model.yaml
 ```
 
 ## Tags

@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-optimal-velocity-and-safety-of-discontinuous-con-559-model
     alias: model
-    manifest_path: models/physiology-cellml-optimal-velocity-and-safety-of-discontinuous-con-559-model/model.yaml
 ```
 
 ## Tags

@@ -11,14 +11,13 @@ First version (1.0) of the Eindhoven Diabetes Simulator (EDES) model, describing
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-edes1-0-eindhoven-diabetes-simulator-model2403070001-model
     alias: model
-    manifest_path: models/physiology-sbml-edes1-0-eindhoven-diabetes-simulator-model2403070001-model/model.yaml
 ```
 
 ## Tags

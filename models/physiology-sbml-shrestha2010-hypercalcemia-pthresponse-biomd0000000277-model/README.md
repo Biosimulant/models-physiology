@@ -11,14 +11,13 @@ This a model from the article: A mathematical model of parathyroid hormone respo
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-shrestha2010-hypercalcemia-pthresponse-biomd0000000277-model
     alias: model
-    manifest_path: models/physiology-sbml-shrestha2010-hypercalcemia-pthresponse-biomd0000000277-model/model.yaml
 ```
 
 ## Tags

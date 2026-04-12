@@ -11,14 +11,13 @@ This model by Jana Wolf et al. 2001 is the first mechanistic model of respirator
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-wolf2001-respiratory-oscillations-biomd0000000090-model
     alias: model
-    manifest_path: models/physiology-sbml-wolf2001-respiratory-oscillations-biomd0000000090-model/model.yaml
 ```
 
 ## Tags

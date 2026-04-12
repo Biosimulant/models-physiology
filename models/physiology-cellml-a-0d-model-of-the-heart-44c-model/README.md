@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-a-0d-model-of-the-heart-44c-model
     alias: model
-    manifest_path: models/physiology-cellml-a-0d-model-of-the-heart-44c-model/model.yaml
 ```
 
 ## Tags

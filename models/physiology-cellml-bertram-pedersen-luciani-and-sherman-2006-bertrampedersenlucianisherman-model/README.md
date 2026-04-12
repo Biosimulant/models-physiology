@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-bertram-pedersen-luciani-and-sherman-2006-bertrampedersenlucianisherman-model
     alias: model
-    manifest_path: models/physiology-cellml-bertram-pedersen-luciani-and-sherman-2006-bertrampedersenlucianisherman-model/model.yaml
 ```
 
 ## Tags

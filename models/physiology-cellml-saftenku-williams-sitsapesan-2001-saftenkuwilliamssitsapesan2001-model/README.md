@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-saftenku-williams-sitsapesan-2001-saftenkuwilliamssitsapesan2001-model
     alias: model
-    manifest_path: models/physiology-cellml-saftenku-williams-sitsapesan-2001-saftenkuwilliamssitsapesan2001-model/model.yaml
 ```
 
 ## Tags

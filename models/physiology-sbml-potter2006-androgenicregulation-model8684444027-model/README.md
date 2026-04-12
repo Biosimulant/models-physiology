@@ -11,14 +11,13 @@ This a model from the article: Mathematical model for the androgenic regulation 
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-potter2006-androgenicregulation-model8684444027-model
     alias: model
-    manifest_path: models/physiology-sbml-potter2006-androgenicregulation-model8684444027-model/model.yaml
 ```
 
 ## Tags

@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-a-mathematical-model-of-the-neural-regulation-of-b01-model
     alias: model
-    manifest_path: models/physiology-cellml-a-mathematical-model-of-the-neural-regulation-of-b01-model/model.yaml
 ```
 
 ## Tags

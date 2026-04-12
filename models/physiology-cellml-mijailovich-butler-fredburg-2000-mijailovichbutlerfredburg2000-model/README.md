@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-mijailovich-butler-fredburg-2000-mijailovichbutlerfredburg2000-model
     alias: model
-    manifest_path: models/physiology-cellml-mijailovich-butler-fredburg-2000-mijailovichbutlerfredburg2000-model/model.yaml
 ```
 
 ## Tags

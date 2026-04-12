@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-acid-base-physiology-297-model
     alias: model
-    manifest_path: models/physiology-cellml-acid-base-physiology-297-model/model.yaml
 ```
 
 ## Tags

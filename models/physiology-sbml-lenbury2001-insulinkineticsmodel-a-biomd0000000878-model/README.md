@@ -11,14 +11,13 @@ This a model from the article: Modeling insulin kinetics: responses to a single 
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-lenbury2001-insulinkineticsmodel-a-biomd0000000878-model
     alias: model
-    manifest_path: models/physiology-sbml-lenbury2001-insulinkineticsmodel-a-biomd0000000878-model/model.yaml
 ```
 
 ## Tags

@@ -11,14 +11,13 @@ This a model from the article: Mathematical models of diabetes progression. De G
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-gaetano2008-diabetesprogressionmodel-model1112110003-model
     alias: model
-    manifest_path: models/physiology-sbml-gaetano2008-diabetesprogressionmodel-model1112110003-model/model.yaml
 ```
 
 ## Tags

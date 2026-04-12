@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-oyehaug-ostby-lloyd-omholt-einevoll-2011-oyehaugostbylloydomholteinevoll2011-model
     alias: model
-    manifest_path: models/physiology-cellml-oyehaug-ostby-lloyd-omholt-einevoll-2011-oyehaugostbylloydomholteinevoll2011-model/model.yaml
 ```
 
 ## Tags

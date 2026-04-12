@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-chassagnole-rais-quentin-fell-mazat-2001-chassagnoleraisquentinfellmazat2001-model
     alias: model
-    manifest_path: models/physiology-cellml-chassagnole-rais-quentin-fell-mazat-2001-chassagnoleraisquentinfellmazat2001-model/model.yaml
 ```
 
 ## Tags

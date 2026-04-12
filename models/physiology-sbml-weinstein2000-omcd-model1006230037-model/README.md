@@ -11,14 +11,13 @@ This a model from the article: A mathematical model of the outer medullary colle
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-weinstein2000-omcd-model1006230037-model
     alias: model
-    manifest_path: models/physiology-sbml-weinstein2000-omcd-model1006230037-model/model.yaml
 ```
 
 ## Tags

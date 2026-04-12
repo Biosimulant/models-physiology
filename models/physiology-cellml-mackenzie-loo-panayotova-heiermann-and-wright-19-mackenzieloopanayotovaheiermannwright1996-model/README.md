@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-mackenzie-loo-panayotova-heiermann-and-wright-19-mackenzieloopanayotovaheiermannwright1996-model
     alias: model
-    manifest_path: models/physiology-cellml-mackenzie-loo-panayotova-heiermann-and-wright-19-mackenzieloopanayotovaheiermannwright1996-model/model.yaml
 ```
 
 ## Tags

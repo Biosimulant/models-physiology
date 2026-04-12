@@ -11,14 +11,13 @@ This a model from the article: The Feedback Control of Glucose: On the road to t
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the biomodels_ebi catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-alvehag2006-ivgtt-glucosemodel-a-model1112110000-model
     alias: model
-    manifest_path: models/physiology-sbml-alvehag2006-ivgtt-glucosemodel-a-model1112110000-model/model.yaml
 ```
 
 ## Tags

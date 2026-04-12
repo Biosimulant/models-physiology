@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-rbs-for-tf-electroblu-device-1-svp00000035-model
     alias: model
-    manifest_path: models/physiology-cellml-rbs-for-tf-electroblu-device-1-svp00000035-model/model.yaml
 ```
 
 ## Tags

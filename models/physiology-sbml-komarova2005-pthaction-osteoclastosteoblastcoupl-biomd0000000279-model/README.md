@@ -11,14 +11,13 @@ This a model from the article: Mathematical model of paracrine interactions betw
 
 ## Usage
 
-This model was auto-generated from the biomodels_ebi repository.
+This model was auto-generated from the BioModels EBI catalog.
 
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-sbml-komarova2005-pthaction-osteoclastosteoblastcoupl-biomd0000000279-model
     alias: model
-    manifest_path: models/physiology-sbml-komarova2005-pthaction-osteoclastosteoblastcoupl-biomd0000000279-model/model.yaml
 ```
 
 ## Tags

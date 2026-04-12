@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-calvo-gallego-pivonka-ruiz-lozano-mart-nez-reina-b3b-model
     alias: model
-    manifest_path: models/physiology-cellml-calvo-gallego-pivonka-ruiz-lozano-mart-nez-reina-b3b-model/model.yaml
 ```
 
 ## Tags

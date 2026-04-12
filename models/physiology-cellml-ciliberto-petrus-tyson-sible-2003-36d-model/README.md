@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-ciliberto-petrus-tyson-sible-2003-36d-model
     alias: model
-    manifest_path: models/physiology-cellml-ciliberto-petrus-tyson-sible-2003-36d-model/model.yaml
 ```
 
 ## Tags

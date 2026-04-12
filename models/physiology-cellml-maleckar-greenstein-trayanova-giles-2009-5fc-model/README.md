@@ -16,9 +16,8 @@ This model was auto-generated from the physiome repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/physiology-cellml-maleckar-greenstein-trayanova-giles-2009-5fc-model
     alias: model
-    manifest_path: models/physiology-cellml-maleckar-greenstein-trayanova-giles-2009-5fc-model/model.yaml
 ```
 
 ## Tags
